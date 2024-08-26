@@ -132,7 +132,7 @@ ner_model/
 #finetuned_model/
 *.bin
 *.model
-*.json
+
 vocab.txt
 
 #cache data
