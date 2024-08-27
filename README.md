@@ -9,12 +9,15 @@
   
 
 ## Step 0. 
+
 [00.ExtractProofWiki.ipynb](00.ExtractProofWiki.ipynb) collects and parses [disambiguitaion pages](https://proofwiki.org/wiki/Category:Disambiguation_Pages) in ProofWiki.
 
 I store disambiguation page titles, ambiguous terms, definitions in latex source, definition page titles, the categories of each definition, and definitions in plain text
 in [parsed_disambiguation_list_without===.csv](parsed_disambiguation_list_without===.csv).
 
 ## Step 1.
+
 A. Unsupervised: how different are these proofwiki definitions ?
+
 B. Supervised NSP-like or NLI-like sentence pair classifier
 Related work: [GLADIS](https://github.com/tigerchen52/GLADIS)
