@@ -1,0 +1,308 @@
+%%Wikipedia compatibility: these macros are used on Wikipedia
+\newcommand{\empty}{\varnothing} %ProofWiki preference for this symbol
+\newcommand{\P}{\unicode{xb6}}
+\newcommand{\Alpha}{\unicode{x391}}
+\newcommand{\Beta}{\unicode{x392}}
+\newcommand{\Epsilon}{\unicode{x395}}
+\newcommand{\Zeta}{\unicode{x396}}
+\newcommand{\Eta}{\unicode{x397}}
+\newcommand{\Iota}{\unicode{x399}}
+\newcommand{\Kappa}{\unicode{x39a}}
+\newcommand{\Mu}{\unicode{x39c}}
+\newcommand{\Nu}{\unicode{x39d}}
+\newcommand{\Pi}{\unicode{x3a0}}
+\newcommand{\Omicron}{\unicode{x39f}}
+\newcommand{\Rho}{\unicode{x3a1}}
+\newcommand{\Sigma}{\unicode{x3a3}}
+\newcommand{\Tau}{\unicode{x3a4}}
+\newcommand{\Chi}{\unicode{x3a7}}
+\newcommand{\bsalpha}{\boldsymbol \alpha}
+\newcommand{\bsbeta}{\boldsymbol \beta}
+\newcommand{\bsgamma}{\boldsymbol \gamma}
+\newcommand{\bsdelta}{\boldsymbol \delta}
+\newcommand{\bsepsilon}{\boldsymbol \epsilon}
+\newcommand{\bszeta}{\boldsymbol \zeta}
+\newcommand{\bseta}{\boldsymbol \eta}
+\newcommand{\bstheta}{\boldsymbol \theta}
+\newcommand{\bsiota}{\boldsymbol \iota}
+\newcommand{\bskappa}{\boldsymbol \kappa}
+\newcommand{\bslambda}{\boldsymbol \lambda}
+\newcommand{\bsmu}{\boldsymbol \mu}
+\newcommand{\bsnu}{\boldsymbol \nu}
+\newcommand{\bsxi}{\boldsymbol \xi}
+\newcommand{\bsomicron}{\boldsymbol \omicron}
+\newcommand{\bspi}{\boldsymbol \pi}
+\newcommand{\bsrho}{\boldsymbol \rho}
+\newcommand{\bssigma}{\boldsymbol \sigma}
+\newcommand{\bstau}{\boldsymbol \tau}
+\newcommand{\bsupsilon}{\boldsymbol \upsilon}
+\newcommand{\bsphi}{\boldsymbol \phi}
+\newcommand{\bschi}{\boldsymbol \chi}
+\newcommand{\bspsi}{\boldsymbol \psi}
+\newcommand{\bsomega}{\boldsymbol \omega}
+\newcommand{\lambdabar}{\unicode{x19B}}
+\newcommand{\C}{\mathbb C} %the complex numbers
+\newcommand{\N}{\mathbb N} %the natural numbers
+\newcommand{\Q}{\mathbb Q} %the rational numbers
+\newcommand{\R}{\mathbb R} %the real numbers
+\newcommand{\Z}{\mathbb Z} %the integer numbers
+\newcommand{\O}{\varnothing} %the empty set
+
+%%some extra macros for ease of use; these are non-standard!
+\newcommand{\T}{\mathrm T} %true
+\newcommand{\F}{\mathrm F} %false
+\newcommand{\GF}{\mathbb F} %Galois field
+\newcommand{\H}{\mathbb H} %ring of Hamiltonians
+\newcommand{\bszero}{\boldsymbol 0} %vector of zeros
+\newcommand{\bsone}{\boldsymbol 1} %vector of ones
+\newcommand{\bst}{\boldsymbol t} %a vector 't'
+\newcommand{\bsv}{\boldsymbol v} %a vector 'v'
+\newcommand{\bsw}{\boldsymbol w} %a vector 'w'
+\newcommand{\bsx}{\boldsymbol x} %a vector 'x'
+\newcommand{\bsy}{\boldsymbol y} %a vector 'y'
+\newcommand{\bsz}{\boldsymbol z} %a vector 'z'
+\newcommand{\bsDelta}{\boldsymbol \Delta} %a vector '\Delta'
+\newcommand{\E}{\mathrm e} %the exponential
+\newcommand{\rd}{\,\mathrm d} %roman d for use in integrals: $\int f(x) \rd x$
+\newcommand{\d}{\mathrm d} %roman d for use in derivatives: $\dfrac \d {\d x}$
+\newcommand{\rdelta}{\,\delta} %delta operator for use in sums
+\newcommand{\rD}{\mathrm D} %differential operator D
+
+%%example from MathJax on how to define macros with parameters:
+%%bold: ['{\\bf #1}', 1]
+
+\newcommand{\AA}{\mathcal A}
+\newcommand{\BB}{\mathcal B}
+\newcommand{\CC}{\mathcal C}
+\newcommand{\DD}{\mathcal D}
+\newcommand{\EE}{\mathcal E}
+\newcommand{\FF}{\mathcal F}
+\newcommand{\GG}{\mathcal G}
+\newcommand{\HH}{\mathcal H}
+\newcommand{\II}{\mathcal I}
+\newcommand{\JJ}{\mathcal J}
+\newcommand{\KK}{\mathcal K}
+\newcommand{\LL}{\mathcal L}
+\newcommand{\MM}{\mathcal M}
+\newcommand{\NN}{\mathcal N}
+\newcommand{\OO}{\mathcal O}
+\newcommand{\oo}{\mathcal o}
+\newcommand{\PP}{\mathcal P}
+\newcommand{\QQ}{\mathcal Q}
+\newcommand{\RR}{\mathcal R}
+\newcommand{\SS}{\mathcal S}
+\newcommand{\TT}{\mathcal T}
+\newcommand{\UU}{\mathcal U}
+\newcommand{\VV}{\mathcal V}
+\newcommand{\WW}{\mathcal W}
+\newcommand{\XX}{\mathcal X}
+\newcommand{\YY}{\mathcal Y}
+\newcommand{\ZZ}{\mathcal Z}
+
+\newcommand{\lcm}{\operatorname {lcm}}
+
+%%Otherwise undefined trigometrical and hyperbolic functions
+\newcommand{\cosec}{\operatorname {cosec}}
+\newcommand{\sech}{\operatorname {sech}}
+\newcommand{\csch}{\operatorname {csch}}
+\newcommand{\arccot}{\operatorname {arccot}}
+\newcommand{\arccsc}{\operatorname {arccsc}}
+\newcommand{\arcsec}{\operatorname {arcsec}}
+\newcommand{\hav}{\operatorname {hav}}
+\newcommand{\vers}{\operatorname {vers}}
+\newcommand{\cis}{\operatorname {cis}}
+\newcommand{\Ci}{\operatorname {Ci}}
+\newcommand{\Si}{\operatorname {Si}}
+\newcommand{\Li}{\operatorname {Li}}
+\newcommand{\li}{\operatorname {li}}
+\newcommand{\Ei}{\operatorname {Ei}}
+\newcommand{\Sinh}{\operatorname {Sinh}}
+\newcommand{\Cosh}{\operatorname {Cosh}}
+\newcommand{\Sech}{\operatorname {Sech}}
+\newcommand{\Csch}{\operatorname {Csch}}
+\newcommand{\Tanh}{\operatorname {Tanh}}
+\newcommand{\Coth}{\operatorname {Coth}}
+\newcommand{\arsinh}{\operatorname {arsinh}}
+\newcommand{\arcosh}{\operatorname {arcosh}}
+\newcommand{\artanh}{\operatorname {artanh}}
+\newcommand{\arcoth}{\operatorname {arcoth}}
+\newcommand{\arsech}{\operatorname {arsech}}
+\newcommand{\arcsch}{\operatorname {arcsch}}
+\newcommand{\Arsinh}{\operatorname {Arsinh}}
+\newcommand{\Arcosh}{\operatorname {Arcosh}}
+\newcommand{\Artanh}{\operatorname {Artanh}}
+\newcommand{\Arcoth}{\operatorname {Arcoth}}
+\newcommand{\Arsech}{\operatorname {Arsech}}
+\newcommand{\Arcsch}{\operatorname {Arcsch}}
+\newcommand{\erf}{\operatorname {erf}}
+\newcommand{\erfc}{\operatorname {erfc}}
+\newcommand{\am}{\operatorname {am}}
+\newcommand{\ph}{\operatorname {ph}}
+\newcommand{\sn}{\operatorname {sn}}
+\newcommand{\cn}{\operatorname {cn}}
+\newcommand{\dn}{\operatorname {dn}}
+
+%%Bracketing constructs
+\newcommand{\paren}[1]{\left( #1 \right)}
+\newcommand{\leftparen}[1]{\left( #1 \right.}
+\newcommand{\rightparen}[1]{\left. #1 \right)}
+\newcommand{\sqbrk}[1]{\left[ #1 \right]}
+
+\newcommand{\set}[1]{\left\lbrace #1 \right\rbrace}
+\newcommand{\leftset}[1]{\left\lbrace #1 \right.}
+\newcommand{\rightset}[1]{\left. #1 \right\rbrace}
+\newcommand{\cmod}[1]{\left\lvert #1 \right\rvert}
+\newcommand{\polar}[1]{\left\langle #1 \right\rangle}
+\newcommand{\norm}[1]{\left\lVert #1 \right\rVert}
+\newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}
+\newcommand{\ceiling}[1]{\left\lceil #1 \right\rceil}
+\newcommand{\nint}[1]{\left\lfloor #1 \right\rceil}
+
+\newcommand{\closedint}[2]{\left[ #1 \,.\,.\, #2 \right]}
+\newcommand{\openint}[2]{\left( #1 \,.\,.\, #2 \right)}
+\newcommand{\hointl}[2]{\left( #1 \,.\,.\, #2 \right]}
+\newcommand{\hointr}[2]{\left[ #1 \,.\,.\, #2 \right)}
+\newcommand{\closedrect}[2]{\left[\left[ #1 \,.\,.\, #2 \right]\right]}
+\newcommand{\openrect}[2]{\left(\left( #1 \,.\,.\, #2 \right)\right)}
+\newcommand{\horectl}[2]{\left(\left( #1 \,.\,.\, #2 \right]\right]}
+\newcommand{\horectr}[2]{\left[\left[ #1 \,.\,.\, #2 \right)\right)}
+\newcommand{\multiset}[1]{\left\lbrace\!\left\lbrace #1 \right\rbrace\!\right\rbrace}
+
+\newcommand{\tuple}[1]{\left( #1 \right)}
+\newcommand{\struct}[1]{\left( #1 \right)}
+\newcommand{\ideal}[1]{\left( #1 \right)}
+\newcommand{\sequence}[1]{\left\langle #1 \right\rangle}
+\newcommand{\family}[1]{\left\langle #1 \right\rangle}
+\newcommand{\innerprod}[2]{\left\langle #1, #2 \right\rangle}
+\newcommand{\gen}[1]{{\left\langle #1 \right\rangle}}
+\newcommand{\eqclass}[2]{\left[\!\left[ #1 \right]\!\right]_{#2}}
+\newcommand{\index}[2]{\left[ #1 : #2 \right]}
+\newcommand{\order}[1]{\left\lvert #1 \right\rvert}
+\newcommand{\size}[1]{\left\lvert #1 \right\rvert}
+\newcommand{\bigsize}[1]{\bigl\lvert #1 \bigr\rvert}
+\newcommand{\card}[1]{\left\lvert #1 \right\rvert}
+\newcommand{\fractpart}[1]{\left\lbrace #1 \right\rbrace}
+\newcommand{\map}[2]{#1 \left( #2 \right)}
+\newcommand{\inv}[2]{#1^{-1} \left( #2 \right)}
+\newcommand{\braket}[2]{{\left\langle #1 \, \middle \vert \, #2 \right\rangle}}
+\newcommand{\meta}[1]{<\mathtt {#1}>}
+
+\newcommand{\Syl}[2]{\mathrm {Syl}_{#1} \left( #2 \right)}
+\newcommand{\relcomp}[2]{\complement_{#1} \left( #2 \right)}
+\newcommand{\laptrans}[1]{\LL \left\lbrace #1 \right\rbrace}
+\newcommand{\invlaptrans}[1]{\LL^{-1} \left\lbrace #1 \right\rbrace}
+\newcommand{\powerset}[1]{\PP \left( #1 \right)}
+\newcommand{\intlimits}[3]{\left[ #1 \right]_{#2}^{#3}}
+\newcommand{\bigintlimits}[3]{\Bigl[ #1 \Bigr]_{#2}^{#3}}
+\newcommand{\valueat}[2]{\left. #1 \right\rvert_{#2}}
+\newcommand{\bigvalueat}[2]{\Bigl. #1 \Bigr\rvert_{#2}}
+
+%%Mathematical Logic
+\newcommand{\Add}{\operatorname {Add}}
+\newcommand{\Mult}{\operatorname {Mult}}
+\newcommand{\Succ}{\operatorname {Succ}}
+\newcommand{\Zero}{\operatorname {Zero}}
+\newcommand{\nec}{\Box}
+\newcommand{\pos}{\Diamond}
+
+%%Miscellaneous
+\newcommand{\upperadjoint}[1]{{#1}_*}
+\newcommand{\loweradjoint}[1]{{#1}^*}
+\newcommand{\hcf}{\mathrm {hcf}}
+\newcommand{\inj}{\mathrm {inj}}
+\newcommand{\rem}{\mathop {\mathrm {rem} }}
+\newcommand{\pr}{\mathrm {pr}}
+\newcommand{\proj}{\mathrm {proj}}
+\newcommand{\tr}{\mathrm {tr}}
+\newcommand{\len}{\mathrm {len}}
+\newcommand{\sgn}{\mathrm {sgn}}
+\newcommand{\grad}{\operatorname {grad}}
+\newcommand{\curl}{\mathop {\mathrm {curl} }}
+\newcommand{\dr}[1]{\mathrm {dr} \left( #1 \right)}
+\newcommand{\cl}{\mathrm {cl}}
+\newcommand{\var}[1]{\mathsf {var} \left( #1 \right)}
+\newcommand{\cov}[1]{\mathsf {cov} \left( #1 \right)}
+\newcommand{\expect}[1]{\mathsf E \left( #1 \right)}
+\newcommand{\conjclass}[1]{\mathrm C_{#1}}
+\newcommand{\Log}{\operatorname {Log}}
+\newcommand{\Ln}{\operatorname {Ln}}
+\newcommand{\On}{\operatorname {On}}
+\newcommand{\Area}{\operatorname {Area}}
+\newcommand{\Card}{\operatorname {Card}}
+\newcommand{\Frob}{\operatorname {Frob}}
+\newcommand{\supp}{\mathrm {supp}}
+\newcommand{\Bernoulli}[1]{\mathrm {Bern} \left( #1 \right)}
+\newcommand{\BetaDist}[2]{\mathrm {Beta} \left( #1, #2 \right)}
+\newcommand{\Binomial}[2]{\mathrm B \left( #1, #2 \right)}
+\newcommand{\Cauchy}[2]{\mathrm {Cauchy} \left( #1, #2 \right)}
+\newcommand{\NegativeBinomial}[2]{\mathrm {NB} \left( #1, #2 \right)}
+\newcommand{\Exponential}[1]{\mathrm {Exp} \left( #1 \right)}
+\newcommand{\Gaussian}[2]{N \left( #1, #2 \right)}
+\newcommand{\Geometric}[1]{\mathrm G_0 \left( #1 \right)}
+\newcommand{\ShiftedGeometric}[1]{\mathrm G_1 \left( #1 \right)}
+\newcommand{\Poisson}[1]{\mathrm {Poisson} \left( #1 \right)}
+\newcommand{\StudentT}[1]{t_{#1}}
+\newcommand{\ContinuousUniform}[2]{\mathrm U \left[ #1 \,.\,.\, #2 \right]}
+\newcommand{\DiscreteUniform}[1]{\mathrm U \left( #1 \right)}
+\newcommand{\condprob}[2]{\Pr \left( #1 \, \middle \vert \, #2 \right)}
+\newcommand{\Arg}[1]{\mathrm {Arg} \left( #1 \right)}
+\newcommand{\adj}[1]{\mathrm {adj} \left( #1 \right)}
+\newcommand{\domain}[1]{\mathrm {Dom} \left( #1 \right)}
+\newcommand{\cont}[1]{\mathrm {cont} \left( #1 \right)}
+\newcommand{\Dom}[1]{\mathrm {Dom} \left( #1 \right)}
+\newcommand{\Cdm}[1]{\mathrm {Cdm} \left( #1 \right)}
+\newcommand{\Rng}[1]{\mathrm {Rng} \left( #1 \right)}
+\newcommand{\Field}[1]{\mathrm {Field} \left( #1 \right)}
+\newcommand{\Img}[1]{\mathrm {Img} \left( #1 \right)}
+\newcommand{\Preimg}[1]{\mathrm {Img}^{-1} \left( #1 \right)}
+\newcommand{\image}[1]{\Img #1 }
+\newcommand{\Orb}[1]{\mathrm {Orb} \left( #1 \right)}
+\newcommand{\Stab}[1]{\mathrm {Stab} \left( #1 \right)}
+\newcommand{\Dic}[1]{\operatorname {Dic}_{#1}}
+\newcommand{\GL}[1]{\mathrm {GL} \left( #1 \right)}
+\newcommand{\SL}[1]{\mathrm {SL} \left (#1 \right)}
+\newcommand{\SU}[1]{\operatorname {SU_{#1} }}
+\newcommand{\Aut}[1]{\mathrm {Aut} \left( #1 \right)}
+\newcommand{\Out}[1]{\mathrm {Out} \left( #1 \right)}
+\newcommand{\Gal}[1]{\mathrm {Gal} \left( #1 \right)}
+\newcommand{\Inn}[1]{\mathrm {Inn} \left( #1 \right)}
+\newcommand{\Fix}[1]{\mathrm {Fix} \left( #1 \right)}
+\newcommand{\Char}[1]{\mathrm {Char} \left( #1 \right)}
+\newcommand{\Spec}[1]{\mathrm {Spec} \left( #1 \right)}
+\newcommand{\Nil}[1]{\mathrm {Nil} \left( #1 \right)}
+\newcommand{\Ord}[1]{\map {\mathrm {Ord} } #1}
+\newcommand{\Res}[2]{\mathrm {Res} \left( #1, #2 \right)}
+\newcommand{\Int}[1]{\mathrm {Int} \left( #1 \right)}
+\newcommand{\Ext}[1]{\mathrm {Ext} \left( #1 \right)}
+\newcommand{\harm}[2]{\map {H^{\paren {#1} } } {#2}}
+\newcommand{\Ai}{\mathrm {Ai}}
+\newcommand{\Ber}{\mathrm {Ber}}
+\newcommand{\Bei}{\mathrm {Bei}}
+\newcommand{\Ker}{\mathrm {Ker}}
+\newcommand{\Kei}{\mathrm {Kei}}
+\newcommand{\Rad}{\mathrm {Rad}}
+\newcommand{\diam}{\mathrm {diam}}
+\newcommand{\span}{\mathrm {span}}
+\newcommand{\essup}{\mathrm {essup}}
+\newcommand{\ot}{\mathrm {ot}}
+\newcommand{\stratgame}[3]{\left\langle #1, \sequence {#2}, \sequence {#3} \right\rangle}
+\newcommand{\divides}{\mathrel \backslash}
+\newcommand{\symdif}{\mathop \Delta}
+\newcommand{\PV}{\displaystyle - \kern-10.5pt \int }
+\newcommand{\leadstoandfrom}{\mathrel \leftrightsquigarrow}
+\newcommand{\weakconv}{\mathrel {\rightharpoonup}}
+\newcommand{\weakstarconv}{\mathrel {\stackrel \ast \rightharpoonup}}
+\newcommand{\degrees}{^\circ}
+\newcommand{\minutes}{^\prime}
+\newcommand{\seconds}{^{\prime \prime}}
+\newcommand{\radians}{\, \mathrm {rad}}
+\newcommand{\cels}{\, \degrees \mathrm C}
+\newcommand{\fahr}{\, \degrees \mathrm F}
+\newcommand{\rankine}{\, \degrees \mathrm R}
+\newcommand{\pounds}{{\unicode{xA3}}} %the pound symbol unaccountably missing from mathjax
+\newcommand{\cents}{{\unicode{xA2}}} %the cent symbol unaccountably missing from mathjax
+\newcommand{\shillings}{\, \mathrm s.}
+\newcommand{\oldpence}{\, \mathrm d.}
+\newcommand{\Re}{\mathfrak {Re}}
+\newcommand{\Im}{\mathfrak {Im}}
+
