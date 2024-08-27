@@ -1,5 +1,10 @@
 # Initially taken from Github's Python gitignore file
 
+#de-macro stuff
+*.bak
+*.dir
+*.dat
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
