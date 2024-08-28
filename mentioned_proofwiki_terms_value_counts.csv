@@ -1,0 +1,219 @@
+mentioned_proofwiki_terms,count
+['Graph'],135
+['Regular'],40
+['Product'],32
+"['Composition', 'Decomposition']",28
+['Table'],28
+['Connected'],27
+['Dual'],27
+['Sign'],25
+['Normal'],23
+['Weight'],22
+['Complex'],22
+['Dimension'],22
+['Simple'],22
+['Factor'],20
+['Degree'],18
+['Sum'],18
+['Rank'],18
+['Free'],18
+['Diagram'],17
+['Compatible'],17
+['Order'],16
+['Word'],16
+['Path'],15
+['Support'],15
+['Algebra'],15
+['Complete'],14
+['Embedding'],13
+['Cyclic'],13
+"['Cyclic', 'Acyclic']",13
+['Join'],12
+['Closure'],12
+['Homomorphism'],11
+['Distance'],11
+['Monotone'],11
+['Limit'],10
+['Proper'],10
+"['Irreducible', 'Reducible']",10
+['Canonical'],9
+['Composition'],9
+['Closed'],9
+['Trivial'],9
+"['Sign', 'Signature']",9
+['Minor'],9
+['Independent'],8
+['Transitive'],8
+['Complement'],8
+['Family'],8
+['Dominate'],7
+['Index'],7
+['Reducible'],7
+['Valid'],7
+['Circuit'],7
+['Entropy'],7
+['Vertex'],7
+['Parallel'],7
+['Substitution'],7
+['Compact'],7
+['Linear Form'],7
+['Section'],6
+['Zero'],6
+['Isomorphism'],6
+"['Weak', 'Composition']",6
+['Cut'],6
+['Class'],6
+['Multiplicity'],6
+['Weak'],6
+['Common'],6
+['Extension'],6
+['Chain'],5
+['Homogeneous'],5
+['Action'],5
+['Consistent'],5
+['Length'],5
+['Space'],5
+['Smooth'],5
+['Basis'],5
+"['Radius', 'Weight', 'Character', 'Orthogonal', 'Characteristic']",5
+"['Graph', 'Section']",5
+['Row'],5
+['Primitive'],5
+['Cycle'],4
+['Cone'],4
+['Edge'],4
+"['Graph', 'Dual']",4
+['Triangle'],4
+['Adjacent'],4
+['Face'],4
+['Discrete'],4
+['Age'],4
+['Segment'],4
+['Content'],4
+['Separated'],4
+['Diagonal'],4
+['Separable'],4
+['Range'],4
+"['Major', 'Index']",4
+"['Order', 'Complex']",4
+['Meet'],4
+"['Edge', 'Graph']",4
+['Height'],4
+"['Composition', 'Path', 'Decomposition']",4
+"['Root', 'Degree']",4
+"['Root', 'Directed']",3
+['Orthogonal'],3
+['Subdivision'],3
+"['Product', 'Tensor Product']",3
+['Generated'],3
+"['Edge', 'Ideal']",3
+['Similar'],3
+"['Singular', 'Residue', 'Content']",3
+"['Sign', 'Graph']",3
+"['Atom', 'Factor']",3
+"['Weight', 'Degree', 'Monotone']",3
+['Degenerate'],3
+"['Complete', 'Extension']",3
+['Boundary'],3
+"['Cyclic', 'Acyclic', 'Dimension']",3
+['Conjugate'],3
+"['Cycle', 'Index']",3
+['Below'],2
+"['Proper', 'Right', 'Cut', 'Left', 'Trivial']",2
+"['Path', 'Graph']",2
+"['Orthogonal', 'Dual']",2
+"['Principal', 'Length']",2
+"['Graph', 'Complete']",2
+['Parameter'],2
+"['Convolution', 'Degree', 'Row', 'Kernel']",2
+"['Root', 'Graph']",2
+"['Limit', 'Space']",2
+"['Table', 'Weight', 'Orthogonal', 'Word']",2
+['Major'],2
+['Net'],2
+['Representation'],2
+"['Euler Characteristic', 'Character', 'Characteristic']",2
+"['Diagram', 'Bar']",2
+"['System', 'Difference']",2
+"['Proper', 'Face']",2
+['Torsion'],2
+['Projection'],2
+"['Edge', 'Composition', 'Side', 'Graph', 'Vertex']",2
+['Neutral'],2
+['System'],2
+"['Graph', 'Simple']",2
+['Atom'],2
+"['Trivial', 'Extension']",2
+"['Weak', 'Major']",2
+"['Weak', 'Equivalence', 'Dual']",2
+['Dense'],2
+"['Vertex', 'Minor']",2
+['Domain'],2
+['Critical Point'],2
+"['Proper', 'Entropy']",2
+['Term'],2
+['Loop'],2
+"['Universal', 'Compatible']",2
+"['Term', 'Triangle']",2
+"['Table', 'Orthogonal']",2
+"['Projection', 'Dimension']",2
+"['Complete', 'Regular']",2
+"['Tangent', 'Cone']",2
+"['Cyclic', 'System', 'Acyclic']",2
+"['Character', 'Class']",2
+"['Closed', 'Substitution']",2
+"['Homogeneous', 'Left']",2
+['Archimedean'],2
+['Skew'],2
+"['Singular', 'Regular']",2
+"['Ray', 'Orthogonal']",2
+"['Order', 'Space']",2
+"['Graph', 'Regular']",2
+"['Chain', 'Proper']",2
+"['Homogeneous', 'Degree']",2
+"['Homogeneous', 'Component']",2
+['Character'],2
+"['Edge', 'Weight', 'Graph']",2
+['Genus'],2
+"['Complete', 'Monotone']",2
+"['Table', 'Content']",2
+"['Complete', 'Regular', 'Transitive']",2
+['Completion'],2
+['Component'],2
+['Expansion'],2
+"['Equivalence', 'Dual']",2
+"['Connected', 'Component']",2
+"['Unit', 'Connected']",2
+"['Difference', 'Cut']",2
+"['Dominate', 'Order']",2
+['Divisor'],2
+"['Similarity', 'Similar']",2
+"['Join', 'Union']",2
+"['Cyclic', 'Complex']",2
+['Difference'],2
+"['Homomorphism', 'Complex']",2
+['Bridge'],2
+['Root'],2
+"['Composition', 'Decomposition', 'Branch']",2
+['Diameter'],2
+"['Embedding', 'Order']",2
+"['Proper', 'Order']",2
+"['Graph', 'Entropy']",2
+"['Embedding', 'Normal']",2
+"['Edge', 'Vertex']",2
+['Walk'],2
+"['Weight', 'Walk']",2
+['Singular'],2
+"['Proper', 'Branch']",2
+"['Arrow', 'Row']",2
+"['Below', 'Above']",2
+"['Base', 'Basis']",2
+"['Edge', 'Loop']",2
+['Alphabet'],2
+['Locally Finite'],2
+"['Product', 'Graph']",2
+['Argument'],2
+['Base'],2
+"['Inverse', 'Directed', 'Complement', 'Transitive']",2
+['Inverse'],2
+"['Cyclic', 'Order']",2

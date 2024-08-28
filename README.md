@@ -15,6 +15,8 @@
 I store disambiguation page titles, ambiguous terms, definitions in latex source, definition page titles, the categories of each definition, and definitions in plain text
 in [parsed_disambiguation_list_without===.csv](parsed_disambiguation_list_without===.csv).
 
+[01.Proofwiki_vs_ArXiv_Def.ipynb](01.Proofwiki_vs_ArXiv_Def.ipynb) shows the overlap of ambiguous terms in Proofwiki and in arXiv papers.
+
 ## Step 1.
 
 A. Unsupervised: how different are these proofwiki definitions ?
