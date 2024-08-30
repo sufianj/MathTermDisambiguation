@@ -1,6 +1,6 @@
 # Identification/disambiguation of mathematical statements (definition) by semantic similarity
 
-**problem formulation**: given two statements, the system shall tell whether these statements are equivalent/ different
+**Problem formulation**: given two statements, the system shall tell whether these statements are equivalent/ different
 
 **Research question**: 
 
@@ -16,10 +16,15 @@ I store disambiguation page titles, ambiguous terms, definitions in latex source
 in [parsed_disambiguation_list_without===.csv](parsed_disambiguation_list_without===.csv).
 
 [01.Proofwiki_vs_ArXiv_Def.ipynb](01.Proofwiki_vs_ArXiv_Def.ipynb) shows the overlap of ambiguous terms in Proofwiki and in arXiv papers.
+TODO: extract more definitions from arXiv papers.
 
 ## Step 1.
 
-A. Unsupervised: how different are these proofwiki definitions ?
+Unsupervised: how different are these proofwiki definitions ?
 
-B. Supervised NSP-like or NLI-like sentence pair classifier
+[10.ExtractHypernyms.ipynb](10.ExtractHypernyms.ipynb) shows that Word Class Lattice classifier can extract very few hypernyms of mathematical definienda. Most WCL-identifiable definitions match " is a " pattern.
+
+
+## Step 2. 
+Supervised NSP-like or NLI-like sentence pair classifier
 Related work: [GLADIS](https://github.com/tigerchen52/GLADIS)

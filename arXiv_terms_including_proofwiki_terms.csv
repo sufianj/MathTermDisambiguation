@@ -332,10 +332,6 @@ $i$-package of $w$,"Let $(V,\sigma,E)$ be a signed, colored graph of type $(n,N)
 
   
   ",i-package of w,['Age']
-$i$-th face number;$i$-faces;face vector,"\textup{The \textit{$i$-th face number} of a simplicial complex $C$, denoted \clique{i}{C} is the number of faces in $C$ containing $i$ vertices. These are also called \textit{$i$-faces} of $C$. If dim $C = d-1$, the \textit{face vector} of $C$ is the vector
-$$\clique{}{C} = (\clique{0}{C}, \clique{1}{C}, \dots , \clique{d}{C}).$$}",0710.3960#0710.3960.tex,definition + \textit{},,i-th face number;i-faces;face vector,['Face']
-$i$-th face number;$i$-faces;face vector,"\textup{The \textit{$i$-th face number} of a simplicial complex $\Delta$, denoted $f_i(\Delta)$ is the number of faces in $\Delta$ of dimension $i$. These are also called \textit{$i$-faces} of $\Delta$. If dim $\Delta = d-1$, the \textit{face vector} of $\Delta$ is the vector
-$$f(\Delta) = (f_{-1}(\Delta), f_0(\Delta), \dots , f_{d-1}(\Delta)).$$}",0806.4213#0806.4213.tex,definition + \textit{},,i-th face number;i-faces;face vector,['Face']
 $k$-Outerplanar Graph,"Let $G = (V, E)$ be a graph. $G$ is called a \emph{planar
 	graph} , if there exists a planar embedding of $G$. \par
 	An embedding of a graph $G$ is \emph{$1$-outerplanar} , if it is
