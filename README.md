@@ -1,6 +1,6 @@
-# Identification/disambiguation of mathematical statements (definition) by semantic similarity
+# Identification/disambiguation of mathematical definitions by semantic similarity
 
-**Problem formulation**: given two statements, the system shall tell whether these statements are equivalent/ different
+**Problem formulation**: given two definitions, the system shall tell whether these definitions are equivalent/ different
 
 **Research question**: 
 
@@ -8,7 +8,7 @@
 - which architecture/ pretraining strategy help to capture similarity of mathematical statements ?
   
 
-## Step 0. 
+## Step 0. Making Proofwiki disambiguation pages as a ground truth
 
 [00.ExtractProofWiki.ipynb](00.ExtractProofWiki.ipynb) collects and parses [disambiguitaion pages](https://proofwiki.org/wiki/Category:Disambiguation_Pages) in ProofWiki.
 
@@ -18,14 +18,14 @@ in [parsed_disambiguation_list_without===.csv](parsed_disambiguation_list_withou
 [01.Proofwiki_vs_ArXiv_Def.ipynb](01.Proofwiki_vs_ArXiv_Def.ipynb) shows the overlap of ambiguous terms in Proofwiki and in arXiv papers.
 TODO: extract more definitions from arXiv papers.
 
-## Step 1.
+## Step 1. Syntatic analysis
 
 Unsupervised: how different are these proofwiki definitions ?
 
 [10.ExtractHypernyms.ipynb](10.ExtractHypernyms.ipynb) shows that Word Class Lattice classifier can extract very few hypernyms of mathematical definienda. Most WCL-identifiable definitions match " is a " pattern.
 
 
-## Step 2. 
+## Step 2. Linking different definitions to dfferent enities
 [20.SentencePairClassifier.ipynb](20.SentencePairClassifier.ipynb) shows our study about how pre-trained language models can help to differentiate mathematical definitions.
 
 ### Approach 1. Supervised NSP-like classifer
@@ -38,7 +38,6 @@ Motivated to make a faster solution, we also explore the sentence embeddings of 
 
 TODO: why MiniLM works well for this task??? how was it made ??
 
-TODO: fine-tune sentence transformers for text similarity.
 
 ### Evaluation:
 
@@ -52,9 +51,10 @@ We evalute both approaches on train set and test set.
 
 (updating...)Results are in [data/res/](data/res), the notebook, and [NSP_logs.txt](NSP_logs.txt). 
 
-(updating...)Prediction ouputs: 
-
-https://docs.google.com/spreadsheets/d/1seEHjZzorcxomuc7S35_1CDiEMsODZv4yRCN3CLPH5c/edit?usp=sharing
+(updating...)Prediction ouputs and accuracy, macro F1 scores in a more operable google sheet[https://docs.google.com/spreadsheets/d/1seEHjZzorcxomuc7S35_1CDiEMsODZv4yRCN3CLPH5c/edit?usp=sharing]()
 We evalute both approaches on train set and test set. 
+
+
+Further question: Does a better NSP model make more similar embeddings for (definition,title) pairs ? No.
 
 TODO: evalute the generalizability of the different approaches on definitions extracted from papers, if the results are also cool, make a demo...

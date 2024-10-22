@@ -125,7 +125,7 @@ dmypy.json
 #outputs
 output/
 #output*/
-ner_model/
+ft_models/
 *cc_math_roberta_ep10/*
 trained_models/*
 
