@@ -127,6 +127,7 @@ output/
 #output*/
 ner_model/
 *cc_math_roberta_ep10/*
+trained_models/*
 
 #model checkpoints => too large
 *ckpt*

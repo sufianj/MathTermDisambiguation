@@ -1,0 +1,58 @@
+title,term,definition
+Definition:FPS/Length/Foot,Foot,"The foot is the FPS base unit and an imperial unit of length.
+
+
+=== Conversion Factors ===
+
+
+=== Symbol ===
+ "
+Definition:Altitude of Triangle/Foot,Foot,"Let ABC be a triangle.
+
+Let h_a be the altitude of A:
+
+:
+
+
+The point at which h_a meets BC (or its production) is the foot of the altitude h_a.
+
+
+Category:Definitions/Triangles"
+Definition:Right Angle/Perpendicular/Foot,Foot,":
+
+
+The foot of a perpendicular is the point where it intersects the line to which it is at right angles.
+
+In the above diagram, the point C is the foot of the perpendicular CD."
+Definition:Residue (Complex Analysis),Residue,"Let f: ℂ→ℂ be a complex function.
+
+Let z_0 ∈ U ⊂ℂ such that f is analytic in U ∖{ z_0 }.
+
+
+Then by Existence of Laurent Series, there is a Laurent series:
+:∑_j  = -∞^∞ a_j ( z - z_0 )^j
+such that the sum converges to f in U - { z_0 }.  
+
+
+The residue at a point z = z_0 of f is defined as a_-1 in that Laurent series.
+
+It is denoted Res( f,   )z_0 or just Res(   )z_0 when f is understood."
+Definition:Residue (Number Theory),Residue,"Let m, n ∈ℕ be natural numbers.
+
+Let a ∈ℤ be an integer such that a is not divisible by m.
+
+Then a is a residue of m of order n  if and only if :
+:∃ x ∈ℤ: x^n ≡ a  m
+where ≡ denotes modulo congruence.
+
+
+=== Nonresidue ===
+Let m, n ∈ℕ be natural numbers.
+
+Let a ∈ℤ be an integer such that a is not divisible by m.
+
+
+a is a nonresidue of m of order n  if and only if  there does not exist x ∈ℤ such that:
+:x^n ≡ a  m
+
+where ≡ denotes modulo congruence."

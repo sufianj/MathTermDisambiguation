@@ -1,0 +1,129 @@
+title,term,definition
+Definition:Logical Not,Negation,"The logical not or (logical) negation operator is a unary connective whose action is to reverse the truth value of the statement on which it operates.
+
+:p is defined as:
+:p is not true
+:It is not the case that p is true
+:It is false that p
+:p is false.
+
+
+Thus the statement p is called the negation of p.
+
+
+p is voiced not p.
+
+
+=== Truth Function ===
+The logical not connective defines the truth function f^ as follows:
+
+ 
+ 
+ 
+ 
+
+=== Truth Table ===
+The characteristic truth table of the negation operator p is as follows:
+
+:[ p p; F T; T F;   ]
+
+=== Boolean Interpretation ===
+Let 𝐀 be a propositional formula.
+
+Let  denote the negation operator.
+
+
+The truth value of 𝐀 under a boolean interpretation v is given by:
+
+:v (   )𝐀 = T    : v (   )𝐀 = F
+F    : v (   )𝐀 = T"
+Definition:Negation Function,Negation,"The negation function is the function defined on the various standard number systems as follows:
+
+
+=== Integer Negation Function ===
+The negation function h: ℤ→ℤ is defined on the set of integers as:
+:∀ n ∈ℤ: h (   )n = -n
+
+
+Category:Definitions/Negation Functions
+Category:Definitions/Integers
+
+=== Rational Negation Function ===
+The negation function h: ℚ→ℚ is defined on the set of rational numbers as:
+:∀ x ∈ℚ: h (   )x = -x
+
+
+Category:Definitions/Negation Functions
+Category:Definitions/Rational Numbers
+
+=== Real Negation Function ===
+The negation function h: ℝ→ℝ is defined on the set of real numbers as:
+:∀ x ∈ℝ: h (   )x = -x
+
+
+Category:Definitions/Negation Functions
+Category:Definitions/Real Numbers
+
+=== Complex Negation Function ===
+The negation function h: ℝ→ℝ is defined on the set of complex numbers as:
+:∀ z = x + i y ∈ℂ: h (   )z = -x - i y
+
+
+Category:Definitions/Negation Functions
+Category:Definitions/Complex Numbers
+
+Category:Definitions/Numbers
+Category:Definitions/Negation Functions"
+Definition:Content of Polynomial,Content,"=== Integer Polynomial ===
+Let f ∈ℤ[ X ] be a polynomial with integer coefficients.
+
+Then the content of f, denoted cont( f ), is the greatest common divisor of the coefficients of f.
+
+=== Rational Polynomial ===
+Let f ∈ℚ[ X ] be a polynomial with rational coefficients.
+
+
+The content of f is defined as:
+:cont( f ) := cont( n f )  n
+where n ∈ℕ is such that n f ∈ℤ[ X ].
+
+=== Polynomial in GCD Domain ===
+Let D be a GCD domain.
+
+Let K be the field of quotients of D.
+
+Let f ∈ K [ X ] be a polynomial.
+
+Let a ∈ D be such that a f ∈ D [ X ].
+
+Let d be the greatest common divisor of the coefficients of a f.
+
+Then we define the content of f to be:
+:cont( f ) :=  d a"
+Definition:Content of Polynomial/Integer,Content,"Let f ∈ℤ[ X ] be a polynomial with integer coefficients.
+
+Then the content of f, denoted cont( f ), is the greatest common divisor of the coefficients of f."
+Definition:Content of Polynomial/Rational,Content,"Let f ∈ℚ[ X ] be a polynomial with rational coefficients.
+
+
+The content of f is defined as:
+:cont( f ) := cont( n f )  n
+where n ∈ℕ is such that n f ∈ℤ[ X ]."
+Definition:Like Vector Quantities,Like,"Let 𝐚 and 𝐛 be vector quantities.
+
+Then 𝐚 and 𝐛 are known as like vector quantities  if and only if  they have the same direction."
+Definition:Electric Charge/Polarity/Like,Like,"If 2 electric charges are of the same polarity, they are referred to as being like (electric) charges.
+
+
+The usage is archaic; the word one would expect is alike."
+Definition:Polygon/Internal Angle,Interior Angle,"The internal angle of a vertex of a polygon is the size of the angle between the sides adjacent to that vertex, as measured inside the polygon."
+Definition:Transversal (Geometry)/Interior Angle,Interior Angle,":
+
+
+An interior angle of a transversal is an angle which is between the two lines cut by that transversal.
+
+In the above figure, the interior angles with respect to the transversal EF are:
+:∠ AHJ
+:∠ CJH
+:∠ BHJ
+:∠ DJH"

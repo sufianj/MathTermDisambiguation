@@ -1,0 +1,351 @@
+
+Fine-tuned Bert for NSP Eval on Test set
+
+2024-10-22 01:37:39,201 : 1432773973.py : run_eval : INFO : Epoch 1: F1: 0.8127807726864335, ACC: 0.8521939953810623
+2024-10-22 01:37:39,970 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 01:40:32,512 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 01:45:01,791 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 01:46:28,957 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 01:47:24,332 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 01:48:09,738 : 1432773973.py : run_eval : INFO : Epoch 2: F1: 0.7997248427672958, ACC: 0.8429561200923787
+2024-10-22 01:48:10,474 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 01:51:04,751 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 01:55:35,712 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 01:57:03,648 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 01:57:59,573 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 01:58:45,210 : 1432773973.py : run_eval : INFO : Epoch 3: F1: 0.8048349056603776, ACC: 0.8475750577367206
+2024-10-22 01:58:45,995 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 02:01:40,122 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 02:06:10,614 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 02:07:37,988 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 02:08:33,993 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 02:09:19,446 : 1432773973.py : run_eval : INFO : Epoch 4: F1: 0.8146619496855351, ACC: 0.8545034642032333
+2024-10-22 02:09:20,184 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 02:12:15,658 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 02:16:46,924 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 02:18:14,731 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 02:19:10,258 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 02:19:56,446 : 1432773973.py : run_eval : INFO : Epoch 5: F1: 0.8170204402515727, ACC: 0.8568129330254042
+2024-10-22 02:19:57,212 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 02:22:52,078 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 02:27:20,249 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 02:28:48,389 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 02:29:44,390 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 02:30:30,777 : 1432773973.py : run_eval : INFO : Epoch 6: F1: 0.8138757861635224, ACC: 0.8545034642032333
+2024-10-22 02:30:31,539 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 02:33:27,016 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 02:37:57,457 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 02:39:26,202 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 02:40:21,575 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 02:41:07,574 : 1432773973.py : run_eval : INFO : Epoch 7: F1: 0.812106918238994, ACC: 0.8545034642032333
+2024-10-22 02:41:08,358 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 02:44:05,784 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 02:48:39,367 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 02:50:06,997 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 02:51:03,523 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 02:51:49,611 : 1432773973.py : run_eval : INFO : Epoch 8: F1: 0.7613993710691827, ACC: 0.8106235565819861
+2024-10-22 02:51:50,372 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 02:54:44,200 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 02:59:14,576 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 03:00:42,061 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 03:01:37,707 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 03:02:24,074 : 1432773973.py : run_eval : INFO : Epoch 9: F1: 0.7613993710691827, ACC: 0.8106235565819861
+2024-10-22 03:02:24,863 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 03:05:19,979 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 03:09:50,494 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 03:11:19,038 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 03:12:14,666 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 03:13:00,350 : 1432773973.py : run_eval : INFO : Epoch 10: F1: 0.762735849056604, ACC: 0.8106235565819861
+2024-10-22 03:13:01,164 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 03:15:55,768 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 03:20:27,948 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 03:21:56,660 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 03:22:53,040 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 03:23:38,682 : 1432773973.py : run_eval : INFO : Epoch 11: F1: 0.7678459119496857, ACC: 0.815242494226328
+2024-10-22 03:23:39,428 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 03:26:35,300 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 03:31:05,278 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 03:32:34,410 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 03:33:30,145 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 03:34:16,291 : 1432773973.py : run_eval : INFO : Epoch 12: F1: 0.7702044025157234, ACC: 0.8175519630484989
+2024-10-22 03:34:17,064 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 03:37:13,301 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 03:41:46,154 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 03:43:13,343 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 03:44:08,616 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 03:44:53,882 : 1432773973.py : run_eval : INFO : Epoch 13: F1: 0.7733490566037736, ACC: 0.8198614318706697
+2024-10-22 03:44:54,635 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 03:47:50,889 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 03:52:20,634 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 03:53:48,420 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 03:54:44,240 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 03:55:30,175 : 1432773973.py : run_eval : INFO : Epoch 14: F1: 0.8253144654088056, ACC: 0.859122401847575
+2024-10-22 03:55:31,096 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 03:58:26,522 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 04:02:59,256 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 04:04:27,071 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 04:05:22,705 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 04:06:09,401 : 1432773973.py : run_eval : INFO : Epoch 15: F1: 0.8512578616352202, ACC: 0.8822170900692841
+2024-10-22 04:06:10,200 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 04:09:03,701 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 04:13:34,984 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 04:15:04,113 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 04:16:00,523 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 04:16:46,059 : 1432773973.py : run_eval : INFO : Epoch 16: F1: 0.854840521114106, ACC: 0.8822170900692841
+2024-10-22 04:16:46,792 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 04:19:42,255 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 04:24:13,025 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 04:25:40,804 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 04:26:36,791 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 04:27:23,300 : 1432773973.py : run_eval : INFO : Epoch 17: F1: 0.8838050314465412, ACC: 0.9076212471131639
+2024-10-22 04:27:24,055 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 04:30:20,602 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 04:34:52,451 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 04:36:21,843 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 04:37:17,731 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 04:38:03,929 : 1432773973.py : run_eval : INFO : Epoch 18: F1: 0.8726864330637918, ACC: 0.8983833718244804
+2024-10-22 04:38:04,646 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 04:41:01,721 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 04:45:34,262 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 04:47:02,260 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 04:47:58,511 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 04:48:44,876 : 1432773973.py : run_eval : INFO : Epoch 19: F1: 0.8730345911949688, ACC: 0.8983833718244804
+2024-10-22 04:48:45,624 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 04:51:42,755 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 04:56:13,539 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 04:57:41,767 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 04:58:37,341 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 04:59:23,109 : 1432773973.py : run_eval : INFO : Epoch 20: F1: 0.8715408805031448, ACC: 0.8983833718244804
+2024-10-22 04:59:23,874 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 05:02:20,774 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 05:06:53,651 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 05:08:21,584 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 05:09:18,170 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 05:10:03,502 : 1432773973.py : run_eval : INFO : Epoch 21: F1: 0.8924528301886795, ACC: 0.9145496535796767
+2024-10-22 05:10:04,330 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 05:13:00,160 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 05:17:31,874 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 05:19:00,348 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 05:19:56,267 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 05:20:42,099 : 1432773973.py : run_eval : INFO : Epoch 22: F1: 0.8855345911949688, ACC: 0.9099307159353349
+2024-10-22 05:20:42,845 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 05:23:38,672 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 05:28:10,876 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 05:29:39,825 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 05:30:35,851 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 05:31:21,682 : 1432773973.py : run_eval : INFO : Epoch 23: F1: 0.8943396226415098, ACC: 0.9168591224018475
+2024-10-22 05:31:22,438 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 05:34:18,534 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 05:38:49,255 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 05:40:17,848 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 05:41:13,210 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 05:41:58,924 : 1432773973.py : run_eval : INFO : Epoch 24: F1: 0.9056603773584907, ACC: 0.9260969976905312
+2024-10-22 05:41:59,693 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 05:44:55,668 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 05:49:28,340 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 05:50:57,531 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 05:51:53,537 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 05:52:40,464 : 1432773973.py : run_eval : INFO : Epoch 25: F1: 0.8946540880503149, ACC: 0.9191685912240185
+2024-10-22 05:52:41,226 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 05:55:37,296 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 06:00:08,124 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 06:01:36,939 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 06:02:32,824 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 06:03:19,425 : 1432773973.py : run_eval : INFO : Epoch 26: F1: 0.8949685534591199, ACC: 0.9191685912240185
+2024-10-22 06:03:20,197 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 06:06:17,436 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 06:10:48,993 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 06:12:17,048 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 06:13:12,644 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 06:13:57,748 : 1432773973.py : run_eval : INFO : Epoch 27: F1: 0.8934748427672958, ACC: 0.9168591224018475
+2024-10-22 06:13:58,488 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 06:16:54,890 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 06:21:26,092 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 06:22:54,374 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 06:23:50,292 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 06:24:35,864 : 1432773973.py : run_eval : INFO : Epoch 28: F1: 0.8882861635220128, ACC: 0.9122401847575058
+2024-10-22 06:24:36,651 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 06:27:32,696 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 06:32:02,642 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 06:33:30,104 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 06:34:26,075 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 06:35:12,615 : 1432773973.py : run_eval : INFO : Epoch 29: F1: 0.8860062893081764, ACC: 0.9099307159353349
+2024-10-22 06:35:13,364 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 06:38:09,595 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 06:42:41,008 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 06:44:10,040 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 06:45:06,485 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 06:45:53,188 : 1432773973.py : run_eval : INFO : Epoch 30: F1: 0.877044025157233, ACC: 0.9030023094688222
+2024-10-22 06:45:53,955 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 06:48:50,158 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 06:53:22,785 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 06:54:52,252 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 06:55:48,272 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 06:56:33,551 : 1432773973.py : run_eval : INFO : Epoch 31: F1: 0.8889937106918242, ACC: 0.9145496535796767
+2024-10-22 06:56:34,354 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 06:59:30,381 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 07:04:02,316 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 07:05:30,607 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 07:06:26,336 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 07:07:12,648 : 1432773973.py : run_eval : INFO : Epoch 32: F1: 0.9016509433962268, ACC: 0.9237875288683602
+2024-10-22 07:07:13,392 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 07:10:07,894 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 07:14:40,481 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 07:16:10,924 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 07:17:06,807 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 07:17:52,443 : 1432773973.py : run_eval : INFO : Epoch 33: F1: 0.8981132075471698, ACC: 0.9214780600461894
+2024-10-22 07:17:53,187 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 07:20:49,352 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 07:25:21,497 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 07:26:49,601 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 07:27:46,072 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 07:28:31,873 : 1432773973.py : run_eval : INFO : Epoch 34: F1: 0.8974056603773586, ACC: 0.9191685912240185
+2024-10-22 07:28:32,679 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 07:31:29,204 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 07:36:01,804 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 07:37:30,415 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 07:38:27,041 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 07:39:13,751 : 1432773973.py : run_eval : INFO : Epoch 35: F1: 0.8945754716981135, ACC: 0.9168591224018475
+2024-10-22 07:39:14,581 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 07:42:10,385 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 07:46:43,966 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 07:48:12,404 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 07:49:07,826 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 07:49:54,151 : 1432773973.py : run_eval : INFO : Epoch 36: F1: 0.8922169811320758, ACC: 0.9168591224018475
+2024-10-22 07:49:54,881 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 07:52:52,049 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 07:57:23,162 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 07:58:53,127 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 07:59:49,653 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 08:00:36,185 : 1432773973.py : run_eval : INFO : Epoch 37: F1: 0.891981132075472, ACC: 0.9168591224018475
+2024-10-22 08:00:36,933 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 08:03:32,843 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 08:08:05,408 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 08:09:34,358 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 08:10:30,865 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 08:11:17,208 : 1432773973.py : run_eval : INFO : Epoch 38: F1: 0.8930817610062894, ACC: 0.9168591224018475
+2024-10-22 08:11:17,976 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 08:14:14,418 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 08:18:45,126 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 08:20:13,672 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 08:21:09,697 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 08:21:55,385 : 1432773973.py : run_eval : INFO : Epoch 39: F1: 0.8870283018867926, ACC: 0.9122401847575058
+2024-10-22 08:21:56,247 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 08:24:53,259 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 08:29:25,259 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 08:30:54,356 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 08:31:49,616 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 08:32:34,901 : 1432773973.py : run_eval : INFO : Epoch 40: F1: 0.8956761006289308, ACC: 0.9191685912240185
+2024-10-22 08:32:35,646 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 08:35:31,510 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 08:40:03,804 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 08:41:33,372 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 08:42:29,404 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 08:43:15,194 : 1432773973.py : run_eval : INFO : Epoch 41: F1: 0.8897798742138365, ACC: 0.9145496535796767
+2024-10-22 08:43:15,949 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 08:46:10,333 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 08:50:42,112 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 08:52:10,672 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 08:53:06,341 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 08:53:52,204 : 1432773973.py : run_eval : INFO : Epoch 42: F1: 0.8992924528301889, ACC: 0.9237875288683602
+2024-10-22 08:53:52,924 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 08:56:48,744 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 09:01:21,944 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 09:02:50,931 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 09:03:46,905 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 09:04:31,812 : 1432773973.py : run_eval : INFO : Epoch 43: F1: 0.9145440251572328, ACC: 0.9353348729792148
+2024-10-22 09:04:32,675 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 09:07:28,073 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 09:11:57,981 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 09:13:26,972 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 09:14:22,957 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 09:15:08,524 : 1432773973.py : run_eval : INFO : Epoch 44: F1: 0.9055817610062895, ACC: 0.9284064665127021
+2024-10-22 09:15:09,270 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 09:18:06,646 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 09:22:39,194 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 09:24:07,348 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 09:25:03,509 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 09:25:49,369 : 1432773973.py : run_eval : INFO : Epoch 45: F1: 0.8988207547169812, ACC: 0.9237875288683602
+2024-10-22 09:25:50,115 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 09:28:45,354 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 09:33:17,495 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 09:34:46,456 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 09:35:43,624 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 09:36:28,946 : 1432773973.py : run_eval : INFO : Epoch 46: F1: 0.8933176100628932, ACC: 0.9191685912240185
+2024-10-22 09:36:29,700 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 09:39:26,352 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 09:44:00,717 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 09:45:30,199 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 09:46:26,044 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 09:47:12,107 : 1432773973.py : run_eval : INFO : Epoch 47: F1: 0.9039308176100629, ACC: 0.9260969976905312
+2024-10-22 09:47:12,886 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 09:50:07,572 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 09:54:42,117 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 09:56:10,375 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 09:57:06,106 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 09:57:52,463 : 1432773973.py : run_eval : INFO : Epoch 48: F1: 0.8886006289308177, ACC: 0.9145496535796767
+2024-10-22 09:57:53,213 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 10:00:48,596 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 10:05:21,972 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 10:06:47,659 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 10:07:43,700 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 10:08:28,580 : 1432773973.py : run_eval : INFO : Epoch 49: F1: 0.9055817610062894, ACC: 0.9260969976905312
+2024-10-22 10:08:29,786 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 10:11:27,747 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 10:15:57,188 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 10:17:26,585 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 10:18:23,182 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 10:19:08,903 : 1432773973.py : run_eval : INFO : Epoch 50: F1: 0.9121855345911951, ACC: 0.9330254041570438
+
+Fine-tuned Bert for NSP Eval on Train set
+
+
+2024-10-22 10:38:17,968 : 1432773973.py : run_eval : INFO : Epoch 1: F1: 0.8047305993251928, ACC: 0.846100278551532
+2024-10-22 10:38:18,714 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 10:39:35,731 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 10:40:51,830 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 10:42:04,176 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 10:43:01,981 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 10:44:07,162 : 3545064620.py : eval_pred : INFO : processing 500 lines 
+2024-10-22 10:45:37,581 : 3545064620.py : eval_pred : INFO : processing 600 lines 
+2024-10-22 10:47:06,713 : 3545064620.py : eval_pred : INFO : processing 700 lines 
+2024-10-22 10:48:03,187 : 3545064620.py : eval_pred : INFO : processing 800 lines 
+2024-10-22 10:49:08,854 : 3545064620.py : eval_pred : INFO : processing 900 lines 
+2024-10-22 10:50:20,278 : 3545064620.py : eval_pred : INFO : processing 1000 lines 
+2024-10-22 10:51:31,951 : 3545064620.py : eval_pred : INFO : processing 1100 lines 
+2024-10-22 10:52:58,458 : 3545064620.py : eval_pred : INFO : processing 1200 lines 
+2024-10-22 10:54:28,089 : 3545064620.py : eval_pred : INFO : processing 1300 lines 
+2024-10-22 10:56:05,426 : 3545064620.py : eval_pred : INFO : processing 1400 lines 
+2024-10-22 10:57:13,836 : 1432773973.py : run_eval : INFO : Epoch 2: F1: 0.8054367108421151, ACC: 0.846100278551532
+2024-10-22 10:57:14,600 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 10:58:31,614 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 10:59:47,936 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 11:00:59,786 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 11:01:58,394 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 11:03:04,565 : 3545064620.py : eval_pred : INFO : processing 500 lines 
+2024-10-22 11:04:36,298 : 3545064620.py : eval_pred : INFO : processing 600 lines 
+2024-10-22 11:06:04,771 : 3545064620.py : eval_pred : INFO : processing 700 lines 
+2024-10-22 11:07:00,959 : 3545064620.py : eval_pred : INFO : processing 800 lines 
+2024-10-22 11:08:06,727 : 3545064620.py : eval_pred : INFO : processing 900 lines 
+2024-10-22 11:09:18,727 : 3545064620.py : eval_pred : INFO : processing 1000 lines 
+2024-10-22 11:10:30,050 : 3545064620.py : eval_pred : INFO : processing 1100 lines 
+2024-10-22 11:11:57,175 : 3545064620.py : eval_pred : INFO : processing 1200 lines 
+2024-10-22 11:13:26,481 : 3545064620.py : eval_pred : INFO : processing 1300 lines 
+2024-10-22 11:15:02,183 : 3545064620.py : eval_pred : INFO : processing 1400 lines 
+2024-10-22 11:16:10,999 : 1432773973.py : run_eval : INFO : Epoch 3: F1: 0.8090890117917133, ACC: 0.8495821727019499
+2024-10-22 11:16:11,732 : 3545064620.py : eval_pred : INFO : processing 0 lines 
+2024-10-22 11:17:28,729 : 3545064620.py : eval_pred : INFO : processing 100 lines 
+2024-10-22 11:18:46,834 : 3545064620.py : eval_pred : INFO : processing 200 lines 
+2024-10-22 11:19:59,270 : 3545064620.py : eval_pred : INFO : processing 300 lines 
+2024-10-22 11:21:00,582 : 3545064620.py : eval_pred : INFO : processing 400 lines 
+2024-10-22 11:22:09,448 : 3545064620.py : eval_pred : INFO : processing 500 lines 
+2024-10-22 11:23:43,695 : 3545064620.py : eval_pred : INFO : processing 600 lines 
+2024-10-22 11:25:15,376 : 3545064620.py : eval_pred : INFO : processing 700 lines 
+2024-10-22 11:26:13,729 : 3545064620.py : eval_pred : INFO : processing 800 lines 
+2024-10-22 11:27:23,411 : 3545064620.py : eval_pred : INFO : processing 900 lines 
+2024-10-22 11:28:37,071 : 3545064620.py : eval_pred : INFO : processing 1000 lines 
+2024-10-22 11:29:52,354 : 3545064620.py : eval_pred : INFO : processing 1100 lines 
+2024-10-22 11:31:26,409 : 3545064620.py : eval_pred : INFO : processing 1200 lines 
+2024-10-22 11:32:57,104 : 3545064620.py : eval_pred : INFO : processing 1300 lines 
+2024-10-22 11:34:32,623 : 3545064620.py : eval_pred : INFO : processing 1400 lines 
+2024-10-22 11:35:42,380 : 1432773973.py : run_eval : INFO : Epoch 4: F1: 0.805972381648056, ACC: 0.8474930362116991
