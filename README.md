@@ -50,7 +50,7 @@ To make this task difficult, we split the Train:Test sets based on the ambiguous
 
 We evalute both approaches on train set and test set. 
 
-(updating...)Results are in [data/res/](SentenceDisambiguation/data/res), the notebook, and [NSP_logs.txt](NSP_logs.txt). 
+(updating...)Results are in [data/res/](data/res), the notebook, and [NSP_logs.txt](NSP_logs.txt). 
 
 (updating...)Prediction ouputs: 
 
