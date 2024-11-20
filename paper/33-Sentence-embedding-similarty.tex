@@ -1,0 +1,11 @@
+\subsection{Zero-shot Prediction Based on Semantic Textual Similarity}
+\label{sec:sim}
+A shortcoming of the previous solution is that the NSP inference has to be run for every (definition, title) pair mapped to an ambiguous term. Motivated to make a computationally more efficient solution, %e explore 
+the sentence embeddings of the definitions and titles are explored. 
+%We suggest that a definition and its title should be more related than paired with other titles. 
+In this setup, %we calculate 
+the sentence embedding of the titles and the definitions only need to be calculated once. For the definition and each candidate title with the matching ambiguous term, %we select 
+the title with the highest cosine similarity to the embedding of the definition is selected as the final predicted output.  To explore the potential benefits of different pretraining corpus and related tasks, %we use 
+the best-performing sentence transformers for Semantic Textual Similarity(STS) tasks as reported in~\cite{steinfeldt2024evaluation} and out-of-box SBERT are used% and also other BERT-based models pretrained for mathematical language processing
+. Following SBERT's default setting~\cite{reimers2019sentence}, %we use 
+the mean pooling strategy is used to calculate the sentence embeddings. 

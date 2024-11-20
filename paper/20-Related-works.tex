@@ -1,0 +1,28 @@
+\section{Related Work}
+\label{sec:related_work}
+The challenges posed by this task are (a) the lack of labeled datasets for equivalent mathematical definitions, (b) the limited number of disambiguation pages, and (c) 
+%\st{the interweave of discourse, notations, and formulas that differentiate mathematical content from text in general domain}
+%\ann{
+the unstructured nature of definitions that combine mathematical notations, formulas, and general discourse%}
+~\cite{jiang2023extracting,vanetik2020automatedlstmcnn}.  To address (a), entity linking and sentence similarity approaches for mathematical terms are reviewed. To tackle (b) and (c), transformer models~\cite{vaswani2023attentionneed} are employed for their capabilities to produce rich, contextualized representations.% enhanced by domain-adapted pretraining, potentially beneficial for mathematical language processing.
+
+
+Contextualized representations produced by BERT (Bidirectional Encoder Representations from Transformers)~\cite{devlin2019bert} encode the meaning of a word according to its context. This means that polysemous words have several, more accurate representations depending on the sentence where they appear. BERT is pretrained on two key tasks: Masked Language Modeling (MLM), where random tokens in a sentence are masked and predicted based on context, and Next Sentence Prediction (NSP), which trains BERT to determine whether a sentence logically follows another.
+%understand sequential relationships between sentences by distinguishing if a sentence logically follows another.  
+Pretraining with MLM is widely applied for domain adaptation 
+%and is proven to improve the performance of downstream tasks
+, especially when there is a dearth of data for finetuneing~\cite{mishraPS21,jiang2022choubert}. In addition, finetuning BERT for specific downstream tasks and domains is straightforward. For instance, by combining BERT's output with a classification layer, it has been adapted for mathematical notation prediction~\cite{jo2021notation}, definiendum extraction~\cite{jiang2023extracting} and mathematical statement extraction~\cite{mishra2024first}. 
+%Pretraining with MLM is widely applied for domain adaptation and is proven to improve the performance of downstream tasks, especially when there is not much data for finetuneing~\cite{mishraPS21,jiang2022choubert}.
+The Natural Language Inferernce (NLI) datasets~\cite{bowman-etal-2015-large,williams-etal-2018-broad} used by BERT's NSP pretraining are related to the task at hand. A piece of supporting evidence is AcroBERT~\cite{chen2023gladis}, an entity linker that reuses BERT for NSP's pretrained weights and is finetuned to link acronyms to their long forms. AcroBERT outperforms BERT and other domain-adapted BERT-based models.% by its pretraining and triplet framework. 
+
+%Another related task in automatic scientific document analysis is the disambiguation of mathematical identifiers~\cite{asakura2024intra_identifier}.
+
+%However, due to the nature of the BERT's pretraining tasks, it is not suitable for measuring semantic similarity. 
+However, the nature of the BERT's pretraining tasks makes it unsuitable for measuring semantic similarity. Sentence BERT (SBERT)~\footnote{\url{https://huggingface.co/sentence-transformers/all-mpnet-base-v2}} ~\cite{reimers2019sentence} modifies BERT's architecture to produce semantically meaningful sentence embeddings that can be compared using cosine-similarity.
+%MiniLM~\cite{wang2020minilm} is a deep self-attention distillation approach to simply and effectively compress large transformer-based pretrained models. It works by having the student model mimic the teacher model's self-attention modules, particularly focusing on the distributions and value relations in the teacher's final layer.
+%\ann{
+Out-of-the-box SBERT achieves superior performance across varied classification tasks involving mathematical texts~\cite{steinfeldt2024evaluation}. In one such task, the proponents measure the similarity of SBERT embeddings between an input text and the combination of titles and abstracts of mathematical publications in arXiv~\footnote{\url{https://arxiv.org/}} and zbMATH~\footnote{\url{https://zbmath.org/}} to predict the classification code of the respective repositories.
+%}
+%\st{Regarding the application of SBERT to mathematical text, proposes to use titles, abstracts, and the classification codes from mathematical publication databases as a benchmark to evaluate similarity models for short mathematical texts. This study shows that the out-of-box SBERT achieves good results in recommending classification codes from textual data.} 
+In the same vein, this study aims to evaluate the effectiveness of semantic textual similarity in linking definitions to titles. Since BERT for NSP and SBERT require different domain adaptation strategies~\cite{reimers2019sentence,steinfeldt2024evaluation}, this work first identifies the architecture that performs better for the task.
+%Two small SBERT-like models derived from MiniLM~\cite{wang2020minilm}, namely SBERT-all-MiniLM-L6-v2~\footnote{\url{https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2}} and SBERT-all-MiniLM-L12-v2~\footnote{\url{https://huggingface.co/sentence-transformers/all-MiniLM-L12-v2}}, are also studied in~\cite{steinfeldt2024evaluation}, both perform slightly inferior to SBERT.

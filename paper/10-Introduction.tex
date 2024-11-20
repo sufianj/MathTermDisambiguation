@@ -1,0 +1,56 @@
+\section{Introduction}
+%Context and Motivation: 
+
+Mathematical scholarly articles contain highly structured statements, such as axioms, theorems, and proofs, which cannot be easily navigated or explored through traditional keyword searches. 
+Several initiatives have emerged to improve knowledge discovery from academic papers such as the
+Open Research Knowledge Graph (ORKG)~\cite{auer2020orkg}, a project that aims to describe research papers in a structured manner to facilitate the comparison among papers,
+or TheoremKB~\cite{mishra2024first,mishraPS21}, a project that tries to build a knowledge base of interlinked theorems and proofs across scientific literature. 
+This work aims to automatically construct a knowledge base of mathematical definitions. %Such a knowledge base allows researchers to look up terms efficiently, and helps to index relevant mathematical statements and articles with the terms therein.  
+%It can also help writers compare their definitions with others’ formulations to detect errors such as missing conditions.
+
+% decribe the mathematical definitiosns ang the challeges
+Existing works in this research area involve extraction of mathematical definitions~\cite{berlioz2023hierarchical,asperti_extraction_2004,sun2023discoveringregex,vanetik2020automatedlstmcnn} and the terms defined therein, called \textit{definienda} or \textit{definiendum} for its singular form~\cite{berliozargot2021,jiang2023extracting}. These tasks are extended by disambiguating or linking the newly extracted definition-term pair to existing concepts in a reference glossary, or otherwise, extend the glossary.
+%\st{Indeed, there could be different but equivalent definitions of the same concept and polysemous notions as definienda (see in Table).} 
+%\ann{
+Definiendum disambiguation is challenging particularly in cases where identical terms for the same concept are defined in various ways (e.g., ``path''), or while polysemous terms (e.g., ``block'') refer to distinct concepts (see in Table~\ref{tab:paper_def_example}). %Table ~\ref{tab:paper_def_example} provides examples illustrating these scenarios.
+%Examples illustrating these scenarios are provided in Table~\ref{tab:paper_def_example}.
+%}
+A possible heuristic is that if the definienda of two definitions are linked to two different concepts in a reference knowledge base, then these two definitions are different. This scenario is simplified by assuming that each definition defines one definiendum. 
+\squeezeup
+\begin{table}
+    \centering
+    \caption{Definitions extracted from different scholarly articles~\cite{jiang2023extracting}. %The definition of ``path'' has different formulations. The notion of ``block'' has different meanings.
+    }
+    \begin{tabular}{|l|p{0.8\linewidth}|}
+          \hline
+          Definiendum&Definition and Source Article\\\hline
+          path&If the vertices $v_0,v_1,\ldots,v_k$ of a walk $W$ are distinct then $W$ is called a \emph{Path}. A path with $n$ vertices will be denoted by $P_n$. $P_n$ has length $n-1$.~\cite{kalayathankal2015operationspath1}\\\hline
+          path&Let $G=(V,E)$ be a graph. A \emph{path} in a graph is a sequence of vertices such that from each of its vertices there is an edge to the next vertex in the sequence. This is denoted by $P=(u=v_0,v_1\ldots,v_k=v)$, where $(v_i,v_{i+1}) \in E$ for $0 \le i \le k-1$.~\cite{perera2012bipartitionpath2} \\\hline
+          block&A \emph{block} in  $H$ is a maximal set of tightly-connected hyperedges.~\cite{ergemlidze20193block2}\\\hline
+          block&A \emph{block} of indices is a set of numbers $S$ where every term $SG_{a,b}(s)$ depends on the same value via division, for all $s\in S$.~\cite{kupin2011subtractionblock1}\\\hline
+    \end{tabular}
+    \label{tab:paper_def_example}
+\end{table}
+
+%ProofWiki
+
+%\st{ProofWiki~\footnote{~\url{https://ProofWiki.org/wiki/Main_Page}} is a crowdsourced online collection of mathematical results. It provides 500 definition disambiguation pages~\footnote{~\url{https://ProofWiki.org/wiki/Category:Definition_Disambiguation_Pages}} by the time of writing.} 
+%\ann{
+For the purpose of this study, ProofWiki~\footnote{\url{https://ProofWiki.org/wiki/Main_Page}} is used as the reference list. It is a crowd-sourced online collection of mathematical proofs, which includes 500 disambiguation pages. 
+Similar to Wikipedia, these disambiguation pages contain lists of identical terms, each linking to its corresponding definition page. Each definition page contains a unique page title, the definition %of the term,
+and a topic or category where this term can be found (e.g., algebra or geometry)%, and a list of references
+. Specifically, the page title contains the definiendum along with its category and serves as the identifier of the definition page within ProofWiki.
+%}
+%\st{Each definition page is identified with a unique title that contains the definiendum and information about the category, like algebra or geometry.}
+
+This work 
+%proposes to leverage these disambiguation pages as ground truth~\footnote{Our dataset, code and experimental results are available here: \url{https://anonymous.4open.science/r/ecir2025-4137-5B97}} to: address 
+addresses the following research questions \textit{\textbf{RQ1:} How well can contextualized text representation help the disambiguation of mathematical terms? \textbf{RQ2:} Which architectures and pretraining strategies is best suited for the task?} The following are the main contributions of this work: %The contributions of this work are summarized as follows:
+%\vspace{-3mm}
+\begin{itemize}
+    \item \textbf{MathD2} - a new dataset for \textbf{Math}ematical \textbf{D}efiniendum \textbf{D}isambiguation
+    \item Exploration of \textbf{two different approaches} that show how the disambiguation task can benefit from contextualized semantic representations 
+    \item \textbf{Experiment-supported evidence} %is provided
+    highlighting the efficiency of sentence embeddings for the addressed disambiguation task.
+\end{itemize}
+%After discussing related work in Section~\ref{sec:related_work}, the two proposed approaches are presented in Section ~\ref{sec:methology}, while conducted experiments and result analysis are discussed in Section~\ref{sec:experiments}, followed by findings and conclusions in Section~\ref{sec:conclusion}.
