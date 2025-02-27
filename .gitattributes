@@ -25,3 +25,5 @@ data/vars/restored_tag_soup.pkl filter=lfs diff=lfs merge=lfs -text
 data/vars/disamb_list_with===.pkl filter=lfs diff=lfs merge=lfs -text
 data/vars/name_to_parsed_def_dict.pkl filter=lfs diff=lfs merge=lfs -text
 */*/*/* filter=lfs diff=lfs merge=lfs -text
+. filter=lfs diff=lfs merge=lfs -text
+proofwikiorg_w-20250205-wikidump/ filter=lfs diff=lfs merge=lfs -text
