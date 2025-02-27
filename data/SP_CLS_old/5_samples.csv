@@ -1,0 +1,30 @@
+title,term,definition
+Definition:Order of Group Element/Finite/Also known as,Torsion,"Let G be a group.
+
+
+An element of finite order of G is also known as a torsion element of G.
+
+
+Category:Definitions/Order of Group Elements"
+Definition:Torsion Subgroup,Torsion,"Let G be an abelian group.
+
+
+Its torsion subgroup T (   )G is the subgroup of all torsion elements."
+Definition:Torsion Group,Torsion,"Let G be a group.
+
+
+Then G is a torsion group  if and only if  all its elements are torsion elements."
+Definition:Torsion Element of Module,Torsion,"Let R be a commutative ring with unity.
+
+Let M be a unitary module over R.
+
+Let m ∈ M.
+
+
+Then m is a torsion element  if and only if  there exists a regular element a ∈ R with a m = 0."
+Definition:Torsion Submodule,Torsion,"Let R be a commutative ring with unity.
+
+Let M be a unitary module over R.
+
+
+The torsion submodule T(M) of M is the submodule of all torsion elements of M."

@@ -1,30 +1,49 @@
 title,term,definition
-Definition:Order of Group Element/Finite/Also known as,Torsion,"Let G be a group.
+Definition:Major (Euclidean),Major,"Let a, b ∈ℝ_>0 in the forms:
+:a = ρ√(2)√(1 +  k √(1 + k^2))
+:b = ρ√(2)√(1 -  k √(1 + k^2))
+
+where:
+: ρ is a rational number
+: k is a rational number whose square root is irrational.
 
 
-An element of finite order of G is also known as a torsion element of G.
+Then a + b is a major.
 
 
-Category:Definitions/Order of Group Elements"
-Definition:Torsion Subgroup,Torsion,"Let G be an abelian group.
+ "
+Definition:Ellipse/Major Axis/Semi-Major Axis,Major,":
+
+Consider an ellipse K.
 
 
-Its torsion subgroup T (   )G is the subgroup of all torsion elements."
-Definition:Torsion Group,Torsion,"Let G be a group.
+A semi-major axis of K is either half of the major axis of K from its midpoint to its endpoint.
 
 
-Then G is a torsion group  if and only if  all its elements are torsion elements."
-Definition:Torsion Element of Module,Torsion,"Let R be a commutative ring with unity.
-
-Let M be a unitary module over R.
-
-Let m ∈ M.
+In the above diagram, O V_1 and O V_2 are the semi-major axes of K."
+Definition:Lemniscate of Bernoulli/Major Axis,Major,"Consider the lemniscate of Bernoulli defined as the locus M described by the equation:
+:P_1 M × P_2 M = ( P_1 P_2 2 )^2
 
 
-Then m is a torsion element  if and only if  there exists a regular element a ∈ R with a m = 0."
-Definition:Torsion Submodule,Torsion,"Let R be a commutative ring with unity.
-
-Let M be a unitary module over R.
+:
 
 
-The torsion submodule T(M) of M is the submodule of all torsion elements of M."
+The line P_1 P_2 is the major axis of the lemniscate.
+
+
+Category:Definitions/Lemniscate of Bernoulli"
+Definition:Lemniscate of Bernoulli/Major Semiaxis,Major,"Consider the lemniscate of Bernoulli defined as the locus M described by the equation:
+:P_1 M × P_2 M = ( P_1 P_2 2 )^2
+where O is the point at the center where the branches cross.
+
+
+:
+
+
+Each of the lines O P_1 and O P_2 is a major semiaxis of the lemniscate.
+
+
+Category:Definitions/Lemniscate of Bernoulli"
+Definition:Categorical Syllogism/Premises/Major Premise,Major,"The major premise of a categorical syllogism is conventionally stated first.
+
+It is a categorical statement which expresses the logical relationship between the primary term and the middle term of the syllogism."

@@ -1,123 +1,141 @@
 title,term,definition
-Definition:Boundary (Geometry),Boundary," 
-
-For example, the endpoints of a line segment are its boundaries.
+Definition:Quintal System,System,"A quintal system  is a number system in which the base is 5.
 
 
-=== Containment ===
-A geometric figure is said to be contained by its boundary or boundaries.
+=== Quintal Notation ===
+Quintal notation is the positional number system whose base is 5.
 
- "
-Definition:Boundary (Topology),Boundary,"Let T = ( S, τ) be a topological space.
-
-Let H ⊆ S.
-
-
-=== Definition from Closure and Interior ===
-Let T = ( S, τ) be a topological space.
-
-Let H ⊆ S.
+That is, every number x ∈ℝ is expressed in the form:
+:x = ∑_j ∈ℤ r_j 5^j
+where:
+:∀ j ∈ℤ: r_j ∈{ 0, 1, 2, 3, 4 }"
+Definition:Decimal System,System,"A decimal system  is a number system in which the base is 10.
 
 
-The boundary of H consists of all the points in the closure of H which are not in the interior of H.
+=== Decimal Notation ===
+Decimal notation is the quotidian technique of expressing numbers in base 10.
 
-Thus, the boundary of H is defined as:
-:∂ H := H^- ∖ H^∘
-where H^- denotes the closure and H^∘ the interior of H.
+Every number x ∈ℝ is expressed in the form:
+:x = ∑_j ∈ℤ r_j 10^j
+where:
+:∀ j ∈ℤ: r_j ∈{ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 }
 
-=== Definition from Neighborhood ===
-Let T = ( S, τ) be a topological space.
+=== Decimal System of Measurement ===
+A decimal system (of measurement) is a system of measurement in which the standard multiples and fractions of the units of measurement are powers of 10."
+Definition:Vigesimal System,System,"A vigesimal system is a number system in which the base is 20.
 
-Let H ⊆ S.
 
+In conventional base 20 notation, every number x ∈ℝ is expressed in the form:
+:x = ∑_j ∈ℤ r_j 20^j
+where:
+:∀ j ∈ℤ: r_j ∈{ 0, 1, …, 19 }"
+Definition:Sexagesimal System,System,A sexagesimal system is a number system in which the base is 60.
+Definition:Golden Mean Number System,System,"The golden mean number system is a system for representing a non-negative real number x by a sequence of zeroes and  ones using the golden mean ϕ as a number base.
+
+
+=== Equivalent Representations ===
+Let x ∈ℝ_≥ 0 have two representations S_1 and S_2 in the golden mean number system.
+
+Then S_1 and S_2 are equivalent representations.
+
+
+Category:Definitions/Golden Mean Number System
+
+=== Simplest Form ===
+Let x ∈ℝ_≥ 0 have a representation S in the golden mean number system.
+
+Then S is the simplest form for x  if and only if :
+
+:(1): No two adjacent 1s appear in S
+:(2):    S does not end with the infinite sequence … 010101 …
+
+=== Simplification ===
+Consider the golden mean number system.
+
+Let x ∈ℝ_≥ 0 have a representation which includes the string 011, say:
+:x = p011q
+
+where p and q are strings in {0, 1}.
+
+
+From 100 in Golden Mean Number System is Equivalent to 011, x can also be written as:
+:x = p100q
+
+
+The expression p100q is a simplification of p011q.
+
+=== Expansion ===
+Consider the golden mean number system.
+
+Let x ∈ℝ_≥ 0 have a representation which includes the string 100, say:
+:x = p100q
+
+where p and q are strings in {0, 1}.
+
+
+From 100 in Golden Mean Number System is Equivalent to 011, x can also be written as:
+:x = p011q
+
+
+The expression p011q is an expansion of p011q."
+Definition:Factorial Number System,System,The factorial number system is a mixed radix positional number system in which the digit in the ith column from the right is of base i.
+Definition:Combinatorial Number System,System,"The combinatorial number system is a system for representing a positive integer m by a sequence of digits which are the upper coefficient of a sequence of n binomial coefficients for some n ∈ℤ_>0:
+
+:m := k_1 k_2 k_3 … k_n
+
+where:
+:m = k_1 1 + k_2 2 + k_3 3 + ⋯ + k_n n
+:0 ≤ k_1 < k_2 < ⋯ < k_n"
+Definition:Zeckendorf Representation,System,"Zeckendorf representation is a system for representing a positive integer m by a sequence of digits which are the indices of a sequence of r Fibonacci numbers:
+
+:n := k_1 k_2 k_3 … k_r
+
+where:
+:n = F_k_1 + F_k_2 + F_k_3 + ⋯ + F_k_r
+:k_1 ≫ k_2 ≫ k_3 ≫⋯≫ k_r ≫ 0
+
+where n ≫ k denotes that n ≥ k + 2."
+Definition:Number-Naming System,System,"There are various number-naming systems for naming large numbers (that is: greater than 1   000   000).
+
+
+=== Short Scale ===
+The short scale system is the number-naming system which uses:
+:the word million for 10^6 = 1   000   000
+:the Latin-derived prefixes bi-, tri-, quadri-, quint-, etc. for each further multiple of 1   000, appended to the root -(i)llion, corresponding to the indices 2, 3, 4, 5, …
+
+
+Thus:
 
  
+ 
+ 
+ 
+ 
+ 
 
-x ∈ S is a boundary point of H  if and only if  every neighborhood N of x satisfies:
-:H ∩ N ∅
-and
-:H∩ N ∅
-where H is the complement of H in S.
+Thus one n-illion equals 1000 × 10^3 n or 10^3 n + 3
 
-The boundary of H consists of all the boundary point of H.
-
-=== Definition from Intersection of Closure with Closure of Complement ===
-Let T = ( S, τ) be a topological space.
-
-Let H ⊆ S.
-
-
-The boundary of H is the intersection of the closure of H with the closure of the complement of H in T:
-
-:∂ H = H^- ∩( H)^-
-
-=== Definition from Closure and Exterior ===
-Let T = ( S, τ) be a topological space.
-
-Let H ⊆ S.
+=== Long Scale ===
+The long scale system is the number-naming system which uses:
+:the word million for 10^6 = 1   000   000
+:the Latin-derived prefixes bi-, tri-, quadri-, quint-, etc. for each further multiple of 1   000   000, appended to the root -(i)llion, corresponding to the indices 2, 3, 4, 5, …
 
 
-The boundary of H consists of all the points in H which are not in either the interior or exterior of H.
+Thus:
 
-Thus, the boundary of H is defined as:
-:∂ H := H ∖( H^∘∪ H^e )
-where:
-:H^∘ denotes the interior of H
-:H^e denotes the exterior of H."
-Definition:Boundary (Graph Theory),Boundary,"=== Simple Graph ===
-Let G = ( V, E ) be a simple graph.
+ 
+ 
+ 
+ 
+ 
+ 
 
-Let v ∈ V be a vertex of G.
-
-
-Then the boundary of v is the set of all vertices of G which are adjacent to v:
-:B (   )v = { u ∈ V: { u, v }∈ E }"
-Definition:Right (Direction),Right,"The direction right is that way:
-:→"
-Definition:Right Angle,Right,"A right angle is an angle that is equal to half of a straight angle.
+Thus one n-illion equals 10^6 n.
 
 
-=== Measurement of Right Angle ===
+Additional terms are occasionally found to fill some of the gaps, but these are rare nowadays:
+
+ 
+ 
+ 
  "
-Definition:Right Hand Side,Right,"In an equation:
-:Expression 1 = Expression 2
-the term Expression 2 is the right hand side."
-Definition:Right-Total Relation,Right,"Let ℛ⊆ S × T be a relation.
-
-
-Then ℛ is right-total  if and only if :
-:∀ t ∈ T: ∃ s ∈ S: ( s, t ) ∈ℛ
-
-
-That is,  if and only if  every element of T is related to by some element of S.
-
-
-That is,  if and only if :
-:Img( ℛ) = T
-where Img( ℛ) denotes the image of ℛ."
-Definition:Right Quasi-Reflexive Relation,Right,"Let ℛ⊆ S × S be a relation in S.
-
-
-=== Definition 1 ===
-Let ℛ⊆ S × S be a relation in S.
-
-
-ℛ is right quasi-reflexive  if and only if :
-
-:∀ x, y ∈ S: ( x, y ) ∈ℛ( y, y ) ∈ℛ
-
-=== Definition 2 ===
-Let ℛ⊆ S × S be a relation in S.
-
-
-ℛ is right quasi-reflexive  if and only if :
-
-:∀ y ∈Img( ℛ): ( y, y ) ∈ℛ
-
-where Img( ℛ) denotes the image set of ℛ."
-Definition:Euclidean Relation/Right-Euclidean,Right,"Let ℛ⊆ S × S be a relation in S.
-
-
-ℛ is right-Euclidean  if and only if :
-
-:( x, y ) ∈ℛ( x, z ) ∈ℛ( y, z ) ∈ℛ"
