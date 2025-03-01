@@ -1,842 +1,2197 @@
 [
     {
+        "choices": [
+            "Baire Space (Topology)",
+            "Baire Space (Set Theory)"
+        ],
         "gt": "Baire Space (Set Theory)",
         "idx": 1,
         "is_correct": false,
-        "pred": "'Baire Space (Topology)'",
-        "pred_raw": "'Baire Space (Topology)'"
+        "pred": "'Baire Space (Topology)'"
     },
     {
+        "choices": [
+            "Analysis/Complex",
+            "Complex Number",
+            "Complex Function",
+            "Complex Conjugate",
+            "Subset Product",
+            "Complex (Group Theory)",
+            "Differential Complex",
+            "Fraction/Complex"
+        ],
         "gt": "Analysis/Complex",
         "idx": 2,
         "is_correct": false,
-        "pred": "Complex Function",
-        "pred_raw": "Complex Function"
+        "pred": "Complex Function"
     },
     {
+        "choices": [
+            "Analysis/Complex",
+            "Complex Number",
+            "Complex Function",
+            "Complex Conjugate",
+            "Subset Product",
+            "Complex (Group Theory)",
+            "Differential Complex",
+            "Fraction/Complex"
+        ],
         "gt": "Fraction/Complex",
         "idx": 9,
         "is_correct": false,
-        "pred": "Complex Fraction",
-        "pred_raw": "Complex Fraction"
+        "pred": "Complex Fraction"
     },
     {
+        "choices": [
+            "Language of Predicate Logic/Formal Grammar/Term",
+            "Logical Term",
+            "Term of Expression",
+            "Polynomial/Term",
+            "Fraction/Term",
+            "Term of Sequence",
+            "Indexing Set/Term",
+            "Ordered Tuple/Term",
+            "Term (Natural Language)"
+        ],
         "gt": "Fraction/Term",
         "idx": 14,
         "is_correct": false,
-        "pred": "Term (Natural Language)",
-        "pred_raw": "Term (Natural Language)"
+        "pred": "Term (Natural Language)"
     },
     {
+        "choices": [
+            "Language of Predicate Logic/Formal Grammar/Term",
+            "Logical Term",
+            "Term of Expression",
+            "Polynomial/Term",
+            "Fraction/Term",
+            "Term of Sequence",
+            "Indexing Set/Term",
+            "Ordered Tuple/Term",
+            "Term (Natural Language)"
+        ],
         "gt": "Term of Sequence",
         "idx": 15,
         "is_correct": false,
-        "pred": "Ordered Tuple/Term",
-        "pred_raw": "Ordered Tuple/Term"
+        "pred": "Ordered Tuple/Term"
     },
     {
+        "choices": [
+            "Language of Predicate Logic/Formal Grammar/Term",
+            "Logical Term",
+            "Term of Expression",
+            "Polynomial/Term",
+            "Fraction/Term",
+            "Term of Sequence",
+            "Indexing Set/Term",
+            "Ordered Tuple/Term",
+            "Term (Natural Language)"
+        ],
         "gt": "Term (Natural Language)",
         "idx": 18,
         "is_correct": false,
-        "pred": "'Term of Expression'",
-        "pred_raw": "'Term of Expression'"
+        "pred": "'Term of Expression'"
     },
     {
+        "choices": [
+            "Simple Group",
+            "Simple Field Extension",
+            "Continued Fraction/Simple/Finite",
+            "Contour/Simple",
+            "Simple Graph",
+            "Digraph/Simple Digraph",
+            "Multigraph/Simple Edge",
+            "Simple Function"
+        ],
         "gt": "Multigraph/Simple Edge",
         "idx": 25,
         "is_correct": false,
-        "pred": "Simple Graph",
-        "pred_raw": "Simple Graph"
+        "pred": "Simple Graph"
     },
     {
+        "choices": [
+            "Basis (Topology)",
+            "Basis of Vector Space",
+            "Basis of Module",
+            "Basis (Hilbert Space)"
+        ],
         "gt": "Basis of Vector Space",
         "idx": 32,
         "is_correct": false,
-        "pred": "'Basis (Vector Space)'",
-        "pred_raw": "'Basis (Vector Space)'"
+        "pred": "'Basis (Vector Space)'"
     },
     {
+        "choices": [
+            "Codomain (Relation Theory)",
+            "Codomain (Category Theory)"
+        ],
         "gt": "Codomain (Category Theory)",
         "idx": 36,
         "is_correct": false,
-        "pred": "Codomain (Relation Theory)",
-        "pred_raw": "Codomain (Relation Theory)"
+        "pred": "Codomain (Relation Theory)"
     },
     {
+        "choices": [
+            "Loop (Plane Geometry)",
+            "Loop (Graph Theory)",
+            "Algebra Loop",
+            "Relational Loop",
+            "Loop (Topology)",
+            "Loop (Matroid)"
+        ],
         "gt": "Loop (Plane Geometry)",
         "idx": 41,
         "is_correct": false,
-        "pred": "'Loop (Topology)'",
-        "pred_raw": "'Loop (Topology)'"
+        "pred": "'Loop (Topology)'"
     },
     {
+        "choices": [
+            "Image (Relation Theory)/Mapping/Mapping",
+            "Image (Relation Theory)/Relation/Relation",
+            "Direct Image Mapping/Mapping",
+            "Direct Image Mapping/Relation",
+            "Direct Image of Sheaf"
+        ],
         "gt": "Image (Relation Theory)/Mapping/Mapping",
         "idx": 47,
         "is_correct": false,
-        "pred": "Direct Image Mapping/Mapping",
-        "pred_raw": "Direct Image Mapping/Mapping"
+        "pred": "Direct Image Mapping/Mapping"
     },
     {
+        "choices": [
+            "Image (Relation Theory)/Mapping/Mapping",
+            "Image (Relation Theory)/Relation/Relation",
+            "Direct Image Mapping/Mapping",
+            "Direct Image Mapping/Relation",
+            "Direct Image of Sheaf"
+        ],
         "gt": "Image (Relation Theory)/Relation/Relation",
         "idx": 48,
         "is_correct": false,
-        "pred": "Direct Image Mapping/Relation",
-        "pred_raw": "Direct Image Mapping/Relation"
+        "pred": "Direct Image Mapping/Relation"
     },
     {
+        "choices": [
+            "Image (Relation Theory)/Mapping/Mapping",
+            "Image (Relation Theory)/Relation/Relation",
+            "Direct Image Mapping/Mapping",
+            "Direct Image Mapping/Relation",
+            "Direct Image of Sheaf"
+        ],
         "gt": "Direct Image Mapping/Relation",
         "idx": 50,
         "is_correct": false,
-        "pred": "Direct Image Mapping/Mapping",
-        "pred_raw": "Direct Image Mapping/Mapping"
+        "pred": "Direct Image Mapping/Mapping"
     },
     {
+        "choices": [
+            "Image (Relation Theory)/Mapping/Mapping",
+            "Image (Relation Theory)/Relation/Relation",
+            "Direct Image Mapping/Mapping",
+            "Direct Image Mapping/Relation",
+            "Direct Image of Sheaf"
+        ],
         "gt": "Direct Image of Sheaf",
         "idx": 51,
         "is_correct": false,
-        "pred": "Direct Image Mapping",
-        "pred_raw": "Direct Image Mapping"
+        "pred": "Direct Image Mapping"
     },
     {
+        "choices": [
+            "Empty Class (Class Theory)",
+            "Class Interval/Empty"
+        ],
         "gt": "Class Interval/Empty",
         "idx": 53,
         "is_correct": false,
-        "pred": "'Empty Class (Class Theory)'",
-        "pred_raw": "'Empty Class (Class Theory)'"
+        "pred": "'Empty Class (Class Theory)'"
     },
     {
+        "choices": [
+            "Power (Algebra)",
+            "Power of Element/Magma",
+            "Power of Element/Magma with Identity",
+            "Power of Element/Semigroup",
+            "Power of Element/Monoid",
+            "Power of Element/Group",
+            "Power of Element/Ring",
+            "Power (B-Algebra)",
+            "Cardinality",
+            "Power Set",
+            "Power (Physics)"
+        ],
         "gt": "Power of Element/Magma",
         "idx": 55,
         "is_correct": false,
-        "pred": "Power (Algebra)",
-        "pred_raw": "Power (Algebra)"
+        "pred": "Power (Algebra)"
     },
     {
+        "choices": [
+            "Power (Algebra)",
+            "Power of Element/Magma",
+            "Power of Element/Magma with Identity",
+            "Power of Element/Semigroup",
+            "Power of Element/Monoid",
+            "Power of Element/Group",
+            "Power of Element/Ring",
+            "Power (B-Algebra)",
+            "Cardinality",
+            "Power Set",
+            "Power (Physics)"
+        ],
         "gt": "Power of Element/Semigroup",
         "idx": 57,
         "is_correct": false,
-        "pred": "Power (Semigroup)",
-        "pred_raw": "Power (Semigroup)"
+        "pred": "Power (Semigroup)"
     },
     {
+        "choices": [
+            "Power (Algebra)",
+            "Power of Element/Magma",
+            "Power of Element/Magma with Identity",
+            "Power of Element/Semigroup",
+            "Power of Element/Monoid",
+            "Power of Element/Group",
+            "Power of Element/Ring",
+            "Power (B-Algebra)",
+            "Cardinality",
+            "Power Set",
+            "Power (Physics)"
+        ],
         "gt": "Cardinality",
         "idx": 62,
         "is_correct": false,
-        "pred": "Power Set",
-        "pred_raw": "Power Set"
+        "pred": "Power Set"
     },
     {
+        "choices": [
+            "Meet (Order Theory)",
+            "Boolean Algebra/Meet",
+            "Set Meeting Set"
+        ],
         "gt": "Meet (Order Theory)",
         "idx": 65,
         "is_correct": false,
-        "pred": "Boolean Algebra/Meet",
-        "pred_raw": "Boolean Algebra/Meet"
+        "pred": "Boolean Algebra/Meet"
     },
     {
+        "choices": [
+            "Meet (Order Theory)",
+            "Boolean Algebra/Meet",
+            "Set Meeting Set"
+        ],
         "gt": "Set Meeting Set",
         "idx": 67,
         "is_correct": false,
-        "pred": "Boolean Algebra/Meet",
-        "pred_raw": "Boolean Algebra/Meet"
+        "pred": "Boolean Algebra/Meet"
     },
     {
+        "choices": [
+            "Affine Geometry",
+            "Affine Algebraic Set",
+            "Affine Algebraic Variety",
+            "Affine Scheme",
+            "Affine Frame",
+            "Affine Hull",
+            "Affine Monoid",
+            "Affine Plane",
+            "Affine Space",
+            "Affine Span",
+            "Affine Subspace",
+            "Affine Transformation"
+        ],
         "gt": "Affine Geometry",
         "idx": 70,
         "is_correct": false,
-        "pred": "Affine Space",
-        "pred_raw": "Affine Space"
+        "pred": "Affine Space"
     },
     {
+        "choices": [
+            "Affine Geometry",
+            "Affine Algebraic Set",
+            "Affine Algebraic Variety",
+            "Affine Scheme",
+            "Affine Frame",
+            "Affine Hull",
+            "Affine Monoid",
+            "Affine Plane",
+            "Affine Space",
+            "Affine Span",
+            "Affine Subspace",
+            "Affine Transformation"
+        ],
         "gt": "Affine Monoid",
         "idx": 76,
         "is_correct": false,
-        "pred": "Affine Space",
-        "pred_raw": "Affine Space"
+        "pred": "Affine Space"
     },
     {
+        "choices": [
+            "Affine Geometry",
+            "Affine Algebraic Set",
+            "Affine Algebraic Variety",
+            "Affine Scheme",
+            "Affine Frame",
+            "Affine Hull",
+            "Affine Monoid",
+            "Affine Plane",
+            "Affine Space",
+            "Affine Span",
+            "Affine Subspace",
+            "Affine Transformation"
+        ],
         "gt": "Affine Plane",
         "idx": 77,
         "is_correct": false,
-        "pred": "Affine Space",
-        "pred_raw": "Affine Space"
+        "pred": "Affine Space"
     },
     {
+        "choices": [
+            "Ellipse/Major Axis/Semi-Major Axis",
+            "Semimajor Axis of Ellipsoid"
+        ],
         "gt": "Semimajor Axis of Ellipsoid",
         "idx": 85,
         "is_correct": false,
-        "pred": "'Ellipse/Major Axis/Semi-Major Axis'",
-        "pred_raw": "'Ellipse/Major Axis/Semi-Major Axis'"
+        "pred": "'Ellipse/Major Axis/Semi-Major Axis'"
     },
     {
+        "choices": [
+            "Closure Operator",
+            "Closure of Set under Closure Operator",
+            "Upper Closure",
+            "Lower Closure",
+            "Closure (Abstract Algebra)/Algebraic Structure",
+            "Integral Closure",
+            "Generated Normal Subgroup",
+            "Closure (Topology)",
+            "Closure (Topology)/Metric Space",
+            "Closure/Normed Vector Space",
+            "Transitive Closure of Set",
+            "Reflexive Closure",
+            "Symmetric Closure",
+            "Transitive Closure of Relation"
+        ],
         "gt": "Closure of Set under Closure Operator",
         "idx": 87,
         "is_correct": false,
-        "pred": "Closure (Topology)",
-        "pred_raw": "Closure (Topology)"
+        "pred": "Closure (Topology)"
     },
     {
+        "choices": [
+            "Closure Operator",
+            "Closure of Set under Closure Operator",
+            "Upper Closure",
+            "Lower Closure",
+            "Closure (Abstract Algebra)/Algebraic Structure",
+            "Integral Closure",
+            "Generated Normal Subgroup",
+            "Closure (Topology)",
+            "Closure (Topology)/Metric Space",
+            "Closure/Normed Vector Space",
+            "Transitive Closure of Set",
+            "Reflexive Closure",
+            "Symmetric Closure",
+            "Transitive Closure of Relation"
+        ],
         "gt": "Upper Closure",
         "idx": 88,
         "is_correct": false,
-        "pred": "Closure of Set under Closure Operator",
-        "pred_raw": "Closure of Set under Closure Operator"
+        "pred": "Closure of Set under Closure Operator"
     },
     {
+        "choices": [
+            "Closure Operator",
+            "Closure of Set under Closure Operator",
+            "Upper Closure",
+            "Lower Closure",
+            "Closure (Abstract Algebra)/Algebraic Structure",
+            "Integral Closure",
+            "Generated Normal Subgroup",
+            "Closure (Topology)",
+            "Closure (Topology)/Metric Space",
+            "Closure/Normed Vector Space",
+            "Transitive Closure of Set",
+            "Reflexive Closure",
+            "Symmetric Closure",
+            "Transitive Closure of Relation"
+        ],
         "gt": "Lower Closure",
         "idx": 89,
         "is_correct": false,
-        "pred": "Closure of Subset",
-        "pred_raw": "Closure of Subset"
+        "pred": "Closure of Subset"
     },
     {
+        "choices": [
+            "Closure Operator",
+            "Closure of Set under Closure Operator",
+            "Upper Closure",
+            "Lower Closure",
+            "Closure (Abstract Algebra)/Algebraic Structure",
+            "Integral Closure",
+            "Generated Normal Subgroup",
+            "Closure (Topology)",
+            "Closure (Topology)/Metric Space",
+            "Closure/Normed Vector Space",
+            "Transitive Closure of Set",
+            "Reflexive Closure",
+            "Symmetric Closure",
+            "Transitive Closure of Relation"
+        ],
         "gt": "Closure/Normed Vector Space",
         "idx": 95,
         "is_correct": false,
-        "pred": "Closure (Topology)/Normed Vector Space",
-        "pred_raw": "Closure (Topology)/Normed Vector Space"
+        "pred": "Closure (Topology)/Normed Vector Space"
     },
     {
+        "choices": [
+            "Associative Operation",
+            "Power-Associative Operation",
+            "Semigroup",
+            "Associative Algebra"
+        ],
         "gt": "Associative Algebra",
         "idx": 105,
         "is_correct": false,
-        "pred": "The correct definition title is 'Associative Operation'.",
-        "pred_raw": "The correct definition title is 'Associative Operation'."
+        "pred": "The correct definition title is 'Associative Operation'."
     },
     {
+        "choices": [
+            "Unit of Ring",
+            "Unit of System of Sets",
+            "Singleton",
+            "Unit of Algebra",
+            "Unital Algebra",
+            "Unity (Abstract Algebra)/Ring",
+            "Unit of Measurement",
+            "Experimental Unit"
+        ],
         "gt": "Unit of Ring",
         "idx": 108,
         "is_correct": false,
-        "pred": "'Unital Algebra' or 'Unit of Algebra'",
-        "pred_raw": "'Unital Algebra' or 'Unit of Algebra'"
+        "pred": "'Unital Algebra' or 'Unit of Algebra'"
     },
     {
+        "choices": [
+            "Unit of Ring",
+            "Unit of System of Sets",
+            "Singleton",
+            "Unit of Algebra",
+            "Unital Algebra",
+            "Unity (Abstract Algebra)/Ring",
+            "Unit of Measurement",
+            "Experimental Unit"
+        ],
         "gt": "Unit of System of Sets",
         "idx": 109,
         "is_correct": false,
-        "pred": "'Singleton'",
-        "pred_raw": "'Singleton'"
+        "pred": "'Singleton'"
     },
     {
+        "choices": [
+            "Unit of Ring",
+            "Unit of System of Sets",
+            "Singleton",
+            "Unit of Algebra",
+            "Unital Algebra",
+            "Unity (Abstract Algebra)/Ring",
+            "Unit of Measurement",
+            "Experimental Unit"
+        ],
         "gt": "Unit of Algebra",
         "idx": 111,
         "is_correct": false,
-        "pred": "Unital Algebra",
-        "pred_raw": "Unital Algebra"
+        "pred": "Unital Algebra"
     },
     {
+        "choices": [
+            "Substitution",
+            "Substitution (Set Theory)",
+            "Substitution (Formal Systems)/Well-Formed Part",
+            "Substitution (Formal Systems)/Letter",
+            "Alphabetic Substitution",
+            "Substitution (Formal Systems)/Metasymbol",
+            "Substitution (Mathematical Logic)"
+        ],
         "gt": "Alphabetic Substitution",
         "idx": 130,
         "is_correct": false,
-        "pred": "Substitution (Mathematical Logic)",
-        "pred_raw": "Substitution (Mathematical Logic)"
+        "pred": "Substitution (Mathematical Logic)"
     },
     {
+        "choices": [
+            "Diagonal of Polyhedron",
+            "Diameter of Parallelogram",
+            "Diagonal Relation",
+            "Diagonal Mapping",
+            "Main Diagonal/Diagonal Elements",
+            "Diagonal Matrix",
+            "Diagonalizable Matrix"
+        ],
         "gt": "Diagonal Relation",
         "idx": 135,
         "is_correct": false,
-        "pred": "Main Diagonal/Diagonal Elements",
-        "pred_raw": "Main Diagonal/Diagonal Elements"
+        "pred": "Main Diagonal/Diagonal Elements"
     },
     {
+        "choices": [
+            "Diagonal of Polyhedron",
+            "Diameter of Parallelogram",
+            "Diagonal Relation",
+            "Diagonal Mapping",
+            "Main Diagonal/Diagonal Elements",
+            "Diagonal Matrix",
+            "Diagonalizable Matrix"
+        ],
         "gt": "Diagonal Mapping",
         "idx": 136,
         "is_correct": false,
-        "pred": "Main Diagonal/Diagonal Elements",
-        "pred_raw": "Main Diagonal/Diagonal Elements"
+        "pred": "Main Diagonal/Diagonal Elements"
     },
     {
+        "choices": [
+            "Diagonal of Polyhedron",
+            "Diameter of Parallelogram",
+            "Diagonal Relation",
+            "Diagonal Mapping",
+            "Main Diagonal/Diagonal Elements",
+            "Diagonal Matrix",
+            "Diagonalizable Matrix"
+        ],
         "gt": "Diagonal Matrix",
         "idx": 138,
         "is_correct": false,
-        "pred": "Main Diagonal/Diagonal Elements",
-        "pred_raw": "Main Diagonal/Diagonal Elements"
+        "pred": "Main Diagonal/Diagonal Elements"
     },
     {
+        "choices": [
+            "Diagonal of Polyhedron",
+            "Diameter of Parallelogram",
+            "Diagonal Relation",
+            "Diagonal Mapping",
+            "Main Diagonal/Diagonal Elements",
+            "Diagonal Matrix",
+            "Diagonalizable Matrix"
+        ],
         "gt": "Diagonalizable Matrix",
         "idx": 139,
         "is_correct": false,
-        "pred": "Main Diagonal/Diagonal Elements",
-        "pred_raw": "Main Diagonal/Diagonal Elements"
+        "pred": "Main Diagonal/Diagonal Elements"
     },
     {
+        "choices": [
+            "Injection",
+            "One-to-One Relation"
+        ],
         "gt": "Injection",
         "idx": 140,
         "is_correct": false,
-        "pred": "['One-to-One Relation']",
-        "pred_raw": "['One-to-One Relation']"
+        "pred": "['One-to-One Relation']"
     },
     {
+        "choices": [
+            "Inconsistent (Logic)",
+            "Consistent Simultaneous Equations/Inconsistent"
+        ],
         "gt": "Consistent Simultaneous Equations/Inconsistent",
         "idx": 145,
         "is_correct": false,
-        "pred": "'Inconsistent (Logic)'",
-        "pred_raw": "'Inconsistent (Logic)'"
+        "pred": "'Inconsistent (Logic)'"
     },
     {
+        "choices": [
+            "Relation Compatible with Operation",
+            "Relation Strongly Compatible with Operation",
+            "Operation Compatible with Set Equivalence",
+            "Ordering Compatible with Ring Structure",
+            "Gradation Compatible with Ring Structure",
+            "Relation Conversely Compatible with Operation",
+            "Universally Compatible Relation",
+            "Congruence Relation",
+            "Compatible Quasiuniformities",
+            "Compatible Atlases",
+            "Compatible Charts/Smooth",
+            "Chart Compatible with Atlas",
+            "Compatible Module Structures"
+        ],
         "gt": "Relation Compatible with Operation",
         "idx": 146,
         "is_correct": false,
-        "pred": "Congruence Relation",
-        "pred_raw": "Congruence Relation"
+        "pred": "Congruence Relation"
     },
     {
+        "choices": [
+            "Relation Compatible with Operation",
+            "Relation Strongly Compatible with Operation",
+            "Operation Compatible with Set Equivalence",
+            "Ordering Compatible with Ring Structure",
+            "Gradation Compatible with Ring Structure",
+            "Relation Conversely Compatible with Operation",
+            "Universally Compatible Relation",
+            "Congruence Relation",
+            "Compatible Quasiuniformities",
+            "Compatible Atlases",
+            "Compatible Charts/Smooth",
+            "Chart Compatible with Atlas",
+            "Compatible Module Structures"
+        ],
         "gt": "Relation Strongly Compatible with Operation",
         "idx": 147,
         "is_correct": false,
-        "pred": "'Relation Conversely Compatible with Operation'",
-        "pred_raw": "'Relation Conversely Compatible with Operation'"
+        "pred": "'Relation Conversely Compatible with Operation'"
     },
     {
+        "choices": [
+            "Relation Compatible with Operation",
+            "Relation Strongly Compatible with Operation",
+            "Operation Compatible with Set Equivalence",
+            "Ordering Compatible with Ring Structure",
+            "Gradation Compatible with Ring Structure",
+            "Relation Conversely Compatible with Operation",
+            "Universally Compatible Relation",
+            "Congruence Relation",
+            "Compatible Quasiuniformities",
+            "Compatible Atlases",
+            "Compatible Charts/Smooth",
+            "Chart Compatible with Atlas",
+            "Compatible Module Structures"
+        ],
         "gt": "Operation Compatible with Set Equivalence",
         "idx": 148,
         "is_correct": false,
-        "pred": "The correct definition title is 'Congruence Relation'.",
-        "pred_raw": "The correct definition title is 'Congruence Relation'."
+        "pred": "The correct definition title is 'Congruence Relation'."
     },
     {
+        "choices": [
+            "Relation Compatible with Operation",
+            "Relation Strongly Compatible with Operation",
+            "Operation Compatible with Set Equivalence",
+            "Ordering Compatible with Ring Structure",
+            "Gradation Compatible with Ring Structure",
+            "Relation Conversely Compatible with Operation",
+            "Universally Compatible Relation",
+            "Congruence Relation",
+            "Compatible Quasiuniformities",
+            "Compatible Atlases",
+            "Compatible Charts/Smooth",
+            "Chart Compatible with Atlas",
+            "Compatible Module Structures"
+        ],
         "gt": "Relation Conversely Compatible with Operation",
         "idx": 151,
         "is_correct": false,
-        "pred": "Congruence Relation",
-        "pred_raw": "Congruence Relation"
+        "pred": "Congruence Relation"
     },
     {
+        "choices": [
+            "Relation Compatible with Operation",
+            "Relation Strongly Compatible with Operation",
+            "Operation Compatible with Set Equivalence",
+            "Ordering Compatible with Ring Structure",
+            "Gradation Compatible with Ring Structure",
+            "Relation Conversely Compatible with Operation",
+            "Universally Compatible Relation",
+            "Congruence Relation",
+            "Compatible Quasiuniformities",
+            "Compatible Atlases",
+            "Compatible Charts/Smooth",
+            "Chart Compatible with Atlas",
+            "Compatible Module Structures"
+        ],
         "gt": "Universally Compatible Relation",
         "idx": 152,
         "is_correct": false,
-        "pred": "Congruence Relation",
-        "pred_raw": "Congruence Relation"
+        "pred": "Congruence Relation"
     },
     {
+        "choices": [
+            "Relation Compatible with Operation",
+            "Relation Strongly Compatible with Operation",
+            "Operation Compatible with Set Equivalence",
+            "Ordering Compatible with Ring Structure",
+            "Gradation Compatible with Ring Structure",
+            "Relation Conversely Compatible with Operation",
+            "Universally Compatible Relation",
+            "Congruence Relation",
+            "Compatible Quasiuniformities",
+            "Compatible Atlases",
+            "Compatible Charts/Smooth",
+            "Chart Compatible with Atlas",
+            "Compatible Module Structures"
+        ],
         "gt": "Compatible Charts/Smooth",
         "idx": 156,
         "is_correct": false,
-        "pred": "Congruence Relation",
-        "pred_raw": "Congruence Relation"
+        "pred": "Congruence Relation"
     },
     {
+        "choices": [
+            "Relation Compatible with Operation",
+            "Relation Strongly Compatible with Operation",
+            "Operation Compatible with Set Equivalence",
+            "Ordering Compatible with Ring Structure",
+            "Gradation Compatible with Ring Structure",
+            "Relation Conversely Compatible with Operation",
+            "Universally Compatible Relation",
+            "Congruence Relation",
+            "Compatible Quasiuniformities",
+            "Compatible Atlases",
+            "Compatible Charts/Smooth",
+            "Chart Compatible with Atlas",
+            "Compatible Module Structures"
+        ],
         "gt": "Chart Compatible with Atlas",
         "idx": 157,
         "is_correct": false,
-        "pred": "Congruence Relation",
-        "pred_raw": "Congruence Relation"
+        "pred": "Congruence Relation"
     },
     {
+        "choices": [
+            "Relation Compatible with Operation",
+            "Relation Strongly Compatible with Operation",
+            "Operation Compatible with Set Equivalence",
+            "Ordering Compatible with Ring Structure",
+            "Gradation Compatible with Ring Structure",
+            "Relation Conversely Compatible with Operation",
+            "Universally Compatible Relation",
+            "Congruence Relation",
+            "Compatible Quasiuniformities",
+            "Compatible Atlases",
+            "Compatible Charts/Smooth",
+            "Chart Compatible with Atlas",
+            "Compatible Module Structures"
+        ],
         "gt": "Compatible Module Structures",
         "idx": 158,
         "is_correct": false,
-        "pred": "'Congruence Relation' is not the correct answer as it does not match the given context about compatible module structures.\n\n'Relation Compatible with Operation' is not the correct answer as it does not specify the type of operation (left or right linear ring action) or the rings involved.\n\n'Operation Compatible with Set Equivalence', 'Ordering Compatible with Ring Structure', 'Gradation Compatible with Ring Structure', 'Relation Conversely Compatible with Operation', 'Universally Compatible Relation', 'Compatible Quasiuniformities', 'Compatible Atlases', 'Compatible Charts/Smooth', 'Chart Compatible with Atlas' are not relevant to the given context.\n\nTherefore, the correct definition title is either 'Definition 1' or 'Definition 3', as they both describe the compatibility of module structures for a given ring and an abelian group, with the condition that the homotheties commute or are endomorphisms of the respective module. However, without more context, it is not possible to definitively choose between 'Definition 1' and 'Definition 3'.",
-        "pred_raw": "'Congruence Relation' is not the correct answer as it does not match the given context about compatible module structures.\n\n'Relation Compatible with Operation' is not the correct answer as it does not specify the type of operation (left or right linear ring action) or the rings involved.\n\n'Operation Compatible with Set Equivalence', 'Ordering Compatible with Ring Structure', 'Gradation Compatible with Ring Structure', 'Relation Conversely Compatible with Operation', 'Universally Compatible Relation', 'Compatible Quasiuniformities', 'Compatible Atlases', 'Compatible Charts/Smooth', 'Chart Compatible with Atlas' are not relevant to the given context.\n\nTherefore, the correct definition title is either 'Definition 1' or 'Definition 3', as they both describe the compatibility of module structures for a given ring and an abelian group, with the condition that the homotheties commute or are endomorphisms of the respective module. However, without more context, it is not possible to definitively choose between 'Definition 1' and 'Definition 3'."
+        "pred": "'Congruence Relation' is not the correct answer as it does not match the given context about compatible module structures.\n\n'Relation Compatible with Operation' is not the correct answer as it does not specify the type of operation (left or right linear ring action) or the rings involved.\n\n'Operation Compatible with Set Equivalence', 'Ordering Compatible with Ring Structure', 'Gradation Compatible with Ring Structure', 'Relation Conversely Compatible with Operation', 'Universally Compatible Relation', 'Compatible Quasiuniformities', 'Compatible Atlases', 'Compatible Charts/Smooth', 'Chart Compatible with Atlas' are not relevant to the given context.\n\nTherefore, the correct definition title is either 'Definition 1' or 'Definition 3', as they both describe the compatibility of module structures for a given ring and an abelian group, with the condition that the homotheties commute or are endomorphisms of the respective module. However, without more context, it is not possible to definitively choose between 'Definition 1' and 'Definition 3'."
     },
     {
+        "choices": [
+            "Monomial of Free Commutative Monoid/Degree",
+            "Algebraic Number over Field/Degree",
+            "Homogeneous Function/Degree",
+            "Homogeneous Function/Real Space/Degree",
+            "Gradation on Abelian Group",
+            "Field Extension/Degree",
+            "Degree of Algebraic Element",
+            "Transcendence Degree",
+            "Degree of Vertex",
+            "Degree of Arc",
+            "Algebraic Curve/Degree",
+            "Degrees of Freedom (Physics)",
+            "Celsius",
+            "Fahrenheit",
+            "Spline Function/Degree",
+            "Degrees of Freedom (Statistics)"
+        ],
         "gt": "Algebraic Number over Field/Degree",
         "idx": 163,
         "is_correct": false,
-        "pred": "The correct definition title is 'Degree of Algebraic Element'.",
-        "pred_raw": "The correct definition title is 'Degree of Algebraic Element'."
+        "pred": "The correct definition title is 'Degree of Algebraic Element'."
     },
     {
+        "choices": [
+            "Monomial of Free Commutative Monoid/Degree",
+            "Algebraic Number over Field/Degree",
+            "Homogeneous Function/Degree",
+            "Homogeneous Function/Real Space/Degree",
+            "Gradation on Abelian Group",
+            "Field Extension/Degree",
+            "Degree of Algebraic Element",
+            "Transcendence Degree",
+            "Degree of Vertex",
+            "Degree of Arc",
+            "Algebraic Curve/Degree",
+            "Degrees of Freedom (Physics)",
+            "Celsius",
+            "Fahrenheit",
+            "Spline Function/Degree",
+            "Degrees of Freedom (Statistics)"
+        ],
         "gt": "Homogeneous Function/Real Space/Degree",
         "idx": 165,
         "is_correct": false,
-        "pred": "Homogeneous Function/Degree",
-        "pred_raw": "Homogeneous Function/Degree"
+        "pred": "Homogeneous Function/Degree"
     },
     {
+        "choices": [
+            "Monomial of Free Commutative Monoid/Degree",
+            "Algebraic Number over Field/Degree",
+            "Homogeneous Function/Degree",
+            "Homogeneous Function/Real Space/Degree",
+            "Gradation on Abelian Group",
+            "Field Extension/Degree",
+            "Degree of Algebraic Element",
+            "Transcendence Degree",
+            "Degree of Vertex",
+            "Degree of Arc",
+            "Algebraic Curve/Degree",
+            "Degrees of Freedom (Physics)",
+            "Celsius",
+            "Fahrenheit",
+            "Spline Function/Degree",
+            "Degrees of Freedom (Statistics)"
+        ],
         "gt": "Field Extension/Degree",
         "idx": 167,
         "is_correct": false,
-        "pred": "Algebraic Number over Field/Degree",
-        "pred_raw": "Algebraic Number over Field/Degree"
+        "pred": "Algebraic Number over Field/Degree"
     },
     {
+        "choices": [
+            "Monomial of Free Commutative Monoid/Degree",
+            "Algebraic Number over Field/Degree",
+            "Homogeneous Function/Degree",
+            "Homogeneous Function/Real Space/Degree",
+            "Gradation on Abelian Group",
+            "Field Extension/Degree",
+            "Degree of Algebraic Element",
+            "Transcendence Degree",
+            "Degree of Vertex",
+            "Degree of Arc",
+            "Algebraic Curve/Degree",
+            "Degrees of Freedom (Physics)",
+            "Celsius",
+            "Fahrenheit",
+            "Spline Function/Degree",
+            "Degrees of Freedom (Statistics)"
+        ],
         "gt": "Degree of Algebraic Element",
         "idx": 168,
         "is_correct": false,
-        "pred": "Algebraic Number over Field/Degree",
-        "pred_raw": "Algebraic Number over Field/Degree"
+        "pred": "Algebraic Number over Field/Degree"
     },
     {
+        "choices": [
+            "Monomial of Free Commutative Monoid/Degree",
+            "Algebraic Number over Field/Degree",
+            "Homogeneous Function/Degree",
+            "Homogeneous Function/Real Space/Degree",
+            "Gradation on Abelian Group",
+            "Field Extension/Degree",
+            "Degree of Algebraic Element",
+            "Transcendence Degree",
+            "Degree of Vertex",
+            "Degree of Arc",
+            "Algebraic Curve/Degree",
+            "Degrees of Freedom (Physics)",
+            "Celsius",
+            "Fahrenheit",
+            "Spline Function/Degree",
+            "Degrees of Freedom (Statistics)"
+        ],
         "gt": "Transcendence Degree",
         "idx": 169,
         "is_correct": false,
-        "pred": "Field Extension/Degree",
-        "pred_raw": "Field Extension/Degree"
+        "pred": "Field Extension/Degree"
     },
     {
+        "choices": [
+            "Monomial of Free Commutative Monoid/Degree",
+            "Algebraic Number over Field/Degree",
+            "Homogeneous Function/Degree",
+            "Homogeneous Function/Real Space/Degree",
+            "Gradation on Abelian Group",
+            "Field Extension/Degree",
+            "Degree of Algebraic Element",
+            "Transcendence Degree",
+            "Degree of Vertex",
+            "Degree of Arc",
+            "Algebraic Curve/Degree",
+            "Degrees of Freedom (Physics)",
+            "Celsius",
+            "Fahrenheit",
+            "Spline Function/Degree",
+            "Degrees of Freedom (Statistics)"
+        ],
         "gt": "Degree of Arc",
         "idx": 171,
         "is_correct": false,
-        "pred": "Algebraic Curve/Degree",
-        "pred_raw": "Algebraic Curve/Degree"
+        "pred": "Algebraic Curve/Degree"
     },
     {
+        "choices": [
+            "Monomial of Free Commutative Monoid/Degree",
+            "Algebraic Number over Field/Degree",
+            "Homogeneous Function/Degree",
+            "Homogeneous Function/Real Space/Degree",
+            "Gradation on Abelian Group",
+            "Field Extension/Degree",
+            "Degree of Algebraic Element",
+            "Transcendence Degree",
+            "Degree of Vertex",
+            "Degree of Arc",
+            "Algebraic Curve/Degree",
+            "Degrees of Freedom (Physics)",
+            "Celsius",
+            "Fahrenheit",
+            "Spline Function/Degree",
+            "Degrees of Freedom (Statistics)"
+        ],
         "gt": "Fahrenheit",
         "idx": 175,
         "is_correct": false,
-        "pred": "'Celsius'",
-        "pred_raw": "'Celsius'"
+        "pred": "'Celsius'"
     },
     {
+        "choices": [
+            "Operation/Arity/Finitary",
+            "Logical Argument/Finitary"
+        ],
         "gt": "Logical Argument/Finitary",
         "idx": 181,
         "is_correct": false,
-        "pred": "'Operation/Arity/Finitary'",
-        "pred_raw": "'Operation/Arity/Finitary'"
+        "pred": "'Operation/Arity/Finitary'"
     },
     {
+        "choices": [
+            "Unity (Abstract Algebra)/Ring",
+            "Multiplicative Identity"
+        ],
         "gt": "Unity (Abstract Algebra)/Ring",
         "idx": 182,
         "is_correct": false,
-        "pred": "Multiplicative Identity",
-        "pred_raw": "Multiplicative Identity"
+        "pred": "Multiplicative Identity"
     },
     {
+        "choices": [
+            "Formal Language/Alphabet/Sign",
+            "Sign of Permutation",
+            "Sign (Arithmetic)",
+            "Sign of Number",
+            "Signum Function"
+        ],
         "gt": "Sign of Permutation",
         "idx": 185,
         "is_correct": false,
-        "pred": "'Signum Function'",
-        "pred_raw": "'Signum Function'"
+        "pred": "'Signum Function'"
     },
     {
+        "choices": [
+            "Formal Language/Alphabet/Sign",
+            "Sign of Permutation",
+            "Sign (Arithmetic)",
+            "Sign of Number",
+            "Signum Function"
+        ],
         "gt": "Sign of Number",
         "idx": 187,
         "is_correct": false,
-        "pred": "'Sign (Arithmetic)'",
-        "pred_raw": "'Sign (Arithmetic)'"
+        "pred": "'Sign (Arithmetic)'"
     },
     {
+        "choices": [
+            "Epimorphism (Abstract Algebra)",
+            "Epimorphism (Category Theory)"
+        ],
         "gt": "Epimorphism (Abstract Algebra)",
         "idx": 189,
         "is_correct": false,
-        "pred": "'Epimorphism (Category Theory)'",
-        "pred_raw": "'Epimorphism (Category Theory)'"
+        "pred": "'Epimorphism (Category Theory)'"
     },
     {
+        "choices": [
+            "Complete Metric Space",
+            "Topologically Complete Space",
+            "Complete Lattice",
+            "Dedekind Completeness Property",
+            "Inductive Ordered Set",
+            "Functionally Complete",
+            "Complete Logistic System",
+            "Complete Proof System",
+            "Complete Theory",
+            "Complete Graph",
+            "Complete Bipartite Graph",
+            "Complete Residue System"
+        ],
         "gt": "Complete Logistic System",
         "idx": 203,
         "is_correct": false,
-        "pred": "'Complete Proof System'",
-        "pred_raw": "'Complete Proof System'"
+        "pred": "'Complete Proof System'"
     },
     {
+        "choices": [
+            "Left Inverse Mapping",
+            "Inverse (Abstract Algebra)/Left Inverse",
+            "Inverse Matrix/Left"
+        ],
         "gt": "Left Inverse Mapping",
         "idx": 209,
         "is_correct": false,
-        "pred": "'Inverse (Abstract Algebra)/Left Inverse'",
-        "pred_raw": "'Inverse (Abstract Algebra)/Left Inverse'"
+        "pred": "'Inverse (Abstract Algebra)/Left Inverse'"
     },
     {
+        "choices": [
+            "Left Inverse Mapping",
+            "Inverse (Abstract Algebra)/Left Inverse",
+            "Inverse Matrix/Left"
+        ],
         "gt": "Inverse Matrix/Left",
         "idx": 211,
         "is_correct": false,
-        "pred": "'Inverse (Abstract Algebra)/Left Inverse'",
-        "pred_raw": "'Inverse (Abstract Algebra)/Left Inverse'"
+        "pred": "'Inverse (Abstract Algebra)/Left Inverse'"
     },
     {
+        "choices": [
+            "Secant Function",
+            "Secant Line"
+        ],
         "gt": "Secant Line",
         "idx": 213,
         "is_correct": false,
-        "pred": "'Secant Function'",
-        "pred_raw": "'Secant Function'"
+        "pred": "'Secant Function'"
     },
     {
+        "choices": [
+            "Bounded Set/Real Numbers",
+            "Bounded Class",
+            "Bounded Mapping/Real-Valued",
+            "Bounded Sequence/Real",
+            "Bounded Region of Plane",
+            "Bounded Metric Space",
+            "Bounded Metric Space/Complex",
+            "Bounded Subset of Topological Vector Space",
+            "Bounded Subset of Normed Vector Space"
+        ],
         "gt": "Bounded Class",
         "idx": 215,
         "is_correct": false,
-        "pred": "'Bounded Subset of Class'",
-        "pred_raw": "'Bounded Subset of Class'"
+        "pred": "'Bounded Subset of Class'"
     },
     {
+        "choices": [
+            "Bounded Set/Real Numbers",
+            "Bounded Class",
+            "Bounded Mapping/Real-Valued",
+            "Bounded Sequence/Real",
+            "Bounded Region of Plane",
+            "Bounded Metric Space",
+            "Bounded Metric Space/Complex",
+            "Bounded Subset of Topological Vector Space",
+            "Bounded Subset of Normed Vector Space"
+        ],
         "gt": "Bounded Mapping/Real-Valued",
         "idx": 216,
         "is_correct": false,
-        "pred": "'Bounded Function/Real-Valued'",
-        "pred_raw": "'Bounded Function/Real-Valued'"
+        "pred": "'Bounded Function/Real-Valued'"
     },
     {
+        "choices": [
+            "Bounded Set/Real Numbers",
+            "Bounded Class",
+            "Bounded Mapping/Real-Valued",
+            "Bounded Sequence/Real",
+            "Bounded Region of Plane",
+            "Bounded Metric Space",
+            "Bounded Metric Space/Complex",
+            "Bounded Subset of Topological Vector Space",
+            "Bounded Subset of Normed Vector Space"
+        ],
         "gt": "Bounded Metric Space",
         "idx": 219,
         "is_correct": false,
-        "pred": "'Bounded Subset of Metric Space'",
-        "pred_raw": "'Bounded Subset of Metric Space'"
+        "pred": "'Bounded Subset of Metric Space'"
     },
     {
+        "choices": [
+            "Bounded Set/Real Numbers",
+            "Bounded Class",
+            "Bounded Mapping/Real-Valued",
+            "Bounded Sequence/Real",
+            "Bounded Region of Plane",
+            "Bounded Metric Space",
+            "Bounded Metric Space/Complex",
+            "Bounded Subset of Topological Vector Space",
+            "Bounded Subset of Normed Vector Space"
+        ],
         "gt": "Bounded Metric Space/Complex",
         "idx": 220,
         "is_correct": false,
-        "pred": "Bounded Set/Complex Plane",
-        "pred_raw": "Bounded Set/Complex Plane"
+        "pred": "Bounded Set/Complex Plane"
     },
     {
+        "choices": [
+            "Bounded Set/Real Numbers",
+            "Bounded Class",
+            "Bounded Mapping/Real-Valued",
+            "Bounded Sequence/Real",
+            "Bounded Region of Plane",
+            "Bounded Metric Space",
+            "Bounded Metric Space/Complex",
+            "Bounded Subset of Topological Vector Space",
+            "Bounded Subset of Normed Vector Space"
+        ],
         "gt": "Bounded Subset of Topological Vector Space",
         "idx": 221,
         "is_correct": false,
-        "pred": "'Bounded Subset of Normed Vector Space'",
-        "pred_raw": "'Bounded Subset of Normed Vector Space'"
+        "pred": "'Bounded Subset of Normed Vector Space'"
     },
     {
+        "choices": [
+            "Empty Set",
+            "Empty Class (Class Theory)",
+            "Empty Mapping",
+            "Null Relation",
+            "Edgeless Graph",
+            "Summation/Vacuous Summation",
+            "Class Interval/Empty",
+            "Zero (Category)"
+        ],
         "gt": "Empty Class (Class Theory)",
         "idx": 224,
         "is_correct": false,
-        "pred": "The correct definition title is 'Empty Set'.",
-        "pred_raw": "The correct definition title is 'Empty Set'."
+        "pred": "The correct definition title is 'Empty Set'."
     },
     {
+        "choices": [
+            "Field (Abstract Algebra)",
+            "Field of Relation",
+            "Vector Field"
+        ],
         "gt": "Field of Relation",
         "idx": 232,
         "is_correct": false,
-        "pred": "'Field (Abstract Algebra)'",
-        "pred_raw": "'Field (Abstract Algebra)'"
+        "pred": "'Field (Abstract Algebra)'"
     },
     {
+        "choices": [
+            "Helix/Pitch",
+            "Pitch (Mechanics)"
+        ],
         "gt": "Pitch (Mechanics)",
         "idx": 246,
         "is_correct": false,
-        "pred": "'Helix/Pitch'",
-        "pred_raw": "'Helix/Pitch'"
+        "pred": "'Helix/Pitch'"
     },
     {
+        "choices": [
+            "Similar Figures",
+            "Similar Triangles",
+            "Segment of Circle/Similar",
+            "Similar Solid Figures",
+            "Right Circular Cone/Similar Cones",
+            "Cylinder/Similar Cylinders",
+            "Similar Planes",
+            "Similar Inclination",
+            "Similar Situation",
+            "Plane Number/Similar Numbers",
+            "Solid Number/Similar Numbers",
+            "Matrix Similarity",
+            "Similarity Mapping",
+            "Set Equivalence"
+        ],
         "gt": "Similar Figures",
         "idx": 247,
         "is_correct": false,
-        "pred": "'Similar Rectilineal Figures'",
-        "pred_raw": "'Similar Rectilineal Figures'"
+        "pred": "'Similar Rectilineal Figures'"
     },
     {
+        "choices": [
+            "Similar Figures",
+            "Similar Triangles",
+            "Segment of Circle/Similar",
+            "Similar Solid Figures",
+            "Right Circular Cone/Similar Cones",
+            "Cylinder/Similar Cylinders",
+            "Similar Planes",
+            "Similar Inclination",
+            "Similar Situation",
+            "Plane Number/Similar Numbers",
+            "Solid Number/Similar Numbers",
+            "Matrix Similarity",
+            "Similarity Mapping",
+            "Set Equivalence"
+        ],
         "gt": "Segment of Circle/Similar",
         "idx": 249,
         "is_correct": false,
-        "pred": "Similar Segments of Circles",
-        "pred_raw": "Similar Segments of Circles"
+        "pred": "Similar Segments of Circles"
     },
     {
+        "choices": [
+            "Similar Figures",
+            "Similar Triangles",
+            "Segment of Circle/Similar",
+            "Similar Solid Figures",
+            "Right Circular Cone/Similar Cones",
+            "Cylinder/Similar Cylinders",
+            "Similar Planes",
+            "Similar Inclination",
+            "Similar Situation",
+            "Plane Number/Similar Numbers",
+            "Solid Number/Similar Numbers",
+            "Matrix Similarity",
+            "Similarity Mapping",
+            "Set Equivalence"
+        ],
         "gt": "Similar Inclination",
         "idx": 254,
         "is_correct": false,
-        "pred": "Similar Solid Figures",
-        "pred_raw": "Similar Solid Figures"
+        "pred": "Similar Solid Figures"
     },
     {
+        "choices": [
+            "Similar Figures",
+            "Similar Triangles",
+            "Segment of Circle/Similar",
+            "Similar Solid Figures",
+            "Right Circular Cone/Similar Cones",
+            "Cylinder/Similar Cylinders",
+            "Similar Planes",
+            "Similar Inclination",
+            "Similar Situation",
+            "Plane Number/Similar Numbers",
+            "Solid Number/Similar Numbers",
+            "Matrix Similarity",
+            "Similarity Mapping",
+            "Set Equivalence"
+        ],
         "gt": "Plane Number/Similar Numbers",
         "idx": 256,
         "is_correct": false,
-        "pred": "\"Matrix Similarity\"",
-        "pred_raw": "\"Matrix Similarity\""
+        "pred": "\"Matrix Similarity\""
     },
     {
+        "choices": [
+            "Similar Figures",
+            "Similar Triangles",
+            "Segment of Circle/Similar",
+            "Similar Solid Figures",
+            "Right Circular Cone/Similar Cones",
+            "Cylinder/Similar Cylinders",
+            "Similar Planes",
+            "Similar Inclination",
+            "Similar Situation",
+            "Plane Number/Similar Numbers",
+            "Solid Number/Similar Numbers",
+            "Matrix Similarity",
+            "Similarity Mapping",
+            "Set Equivalence"
+        ],
         "gt": "Set Equivalence",
         "idx": 260,
         "is_correct": false,
-        "pred": "Similarity Mapping",
-        "pred_raw": "Similarity Mapping"
+        "pred": "Similarity Mapping"
     },
     {
+        "choices": [
+            "Composition of Mappings",
+            "Composition of Relations",
+            "Composition Series",
+            "Composition of Morphisms",
+            "Composition of Functors",
+            "Composition Functor on Slice Categories",
+            "Composition Functor on Categories of Subobjects",
+            "Composition (Combinatorics)",
+            "Composition of Ratio"
+        ],
         "gt": "Composition Series",
         "idx": 263,
         "is_correct": false,
-        "pred": "'Composition of Morphisms'",
-        "pred_raw": "'Composition of Morphisms'"
+        "pred": "'Composition of Morphisms'"
     },
     {
+        "choices": [
+            "Rank (Set Theory)",
+            "Rank/Matrix",
+            "Rank/Linear Transformation",
+            "Rank of Entire Function",
+            "Rank of Free Group",
+            "Rank (Statistics)",
+            "Rank Correlation Coefficient"
+        ],
         "gt": "Rank/Matrix",
         "idx": 279,
         "is_correct": false,
-        "pred": "'Rank (Matrices)'",
-        "pred_raw": "'Rank (Matrices)'"
+        "pred": "'Rank (Matrices)'"
     },
     {
+        "choices": [
+            "Rank (Set Theory)",
+            "Rank/Matrix",
+            "Rank/Linear Transformation",
+            "Rank of Entire Function",
+            "Rank of Free Group",
+            "Rank (Statistics)",
+            "Rank Correlation Coefficient"
+        ],
         "gt": "Rank/Linear Transformation",
         "idx": 280,
         "is_correct": false,
-        "pred": "Rank (Linear Transformation)",
-        "pred_raw": "Rank (Linear Transformation)"
+        "pred": "Rank (Linear Transformation)"
     },
     {
+        "choices": [
+            "Rank (Set Theory)",
+            "Rank/Matrix",
+            "Rank/Linear Transformation",
+            "Rank of Entire Function",
+            "Rank of Free Group",
+            "Rank (Statistics)",
+            "Rank Correlation Coefficient"
+        ],
         "gt": "Rank of Entire Function",
         "idx": 281,
         "is_correct": false,
-        "pred": "Rank (Entire Function)",
-        "pred_raw": "Rank (Entire Function)"
+        "pred": "Rank (Entire Function)"
     },
     {
+        "choices": [
+            "Rank (Set Theory)",
+            "Rank/Matrix",
+            "Rank/Linear Transformation",
+            "Rank of Entire Function",
+            "Rank of Free Group",
+            "Rank (Statistics)",
+            "Rank Correlation Coefficient"
+        ],
         "gt": "Rank of Free Group",
         "idx": 282,
         "is_correct": false,
-        "pred": "Rank (Free Group)",
-        "pred_raw": "Rank (Free Group)"
+        "pred": "Rank (Free Group)"
     },
     {
+        "choices": [
+            "Minor (Euclidean)",
+            "Ellipse/Minor Axis/Semi-Minor Axis",
+            "Categorical Syllogism/Premises/Minor Premise",
+            "Minor of Determinant"
+        ],
         "gt": "Minor (Euclidean)",
         "idx": 285,
         "is_correct": false,
-        "pred": "'Minor of Determinant'",
-        "pred_raw": "'Minor of Determinant'"
+        "pred": "'Minor of Determinant'"
     },
     {
+        "choices": [
+            "Minor (Euclidean)",
+            "Ellipse/Minor Axis/Semi-Minor Axis",
+            "Categorical Syllogism/Premises/Minor Premise",
+            "Minor of Determinant"
+        ],
         "gt": "Minor of Determinant",
         "idx": 288,
         "is_correct": false,
-        "pred": "Ellipse/Minor Axis/Semi-Minor Axis (This term 'Minor' is not directly related to determinants or syllogisms in the provided context.)",
-        "pred_raw": "Ellipse/Minor Axis/Semi-Minor Axis (This term 'Minor' is not directly related to determinants or syllogisms in the provided context.)"
+        "pred": "Ellipse/Minor Axis/Semi-Minor Axis (This term 'Minor' is not directly related to determinants or syllogisms in the provided context.)"
     },
     {
+        "choices": [
+            "Genus of Surface",
+            "Genus of Manifold",
+            "Genus of Riemann Surface",
+            "Genus of Plane Algebraic Curve"
+        ],
         "gt": "Genus of Surface",
         "idx": 289,
         "is_correct": false,
-        "pred": "'Genus of Riemann Surface'",
-        "pred_raw": "'Genus of Riemann Surface'"
+        "pred": "'Genus of Riemann Surface'"
     },
     {
+        "choices": [
+            "Extension of Relation",
+            "Extension of Mapping",
+            "Extension of Operation",
+            "Extension of Sequence",
+            "Extension of Class/Immediate",
+            "Field Extension",
+            "Ring Extension",
+            "Extension of Ideal",
+            "Extension of Structure",
+            "Extension of Propositional Tableau"
+        ],
         "gt": "Extension of Relation",
         "idx": 293,
         "is_correct": false,
-        "pred": "Field Extension",
-        "pred_raw": "Field Extension"
+        "pred": "Field Extension"
     },
     {
+        "choices": [
+            "Extension of Relation",
+            "Extension of Mapping",
+            "Extension of Operation",
+            "Extension of Sequence",
+            "Extension of Class/Immediate",
+            "Field Extension",
+            "Ring Extension",
+            "Extension of Ideal",
+            "Extension of Structure",
+            "Extension of Propositional Tableau"
+        ],
         "gt": "Extension of Mapping",
         "idx": 294,
         "is_correct": false,
-        "pred": "Field Extension",
-        "pred_raw": "Field Extension"
+        "pred": "Field Extension"
     },
     {
+        "choices": [
+            "Extension of Relation",
+            "Extension of Mapping",
+            "Extension of Operation",
+            "Extension of Sequence",
+            "Extension of Class/Immediate",
+            "Field Extension",
+            "Ring Extension",
+            "Extension of Ideal",
+            "Extension of Structure",
+            "Extension of Propositional Tableau"
+        ],
         "gt": "Extension of Operation",
         "idx": 295,
         "is_correct": false,
-        "pred": "Field Extension",
-        "pred_raw": "Field Extension"
+        "pred": "Field Extension"
     },
     {
+        "choices": [
+            "Extension of Relation",
+            "Extension of Mapping",
+            "Extension of Operation",
+            "Extension of Sequence",
+            "Extension of Class/Immediate",
+            "Field Extension",
+            "Ring Extension",
+            "Extension of Ideal",
+            "Extension of Structure",
+            "Extension of Propositional Tableau"
+        ],
         "gt": "Extension of Sequence",
         "idx": 296,
         "is_correct": false,
-        "pred": "Field Extension",
-        "pred_raw": "Field Extension"
+        "pred": "Field Extension"
     },
     {
+        "choices": [
+            "Extension of Relation",
+            "Extension of Mapping",
+            "Extension of Operation",
+            "Extension of Sequence",
+            "Extension of Class/Immediate",
+            "Field Extension",
+            "Ring Extension",
+            "Extension of Ideal",
+            "Extension of Structure",
+            "Extension of Propositional Tableau"
+        ],
         "gt": "Extension of Class/Immediate",
         "idx": 297,
         "is_correct": false,
-        "pred": "Field Extension",
-        "pred_raw": "Field Extension"
+        "pred": "Field Extension"
     },
     {
+        "choices": [
+            "Extension of Relation",
+            "Extension of Mapping",
+            "Extension of Operation",
+            "Extension of Sequence",
+            "Extension of Class/Immediate",
+            "Field Extension",
+            "Ring Extension",
+            "Extension of Ideal",
+            "Extension of Structure",
+            "Extension of Propositional Tableau"
+        ],
         "gt": "Ring Extension",
         "idx": 299,
         "is_correct": false,
-        "pred": "Field Extension",
-        "pred_raw": "Field Extension"
+        "pred": "Field Extension"
     },
     {
+        "choices": [
+            "Extension of Relation",
+            "Extension of Mapping",
+            "Extension of Operation",
+            "Extension of Sequence",
+            "Extension of Class/Immediate",
+            "Field Extension",
+            "Ring Extension",
+            "Extension of Ideal",
+            "Extension of Structure",
+            "Extension of Propositional Tableau"
+        ],
         "gt": "Extension of Ideal",
         "idx": 300,
         "is_correct": false,
-        "pred": "Field Extension",
-        "pred_raw": "Field Extension"
+        "pred": "Field Extension"
     },
     {
+        "choices": [
+            "Extension of Relation",
+            "Extension of Mapping",
+            "Extension of Operation",
+            "Extension of Sequence",
+            "Extension of Class/Immediate",
+            "Field Extension",
+            "Ring Extension",
+            "Extension of Ideal",
+            "Extension of Structure",
+            "Extension of Propositional Tableau"
+        ],
         "gt": "Extension of Structure",
         "idx": 301,
         "is_correct": false,
-        "pred": "Field Extension",
-        "pred_raw": "Field Extension"
+        "pred": "Field Extension"
     },
     {
+        "choices": [
+            "Extension of Relation",
+            "Extension of Mapping",
+            "Extension of Operation",
+            "Extension of Sequence",
+            "Extension of Class/Immediate",
+            "Field Extension",
+            "Ring Extension",
+            "Extension of Ideal",
+            "Extension of Structure",
+            "Extension of Propositional Tableau"
+        ],
         "gt": "Extension of Propositional Tableau",
         "idx": 302,
         "is_correct": false,
-        "pred": "Field Extension",
-        "pred_raw": "Field Extension"
+        "pred": "Field Extension"
     },
     {
+        "choices": [
+            "Cartesian Product/Cartesian Space",
+            "Topological Space",
+            "Hausdorff Space",
+            "Metric Space",
+            "Vector Space",
+            "Column Space",
+            "Row Space",
+            "Null Space",
+            "Bilinear Space",
+            "Quadratic Space",
+            "Space Group",
+            "Spacetime",
+            "Ordinary Space",
+            "Space Coordinates",
+            "Line/Curve/Space",
+            "Space-Filling Curve",
+            "Real Vector Space"
+        ],
         "gt": "Spacetime",
         "idx": 314,
         "is_correct": false,
-        "pred": "Space-Time",
-        "pred_raw": "Space-Time"
+        "pred": "Space-Time"
     },
     {
+        "choices": [
+            "Trivial Partition",
+            "Trivial Quotient",
+            "Trivial Relation",
+            "Trivial Group",
+            "Trivial Ring",
+            "Character (Number Theory)",
+            "Trivial Factorization",
+            "Filter on Set/Trivial Filter",
+            "Indiscrete Topology",
+            "Trivial Topological Space",
+            "Zero Subspace",
+            "Trivial Norm",
+            "Trivial Category",
+            "Riemann Zeta Function/Zero/Trivial"
+        ],
         "gt": "Character (Number Theory)",
         "idx": 325,
         "is_correct": false,
-        "pred": "Trivial Group",
-        "pred_raw": "Trivial Group"
+        "pred": "Trivial Group"
     },
     {
+        "choices": [
+            "Trivial Partition",
+            "Trivial Quotient",
+            "Trivial Relation",
+            "Trivial Group",
+            "Trivial Ring",
+            "Character (Number Theory)",
+            "Trivial Factorization",
+            "Filter on Set/Trivial Filter",
+            "Indiscrete Topology",
+            "Trivial Topological Space",
+            "Zero Subspace",
+            "Trivial Norm",
+            "Trivial Category",
+            "Riemann Zeta Function/Zero/Trivial"
+        ],
         "gt": "Filter on Set/Trivial Filter",
         "idx": 327,
         "is_correct": false,
-        "pred": "Trivial Filter on Set",
-        "pred_raw": "Trivial Filter on Set"
+        "pred": "Trivial Filter on Set"
     },
     {
+        "choices": [
+            "Trivial Partition",
+            "Trivial Quotient",
+            "Trivial Relation",
+            "Trivial Group",
+            "Trivial Ring",
+            "Character (Number Theory)",
+            "Trivial Factorization",
+            "Filter on Set/Trivial Filter",
+            "Indiscrete Topology",
+            "Trivial Topological Space",
+            "Zero Subspace",
+            "Trivial Norm",
+            "Trivial Category",
+            "Riemann Zeta Function/Zero/Trivial"
+        ],
         "gt": "Indiscrete Topology",
         "idx": 328,
         "is_correct": false,
-        "pred": "Trivial Topological Space",
-        "pred_raw": "Trivial Topological Space"
+        "pred": "Trivial Topological Space"
     },
     {
+        "choices": [
+            "Trivial Partition",
+            "Trivial Quotient",
+            "Trivial Relation",
+            "Trivial Group",
+            "Trivial Ring",
+            "Character (Number Theory)",
+            "Trivial Factorization",
+            "Filter on Set/Trivial Filter",
+            "Indiscrete Topology",
+            "Trivial Topological Space",
+            "Zero Subspace",
+            "Trivial Norm",
+            "Trivial Category",
+            "Riemann Zeta Function/Zero/Trivial"
+        ],
         "gt": "Zero Subspace",
         "idx": 330,
         "is_correct": false,
-        "pred": "Trivial Subspace",
-        "pred_raw": "Trivial Subspace"
+        "pred": "Trivial Subspace"
     },
     {
+        "choices": [
+            "Trivial Partition",
+            "Trivial Quotient",
+            "Trivial Relation",
+            "Trivial Group",
+            "Trivial Ring",
+            "Character (Number Theory)",
+            "Trivial Factorization",
+            "Filter on Set/Trivial Filter",
+            "Indiscrete Topology",
+            "Trivial Topological Space",
+            "Zero Subspace",
+            "Trivial Norm",
+            "Trivial Category",
+            "Riemann Zeta Function/Zero/Trivial"
+        ],
         "gt": "Riemann Zeta Function/Zero/Trivial",
         "idx": 333,
         "is_correct": false,
-        "pred": "'Trivial Zeroes of the Riemann Zeta Function'",
-        "pred_raw": "'Trivial Zeroes of the Riemann Zeta Function'"
+        "pred": "'Trivial Zeroes of the Riemann Zeta Function'"
     },
     {
+        "choices": [
+            "Couple (Mechanics)",
+            "Tusi Couple"
+        ],
         "gt": "Tusi Couple",
         "idx": 335,
         "is_correct": false,
-        "pred": "'Couple (Mechanics)'",
-        "pred_raw": "'Couple (Mechanics)'"
+        "pred": "'Couple (Mechanics)'"
     },
     {
+        "choices": [
+            "Cut (Analysis)",
+            "Dedekind Cut",
+            "Cut-Vertex",
+            "Cut Point",
+            "Vertex Cut",
+            "Edge Cut"
+        ],
         "gt": "Cut (Analysis)",
         "idx": 336,
         "is_correct": false,
-        "pred": "Dedekind Cut",
-        "pred_raw": "Dedekind Cut"
+        "pred": "Dedekind Cut"
     },
     {
+        "choices": [
+            "Cut (Analysis)",
+            "Dedekind Cut",
+            "Cut-Vertex",
+            "Cut Point",
+            "Vertex Cut",
+            "Edge Cut"
+        ],
         "gt": "Cut Point",
         "idx": 339,
         "is_correct": false,
-        "pred": "Dedekind Cut",
-        "pred_raw": "Dedekind Cut"
+        "pred": "Dedekind Cut"
     },
     {
+        "choices": [
+            "Cut (Analysis)",
+            "Dedekind Cut",
+            "Cut-Vertex",
+            "Cut Point",
+            "Vertex Cut",
+            "Edge Cut"
+        ],
         "gt": "Edge Cut",
         "idx": 341,
         "is_correct": false,
-        "pred": "'Vertex Cut'",
-        "pred_raw": "'Vertex Cut'"
+        "pred": "'Vertex Cut'"
     },
     {
+        "choices": [
+            "Power (Algebra)",
+            "Involution (Mapping)"
+        ],
         "gt": "Power (Algebra)",
         "idx": 342,
         "is_correct": false,
-        "pred": "'Involution (Mapping)'",
-        "pred_raw": "'Involution (Mapping)'"
+        "pred": "'Involution (Mapping)'"
     },
     {
+        "choices": [
+            "Closed Statement",
+            "Closed Set/Topology",
+            "Closed Set/Metric Space",
+            "Regular Closed Set",
+            "Closed Mapping",
+            "Closed Extension Topology",
+            "Loop (Topology)",
+            "Closed Region",
+            "Closed under Mapping",
+            "Closed Set/Closure Operator",
+            "Closed Element",
+            "Real Interval/Closed",
+            "Walk (Graph Theory)/Closed",
+            "Cycle (Graph Theory)",
+            "Circuit (Graph Theory)",
+            "Closure (Abstract Algebra)/Algebraic Structure",
+            "Closure (Abstract Algebra)/Scalar Product",
+            "Algebraically Closed Field",
+            "Integrally Closed",
+            "Multiplicatively Closed Subset of Ring"
+        ],
         "gt": "Closed Statement",
         "idx": 344,
         "is_correct": false,
-        "pred": "Real Interval/Closed",
-        "pred_raw": "Real Interval/Closed"
+        "pred": "Real Interval/Closed"
     },
     {
+        "choices": [
+            "Closed Statement",
+            "Closed Set/Topology",
+            "Closed Set/Metric Space",
+            "Regular Closed Set",
+            "Closed Mapping",
+            "Closed Extension Topology",
+            "Loop (Topology)",
+            "Closed Region",
+            "Closed under Mapping",
+            "Closed Set/Closure Operator",
+            "Closed Element",
+            "Real Interval/Closed",
+            "Walk (Graph Theory)/Closed",
+            "Cycle (Graph Theory)",
+            "Circuit (Graph Theory)",
+            "Closure (Abstract Algebra)/Algebraic Structure",
+            "Closure (Abstract Algebra)/Scalar Product",
+            "Algebraically Closed Field",
+            "Integrally Closed",
+            "Multiplicatively Closed Subset of Ring"
+        ],
         "gt": "Closed Set/Topology",
         "idx": 345,
         "is_correct": false,
-        "pred": "Real Interval/Closed",
-        "pred_raw": "Real Interval/Closed"
+        "pred": "Real Interval/Closed"
     },
     {
+        "choices": [
+            "Closed Statement",
+            "Closed Set/Topology",
+            "Closed Set/Metric Space",
+            "Regular Closed Set",
+            "Closed Mapping",
+            "Closed Extension Topology",
+            "Loop (Topology)",
+            "Closed Region",
+            "Closed under Mapping",
+            "Closed Set/Closure Operator",
+            "Closed Element",
+            "Real Interval/Closed",
+            "Walk (Graph Theory)/Closed",
+            "Cycle (Graph Theory)",
+            "Circuit (Graph Theory)",
+            "Closure (Abstract Algebra)/Algebraic Structure",
+            "Closure (Abstract Algebra)/Scalar Product",
+            "Algebraically Closed Field",
+            "Integrally Closed",
+            "Multiplicatively Closed Subset of Ring"
+        ],
         "gt": "Closed Set/Metric Space",
         "idx": 346,
         "is_correct": false,
-        "pred": "Real Interval/Closed",
-        "pred_raw": "Real Interval/Closed"
+        "pred": "Real Interval/Closed"
     },
     {
+        "choices": [
+            "Closed Statement",
+            "Closed Set/Topology",
+            "Closed Set/Metric Space",
+            "Regular Closed Set",
+            "Closed Mapping",
+            "Closed Extension Topology",
+            "Loop (Topology)",
+            "Closed Region",
+            "Closed under Mapping",
+            "Closed Set/Closure Operator",
+            "Closed Element",
+            "Real Interval/Closed",
+            "Walk (Graph Theory)/Closed",
+            "Cycle (Graph Theory)",
+            "Circuit (Graph Theory)",
+            "Closure (Abstract Algebra)/Algebraic Structure",
+            "Closure (Abstract Algebra)/Scalar Product",
+            "Algebraically Closed Field",
+            "Integrally Closed",
+            "Multiplicatively Closed Subset of Ring"
+        ],
         "gt": "Regular Closed Set",
         "idx": 347,
         "is_correct": false,
-        "pred": "Real Interval/Closed",
-        "pred_raw": "Real Interval/Closed"
+        "pred": "Real Interval/Closed"
     },
     {
+        "choices": [
+            "Closed Statement",
+            "Closed Set/Topology",
+            "Closed Set/Metric Space",
+            "Regular Closed Set",
+            "Closed Mapping",
+            "Closed Extension Topology",
+            "Loop (Topology)",
+            "Closed Region",
+            "Closed under Mapping",
+            "Closed Set/Closure Operator",
+            "Closed Element",
+            "Real Interval/Closed",
+            "Walk (Graph Theory)/Closed",
+            "Cycle (Graph Theory)",
+            "Circuit (Graph Theory)",
+            "Closure (Abstract Algebra)/Algebraic Structure",
+            "Closure (Abstract Algebra)/Scalar Product",
+            "Algebraically Closed Field",
+            "Integrally Closed",
+            "Multiplicatively Closed Subset of Ring"
+        ],
         "gt": "Closed Region",
         "idx": 351,
         "is_correct": false,
-        "pred": "Real Interval/Closed",
-        "pred_raw": "Real Interval/Closed"
+        "pred": "Real Interval/Closed"
     },
     {
+        "choices": [
+            "Closed Statement",
+            "Closed Set/Topology",
+            "Closed Set/Metric Space",
+            "Regular Closed Set",
+            "Closed Mapping",
+            "Closed Extension Topology",
+            "Loop (Topology)",
+            "Closed Region",
+            "Closed under Mapping",
+            "Closed Set/Closure Operator",
+            "Closed Element",
+            "Real Interval/Closed",
+            "Walk (Graph Theory)/Closed",
+            "Cycle (Graph Theory)",
+            "Circuit (Graph Theory)",
+            "Closure (Abstract Algebra)/Algebraic Structure",
+            "Closure (Abstract Algebra)/Scalar Product",
+            "Algebraically Closed Field",
+            "Integrally Closed",
+            "Multiplicatively Closed Subset of Ring"
+        ],
         "gt": "Closed under Mapping",
         "idx": 352,
         "is_correct": false,
-        "pred": "Real Interval/Closed",
-        "pred_raw": "Real Interval/Closed"
+        "pred": "Real Interval/Closed"
     },
     {
+        "choices": [
+            "Closed Statement",
+            "Closed Set/Topology",
+            "Closed Set/Metric Space",
+            "Regular Closed Set",
+            "Closed Mapping",
+            "Closed Extension Topology",
+            "Loop (Topology)",
+            "Closed Region",
+            "Closed under Mapping",
+            "Closed Set/Closure Operator",
+            "Closed Element",
+            "Real Interval/Closed",
+            "Walk (Graph Theory)/Closed",
+            "Cycle (Graph Theory)",
+            "Circuit (Graph Theory)",
+            "Closure (Abstract Algebra)/Algebraic Structure",
+            "Closure (Abstract Algebra)/Scalar Product",
+            "Algebraically Closed Field",
+            "Integrally Closed",
+            "Multiplicatively Closed Subset of Ring"
+        ],
         "gt": "Closed Set/Closure Operator",
         "idx": 353,
         "is_correct": false,
-        "pred": "Real Interval/Closed",
-        "pred_raw": "Real Interval/Closed"
+        "pred": "Real Interval/Closed"
     },
     {
+        "choices": [
+            "Closed Statement",
+            "Closed Set/Topology",
+            "Closed Set/Metric Space",
+            "Regular Closed Set",
+            "Closed Mapping",
+            "Closed Extension Topology",
+            "Loop (Topology)",
+            "Closed Region",
+            "Closed under Mapping",
+            "Closed Set/Closure Operator",
+            "Closed Element",
+            "Real Interval/Closed",
+            "Walk (Graph Theory)/Closed",
+            "Cycle (Graph Theory)",
+            "Circuit (Graph Theory)",
+            "Closure (Abstract Algebra)/Algebraic Structure",
+            "Closure (Abstract Algebra)/Scalar Product",
+            "Algebraically Closed Field",
+            "Integrally Closed",
+            "Multiplicatively Closed Subset of Ring"
+        ],
         "gt": "Closed Element",
         "idx": 354,
         "is_correct": false,
-        "pred": "Real Interval/Closed",
-        "pred_raw": "Real Interval/Closed"
+        "pred": "Real Interval/Closed"
     },
     {
+        "choices": [
+            "Closed Statement",
+            "Closed Set/Topology",
+            "Closed Set/Metric Space",
+            "Regular Closed Set",
+            "Closed Mapping",
+            "Closed Extension Topology",
+            "Loop (Topology)",
+            "Closed Region",
+            "Closed under Mapping",
+            "Closed Set/Closure Operator",
+            "Closed Element",
+            "Real Interval/Closed",
+            "Walk (Graph Theory)/Closed",
+            "Cycle (Graph Theory)",
+            "Circuit (Graph Theory)",
+            "Closure (Abstract Algebra)/Algebraic Structure",
+            "Closure (Abstract Algebra)/Scalar Product",
+            "Algebraically Closed Field",
+            "Integrally Closed",
+            "Multiplicatively Closed Subset of Ring"
+        ],
         "gt": "Walk (Graph Theory)/Closed",
         "idx": 356,
         "is_correct": false,
-        "pred": "Real Interval/Closed",
-        "pred_raw": "Real Interval/Closed"
+        "pred": "Real Interval/Closed"
     },
     {
+        "choices": [
+            "Closed Statement",
+            "Closed Set/Topology",
+            "Closed Set/Metric Space",
+            "Regular Closed Set",
+            "Closed Mapping",
+            "Closed Extension Topology",
+            "Loop (Topology)",
+            "Closed Region",
+            "Closed under Mapping",
+            "Closed Set/Closure Operator",
+            "Closed Element",
+            "Real Interval/Closed",
+            "Walk (Graph Theory)/Closed",
+            "Cycle (Graph Theory)",
+            "Circuit (Graph Theory)",
+            "Closure (Abstract Algebra)/Algebraic Structure",
+            "Closure (Abstract Algebra)/Scalar Product",
+            "Algebraically Closed Field",
+            "Integrally Closed",
+            "Multiplicatively Closed Subset of Ring"
+        ],
         "gt": "Cycle (Graph Theory)",
         "idx": 357,
         "is_correct": false,
-        "pred": "Real Interval/Closed",
-        "pred_raw": "Real Interval/Closed"
+        "pred": "Real Interval/Closed"
     },
     {
+        "choices": [
+            "Closed Statement",
+            "Closed Set/Topology",
+            "Closed Set/Metric Space",
+            "Regular Closed Set",
+            "Closed Mapping",
+            "Closed Extension Topology",
+            "Loop (Topology)",
+            "Closed Region",
+            "Closed under Mapping",
+            "Closed Set/Closure Operator",
+            "Closed Element",
+            "Real Interval/Closed",
+            "Walk (Graph Theory)/Closed",
+            "Cycle (Graph Theory)",
+            "Circuit (Graph Theory)",
+            "Closure (Abstract Algebra)/Algebraic Structure",
+            "Closure (Abstract Algebra)/Scalar Product",
+            "Algebraically Closed Field",
+            "Integrally Closed",
+            "Multiplicatively Closed Subset of Ring"
+        ],
         "gt": "Circuit (Graph Theory)",
         "idx": 358,
         "is_correct": false,
-        "pred": "Real Interval/Closed",
-        "pred_raw": "Real Interval/Closed"
+        "pred": "Real Interval/Closed"
     },
     {
+        "choices": [
+            "Closed Statement",
+            "Closed Set/Topology",
+            "Closed Set/Metric Space",
+            "Regular Closed Set",
+            "Closed Mapping",
+            "Closed Extension Topology",
+            "Loop (Topology)",
+            "Closed Region",
+            "Closed under Mapping",
+            "Closed Set/Closure Operator",
+            "Closed Element",
+            "Real Interval/Closed",
+            "Walk (Graph Theory)/Closed",
+            "Cycle (Graph Theory)",
+            "Circuit (Graph Theory)",
+            "Closure (Abstract Algebra)/Algebraic Structure",
+            "Closure (Abstract Algebra)/Scalar Product",
+            "Algebraically Closed Field",
+            "Integrally Closed",
+            "Multiplicatively Closed Subset of Ring"
+        ],
         "gt": "Closure (Abstract Algebra)/Algebraic Structure",
         "idx": 359,
         "is_correct": false,
-        "pred": "Real Interval/Closed",
-        "pred_raw": "Real Interval/Closed"
+        "pred": "Real Interval/Closed"
     },
     {
+        "choices": [
+            "Closed Statement",
+            "Closed Set/Topology",
+            "Closed Set/Metric Space",
+            "Regular Closed Set",
+            "Closed Mapping",
+            "Closed Extension Topology",
+            "Loop (Topology)",
+            "Closed Region",
+            "Closed under Mapping",
+            "Closed Set/Closure Operator",
+            "Closed Element",
+            "Real Interval/Closed",
+            "Walk (Graph Theory)/Closed",
+            "Cycle (Graph Theory)",
+            "Circuit (Graph Theory)",
+            "Closure (Abstract Algebra)/Algebraic Structure",
+            "Closure (Abstract Algebra)/Scalar Product",
+            "Algebraically Closed Field",
+            "Integrally Closed",
+            "Multiplicatively Closed Subset of Ring"
+        ],
         "gt": "Closure (Abstract Algebra)/Scalar Product",
         "idx": 360,
         "is_correct": false,
-        "pred": "Real Interval/Closed",
-        "pred_raw": "Real Interval/Closed"
+        "pred": "Real Interval/Closed"
     },
     {
+        "choices": [
+            "Closed Statement",
+            "Closed Set/Topology",
+            "Closed Set/Metric Space",
+            "Regular Closed Set",
+            "Closed Mapping",
+            "Closed Extension Topology",
+            "Loop (Topology)",
+            "Closed Region",
+            "Closed under Mapping",
+            "Closed Set/Closure Operator",
+            "Closed Element",
+            "Real Interval/Closed",
+            "Walk (Graph Theory)/Closed",
+            "Cycle (Graph Theory)",
+            "Circuit (Graph Theory)",
+            "Closure (Abstract Algebra)/Algebraic Structure",
+            "Closure (Abstract Algebra)/Scalar Product",
+            "Algebraically Closed Field",
+            "Integrally Closed",
+            "Multiplicatively Closed Subset of Ring"
+        ],
         "gt": "Algebraically Closed Field",
         "idx": 361,
         "is_correct": false,
-        "pred": "Real Interval/Closed",
-        "pred_raw": "Real Interval/Closed"
+        "pred": "Real Interval/Closed"
     },
     {
+        "choices": [
+            "Closed Statement",
+            "Closed Set/Topology",
+            "Closed Set/Metric Space",
+            "Regular Closed Set",
+            "Closed Mapping",
+            "Closed Extension Topology",
+            "Loop (Topology)",
+            "Closed Region",
+            "Closed under Mapping",
+            "Closed Set/Closure Operator",
+            "Closed Element",
+            "Real Interval/Closed",
+            "Walk (Graph Theory)/Closed",
+            "Cycle (Graph Theory)",
+            "Circuit (Graph Theory)",
+            "Closure (Abstract Algebra)/Algebraic Structure",
+            "Closure (Abstract Algebra)/Scalar Product",
+            "Algebraically Closed Field",
+            "Integrally Closed",
+            "Multiplicatively Closed Subset of Ring"
+        ],
         "gt": "Integrally Closed",
         "idx": 362,
         "is_correct": false,
-        "pred": "Real Interval/Closed",
-        "pred_raw": "Real Interval/Closed"
+        "pred": "Real Interval/Closed"
     },
     {
+        "choices": [
+            "Closed Statement",
+            "Closed Set/Topology",
+            "Closed Set/Metric Space",
+            "Regular Closed Set",
+            "Closed Mapping",
+            "Closed Extension Topology",
+            "Loop (Topology)",
+            "Closed Region",
+            "Closed under Mapping",
+            "Closed Set/Closure Operator",
+            "Closed Element",
+            "Real Interval/Closed",
+            "Walk (Graph Theory)/Closed",
+            "Cycle (Graph Theory)",
+            "Circuit (Graph Theory)",
+            "Closure (Abstract Algebra)/Algebraic Structure",
+            "Closure (Abstract Algebra)/Scalar Product",
+            "Algebraically Closed Field",
+            "Integrally Closed",
+            "Multiplicatively Closed Subset of Ring"
+        ],
         "gt": "Multiplicatively Closed Subset of Ring",
         "idx": 363,
         "is_correct": false,
-        "pred": "Real Interval/Closed",
-        "pred_raw": "Real Interval/Closed"
+        "pred": "Real Interval/Closed"
     }
 ]
