@@ -3,1022 +3,840 @@
         "gt": "Baire Space (Set Theory)",
         "idx": 1,
         "is_correct": false,
-        "pred": "Baire Space (Topolo",
+        "pred": "'Baire Space (Topology)'",
         "pred_raw": "'Baire Space (Topology)'"
     },
     {
         "gt": "Analysis/Complex",
         "idx": 2,
         "is_correct": false,
-        "pred": "Complex Func",
+        "pred": "Complex Function",
         "pred_raw": "Complex Function"
-    },
-    {
-        "gt": "Differential Complex",
-        "idx": 8,
-        "is_correct": false,
-        "pred": "The correct definition title is Differential Compl",
-        "pred_raw": "The correct definition title is 'Differential Complex'."
     },
     {
         "gt": "Fraction/Complex",
         "idx": 9,
         "is_correct": false,
-        "pred": "Complex Frac",
+        "pred": "Complex Fraction",
         "pred_raw": "Complex Fraction"
     },
     {
         "gt": "Fraction/Term",
         "idx": 14,
         "is_correct": false,
-        "pred": "Term (Natural Langu",
+        "pred": "Term (Natural Language)",
         "pred_raw": "Term (Natural Language)"
     },
     {
         "gt": "Term of Sequence",
         "idx": 15,
         "is_correct": false,
-        "pred": "Ordered Tuple/",
+        "pred": "Ordered Tuple/Term",
         "pred_raw": "Ordered Tuple/Term"
     },
     {
         "gt": "Term (Natural Language)",
         "idx": 18,
         "is_correct": false,
-        "pred": "Term of Express",
+        "pred": "'Term of Expression'",
         "pred_raw": "'Term of Expression'"
-    },
-    {
-        "gt": "Continued Fraction/Simple/Finite",
-        "idx": 21,
-        "is_correct": false,
-        "pred": "Contour/Simple or Simple Function do not seem to fit the given definition.\n\nSimple Graph, Digraph/Simple Digraph, Multigraph/Simple Edge are graph theory terms and do not match the definition of a simple continued fraction.\n\nSimple Group and Simple Field Extension are terms from group theory and field theory respectively, and do not match the definition of a simple continued fraction.\n\nThe correct definition title is Simple Continued Fraction/Simple/Fini",
-        "pred_raw": "'Contour/Simple' or 'Simple Function' do not seem to fit the given definition.\n\n'Simple Graph', 'Digraph/Simple Digraph', 'Multigraph/Simple Edge' are graph theory terms and do not match the definition of a simple continued fraction.\n\n'Simple Group' and 'Simple Field Extension' are terms from group theory and field theory respectively, and do not match the definition of a simple continued fraction.\n\nThe correct definition title is 'Simple Continued Fraction/Simple/Finite'."
     },
     {
         "gt": "Multigraph/Simple Edge",
         "idx": 25,
         "is_correct": false,
-        "pred": "Simple G",
+        "pred": "Simple Graph",
         "pred_raw": "Simple Graph"
-    },
-    {
-        "gt": "Simple Function",
-        "idx": 26,
-        "is_correct": false,
-        "pred": "The correct definition title is Simple Functi",
-        "pred_raw": "The correct definition title is 'Simple Function'."
     },
     {
         "gt": "Basis of Vector Space",
         "idx": 32,
         "is_correct": false,
-        "pred": "Basis (Vector Spa",
+        "pred": "'Basis (Vector Space)'",
         "pred_raw": "'Basis (Vector Space)'"
     },
     {
         "gt": "Codomain (Category Theory)",
         "idx": 36,
         "is_correct": false,
-        "pred": "Codomain (Relation The",
+        "pred": "Codomain (Relation Theory)",
         "pred_raw": "Codomain (Relation Theory)"
     },
     {
         "gt": "Loop (Plane Geometry)",
         "idx": 41,
         "is_correct": false,
-        "pred": "Loop (Topolo",
+        "pred": "'Loop (Topology)'",
         "pred_raw": "'Loop (Topology)'"
-    },
-    {
-        "gt": "Loop (Graph Theory)",
-        "idx": 42,
-        "is_correct": false,
-        "pred": "The correct definition title is Loop (Graph Theor",
-        "pred_raw": "The correct definition title is 'Loop (Graph Theory)'."
     },
     {
         "gt": "Image (Relation Theory)/Mapping/Mapping",
         "idx": 47,
         "is_correct": false,
-        "pred": "Direct Image Mapping/Map",
+        "pred": "Direct Image Mapping/Mapping",
         "pred_raw": "Direct Image Mapping/Mapping"
     },
     {
         "gt": "Image (Relation Theory)/Relation/Relation",
         "idx": 48,
         "is_correct": false,
-        "pred": "Direct Image Mapping/Rela",
+        "pred": "Direct Image Mapping/Relation",
         "pred_raw": "Direct Image Mapping/Relation"
     },
     {
         "gt": "Direct Image Mapping/Relation",
         "idx": 50,
         "is_correct": false,
-        "pred": "Direct Image Mapping/Map",
+        "pred": "Direct Image Mapping/Mapping",
         "pred_raw": "Direct Image Mapping/Mapping"
     },
     {
         "gt": "Direct Image of Sheaf",
         "idx": 51,
         "is_correct": false,
-        "pred": "Direct Image Map",
+        "pred": "Direct Image Mapping",
         "pred_raw": "Direct Image Mapping"
     },
     {
         "gt": "Class Interval/Empty",
         "idx": 53,
         "is_correct": false,
-        "pred": "Empty Class (Class Theo",
+        "pred": "'Empty Class (Class Theory)'",
         "pred_raw": "'Empty Class (Class Theory)'"
     },
     {
         "gt": "Power of Element/Magma",
         "idx": 55,
         "is_correct": false,
-        "pred": "Power (Alge",
+        "pred": "Power (Algebra)",
         "pred_raw": "Power (Algebra)"
     },
     {
         "gt": "Power of Element/Semigroup",
         "idx": 57,
         "is_correct": false,
-        "pred": "Power (Semigr",
+        "pred": "Power (Semigroup)",
         "pred_raw": "Power (Semigroup)"
     },
     {
         "gt": "Cardinality",
         "idx": 62,
         "is_correct": false,
-        "pred": "Power",
+        "pred": "Power Set",
         "pred_raw": "Power Set"
     },
     {
         "gt": "Meet (Order Theory)",
         "idx": 65,
         "is_correct": false,
-        "pred": "Boolean Algebra/",
+        "pred": "Boolean Algebra/Meet",
         "pred_raw": "Boolean Algebra/Meet"
     },
     {
         "gt": "Set Meeting Set",
         "idx": 67,
         "is_correct": false,
-        "pred": "Boolean Algebra/",
+        "pred": "Boolean Algebra/Meet",
         "pred_raw": "Boolean Algebra/Meet"
     },
     {
         "gt": "Affine Geometry",
         "idx": 70,
         "is_correct": false,
-        "pred": "Affine S",
+        "pred": "Affine Space",
         "pred_raw": "Affine Space"
     },
     {
         "gt": "Affine Monoid",
         "idx": 76,
         "is_correct": false,
-        "pred": "Affine S",
+        "pred": "Affine Space",
         "pred_raw": "Affine Space"
     },
     {
         "gt": "Affine Plane",
         "idx": 77,
         "is_correct": false,
-        "pred": "Affine S",
+        "pred": "Affine Space",
         "pred_raw": "Affine Space"
     },
     {
         "gt": "Semimajor Axis of Ellipsoid",
         "idx": 85,
         "is_correct": false,
-        "pred": "Ellipse/Major Axis/Semi-Major A",
+        "pred": "'Ellipse/Major Axis/Semi-Major Axis'",
         "pred_raw": "'Ellipse/Major Axis/Semi-Major Axis'"
     },
     {
         "gt": "Closure of Set under Closure Operator",
         "idx": 87,
         "is_correct": false,
-        "pred": "Closure (Topol",
+        "pred": "Closure (Topology)",
         "pred_raw": "Closure (Topology)"
     },
     {
         "gt": "Upper Closure",
         "idx": 88,
         "is_correct": false,
-        "pred": "Closure of Set under Closure Oper",
+        "pred": "Closure of Set under Closure Operator",
         "pred_raw": "Closure of Set under Closure Operator"
     },
     {
         "gt": "Lower Closure",
         "idx": 89,
         "is_correct": false,
-        "pred": "Closure of Su",
+        "pred": "Closure of Subset",
         "pred_raw": "Closure of Subset"
-    },
-    {
-        "gt": "Integral Closure",
-        "idx": 91,
-        "is_correct": false,
-        "pred": "Closure (Abstract Algebra)/Integral Clo",
-        "pred_raw": "Closure (Abstract Algebra)/Integral Closure"
     },
     {
         "gt": "Closure/Normed Vector Space",
         "idx": 95,
         "is_correct": false,
-        "pred": "Closure (Topology)/Normed Vector S",
+        "pred": "Closure (Topology)/Normed Vector Space",
         "pred_raw": "Closure (Topology)/Normed Vector Space"
-    },
-    {
-        "gt": "Transitive Closure of Relation",
-        "idx": 99,
-        "is_correct": false,
-        "pred": "Closure (Topology)/Transitive Closure of Rela",
-        "pred_raw": "Closure (Topology)/Transitive Closure of Relation"
     },
     {
         "gt": "Associative Algebra",
         "idx": 105,
         "is_correct": false,
-        "pred": "The correct definition title is Associative Operati",
+        "pred": "The correct definition title is 'Associative Operation'.",
         "pred_raw": "The correct definition title is 'Associative Operation'."
     },
     {
         "gt": "Unit of Ring",
         "idx": 108,
         "is_correct": false,
-        "pred": "Unital Algebra or Unit of Alge",
+        "pred": "'Unital Algebra' or 'Unit of Algebra'",
         "pred_raw": "'Unital Algebra' or 'Unit of Algebra'"
     },
     {
         "gt": "Unit of System of Sets",
         "idx": 109,
         "is_correct": false,
-        "pred": "Single",
+        "pred": "'Singleton'",
         "pred_raw": "'Singleton'"
-    },
-    {
-        "gt": "Singleton",
-        "idx": 110,
-        "is_correct": false,
-        "pred": "The correct definition title is Singlet",
-        "pred_raw": "The correct definition title is 'Singleton'."
     },
     {
         "gt": "Unit of Algebra",
         "idx": 111,
         "is_correct": false,
-        "pred": "Unital Alg",
+        "pred": "Unital Algebra",
         "pred_raw": "Unital Algebra"
-    },
-    {
-        "gt": "Unity (Abstract Algebra)/Ring",
-        "idx": 113,
-        "is_correct": false,
-        "pred": "The correct definition title is Unity (Abstract Algebra)/Ri",
-        "pred_raw": "The correct definition title is 'Unity (Abstract Algebra)/Ring'."
-    },
-    {
-        "gt": "Unit of Measurement",
-        "idx": 114,
-        "is_correct": false,
-        "pred": "The correct definition title is Unit of Measureme",
-        "pred_raw": "The correct definition title is 'Unit of Measurement'."
-    },
-    {
-        "gt": "Experimental Unit",
-        "idx": 115,
-        "is_correct": false,
-        "pred": "The correct definition title is Experimental Un",
-        "pred_raw": "The correct definition title is 'Experimental Unit'."
-    },
-    {
-        "gt": "Absolute Difference",
-        "idx": 117,
-        "is_correct": false,
-        "pred": "The correct definition title is Absolute Differen",
-        "pred_raw": "The correct definition title is 'Absolute Difference'."
     },
     {
         "gt": "Alphabetic Substitution",
         "idx": 130,
         "is_correct": false,
-        "pred": "Substitution (Mathematical Lo",
+        "pred": "Substitution (Mathematical Logic)",
         "pred_raw": "Substitution (Mathematical Logic)"
     },
     {
         "gt": "Diagonal Relation",
         "idx": 135,
         "is_correct": false,
-        "pred": "Main Diagonal/Diagonal Elem",
+        "pred": "Main Diagonal/Diagonal Elements",
         "pred_raw": "Main Diagonal/Diagonal Elements"
     },
     {
         "gt": "Diagonal Mapping",
         "idx": 136,
         "is_correct": false,
-        "pred": "Main Diagonal/Diagonal Elem",
+        "pred": "Main Diagonal/Diagonal Elements",
         "pred_raw": "Main Diagonal/Diagonal Elements"
     },
     {
         "gt": "Diagonal Matrix",
         "idx": 138,
         "is_correct": false,
-        "pred": "Main Diagonal/Diagonal Elem",
+        "pred": "Main Diagonal/Diagonal Elements",
         "pred_raw": "Main Diagonal/Diagonal Elements"
     },
     {
         "gt": "Diagonalizable Matrix",
         "idx": 139,
         "is_correct": false,
-        "pred": "Main Diagonal/Diagonal Elem",
+        "pred": "Main Diagonal/Diagonal Elements",
         "pred_raw": "Main Diagonal/Diagonal Elements"
     },
     {
         "gt": "Injection",
         "idx": 140,
         "is_correct": false,
-        "pred": "One-to-One Relati",
+        "pred": "['One-to-One Relation']",
         "pred_raw": "['One-to-One Relation']"
     },
     {
         "gt": "Consistent Simultaneous Equations/Inconsistent",
         "idx": 145,
         "is_correct": false,
-        "pred": "Inconsistent (Log",
+        "pred": "'Inconsistent (Logic)'",
         "pred_raw": "'Inconsistent (Logic)'"
     },
     {
         "gt": "Relation Compatible with Operation",
         "idx": 146,
         "is_correct": false,
-        "pred": "Congruence Rela",
+        "pred": "Congruence Relation",
         "pred_raw": "Congruence Relation"
     },
     {
         "gt": "Relation Strongly Compatible with Operation",
         "idx": 147,
         "is_correct": false,
-        "pred": "Relation Conversely Compatible with Operat",
+        "pred": "'Relation Conversely Compatible with Operation'",
         "pred_raw": "'Relation Conversely Compatible with Operation'"
     },
     {
         "gt": "Operation Compatible with Set Equivalence",
         "idx": 148,
         "is_correct": false,
-        "pred": "The correct definition title is Congruence Relati",
+        "pred": "The correct definition title is 'Congruence Relation'.",
         "pred_raw": "The correct definition title is 'Congruence Relation'."
-    },
-    {
-        "gt": "Ordering Compatible with Ring Structure",
-        "idx": 149,
-        "is_correct": false,
-        "pred": "Congruence Relation is not the correct definition for the given context. The term Compatible refers to an ordering that satisfies the ring compatible ordering axioms, which is not the same as a congruence relation. The correct answer would be Ordering Compatible with Ring Structu",
-        "pred_raw": "'Congruence Relation' is not the correct definition for the given context. The term Compatible refers to an ordering that satisfies the ring compatible ordering axioms, which is not the same as a congruence relation. The correct answer would be 'Ordering Compatible with Ring Structure'."
-    },
-    {
-        "gt": "Gradation Compatible with Ring Structure",
-        "idx": 150,
-        "is_correct": false,
-        "pred": "The correct definition title is Gradation Compatible with Ring Structu",
-        "pred_raw": "The correct definition title is 'Gradation Compatible with Ring Structure'."
     },
     {
         "gt": "Relation Conversely Compatible with Operation",
         "idx": 151,
         "is_correct": false,
-        "pred": "Congruence Rela",
+        "pred": "Congruence Relation",
         "pred_raw": "Congruence Relation"
     },
     {
         "gt": "Universally Compatible Relation",
         "idx": 152,
         "is_correct": false,
-        "pred": "Congruence Rela",
+        "pred": "Congruence Relation",
         "pred_raw": "Congruence Relation"
     },
     {
         "gt": "Compatible Charts/Smooth",
         "idx": 156,
         "is_correct": false,
-        "pred": "Congruence Rela",
+        "pred": "Congruence Relation",
         "pred_raw": "Congruence Relation"
     },
     {
         "gt": "Chart Compatible with Atlas",
         "idx": 157,
         "is_correct": false,
-        "pred": "Congruence Rela",
+        "pred": "Congruence Relation",
         "pred_raw": "Congruence Relation"
     },
     {
         "gt": "Compatible Module Structures",
         "idx": 158,
         "is_correct": false,
-        "pred": "Congruence Relation is not the correct answer as it does not match the given context about compatible module structures.\n\nRelation Compatible with Operation is not the correct answer as it does not specify the type of operation (left or right linear ring action) or the rings involved.\n\nOperation Compatible with Set Equivalence, Ordering Compatible with Ring Structure, Gradation Compatible with Ring Structure, Relation Conversely Compatible with Operation, Universally Compatible Relation, Compatible Quasiuniformities, Compatible Atlases, Compatible Charts/Smooth, Chart Compatible with Atlas are not relevant to the given context.\n\nTherefore, the correct definition title is either Definition 1 or Definition 3, as they both describe the compatibility of module structures for a given ring and an abelian group, with the condition that the homotheties commute or are endomorphisms of the respective module. However, without more context, it is not possible to definitively choose between Definition 1 and Definition",
+        "pred": "'Congruence Relation' is not the correct answer as it does not match the given context about compatible module structures.\n\n'Relation Compatible with Operation' is not the correct answer as it does not specify the type of operation (left or right linear ring action) or the rings involved.\n\n'Operation Compatible with Set Equivalence', 'Ordering Compatible with Ring Structure', 'Gradation Compatible with Ring Structure', 'Relation Conversely Compatible with Operation', 'Universally Compatible Relation', 'Compatible Quasiuniformities', 'Compatible Atlases', 'Compatible Charts/Smooth', 'Chart Compatible with Atlas' are not relevant to the given context.\n\nTherefore, the correct definition title is either 'Definition 1' or 'Definition 3', as they both describe the compatibility of module structures for a given ring and an abelian group, with the condition that the homotheties commute or are endomorphisms of the respective module. However, without more context, it is not possible to definitively choose between 'Definition 1' and 'Definition 3'.",
         "pred_raw": "'Congruence Relation' is not the correct answer as it does not match the given context about compatible module structures.\n\n'Relation Compatible with Operation' is not the correct answer as it does not specify the type of operation (left or right linear ring action) or the rings involved.\n\n'Operation Compatible with Set Equivalence', 'Ordering Compatible with Ring Structure', 'Gradation Compatible with Ring Structure', 'Relation Conversely Compatible with Operation', 'Universally Compatible Relation', 'Compatible Quasiuniformities', 'Compatible Atlases', 'Compatible Charts/Smooth', 'Chart Compatible with Atlas' are not relevant to the given context.\n\nTherefore, the correct definition title is either 'Definition 1' or 'Definition 3', as they both describe the compatibility of module structures for a given ring and an abelian group, with the condition that the homotheties commute or are endomorphisms of the respective module. However, without more context, it is not possible to definitively choose between 'Definition 1' and 'Definition 3'."
     },
     {
         "gt": "Algebraic Number over Field/Degree",
         "idx": 163,
         "is_correct": false,
-        "pred": "The correct definition title is Degree of Algebraic Eleme",
+        "pred": "The correct definition title is 'Degree of Algebraic Element'.",
         "pred_raw": "The correct definition title is 'Degree of Algebraic Element'."
     },
     {
         "gt": "Homogeneous Function/Real Space/Degree",
         "idx": 165,
         "is_correct": false,
-        "pred": "Homogeneous Function/De",
+        "pred": "Homogeneous Function/Degree",
         "pred_raw": "Homogeneous Function/Degree"
-    },
-    {
-        "gt": "Gradation on Abelian Group",
-        "idx": 166,
-        "is_correct": false,
-        "pred": "The correct definition title is Gradation on Abelian Gro",
-        "pred_raw": "The correct definition title is 'Gradation on Abelian Group'."
     },
     {
         "gt": "Field Extension/Degree",
         "idx": 167,
         "is_correct": false,
-        "pred": "Algebraic Number over Field/De",
+        "pred": "Algebraic Number over Field/Degree",
         "pred_raw": "Algebraic Number over Field/Degree"
     },
     {
         "gt": "Degree of Algebraic Element",
         "idx": 168,
         "is_correct": false,
-        "pred": "Algebraic Number over Field/De",
+        "pred": "Algebraic Number over Field/Degree",
         "pred_raw": "Algebraic Number over Field/Degree"
     },
     {
         "gt": "Transcendence Degree",
         "idx": 169,
         "is_correct": false,
-        "pred": "Field Extension/De",
+        "pred": "Field Extension/Degree",
         "pred_raw": "Field Extension/Degree"
     },
     {
         "gt": "Degree of Arc",
         "idx": 171,
         "is_correct": false,
-        "pred": "Algebraic Curve/De",
+        "pred": "Algebraic Curve/Degree",
         "pred_raw": "Algebraic Curve/Degree"
     },
     {
         "gt": "Fahrenheit",
         "idx": 175,
         "is_correct": false,
-        "pred": "Cels",
+        "pred": "'Celsius'",
         "pred_raw": "'Celsius'"
-    },
-    {
-        "gt": "Spline Function/Degree",
-        "idx": 176,
-        "is_correct": false,
-        "pred": "Homogeneous Function/Spline Function/De",
-        "pred_raw": "Homogeneous Function/Spline Function/Degree"
     },
     {
         "gt": "Logical Argument/Finitary",
         "idx": 181,
         "is_correct": false,
-        "pred": "Operation/Arity/Finit",
+        "pred": "'Operation/Arity/Finitary'",
         "pred_raw": "'Operation/Arity/Finitary'"
     },
     {
         "gt": "Unity (Abstract Algebra)/Ring",
         "idx": 182,
         "is_correct": false,
-        "pred": "Multiplicative Iden",
+        "pred": "Multiplicative Identity",
         "pred_raw": "Multiplicative Identity"
     },
     {
         "gt": "Sign of Permutation",
         "idx": 185,
         "is_correct": false,
-        "pred": "Signum Funct",
+        "pred": "'Signum Function'",
         "pred_raw": "'Signum Function'"
     },
     {
         "gt": "Sign of Number",
         "idx": 187,
         "is_correct": false,
-        "pred": "Sign (Arithmet",
+        "pred": "'Sign (Arithmetic)'",
         "pred_raw": "'Sign (Arithmetic)'"
     },
     {
         "gt": "Epimorphism (Abstract Algebra)",
         "idx": 189,
         "is_correct": false,
-        "pred": "Epimorphism (Category Theo",
+        "pred": "'Epimorphism (Category Theory)'",
         "pred_raw": "'Epimorphism (Category Theory)'"
-    },
-    {
-        "gt": "Topologically Complete Space",
-        "idx": 198,
-        "is_correct": false,
-        "pred": "The correct definition title is Topologically Complete Spa",
-        "pred_raw": "The correct definition title is 'Topologically Complete Space'."
-    },
-    {
-        "gt": "Inductive Ordered Set",
-        "idx": 201,
-        "is_correct": false,
-        "pred": "The correct definition title is Inductive Ordered S",
-        "pred_raw": "The correct definition title is 'Inductive Ordered Set'."
-    },
-    {
-        "gt": "Functionally Complete",
-        "idx": 202,
-        "is_correct": false,
-        "pred": "The correct definition title is Functionally Comple",
-        "pred_raw": "The correct definition title is 'Functionally Complete'."
     },
     {
         "gt": "Complete Logistic System",
         "idx": 203,
         "is_correct": false,
-        "pred": "Complete Proof Sys",
+        "pred": "'Complete Proof System'",
         "pred_raw": "'Complete Proof System'"
-    },
-    {
-        "gt": "Complete Graph",
-        "idx": 206,
-        "is_correct": false,
-        "pred": "The correct definition title is Complete Gr",
-        "pred_raw": "The correct definition title is 'Complete Graph'"
     },
     {
         "gt": "Left Inverse Mapping",
         "idx": 209,
         "is_correct": false,
-        "pred": "Inverse (Abstract Algebra)/Left Inve",
+        "pred": "'Inverse (Abstract Algebra)/Left Inverse'",
         "pred_raw": "'Inverse (Abstract Algebra)/Left Inverse'"
     },
     {
         "gt": "Inverse Matrix/Left",
         "idx": 211,
         "is_correct": false,
-        "pred": "Inverse (Abstract Algebra)/Left Inve",
+        "pred": "'Inverse (Abstract Algebra)/Left Inverse'",
         "pred_raw": "'Inverse (Abstract Algebra)/Left Inverse'"
     },
     {
         "gt": "Secant Line",
         "idx": 213,
         "is_correct": false,
-        "pred": "Secant Funct",
+        "pred": "'Secant Function'",
         "pred_raw": "'Secant Function'"
     },
     {
         "gt": "Bounded Class",
         "idx": 215,
         "is_correct": false,
-        "pred": "Bounded Subset of Cl",
+        "pred": "'Bounded Subset of Class'",
         "pred_raw": "'Bounded Subset of Class'"
     },
     {
         "gt": "Bounded Mapping/Real-Valued",
         "idx": 216,
         "is_correct": false,
-        "pred": "Bounded Function/Real-Val",
+        "pred": "'Bounded Function/Real-Valued'",
         "pred_raw": "'Bounded Function/Real-Valued'"
     },
     {
         "gt": "Bounded Metric Space",
         "idx": 219,
         "is_correct": false,
-        "pred": "Bounded Subset of Metric Sp",
+        "pred": "'Bounded Subset of Metric Space'",
         "pred_raw": "'Bounded Subset of Metric Space'"
     },
     {
         "gt": "Bounded Metric Space/Complex",
         "idx": 220,
         "is_correct": false,
-        "pred": "Bounded Set/Complex P",
+        "pred": "Bounded Set/Complex Plane",
         "pred_raw": "Bounded Set/Complex Plane"
     },
     {
         "gt": "Bounded Subset of Topological Vector Space",
         "idx": 221,
         "is_correct": false,
-        "pred": "Bounded Subset of Normed Vector Sp",
+        "pred": "'Bounded Subset of Normed Vector Space'",
         "pred_raw": "'Bounded Subset of Normed Vector Space'"
-    },
-    {
-        "gt": "Empty Set",
-        "idx": 223,
-        "is_correct": false,
-        "pred": "The correct definition title is Empty S",
-        "pred_raw": "The correct definition title is 'Empty Set'."
     },
     {
         "gt": "Empty Class (Class Theory)",
         "idx": 224,
         "is_correct": false,
-        "pred": "The correct definition title is Empty S",
+        "pred": "The correct definition title is 'Empty Set'.",
         "pred_raw": "The correct definition title is 'Empty Set'."
-    },
-    {
-        "gt": "Empty Mapping",
-        "idx": 225,
-        "is_correct": false,
-        "pred": "The correct definition title is Empty Mappi",
-        "pred_raw": "The correct definition title is 'Empty Mapping'."
     },
     {
         "gt": "Field of Relation",
         "idx": 232,
         "is_correct": false,
-        "pred": "Field (Abstract Algeb",
+        "pred": "'Field (Abstract Algebra)'",
         "pred_raw": "'Field (Abstract Algebra)'"
-    },
-    {
-        "gt": "Randomized Block",
-        "idx": 243,
-        "is_correct": false,
-        "pred": "The correct definition title is Randomized Blo",
-        "pred_raw": "The correct definition title is 'Randomized Block'."
     },
     {
         "gt": "Pitch (Mechanics)",
         "idx": 246,
         "is_correct": false,
-        "pred": "Helix/Pi",
+        "pred": "'Helix/Pitch'",
         "pred_raw": "'Helix/Pitch'"
     },
     {
         "gt": "Similar Figures",
         "idx": 247,
         "is_correct": false,
-        "pred": "Similar Rectilineal Figu",
+        "pred": "'Similar Rectilineal Figures'",
         "pred_raw": "'Similar Rectilineal Figures'"
     },
     {
         "gt": "Segment of Circle/Similar",
         "idx": 249,
         "is_correct": false,
-        "pred": "Similar Segments of Cir",
+        "pred": "Similar Segments of Circles",
         "pred_raw": "Similar Segments of Circles"
     },
     {
         "gt": "Similar Inclination",
         "idx": 254,
         "is_correct": false,
-        "pred": "Similar Solid Fig",
+        "pred": "Similar Solid Figures",
         "pred_raw": "Similar Solid Figures"
     },
     {
         "gt": "Plane Number/Similar Numbers",
         "idx": 256,
         "is_correct": false,
-        "pred": "Matrix Similar",
+        "pred": "\"Matrix Similarity\"",
         "pred_raw": "\"Matrix Similarity\""
     },
     {
         "gt": "Set Equivalence",
         "idx": 260,
         "is_correct": false,
-        "pred": "Similarity Map",
+        "pred": "Similarity Mapping",
         "pred_raw": "Similarity Mapping"
     },
     {
         "gt": "Composition Series",
         "idx": 263,
         "is_correct": false,
-        "pred": "Composition of Morphi",
+        "pred": "'Composition of Morphisms'",
         "pred_raw": "'Composition of Morphisms'"
     },
     {
         "gt": "Rank/Matrix",
         "idx": 279,
         "is_correct": false,
-        "pred": "Rank (Matric",
+        "pred": "'Rank (Matrices)'",
         "pred_raw": "'Rank (Matrices)'"
     },
     {
         "gt": "Rank/Linear Transformation",
         "idx": 280,
         "is_correct": false,
-        "pred": "Rank (Linear Transformat",
+        "pred": "Rank (Linear Transformation)",
         "pred_raw": "Rank (Linear Transformation)"
     },
     {
         "gt": "Rank of Entire Function",
         "idx": 281,
         "is_correct": false,
-        "pred": "Rank (Entire Funct",
+        "pred": "Rank (Entire Function)",
         "pred_raw": "Rank (Entire Function)"
     },
     {
         "gt": "Rank of Free Group",
         "idx": 282,
         "is_correct": false,
-        "pred": "Rank (Free Gr",
+        "pred": "Rank (Free Group)",
         "pred_raw": "Rank (Free Group)"
     },
     {
         "gt": "Minor (Euclidean)",
         "idx": 285,
         "is_correct": false,
-        "pred": "Minor of Determin",
+        "pred": "'Minor of Determinant'",
         "pred_raw": "'Minor of Determinant'"
     },
     {
         "gt": "Minor of Determinant",
         "idx": 288,
         "is_correct": false,
-        "pred": "Ellipse/Minor Axis/Semi-Minor Axis (This term Minor is not directly related to determinants or syllogisms in the provided conte",
+        "pred": "Ellipse/Minor Axis/Semi-Minor Axis (This term 'Minor' is not directly related to determinants or syllogisms in the provided context.)",
         "pred_raw": "Ellipse/Minor Axis/Semi-Minor Axis (This term 'Minor' is not directly related to determinants or syllogisms in the provided context.)"
     },
     {
         "gt": "Genus of Surface",
         "idx": 289,
         "is_correct": false,
-        "pred": "Genus of Riemann Surf",
+        "pred": "'Genus of Riemann Surface'",
         "pred_raw": "'Genus of Riemann Surface'"
     },
     {
         "gt": "Extension of Relation",
         "idx": 293,
         "is_correct": false,
-        "pred": "Field Exten",
+        "pred": "Field Extension",
         "pred_raw": "Field Extension"
     },
     {
         "gt": "Extension of Mapping",
         "idx": 294,
         "is_correct": false,
-        "pred": "Field Exten",
+        "pred": "Field Extension",
         "pred_raw": "Field Extension"
     },
     {
         "gt": "Extension of Operation",
         "idx": 295,
         "is_correct": false,
-        "pred": "Field Exten",
+        "pred": "Field Extension",
         "pred_raw": "Field Extension"
     },
     {
         "gt": "Extension of Sequence",
         "idx": 296,
         "is_correct": false,
-        "pred": "Field Exten",
+        "pred": "Field Extension",
         "pred_raw": "Field Extension"
     },
     {
         "gt": "Extension of Class/Immediate",
         "idx": 297,
         "is_correct": false,
-        "pred": "Field Exten",
+        "pred": "Field Extension",
         "pred_raw": "Field Extension"
     },
     {
         "gt": "Ring Extension",
         "idx": 299,
         "is_correct": false,
-        "pred": "Field Exten",
+        "pred": "Field Extension",
         "pred_raw": "Field Extension"
     },
     {
         "gt": "Extension of Ideal",
         "idx": 300,
         "is_correct": false,
-        "pred": "Field Exten",
+        "pred": "Field Extension",
         "pred_raw": "Field Extension"
     },
     {
         "gt": "Extension of Structure",
         "idx": 301,
         "is_correct": false,
-        "pred": "Field Exten",
+        "pred": "Field Extension",
         "pred_raw": "Field Extension"
     },
     {
         "gt": "Extension of Propositional Tableau",
         "idx": 302,
         "is_correct": false,
-        "pred": "Field Exten",
+        "pred": "Field Extension",
         "pred_raw": "Field Extension"
-    },
-    {
-        "gt": "Space Group",
-        "idx": 313,
-        "is_correct": false,
-        "pred": "The correct definition title is Space Gro",
-        "pred_raw": "The correct definition title is 'Space Group'."
     },
     {
         "gt": "Spacetime",
         "idx": 314,
         "is_correct": false,
-        "pred": "Space-",
+        "pred": "Space-Time",
         "pred_raw": "Space-Time"
     },
     {
         "gt": "Character (Number Theory)",
         "idx": 325,
         "is_correct": false,
-        "pred": "Trivial G",
+        "pred": "Trivial Group",
         "pred_raw": "Trivial Group"
     },
     {
         "gt": "Filter on Set/Trivial Filter",
         "idx": 327,
         "is_correct": false,
-        "pred": "Trivial Filter on",
+        "pred": "Trivial Filter on Set",
         "pred_raw": "Trivial Filter on Set"
     },
     {
         "gt": "Indiscrete Topology",
         "idx": 328,
         "is_correct": false,
-        "pred": "Trivial Topological S",
+        "pred": "Trivial Topological Space",
         "pred_raw": "Trivial Topological Space"
     },
     {
         "gt": "Zero Subspace",
         "idx": 330,
         "is_correct": false,
-        "pred": "Trivial Subs",
+        "pred": "Trivial Subspace",
         "pred_raw": "Trivial Subspace"
     },
     {
         "gt": "Riemann Zeta Function/Zero/Trivial",
         "idx": 333,
         "is_correct": false,
-        "pred": "Trivial Zeroes of the Riemann Zeta Funct",
+        "pred": "'Trivial Zeroes of the Riemann Zeta Function'",
         "pred_raw": "'Trivial Zeroes of the Riemann Zeta Function'"
     },
     {
         "gt": "Tusi Couple",
         "idx": 335,
         "is_correct": false,
-        "pred": "Couple (Mechani",
+        "pred": "'Couple (Mechanics)'",
         "pred_raw": "'Couple (Mechanics)'"
     },
     {
         "gt": "Cut (Analysis)",
         "idx": 336,
         "is_correct": false,
-        "pred": "Dedekind",
+        "pred": "Dedekind Cut",
         "pred_raw": "Dedekind Cut"
     },
     {
         "gt": "Cut Point",
         "idx": 339,
         "is_correct": false,
-        "pred": "Dedekind",
+        "pred": "Dedekind Cut",
         "pred_raw": "Dedekind Cut"
     },
     {
         "gt": "Edge Cut",
         "idx": 341,
         "is_correct": false,
-        "pred": "Vertex ",
+        "pred": "'Vertex Cut'",
         "pred_raw": "'Vertex Cut'"
     },
     {
         "gt": "Power (Algebra)",
         "idx": 342,
         "is_correct": false,
-        "pred": "Involution (Mappi",
+        "pred": "'Involution (Mapping)'",
         "pred_raw": "'Involution (Mapping)'"
     },
     {
         "gt": "Closed Statement",
         "idx": 344,
         "is_correct": false,
-        "pred": "Real Interval/Cl",
+        "pred": "Real Interval/Closed",
         "pred_raw": "Real Interval/Closed"
     },
     {
         "gt": "Closed Set/Topology",
         "idx": 345,
         "is_correct": false,
-        "pred": "Real Interval/Cl",
+        "pred": "Real Interval/Closed",
         "pred_raw": "Real Interval/Closed"
     },
     {
         "gt": "Closed Set/Metric Space",
         "idx": 346,
         "is_correct": false,
-        "pred": "Real Interval/Cl",
+        "pred": "Real Interval/Closed",
         "pred_raw": "Real Interval/Closed"
     },
     {
         "gt": "Regular Closed Set",
         "idx": 347,
         "is_correct": false,
-        "pred": "Real Interval/Cl",
+        "pred": "Real Interval/Closed",
         "pred_raw": "Real Interval/Closed"
-    },
-    {
-        "gt": "Closed Mapping",
-        "idx": 348,
-        "is_correct": false,
-        "pred": "Real Interval/Closed, Closed Map",
-        "pred_raw": "Real Interval/Closed, Closed Mapping"
-    },
-    {
-        "gt": "Closed Extension Topology",
-        "idx": 349,
-        "is_correct": false,
-        "pred": "The correct definition title is Closed Extension Topolo",
-        "pred_raw": "The correct definition title is 'Closed Extension Topology'."
-    },
-    {
-        "gt": "Loop (Topology)",
-        "idx": 350,
-        "is_correct": false,
-        "pred": "The correct definition title is Loop (Topolog",
-        "pred_raw": "The correct definition title is 'Loop (Topology)'."
     },
     {
         "gt": "Closed Region",
         "idx": 351,
         "is_correct": false,
-        "pred": "Real Interval/Cl",
+        "pred": "Real Interval/Closed",
         "pred_raw": "Real Interval/Closed"
     },
     {
         "gt": "Closed under Mapping",
         "idx": 352,
         "is_correct": false,
-        "pred": "Real Interval/Cl",
+        "pred": "Real Interval/Closed",
         "pred_raw": "Real Interval/Closed"
     },
     {
         "gt": "Closed Set/Closure Operator",
         "idx": 353,
         "is_correct": false,
-        "pred": "Real Interval/Cl",
+        "pred": "Real Interval/Closed",
         "pred_raw": "Real Interval/Closed"
     },
     {
         "gt": "Closed Element",
         "idx": 354,
         "is_correct": false,
-        "pred": "Real Interval/Cl",
+        "pred": "Real Interval/Closed",
         "pred_raw": "Real Interval/Closed"
     },
     {
         "gt": "Walk (Graph Theory)/Closed",
         "idx": 356,
         "is_correct": false,
-        "pred": "Real Interval/Cl",
+        "pred": "Real Interval/Closed",
         "pred_raw": "Real Interval/Closed"
     },
     {
         "gt": "Cycle (Graph Theory)",
         "idx": 357,
         "is_correct": false,
-        "pred": "Real Interval/Cl",
+        "pred": "Real Interval/Closed",
         "pred_raw": "Real Interval/Closed"
     },
     {
         "gt": "Circuit (Graph Theory)",
         "idx": 358,
         "is_correct": false,
-        "pred": "Real Interval/Cl",
+        "pred": "Real Interval/Closed",
         "pred_raw": "Real Interval/Closed"
     },
     {
         "gt": "Closure (Abstract Algebra)/Algebraic Structure",
         "idx": 359,
         "is_correct": false,
-        "pred": "Real Interval/Cl",
+        "pred": "Real Interval/Closed",
         "pred_raw": "Real Interval/Closed"
     },
     {
         "gt": "Closure (Abstract Algebra)/Scalar Product",
         "idx": 360,
         "is_correct": false,
-        "pred": "Real Interval/Cl",
+        "pred": "Real Interval/Closed",
         "pred_raw": "Real Interval/Closed"
     },
     {
         "gt": "Algebraically Closed Field",
         "idx": 361,
         "is_correct": false,
-        "pred": "Real Interval/Cl",
+        "pred": "Real Interval/Closed",
         "pred_raw": "Real Interval/Closed"
     },
     {
         "gt": "Integrally Closed",
         "idx": 362,
         "is_correct": false,
-        "pred": "Real Interval/Cl",
+        "pred": "Real Interval/Closed",
         "pred_raw": "Real Interval/Closed"
     },
     {
         "gt": "Multiplicatively Closed Subset of Ring",
         "idx": 363,
         "is_correct": false,
-        "pred": "Real Interval/Cl",
+        "pred": "Real Interval/Closed",
         "pred_raw": "Real Interval/Closed"
     }
 ]
