@@ -1,0 +1,1393 @@
+[
+    {
+        "choices": [
+            "Analysis/Complex",
+            "Complex Number",
+            "Complex Function",
+            "Complex Conjugate",
+            "Subset Product",
+            "Complex (Group Theory)",
+            "Differential Complex",
+            "Fraction/Complex"
+        ],
+        "gt": "Subset Product",
+        "idx": 6,
+        "is_correct": false,
+        "pred": "'Complex (Group Theory)'"
+    },
+    {
+        "choices": [
+            "Analysis/Complex",
+            "Complex Number",
+            "Complex Function",
+            "Complex Conjugate",
+            "Subset Product",
+            "Complex (Group Theory)",
+            "Differential Complex",
+            "Fraction/Complex"
+        ],
+        "gt": "Differential Complex",
+        "idx": 8,
+        "is_correct": false,
+        "pred": "'Complex (Group Theory)'"
+    },
+    {
+        "choices": [
+            "Analysis/Complex",
+            "Complex Number",
+            "Complex Function",
+            "Complex Conjugate",
+            "Subset Product",
+            "Complex (Group Theory)",
+            "Differential Complex",
+            "Fraction/Complex"
+        ],
+        "gt": "Fraction/Complex",
+        "idx": 9,
+        "is_correct": false,
+        "pred": "Complex Fraction"
+    },
+    {
+        "choices": [
+            "Language of Predicate Logic/Formal Grammar/Term",
+            "Logical Term",
+            "Term of Expression",
+            "Polynomial/Term",
+            "Fraction/Term",
+            "Term of Sequence",
+            "Indexing Set/Term",
+            "Ordered Tuple/Term",
+            "Term (Natural Language)"
+        ],
+        "gt": "Term of Expression",
+        "idx": 12,
+        "is_correct": false,
+        "pred": "Logical Term"
+    },
+    {
+        "choices": [
+            "Language of Predicate Logic/Formal Grammar/Term",
+            "Logical Term",
+            "Term of Expression",
+            "Polynomial/Term",
+            "Fraction/Term",
+            "Term of Sequence",
+            "Indexing Set/Term",
+            "Ordered Tuple/Term",
+            "Term (Natural Language)"
+        ],
+        "gt": "Indexing Set/Term",
+        "idx": 16,
+        "is_correct": false,
+        "pred": "Term of Sequence"
+    },
+    {
+        "choices": [
+            "Language of Predicate Logic/Formal Grammar/Term",
+            "Logical Term",
+            "Term of Expression",
+            "Polynomial/Term",
+            "Fraction/Term",
+            "Term of Sequence",
+            "Indexing Set/Term",
+            "Ordered Tuple/Term",
+            "Term (Natural Language)"
+        ],
+        "gt": "Ordered Tuple/Term",
+        "idx": 17,
+        "is_correct": false,
+        "pred": "Term of Sequence"
+    },
+    {
+        "choices": [
+            "Simple Group",
+            "Simple Field Extension",
+            "Continued Fraction/Simple/Finite",
+            "Contour/Simple",
+            "Simple Graph",
+            "Digraph/Simple Digraph",
+            "Multigraph/Simple Edge",
+            "Simple Function"
+        ],
+        "gt": "Contour/Simple",
+        "idx": 22,
+        "is_correct": false,
+        "pred": "'Simple Contour'"
+    },
+    {
+        "choices": [
+            "Simple Group",
+            "Simple Field Extension",
+            "Continued Fraction/Simple/Finite",
+            "Contour/Simple",
+            "Simple Graph",
+            "Digraph/Simple Digraph",
+            "Multigraph/Simple Edge",
+            "Simple Function"
+        ],
+        "gt": "Digraph/Simple Digraph",
+        "idx": 24,
+        "is_correct": false,
+        "pred": "'Simple Digraph'"
+    },
+    {
+        "choices": [
+            "Simple Group",
+            "Simple Field Extension",
+            "Continued Fraction/Simple/Finite",
+            "Contour/Simple",
+            "Simple Graph",
+            "Digraph/Simple Digraph",
+            "Multigraph/Simple Edge",
+            "Simple Function"
+        ],
+        "gt": "Multigraph/Simple Edge",
+        "idx": 25,
+        "is_correct": false,
+        "pred": "'Simple Edge'"
+    },
+    {
+        "choices": [
+            "Basis (Topology)",
+            "Basis of Vector Space",
+            "Basis of Module",
+            "Basis (Hilbert Space)"
+        ],
+        "gt": "Basis of Module",
+        "idx": 33,
+        "is_correct": false,
+        "pred": "'Basis of Vector Space'"
+    },
+    {
+        "choices": [
+            "Codomain (Relation Theory)",
+            "Codomain (Category Theory)"
+        ],
+        "gt": "Codomain (Relation Theory)",
+        "idx": 35,
+        "is_correct": false,
+        "pred": "Codomain (Category Theory)"
+    },
+    {
+        "choices": [
+            "Loop (Plane Geometry)",
+            "Loop (Graph Theory)",
+            "Algebra Loop",
+            "Relational Loop",
+            "Loop (Topology)",
+            "Loop (Matroid)"
+        ],
+        "gt": "Relational Loop",
+        "idx": 44,
+        "is_correct": false,
+        "pred": "'Loop (Graph Theory)'"
+    },
+    {
+        "choices": [
+            "Image (Relation Theory)/Mapping/Mapping",
+            "Image (Relation Theory)/Relation/Relation",
+            "Direct Image Mapping/Mapping",
+            "Direct Image Mapping/Relation",
+            "Direct Image of Sheaf"
+        ],
+        "gt": "Image (Relation Theory)/Mapping/Mapping",
+        "idx": 47,
+        "is_correct": false,
+        "pred": "Direct Image Mapping/Mapping"
+    },
+    {
+        "choices": [
+            "Image (Relation Theory)/Mapping/Mapping",
+            "Image (Relation Theory)/Relation/Relation",
+            "Direct Image Mapping/Mapping",
+            "Direct Image Mapping/Relation",
+            "Direct Image of Sheaf"
+        ],
+        "gt": "Image (Relation Theory)/Relation/Relation",
+        "idx": 48,
+        "is_correct": false,
+        "pred": "'Direct Image Mapping/Mapping'"
+    },
+    {
+        "choices": [
+            "Image (Relation Theory)/Mapping/Mapping",
+            "Image (Relation Theory)/Relation/Relation",
+            "Direct Image Mapping/Mapping",
+            "Direct Image Mapping/Relation",
+            "Direct Image of Sheaf"
+        ],
+        "gt": "Direct Image Mapping/Relation",
+        "idx": 50,
+        "is_correct": false,
+        "pred": "'Direct Image Mapping/Mapping'"
+    },
+    {
+        "choices": [
+            "Image (Relation Theory)/Mapping/Mapping",
+            "Image (Relation Theory)/Relation/Relation",
+            "Direct Image Mapping/Mapping",
+            "Direct Image Mapping/Relation",
+            "Direct Image of Sheaf"
+        ],
+        "gt": "Direct Image of Sheaf",
+        "idx": 51,
+        "is_correct": false,
+        "pred": "Direct Image Mapping/Mapping"
+    },
+    {
+        "choices": [
+            "Power (Algebra)",
+            "Power of Element/Magma",
+            "Power of Element/Magma with Identity",
+            "Power of Element/Semigroup",
+            "Power of Element/Monoid",
+            "Power of Element/Group",
+            "Power of Element/Ring",
+            "Power (B-Algebra)",
+            "Cardinality",
+            "Power Set",
+            "Power (Physics)"
+        ],
+        "gt": "Power of Element/Ring",
+        "idx": 60,
+        "is_correct": false,
+        "pred": "Power of Element/Semigroup"
+    },
+    {
+        "choices": [
+            "Affine Geometry",
+            "Affine Algebraic Set",
+            "Affine Algebraic Variety",
+            "Affine Scheme",
+            "Affine Frame",
+            "Affine Hull",
+            "Affine Monoid",
+            "Affine Plane",
+            "Affine Space",
+            "Affine Span",
+            "Affine Subspace",
+            "Affine Transformation"
+        ],
+        "gt": "Affine Space",
+        "idx": 78,
+        "is_correct": false,
+        "pred": "I don't know."
+    },
+    {
+        "choices": [
+            "Ellipse/Major Axis/Semi-Major Axis",
+            "Semimajor Axis of Ellipsoid"
+        ],
+        "gt": "Semimajor Axis of Ellipsoid",
+        "idx": 85,
+        "is_correct": false,
+        "pred": "'Ellipse/Major Axis/Semi-Major Axis'"
+    },
+    {
+        "choices": [
+            "Closure Operator",
+            "Closure of Set under Closure Operator",
+            "Upper Closure",
+            "Lower Closure",
+            "Closure (Abstract Algebra)/Algebraic Structure",
+            "Integral Closure",
+            "Generated Normal Subgroup",
+            "Closure (Topology)",
+            "Closure (Topology)/Metric Space",
+            "Closure/Normed Vector Space",
+            "Transitive Closure of Set",
+            "Reflexive Closure",
+            "Symmetric Closure",
+            "Transitive Closure of Relation"
+        ],
+        "gt": "Closure (Topology)/Metric Space",
+        "idx": 94,
+        "is_correct": false,
+        "pred": "'Closure (Topology)'"
+    },
+    {
+        "choices": [
+            "Closure Operator",
+            "Closure of Set under Closure Operator",
+            "Upper Closure",
+            "Lower Closure",
+            "Closure (Abstract Algebra)/Algebraic Structure",
+            "Integral Closure",
+            "Generated Normal Subgroup",
+            "Closure (Topology)",
+            "Closure (Topology)/Metric Space",
+            "Closure/Normed Vector Space",
+            "Transitive Closure of Set",
+            "Reflexive Closure",
+            "Symmetric Closure",
+            "Transitive Closure of Relation"
+        ],
+        "gt": "Closure/Normed Vector Space",
+        "idx": 95,
+        "is_correct": false,
+        "pred": "'Closure (Normed Vector Space)'"
+    },
+    {
+        "choices": [
+            "Distributive Operation",
+            "Distributive Lattice"
+        ],
+        "gt": "Distributive Lattice",
+        "idx": 107,
+        "is_correct": false,
+        "pred": "'Distributive Operation'"
+    },
+    {
+        "choices": [
+            "Unit of Ring",
+            "Unit of System of Sets",
+            "Singleton",
+            "Unit of Algebra",
+            "Unital Algebra",
+            "Unity (Abstract Algebra)/Ring",
+            "Unit of Measurement",
+            "Experimental Unit"
+        ],
+        "gt": "Unit of Ring",
+        "idx": 108,
+        "is_correct": false,
+        "pred": "'Unity (Abstract Algebra)/Ring'"
+    },
+    {
+        "choices": [
+            "Unit of Ring",
+            "Unit of System of Sets",
+            "Singleton",
+            "Unit of Algebra",
+            "Unital Algebra",
+            "Unity (Abstract Algebra)/Ring",
+            "Unit of Measurement",
+            "Experimental Unit"
+        ],
+        "gt": "Unital Algebra",
+        "idx": 112,
+        "is_correct": false,
+        "pred": "Unity (Abstract Algebra)/Ring"
+    },
+    {
+        "choices": [
+            "Unit of Ring",
+            "Unit of System of Sets",
+            "Singleton",
+            "Unit of Algebra",
+            "Unital Algebra",
+            "Unity (Abstract Algebra)/Ring",
+            "Unit of Measurement",
+            "Experimental Unit"
+        ],
+        "gt": "Experimental Unit",
+        "idx": 115,
+        "is_correct": false,
+        "pred": "'Unit of Measurement'"
+    },
+    {
+        "choices": [
+            "Transpose of Linear Transformation",
+            "Transpose of Matrix"
+        ],
+        "gt": "Transpose of Linear Transformation",
+        "idx": 118,
+        "is_correct": false,
+        "pred": "'Transpose of Matrix'"
+    },
+    {
+        "choices": [
+            "Linear Measure/Height",
+            "Triangle (Geometry)/Height",
+            "Polygon/Height",
+            "Cone (Geometry)/Height",
+            "Height of Prime Ideal",
+            "Height of Proper Ideal"
+        ],
+        "gt": "Linear Measure/Height",
+        "idx": 120,
+        "is_correct": false,
+        "pred": "'Triangle (Geometry)/Height'"
+    },
+    {
+        "choices": [
+            "Linear Measure/Height",
+            "Triangle (Geometry)/Height",
+            "Polygon/Height",
+            "Cone (Geometry)/Height",
+            "Height of Prime Ideal",
+            "Height of Proper Ideal"
+        ],
+        "gt": "Polygon/Height",
+        "idx": 122,
+        "is_correct": false,
+        "pred": "'Triangle (Geometry)/Height'"
+    },
+    {
+        "choices": [
+            "Substitution",
+            "Substitution (Set Theory)",
+            "Substitution (Formal Systems)/Well-Formed Part",
+            "Substitution (Formal Systems)/Letter",
+            "Alphabetic Substitution",
+            "Substitution (Formal Systems)/Metasymbol",
+            "Substitution (Mathematical Logic)"
+        ],
+        "gt": "Substitution (Mathematical Logic)",
+        "idx": 132,
+        "is_correct": false,
+        "pred": "Substitution (Formal Systems)"
+    },
+    {
+        "choices": [
+            "Diagonal of Polyhedron",
+            "Diameter of Parallelogram",
+            "Diagonal Relation",
+            "Diagonal Mapping",
+            "Main Diagonal/Diagonal Elements",
+            "Diagonal Matrix",
+            "Diagonalizable Matrix"
+        ],
+        "gt": "Main Diagonal/Diagonal Elements",
+        "idx": 137,
+        "is_correct": false,
+        "pred": "'Diagonal Matrix'"
+    },
+    {
+        "choices": [
+            "Injection",
+            "One-to-One Relation"
+        ],
+        "gt": "Injection",
+        "idx": 140,
+        "is_correct": false,
+        "pred": "One-to-One Relation"
+    },
+    {
+        "choices": [
+            "Inconsistent (Logic)",
+            "Consistent Simultaneous Equations/Inconsistent"
+        ],
+        "gt": "Consistent Simultaneous Equations/Inconsistent",
+        "idx": 145,
+        "is_correct": false,
+        "pred": "'Inconsistent (Logic)'"
+    },
+    {
+        "choices": [
+            "Relation Compatible with Operation",
+            "Relation Strongly Compatible with Operation",
+            "Operation Compatible with Set Equivalence",
+            "Ordering Compatible with Ring Structure",
+            "Gradation Compatible with Ring Structure",
+            "Relation Conversely Compatible with Operation",
+            "Universally Compatible Relation",
+            "Congruence Relation",
+            "Compatible Quasiuniformities",
+            "Compatible Atlases",
+            "Compatible Charts/Smooth",
+            "Chart Compatible with Atlas",
+            "Compatible Module Structures"
+        ],
+        "gt": "Compatible Atlases",
+        "idx": 155,
+        "is_correct": false,
+        "pred": "'Chart Compatible with Atlas'"
+    },
+    {
+        "choices": [
+            "Relation Compatible with Operation",
+            "Relation Strongly Compatible with Operation",
+            "Operation Compatible with Set Equivalence",
+            "Ordering Compatible with Ring Structure",
+            "Gradation Compatible with Ring Structure",
+            "Relation Conversely Compatible with Operation",
+            "Universally Compatible Relation",
+            "Congruence Relation",
+            "Compatible Quasiuniformities",
+            "Compatible Atlases",
+            "Compatible Charts/Smooth",
+            "Chart Compatible with Atlas",
+            "Compatible Module Structures"
+        ],
+        "gt": "Compatible Charts/Smooth",
+        "idx": 156,
+        "is_correct": false,
+        "pred": "'Chart Compatible with Atlas'"
+    },
+    {
+        "choices": [
+            "Relation Compatible with Operation",
+            "Relation Strongly Compatible with Operation",
+            "Operation Compatible with Set Equivalence",
+            "Ordering Compatible with Ring Structure",
+            "Gradation Compatible with Ring Structure",
+            "Relation Conversely Compatible with Operation",
+            "Universally Compatible Relation",
+            "Congruence Relation",
+            "Compatible Quasiuniformities",
+            "Compatible Atlases",
+            "Compatible Charts/Smooth",
+            "Chart Compatible with Atlas",
+            "Compatible Module Structures"
+        ],
+        "gt": "Compatible Module Structures",
+        "idx": 158,
+        "is_correct": false,
+        "pred": "\"Relation Compatible with Operation\""
+    },
+    {
+        "choices": [
+            "Monomial of Free Commutative Monoid/Degree",
+            "Algebraic Number over Field/Degree",
+            "Homogeneous Function/Degree",
+            "Homogeneous Function/Real Space/Degree",
+            "Gradation on Abelian Group",
+            "Field Extension/Degree",
+            "Degree of Algebraic Element",
+            "Transcendence Degree",
+            "Degree of Vertex",
+            "Degree of Arc",
+            "Algebraic Curve/Degree",
+            "Degrees of Freedom (Physics)",
+            "Celsius",
+            "Fahrenheit",
+            "Spline Function/Degree",
+            "Degrees of Freedom (Statistics)"
+        ],
+        "gt": "Algebraic Number over Field/Degree",
+        "idx": 163,
+        "is_correct": false,
+        "pred": "'Degree of Algebraic Element'"
+    },
+    {
+        "choices": [
+            "Monomial of Free Commutative Monoid/Degree",
+            "Algebraic Number over Field/Degree",
+            "Homogeneous Function/Degree",
+            "Homogeneous Function/Real Space/Degree",
+            "Gradation on Abelian Group",
+            "Field Extension/Degree",
+            "Degree of Algebraic Element",
+            "Transcendence Degree",
+            "Degree of Vertex",
+            "Degree of Arc",
+            "Algebraic Curve/Degree",
+            "Degrees of Freedom (Physics)",
+            "Celsius",
+            "Fahrenheit",
+            "Spline Function/Degree",
+            "Degrees of Freedom (Statistics)"
+        ],
+        "gt": "Homogeneous Function/Real Space/Degree",
+        "idx": 165,
+        "is_correct": false,
+        "pred": "Homogeneous Function/Degree"
+    },
+    {
+        "choices": [
+            "Monomial of Free Commutative Monoid/Degree",
+            "Algebraic Number over Field/Degree",
+            "Homogeneous Function/Degree",
+            "Homogeneous Function/Real Space/Degree",
+            "Gradation on Abelian Group",
+            "Field Extension/Degree",
+            "Degree of Algebraic Element",
+            "Transcendence Degree",
+            "Degree of Vertex",
+            "Degree of Arc",
+            "Algebraic Curve/Degree",
+            "Degrees of Freedom (Physics)",
+            "Celsius",
+            "Fahrenheit",
+            "Spline Function/Degree",
+            "Degrees of Freedom (Statistics)"
+        ],
+        "gt": "Degree of Algebraic Element",
+        "idx": 168,
+        "is_correct": false,
+        "pred": "Field Extension/Degree"
+    },
+    {
+        "choices": [
+            "Monomial of Free Commutative Monoid/Degree",
+            "Algebraic Number over Field/Degree",
+            "Homogeneous Function/Degree",
+            "Homogeneous Function/Real Space/Degree",
+            "Gradation on Abelian Group",
+            "Field Extension/Degree",
+            "Degree of Algebraic Element",
+            "Transcendence Degree",
+            "Degree of Vertex",
+            "Degree of Arc",
+            "Algebraic Curve/Degree",
+            "Degrees of Freedom (Physics)",
+            "Celsius",
+            "Fahrenheit",
+            "Spline Function/Degree",
+            "Degrees of Freedom (Statistics)"
+        ],
+        "gt": "Fahrenheit",
+        "idx": 175,
+        "is_correct": false,
+        "pred": "'Degrees of Freedom (Physics)'"
+    },
+    {
+        "choices": [
+            "Monomial of Free Commutative Monoid/Degree",
+            "Algebraic Number over Field/Degree",
+            "Homogeneous Function/Degree",
+            "Homogeneous Function/Real Space/Degree",
+            "Gradation on Abelian Group",
+            "Field Extension/Degree",
+            "Degree of Algebraic Element",
+            "Transcendence Degree",
+            "Degree of Vertex",
+            "Degree of Arc",
+            "Algebraic Curve/Degree",
+            "Degrees of Freedom (Physics)",
+            "Celsius",
+            "Fahrenheit",
+            "Spline Function/Degree",
+            "Degrees of Freedom (Statistics)"
+        ],
+        "gt": "Spline Function/Degree",
+        "idx": 176,
+        "is_correct": false,
+        "pred": "Homogeneous Function/Degree"
+    },
+    {
+        "choices": [
+            "Small Class",
+            "Small Category"
+        ],
+        "gt": "Small Class",
+        "idx": 195,
+        "is_correct": false,
+        "pred": "'Small Category'"
+    },
+    {
+        "choices": [
+            "Complete Metric Space",
+            "Topologically Complete Space",
+            "Complete Lattice",
+            "Dedekind Completeness Property",
+            "Inductive Ordered Set",
+            "Functionally Complete",
+            "Complete Logistic System",
+            "Complete Proof System",
+            "Complete Theory",
+            "Complete Graph",
+            "Complete Bipartite Graph",
+            "Complete Residue System"
+        ],
+        "gt": "Inductive Ordered Set",
+        "idx": 201,
+        "is_correct": false,
+        "pred": "I don't know"
+    },
+    {
+        "choices": [
+            "Complete Metric Space",
+            "Topologically Complete Space",
+            "Complete Lattice",
+            "Dedekind Completeness Property",
+            "Inductive Ordered Set",
+            "Functionally Complete",
+            "Complete Logistic System",
+            "Complete Proof System",
+            "Complete Theory",
+            "Complete Graph",
+            "Complete Bipartite Graph",
+            "Complete Residue System"
+        ],
+        "gt": "Complete Theory",
+        "idx": 205,
+        "is_correct": false,
+        "pred": "'Dedekind Completeness Property'"
+    },
+    {
+        "choices": [
+            "Left Inverse Mapping",
+            "Inverse (Abstract Algebra)/Left Inverse",
+            "Inverse Matrix/Left"
+        ],
+        "gt": "Left Inverse Mapping",
+        "idx": 209,
+        "is_correct": false,
+        "pred": "'Inverse (Abstract Algebra)/Left Inverse'"
+    },
+    {
+        "choices": [
+            "Bounded Set/Real Numbers",
+            "Bounded Class",
+            "Bounded Mapping/Real-Valued",
+            "Bounded Sequence/Real",
+            "Bounded Region of Plane",
+            "Bounded Metric Space",
+            "Bounded Metric Space/Complex",
+            "Bounded Subset of Topological Vector Space",
+            "Bounded Subset of Normed Vector Space"
+        ],
+        "gt": "Bounded Set/Real Numbers",
+        "idx": 214,
+        "is_correct": false,
+        "pred": "'Bounded Subset of Real Numbers'"
+    },
+    {
+        "choices": [
+            "Bounded Set/Real Numbers",
+            "Bounded Class",
+            "Bounded Mapping/Real-Valued",
+            "Bounded Sequence/Real",
+            "Bounded Region of Plane",
+            "Bounded Metric Space",
+            "Bounded Metric Space/Complex",
+            "Bounded Subset of Topological Vector Space",
+            "Bounded Subset of Normed Vector Space"
+        ],
+        "gt": "Bounded Class",
+        "idx": 215,
+        "is_correct": false,
+        "pred": "'Bounded Subset of Class'"
+    },
+    {
+        "choices": [
+            "Bounded Set/Real Numbers",
+            "Bounded Class",
+            "Bounded Mapping/Real-Valued",
+            "Bounded Sequence/Real",
+            "Bounded Region of Plane",
+            "Bounded Metric Space",
+            "Bounded Metric Space/Complex",
+            "Bounded Subset of Topological Vector Space",
+            "Bounded Subset of Normed Vector Space"
+        ],
+        "gt": "Bounded Metric Space",
+        "idx": 219,
+        "is_correct": false,
+        "pred": "'Bounded Subset of Metric Space'"
+    },
+    {
+        "choices": [
+            "Bounded Set/Real Numbers",
+            "Bounded Class",
+            "Bounded Mapping/Real-Valued",
+            "Bounded Sequence/Real",
+            "Bounded Region of Plane",
+            "Bounded Metric Space",
+            "Bounded Metric Space/Complex",
+            "Bounded Subset of Topological Vector Space",
+            "Bounded Subset of Normed Vector Space"
+        ],
+        "gt": "Bounded Metric Space/Complex",
+        "idx": 220,
+        "is_correct": false,
+        "pred": "'Bounded Subset of Complex Plane'"
+    },
+    {
+        "choices": [
+            "Empty Set",
+            "Empty Class (Class Theory)",
+            "Empty Mapping",
+            "Null Relation",
+            "Edgeless Graph",
+            "Summation/Vacuous Summation",
+            "Class Interval/Empty",
+            "Zero (Category)"
+        ],
+        "gt": "Empty Class (Class Theory)",
+        "idx": 224,
+        "is_correct": false,
+        "pred": "'Empty Set'"
+    },
+    {
+        "choices": [
+            "Field (Abstract Algebra)",
+            "Field of Relation",
+            "Vector Field"
+        ],
+        "gt": "Field of Relation",
+        "idx": 232,
+        "is_correct": false,
+        "pred": "'Field (Abstract Algebra)'"
+    },
+    {
+        "choices": [
+            "Similar Figures",
+            "Similar Triangles",
+            "Segment of Circle/Similar",
+            "Similar Solid Figures",
+            "Right Circular Cone/Similar Cones",
+            "Cylinder/Similar Cylinders",
+            "Similar Planes",
+            "Similar Inclination",
+            "Similar Situation",
+            "Plane Number/Similar Numbers",
+            "Solid Number/Similar Numbers",
+            "Matrix Similarity",
+            "Similarity Mapping",
+            "Set Equivalence"
+        ],
+        "gt": "Similar Figures",
+        "idx": 247,
+        "is_correct": false,
+        "pred": "'Similar Triangles'"
+    },
+    {
+        "choices": [
+            "Similar Figures",
+            "Similar Triangles",
+            "Segment of Circle/Similar",
+            "Similar Solid Figures",
+            "Right Circular Cone/Similar Cones",
+            "Cylinder/Similar Cylinders",
+            "Similar Planes",
+            "Similar Inclination",
+            "Similar Situation",
+            "Plane Number/Similar Numbers",
+            "Solid Number/Similar Numbers",
+            "Matrix Similarity",
+            "Similarity Mapping",
+            "Set Equivalence"
+        ],
+        "gt": "Similar Inclination",
+        "idx": 254,
+        "is_correct": false,
+        "pred": "'Similar Triangles'"
+    },
+    {
+        "choices": [
+            "Similar Figures",
+            "Similar Triangles",
+            "Segment of Circle/Similar",
+            "Similar Solid Figures",
+            "Right Circular Cone/Similar Cones",
+            "Cylinder/Similar Cylinders",
+            "Similar Planes",
+            "Similar Inclination",
+            "Similar Situation",
+            "Plane Number/Similar Numbers",
+            "Solid Number/Similar Numbers",
+            "Matrix Similarity",
+            "Similarity Mapping",
+            "Set Equivalence"
+        ],
+        "gt": "Similar Situation",
+        "idx": 255,
+        "is_correct": false,
+        "pred": "'Similar Solid Figures'"
+    },
+    {
+        "choices": [
+            "Similar Figures",
+            "Similar Triangles",
+            "Segment of Circle/Similar",
+            "Similar Solid Figures",
+            "Right Circular Cone/Similar Cones",
+            "Cylinder/Similar Cylinders",
+            "Similar Planes",
+            "Similar Inclination",
+            "Similar Situation",
+            "Plane Number/Similar Numbers",
+            "Solid Number/Similar Numbers",
+            "Matrix Similarity",
+            "Similarity Mapping",
+            "Set Equivalence"
+        ],
+        "gt": "Plane Number/Similar Numbers",
+        "idx": 256,
+        "is_correct": false,
+        "pred": "'Similar Plane Numbers'"
+    },
+    {
+        "choices": [
+            "Similar Figures",
+            "Similar Triangles",
+            "Segment of Circle/Similar",
+            "Similar Solid Figures",
+            "Right Circular Cone/Similar Cones",
+            "Cylinder/Similar Cylinders",
+            "Similar Planes",
+            "Similar Inclination",
+            "Similar Situation",
+            "Plane Number/Similar Numbers",
+            "Solid Number/Similar Numbers",
+            "Matrix Similarity",
+            "Similarity Mapping",
+            "Set Equivalence"
+        ],
+        "gt": "Solid Number/Similar Numbers",
+        "idx": 257,
+        "is_correct": false,
+        "pred": "'Similar Solid Figures'"
+    },
+    {
+        "choices": [
+            "Similar Figures",
+            "Similar Triangles",
+            "Segment of Circle/Similar",
+            "Similar Solid Figures",
+            "Right Circular Cone/Similar Cones",
+            "Cylinder/Similar Cylinders",
+            "Similar Planes",
+            "Similar Inclination",
+            "Similar Situation",
+            "Plane Number/Similar Numbers",
+            "Solid Number/Similar Numbers",
+            "Matrix Similarity",
+            "Similarity Mapping",
+            "Set Equivalence"
+        ],
+        "gt": "Similarity Mapping",
+        "idx": 259,
+        "is_correct": false,
+        "pred": "Matrix Similarity"
+    },
+    {
+        "choices": [
+            "Similar Figures",
+            "Similar Triangles",
+            "Segment of Circle/Similar",
+            "Similar Solid Figures",
+            "Right Circular Cone/Similar Cones",
+            "Cylinder/Similar Cylinders",
+            "Similar Planes",
+            "Similar Inclination",
+            "Similar Situation",
+            "Plane Number/Similar Numbers",
+            "Solid Number/Similar Numbers",
+            "Matrix Similarity",
+            "Similarity Mapping",
+            "Set Equivalence"
+        ],
+        "gt": "Set Equivalence",
+        "idx": 260,
+        "is_correct": false,
+        "pred": "Matrix Similarity"
+    },
+    {
+        "choices": [
+            "Set Partition",
+            "Decomposable Set",
+            "Internal Direct Product/Decomposition",
+            "Internal Group Direct Product/Decomposition",
+            "Prime Decomposition",
+            "Partial Fractions Expansion"
+        ],
+        "gt": "Set Partition",
+        "idx": 270,
+        "is_correct": false,
+        "pred": "'Internal Direct Product/Decomposition'"
+    },
+    {
+        "choices": [
+            "Set Partition",
+            "Decomposable Set",
+            "Internal Direct Product/Decomposition",
+            "Internal Group Direct Product/Decomposition",
+            "Prime Decomposition",
+            "Partial Fractions Expansion"
+        ],
+        "gt": "Decomposable Set",
+        "idx": 271,
+        "is_correct": false,
+        "pred": "'Internal Direct Product/Decomposition'"
+    },
+    {
+        "choices": [
+            "Orthogonal (Linear Algebra)/Orthogonal Complement",
+            "Orthogonal (Bilinear Form)/Orthogonal Complement"
+        ],
+        "gt": "Orthogonal (Bilinear Form)/Orthogonal Complement",
+        "idx": 277,
+        "is_correct": false,
+        "pred": "'Orthogonal (Linear Algebra)/Orthogonal Complement'"
+    },
+    {
+        "choices": [
+            "Rank (Set Theory)",
+            "Rank/Matrix",
+            "Rank/Linear Transformation",
+            "Rank of Entire Function",
+            "Rank of Free Group",
+            "Rank (Statistics)",
+            "Rank Correlation Coefficient"
+        ],
+        "gt": "Rank/Matrix",
+        "idx": 279,
+        "is_correct": false,
+        "pred": "'Rank (Linear Transformation)'"
+    },
+    {
+        "choices": [
+            "Minor (Euclidean)",
+            "Ellipse/Minor Axis/Semi-Minor Axis",
+            "Categorical Syllogism/Premises/Minor Premise",
+            "Minor of Determinant"
+        ],
+        "gt": "Minor (Euclidean)",
+        "idx": 285,
+        "is_correct": false,
+        "pred": "'Minor of Determinant'"
+    },
+    {
+        "choices": [
+            "Extension of Relation",
+            "Extension of Mapping",
+            "Extension of Operation",
+            "Extension of Sequence",
+            "Extension of Class/Immediate",
+            "Field Extension",
+            "Ring Extension",
+            "Extension of Ideal",
+            "Extension of Structure",
+            "Extension of Propositional Tableau"
+        ],
+        "gt": "Extension of Mapping",
+        "idx": 294,
+        "is_correct": false,
+        "pred": "'Extension of Relation'"
+    },
+    {
+        "choices": [
+            "Cartesian Product/Cartesian Space",
+            "Topological Space",
+            "Hausdorff Space",
+            "Metric Space",
+            "Vector Space",
+            "Column Space",
+            "Row Space",
+            "Null Space",
+            "Bilinear Space",
+            "Quadratic Space",
+            "Space Group",
+            "Spacetime",
+            "Ordinary Space",
+            "Space Coordinates",
+            "Line/Curve/Space",
+            "Space-Filling Curve",
+            "Real Vector Space"
+        ],
+        "gt": "Ordinary Space",
+        "idx": 315,
+        "is_correct": false,
+        "pred": "'Spacetime'"
+    },
+    {
+        "choices": [
+            "Cartesian Product/Cartesian Space",
+            "Topological Space",
+            "Hausdorff Space",
+            "Metric Space",
+            "Vector Space",
+            "Column Space",
+            "Row Space",
+            "Null Space",
+            "Bilinear Space",
+            "Quadratic Space",
+            "Space Group",
+            "Spacetime",
+            "Ordinary Space",
+            "Space Coordinates",
+            "Line/Curve/Space",
+            "Space-Filling Curve",
+            "Real Vector Space"
+        ],
+        "gt": "Line/Curve/Space",
+        "idx": 317,
+        "is_correct": false,
+        "pred": "'Space Curve'"
+    },
+    {
+        "choices": [
+            "Cartesian Product/Cartesian Space",
+            "Topological Space",
+            "Hausdorff Space",
+            "Metric Space",
+            "Vector Space",
+            "Column Space",
+            "Row Space",
+            "Null Space",
+            "Bilinear Space",
+            "Quadratic Space",
+            "Space Group",
+            "Spacetime",
+            "Ordinary Space",
+            "Space Coordinates",
+            "Line/Curve/Space",
+            "Space-Filling Curve",
+            "Real Vector Space"
+        ],
+        "gt": "Real Vector Space",
+        "idx": 319,
+        "is_correct": false,
+        "pred": "'Vector Space'"
+    },
+    {
+        "choices": [
+            "Trivial Partition",
+            "Trivial Quotient",
+            "Trivial Relation",
+            "Trivial Group",
+            "Trivial Ring",
+            "Character (Number Theory)",
+            "Trivial Factorization",
+            "Filter on Set/Trivial Filter",
+            "Indiscrete Topology",
+            "Trivial Topological Space",
+            "Zero Subspace",
+            "Trivial Norm",
+            "Trivial Category",
+            "Riemann Zeta Function/Zero/Trivial"
+        ],
+        "gt": "Character (Number Theory)",
+        "idx": 325,
+        "is_correct": false,
+        "pred": "'Trivial Character'"
+    },
+    {
+        "choices": [
+            "Couple (Mechanics)",
+            "Tusi Couple"
+        ],
+        "gt": "Couple (Mechanics)",
+        "idx": 334,
+        "is_correct": false,
+        "pred": "'Tusi Couple'"
+    },
+    {
+        "choices": [
+            "Cut (Analysis)",
+            "Dedekind Cut",
+            "Cut-Vertex",
+            "Cut Point",
+            "Vertex Cut",
+            "Edge Cut"
+        ],
+        "gt": "Cut (Analysis)",
+        "idx": 336,
+        "is_correct": false,
+        "pred": "Dedekind Cut"
+    },
+    {
+        "choices": [
+            "Cut (Analysis)",
+            "Dedekind Cut",
+            "Cut-Vertex",
+            "Cut Point",
+            "Vertex Cut",
+            "Edge Cut"
+        ],
+        "gt": "Cut-Vertex",
+        "idx": 338,
+        "is_correct": false,
+        "pred": "'Dedekind Cut'"
+    },
+    {
+        "choices": [
+            "Cut (Analysis)",
+            "Dedekind Cut",
+            "Cut-Vertex",
+            "Cut Point",
+            "Vertex Cut",
+            "Edge Cut"
+        ],
+        "gt": "Cut Point",
+        "idx": 339,
+        "is_correct": false,
+        "pred": "'Dedekind Cut'"
+    },
+    {
+        "choices": [
+            "Cut (Analysis)",
+            "Dedekind Cut",
+            "Cut-Vertex",
+            "Cut Point",
+            "Vertex Cut",
+            "Edge Cut"
+        ],
+        "gt": "Vertex Cut",
+        "idx": 340,
+        "is_correct": false,
+        "pred": "'Cut (Analysis)'"
+    },
+    {
+        "choices": [
+            "Power (Algebra)",
+            "Involution (Mapping)"
+        ],
+        "gt": "Power (Algebra)",
+        "idx": 342,
+        "is_correct": false,
+        "pred": "'Involution (Mapping)'"
+    },
+    {
+        "choices": [
+            "Closed Statement",
+            "Closed Set/Topology",
+            "Closed Set/Metric Space",
+            "Regular Closed Set",
+            "Closed Mapping",
+            "Closed Extension Topology",
+            "Loop (Topology)",
+            "Closed Region",
+            "Closed under Mapping",
+            "Closed Set/Closure Operator",
+            "Closed Element",
+            "Real Interval/Closed",
+            "Walk (Graph Theory)/Closed",
+            "Cycle (Graph Theory)",
+            "Circuit (Graph Theory)",
+            "Closure (Abstract Algebra)/Algebraic Structure",
+            "Closure (Abstract Algebra)/Scalar Product",
+            "Algebraically Closed Field",
+            "Integrally Closed",
+            "Multiplicatively Closed Subset of Ring"
+        ],
+        "gt": "Closed Element",
+        "idx": 354,
+        "is_correct": false,
+        "pred": "Closed Set/Closure Operator"
+    },
+    {
+        "choices": [
+            "Closed Statement",
+            "Closed Set/Topology",
+            "Closed Set/Metric Space",
+            "Regular Closed Set",
+            "Closed Mapping",
+            "Closed Extension Topology",
+            "Loop (Topology)",
+            "Closed Region",
+            "Closed under Mapping",
+            "Closed Set/Closure Operator",
+            "Closed Element",
+            "Real Interval/Closed",
+            "Walk (Graph Theory)/Closed",
+            "Cycle (Graph Theory)",
+            "Circuit (Graph Theory)",
+            "Closure (Abstract Algebra)/Algebraic Structure",
+            "Closure (Abstract Algebra)/Scalar Product",
+            "Algebraically Closed Field",
+            "Integrally Closed",
+            "Multiplicatively Closed Subset of Ring"
+        ],
+        "gt": "Circuit (Graph Theory)",
+        "idx": 358,
+        "is_correct": false,
+        "pred": "Cycle (Graph Theory)"
+    },
+    {
+        "choices": [
+            "Closed Statement",
+            "Closed Set/Topology",
+            "Closed Set/Metric Space",
+            "Regular Closed Set",
+            "Closed Mapping",
+            "Closed Extension Topology",
+            "Loop (Topology)",
+            "Closed Region",
+            "Closed under Mapping",
+            "Closed Set/Closure Operator",
+            "Closed Element",
+            "Real Interval/Closed",
+            "Walk (Graph Theory)/Closed",
+            "Cycle (Graph Theory)",
+            "Circuit (Graph Theory)",
+            "Closure (Abstract Algebra)/Algebraic Structure",
+            "Closure (Abstract Algebra)/Scalar Product",
+            "Algebraically Closed Field",
+            "Integrally Closed",
+            "Multiplicatively Closed Subset of Ring"
+        ],
+        "gt": "Closure (Abstract Algebra)/Algebraic Structure",
+        "idx": 359,
+        "is_correct": false,
+        "pred": "'Closed under Mapping'"
+    },
+    {
+        "choices": [
+            "Closed Statement",
+            "Closed Set/Topology",
+            "Closed Set/Metric Space",
+            "Regular Closed Set",
+            "Closed Mapping",
+            "Closed Extension Topology",
+            "Loop (Topology)",
+            "Closed Region",
+            "Closed under Mapping",
+            "Closed Set/Closure Operator",
+            "Closed Element",
+            "Real Interval/Closed",
+            "Walk (Graph Theory)/Closed",
+            "Cycle (Graph Theory)",
+            "Circuit (Graph Theory)",
+            "Closure (Abstract Algebra)/Algebraic Structure",
+            "Closure (Abstract Algebra)/Scalar Product",
+            "Algebraically Closed Field",
+            "Integrally Closed",
+            "Multiplicatively Closed Subset of Ring"
+        ],
+        "gt": "Closure (Abstract Algebra)/Scalar Product",
+        "idx": 360,
+        "is_correct": false,
+        "pred": "Closed under Mapping"
+    },
+    {
+        "choices": [
+            "Closed Statement",
+            "Closed Set/Topology",
+            "Closed Set/Metric Space",
+            "Regular Closed Set",
+            "Closed Mapping",
+            "Closed Extension Topology",
+            "Loop (Topology)",
+            "Closed Region",
+            "Closed under Mapping",
+            "Closed Set/Closure Operator",
+            "Closed Element",
+            "Real Interval/Closed",
+            "Walk (Graph Theory)/Closed",
+            "Cycle (Graph Theory)",
+            "Circuit (Graph Theory)",
+            "Closure (Abstract Algebra)/Algebraic Structure",
+            "Closure (Abstract Algebra)/Scalar Product",
+            "Algebraically Closed Field",
+            "Integrally Closed",
+            "Multiplicatively Closed Subset of Ring"
+        ],
+        "gt": "Integrally Closed",
+        "idx": 362,
+        "is_correct": false,
+        "pred": "'Multiplicatively Closed Subset of Ring'"
+    },
+    {
+        "choices": [
+            "Closed Statement",
+            "Closed Set/Topology",
+            "Closed Set/Metric Space",
+            "Regular Closed Set",
+            "Closed Mapping",
+            "Closed Extension Topology",
+            "Loop (Topology)",
+            "Closed Region",
+            "Closed under Mapping",
+            "Closed Set/Closure Operator",
+            "Closed Element",
+            "Real Interval/Closed",
+            "Walk (Graph Theory)/Closed",
+            "Cycle (Graph Theory)",
+            "Circuit (Graph Theory)",
+            "Closure (Abstract Algebra)/Algebraic Structure",
+            "Closure (Abstract Algebra)/Scalar Product",
+            "Algebraically Closed Field",
+            "Integrally Closed",
+            "Multiplicatively Closed Subset of Ring"
+        ],
+        "gt": "Multiplicatively Closed Subset of Ring",
+        "idx": 363,
+        "is_correct": false,
+        "pred": "Closed under Mapping"
+    }
+]
