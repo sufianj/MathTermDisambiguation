@@ -1,0 +1,5835 @@
+,title,term,definition,pred
+0,Definition:Action (Physics),Action,"Let B_1 and B_2 be bodies in space.
+
+Let B_1 apply a force 𝐅 on B_2.
+
+The force 𝐅 is known as the action that B_1 applies to B_2.",Definition:Action (Physics)
+1,Definition:Action (Dynamics),Action,"The action for a given segment from point A to point B on the trajectory of a dynamical system is defined by the line integral:
+
+:∑_i ∫_A^B p_i  d q_i
+
+where:
+:q_i are the generalized coordinates
+:p_i are the generalized momenta.",Definition:Action (Dynamics)
+2,Definition:Action Applied by System,Action,"The action applied by a system from state 1 to state 2 is defined as the definite integral of the Lagrangian over time from state 1 to state 2:
+
+:S_12 = ∫_t_1^t_2ℒ d t
+where:
+:S_12 is the action from 1 to 2
+:t is time
+:ℒ is the Lagrangian.",Definition:Action Applied by System
+3,Definition:Group Action,Action,"Let X be a set.
+
+Let ( G, ∘) be a group whose identity is e.
+
+
+=== Left Group Action ===
+Let X be a set.
+
+Let ( G, ∘) be a group whose identity is e.
+
+
+A (left) group action is an operation ϕ: G × X → X such that:
+
+:∀( g, x ) ∈ G × X: g * x := ϕ(   )g, x∈ X
+
+in such a way that the group action axioms are satisfied:
+ 
+
+=== Right Group Action ===
+Let X be a set.
+
+Let ( G, ∘) be a group whose identity is e.
+
+
+A right group action is a mapping ϕ: X × G → X such that:
+
+:∀( x, g ) ∈ X × G : x * g := ϕ(   )x, g∈ X
+
+in such a way that the right group action axioms are satisfied:
+ 
+
+The group G thus acts on the set X.
+
+
+=== Transformation Group ===
+Let X be a set.
+
+Let ( G, ∘) be a group whose identity is e.
+
+
+Let G act on X.
+
+Then G can be referred to as the transformation group of X.
+
+=== From Permutation Representation ===
+Let G be a group.
+
+Let X be a set.
+
+Let ( Γ(   )X, ∘) be the symmetric group on X.
+
+Let ρ: G →( Γ(   )X, ∘) be a permutation representation.
+
+
+The group action of G associated to the permutation representation ρ is the group action ϕ: G × X → X defined by:
+:ϕ(   )g, x = ρ_g (   )x
+
+where ρ_g : X → X is the permutation representation associated to ρ for g ∈ G by ρ_g (   )x = ϕ(   )g, x.",Definition:Group Action
+4,Definition:Linear Ring Action,Action,"Let R be a ring.
+
+Let M be an abelian group.
+
+
+=== Left Ring Action ===
+Let R be a ring.
+
+Let M be an abelian group.
+
+Let ∘ : R × M → M be a mapping from the cartesian product R × M.
+
+
+∘ is a left linear ring action of R on M  if and only if  ∘ satisfies the left ring action axioms:
+ 
+
+=== Right Ring Action ===
+Let R be a ring.
+
+Let M be an abelian group.
+
+Let ∘ : M × R → M be a mapping from the cartesian product M × R.
+
+
+∘ is a right linear ring action of R on M  if and only if  ∘ satisfies the right ring action axioms:
+ ",Definition:Linear Ring Action
+5,Definition:Algebra (Mathematical Branch),Algebra,Algebra is the branch of mathematics which studies the techniques of manipulation of objects and expressions.,Definition:Algebra (Mathematical Branch)
+6,Definition:Abstract Algebra,Algebra,"Abstract algebra is a branch of mathematics which studies algebraic structures and algebraic systems.
+
+It can be roughly described as the study of sets equipped with operations.",Definition:Algebra (Mathematical Branch)
+7,Definition:Algebraic Structure,Algebra,"An algebraic structure with n operations is an ordered tuple:
+:( S, ∘_1, ∘_2, …, ∘_n )
+where:
+:S is a set
+:∘_1, ∘_2, …, ∘_n are n binary operations which are defined on all the elements of S × S.
+
+
+=== One Operation ===
+An algebraic structure with 1 operation is an ordered pair:
+:( S, ∘)
+where:
+:S is a set
+:∘ is a binary operation defined on all the elements of S × S.
+
+=== Two Operations ===
+An algebraic structure with 2 operations is an ordered triple:
+:( S, ∘, * )
+where:
+:S is a set
+:∘ and * are binary operations defined on all the elements of S × S.",Definition:Algebraic Structure
+8,Definition:Linear Algebra (Mathematical Branch),Algebra,Linear algebra is the branch of algebra which studies vector spaces and linear transformations between them.,Definition:Linear Algebra (Mathematical Branch)
+9,Definition:Vector Algebra,Algebra,Vector Algebra is the branch of mathematics which studies the algebra of vector spaces.,Definition:Vector Algebra
+10,Definition:Algebra Loop,Algebra,"An algebra loop ( S, ∘) is a quasigroup with an identity element.
+:∃ e ∈ S: ∀ x ∈ S: x ∘ e = x = e ∘ x",Definition:Algebra Loop
+11,Definition:Algebra of Sets,Algebra,"=== Definition 1 ===
+
+Let S be a set.
+
+Let 𝒫( S ) be the power set of S.
+
+Let ℛ⊆𝒫( S ) be a set of subsets of S.
+
+
+ℛ is an algebra of sets over S  if and only if  ℛ satisfies the algebra of sets axioms:
+ 
+
+=== Definition 2 ===
+An algebra of sets is a ring of sets with a unit.",Definition:Algebra of Sets
+12,Definition:Sigma-Algebra,Algebra,"=== Definition 1 ===
+Let X be a set.
+
+Let x3a3 be a system of subsets of X.
+
+
+x3a3 is a σ-algebra over X  if and only if  x3a3 satisfies the sigma-algebra axioms:
+ 
+
+=== Definition 2 ===
+Let X be a set.
+
+Let x3a3 be a system of subsets of X.
+
+
+x3a3 is a σ-algebra over X  if and only if  x3a3 satisfies the sigma-algebra axioms:
+ 
+
+=== Definition 3 ===
+A σ-algebra x3a3 is a σ-ring with a unit.
+
+=== Definition 4 ===
+Let X be a set.
+
+A σ-algebra x3a3 over X is an algebra of sets which is closed under countable unions.",Definition:Sigma-Algebra
+13,Definition:Borel Sigma-Algebra,Algebra,"=== Topological Space ===
+Let ( S, τ) be a topological space
+
+The Borel sigma-algebra ℬ(   )S, τ of ( S, τ) is the σ-algebra generated by τ.
+
+That is, it is the σ-algebra generated by the set of open sets in S.
+
+
+=== Borel Set ===
+Let ( S, τ) be a topological space.
+
+Let ℬ(   )S, τ be the Borel σ-algebra of ( S, τ).
+
+
+The elements of ℬ(   )S, τ are called the Borel (measurable) sets of ( S, τ).
+
+=== Metric Space ===
+Let ( S, d ) be a metric space.
+
+The Borel sigma-algebra (or σ-algebra) on ( S, d ) is the σ-algebra generated by the open sets in 𝒫( S ).
+
+By the definition of a topology induced by a metric, this definition is a particular instance of the definition of a Borel σ-algebra on a topological space.
+
+
+=== Borel Set ===
+Let ( S, τ) be a topological space.
+
+Let ℬ(   )S, τ be the Borel σ-algebra of ( S, τ).
+
+
+The elements of ℬ(   )S, τ are called the Borel (measurable) sets of ( S, τ).
+
+=== Borel Set ===
+Let ( S, τ) be a topological space.
+
+Let ℬ(   )S, τ be the Borel σ-algebra of ( S, τ).
+
+
+The elements of ℬ(   )S, τ are called the Borel (measurable) sets of ( S, τ).",Definition:Borel Sigma-Algebra
+14,Definition:B-Algebra,Algebra,"Let ( X, ∘) be an algebraic structure.
+
+
+( X, ∘) is a B-algebra  if and only if  ( X, ∘) satisfies the B-algebra axioms:
+ ",Definition:B-Algebra
+15,Definition:Algebra (Abstract Algebra),Algebra,"In the context of abstract algebra, in particular ring theory and linear algebra, the following varieties of algebra exist:
+
+* Definition:Boolean Algebra
+
+* Definition:Algebra over Ring: an R-module G_R over a commutative ring R with a bilinear mapping ⊕: G^2 → G.
+
+* Definition:Algebra over Field: a vector space G_F over a field F with a bilinear mapping ⊕: G^2 → G.
+
+* Definition:Real Algebra: an algebra over a field where the field in question is the field of real numbers ℝ.
+
+* Definition:Division Algebra: an algebra over a field ( A_F, ⊕) such that ∀ a, b ∈ A_F, b 0_A: ∃_1 x ∈ A_F, y ∈ A_F: a = b ⊕ x, a = y ⊕ b.
+
+* Definition:Associative Algebra: an algebra over a ring in which the bilinear mapping ⊕ is associative. 
+
+* Definition:Unitary Algebra, also known as a Unital Algebra: an algebra over a ring ( A_R, ⊕) in which there exists an identity element, that is, a unit, usually denoted 1, for ⊕.
+
+* Definition:Unitary Division Algebra: a division algebra ( A_F, ⊕) in which there exists an identity element, that is, a unit, usually denoted 1, for ⊕.
+
+* Definition:Graded Algebra: an algebra over a ring where the ring has a gradation, that is, is a graded ring.
+
+* Definition:Filtered Algebra: an algebra over a field which has a sequence of subalgebras which constitute a gradation.
+
+* Definition:Quadratic Algebra: a filtered algebra whose generator consists of degree one elements, with defining relations of degree 2.
+
+* Definition:Lie Algebra",Definition:Abstract Algebra
+16,Definition:Associative Operation,Associative,"Let S be a set.
+
+Let ∘ : S × S → S be a binary operation.
+
+
+Then ∘ is associative  if and only if :
+
+:∀ x, y, z ∈ S: ( x ∘ y ) ∘ z = x ∘( y ∘ z )",Definition:Associative Operation
+17,Definition:Power-Associative Operation,Associative,"Let ∘ be a binary operation.
+
+Then ∘ is defined as being power-associative on S  if and only if :
+
+:∀ x ∈ S: ( x ∘ x ) ∘ x = x ∘( x ∘ x )",Definition:Power-Associative Operation
+18,Definition:Semigroup,Associative,"Let ( S, ∘) be a magma.
+
+
+Then ( S, ∘) is a semigroup  if and only if  ∘ is associative on S.
+
+
+That is:
+
+:A semigroup is an algebraic structure which is closed and whose operation is associative.
+
+
+=== Semigroup Axioms ===
+
+The properties that define a semigroup can be gathered together as follows:
+
+ 
+
+=== Multiplicative Semigroup ===
+Let ( S, ∘) be a semigroup whose operation is multiplication.
+
+
+Then ( S, ∘) is a multiplicative semigroup.
+
+
+It is implicit in this definition that the elements of S are numbers, or objects derived from numbers upon which the concept of multiplication is applicable.
+
+=== Additive Semigroup ===
+Let ( S, ∘) be a semigroup whose operation is addition.
+
+
+Then ( S, ∘) is an additive semigroup.
+
+
+It is implicit in this definition that the elements of S are numbers, or objects derived from numbers upon which the concept of addition is applicable.",Definition:Semigroup
+19,Definition:Associative Algebra,Associative,"Let R be a commutative ring.
+
+Let ( A_R, * ) be an algebra over R.
+
+
+Then ( A_R, * ) is an associative algebra  if and only if  * is an associative operation.
+
+That is:
+
+:∀ a, b, c ∈ A_R: ( a * b ) * c = a * ( b * c )",Definition:Associative Operation
+20,Definition:Base of Geometric Figure,Base,"The base of a geometric figure is a specific part of that figure which is distinguished from the remainder of that figure and placed (actually or figuratively) at the bottom of a depiction or visualisation.
+
+In some cases the base is truly qualitiatively different from the rest of the figure.
+
+In other cases the base is selected arbitrarily as one of several parts of the figure which may equally well be so chosen.",Definition:Base of Geometric Figure
+21,Definition:Triangle (Geometry)/Base,Base,":
+
+
+For a given triangle, one of the sides can be distinguished as being the base.
+
+It is immaterial which is so chosen.
+
+The usual practice is that the triangle is drawn so that the base is made horizontal, and at the bottom.
+
+In the above diagram, it would be conventional for the side AC to be identified as the base.",Definition:Triangle (Geometry)/Base
+22,Definition:Triangle (Geometry)/Isosceles/Base,Base,":
+
+
+The base of an isosceles triangle is specifically defined to be the side which is a different length from the other two.
+
+In the above diagram, BC is the base.",Definition:Triangle (Geometry)/Isosceles/Base
+23,Definition:Parallelogram/Base,Base,":
+
+In a given parallelogram, one of the sides is distinguished as being the base.
+
+It is immaterial which is so chosen, but usual practice is that it is one of the two longer sides.
+
+In the parallelogram above, line AB is considered to be the base.",Definition:Parallelogram/Base
+24,Definition:Segment of Circle/Base,Base,":
+
+The base of a segment of a circle is the straight line forming one of the boundaries of the seqment.
+
+In the above diagram, AB is the base of the highlighted segment.",Definition:Segment of Circle/Base
+25,Definition:Cone (Geometry)/Base,Base,"Consider a cone consisting of the set of all straight lines joining the boundary of a plane figure PQR to a point A not in the same plane of PQR:
+
+
+:
+
+
+The plane figure PQR is called the base of the cone.",Definition:Cone (Geometry)/Base
+26,Definition:Right Circular Cone/Base,Base,"
+
+Let AOB be a right-angled triangle such that ∠ AOB is the right angle.
+
+Let K be the right circular cone formed by the rotation of AOB around OB.
+
+Let BC be the circle described by B.
+
+The base of K is the plane surface enclosed by the circle BC.
+
+
+ 
+: 
+:And the base is the circle described by the straight line which is carried round.
+ ”
+ ",Definition:Right Circular Cone/Base
+27,Definition:Pyramid/Base,Base,":
+
+
+The polygon of a pyramid to whose vertices the apex is joined is called the base of the pyramid.
+
+
+In the above diagram, ABCDE is the base of the pyramid ABCDEQ.",Definition:Pyramid/Base
+28,Definition:Hemisphere/Base,Base,The base of a hemisphere ℋ is the plane which bisects the sphere from which ℋ was formed.,Definition:Hemisphere/Base
+29,Definition:Triangle (Geometry)/Isosceles/Base Angles,Base,":
+
+
+The two (equal) vertices adjacent to the base of an isosceles triangle are called the base angles.
+
+In the above diagram, ∠ ABC and ∠ ACB are the base angles.",Definition:Triangle (Geometry)/Isosceles/Base Angles
+30,Definition:Number Base,Base,"=== Integers ===
+Let n ∈ℤ be an integer.
+
+Let b ∈ℤ be an integer such that b > 1.
+
+By the Basis Representation Theorem, n can be expressed uniquely in the form:
+
+:n = ∑_j  = 0^m r_j b^j
+
+where:
+:m is such that b^m ≤ n < b^m + 1
+:all the r_j are such that 0 ≤ r_j < b.
+
+
+The number b is known as the number base to which n is represented.
+
+n is thus described as being (written) in base b.
+
+  
+ 
+
+Thus we can write n = ∑_j  = 0^m r_j b^j as:
+:[ r_m r_m - 1… r_2 r_1 r_0 ]_b
+or, if the context is clear:
+:r_m r_m - 1… r_2 r_1 r_0_b
+
+=== Real Numbers ===
+Let x ∈ℝ be a real number such that x ≥ 0.
+
+Let b ∈ℕ: b ≥ 2.
+
+
+See the definition of Basis Expansion for how we can express x in the form:
+
+:x = [ s  d_1 d_2 d_3 …]_b
+
+Then we express m as for integers, and arrive at:
+:x = [ r_m r_m - 1… r_2 r_1 r_0  d_1 d_2 d_3 …]_b
+
+or, if the context is clear:
+:r_m r_m - 1… r_2 r_1 r_0  d_1 d_2 d_3 …_b
+
+=== Integer Part ===
+Let x ∈ℝ be a real number such that x ≥ 0.
+
+Let b ∈ℕ: b ≥ 2.
+
+
+In the basis expansion:
+:x = [r_m r_m-1… r_2 r_1 r_0 . d_1 d_2 d_3 …]_b
+the part r_m r_m-1… r_2 r_1 r_0 is known as the integer part.
+
+=== Fractional Part ===
+Let x ∈ℝ be a real number such that x ≥ 0.
+
+Let b ∈ℕ: b ≥ 2.
+
+
+In the basis expansion:
+:x = [ r_m r_m - 1… r_2 r_1 r_0 . d_1 d_2 d_3 …]_b
+the part .d_1 d_2 d_3 … is known as the fractional part.
+
+=== Radix Point ===
+Let x ∈ℝ be a real number such that x ≥ 0.
+
+Let b ∈ℕ: b ≥ 2.
+
+
+In the basis expansion:
+:x = [ r_m r_m - 1… r_2 r_1 r_0  d_1 d_2 d_3 …]_b
+the dot that separates the integer part from the fractional part is called the radix point.",Definition:Number Base
+31,Definition:Logarithm/Base,Base,"Let log_a denote the logarithm function on whatever domain: ℝ or ℂ.
+
+The constant a is known as the base of the logarithm.",Definition:Logarithm/Base
+32,Definition:Bounded Set/Real Numbers,Bounded,"=== Definition 1 ===
+Let ℝ be the set of real numbers.
+
+
+Let T ⊆ℝ be both bounded below and bounded above in ℝ.
+
+
+Then T is bounded in ℝ.
+
+=== Definition 2 ===
+Let ℝ be the set of real numbers.
+
+
+Let T ⊆ℝ be a subset of ℝ such that:
+:∃ K ∈ℝ: ∀ x ∈ T: | x |≤ K
+where | x | denotes the absolute value of x.
+
+
+Then T is bounded in ℝ.",Definition:Bounded Set/Real Numbers
+33,Definition:Bounded Class,Bounded,"Let B be a class.
+
+
+=== Bounded by Set ===
+Let B be a class.
+
+Let x be a set.
+
+B is bounded by x  if and only if :
+:every element of B is a subset of x.
+
+=== Bounded Subset of Class ===
+Let B be a class.
+
+Let B be a subclass of a class A.
+
+Then B is a bounded subset of A  if and only if :
+:there exists a set x ∈ A such that B is bounded by x 
+
+
+That is,  if and only if  every element of B is a subset of x.",Definition:Bounded Class
+34,Definition:Bounded Mapping/Real-Valued,Bounded,"Let f: S →ℝ be a real-valued function.
+
+
+=== Definition 1 ===
+Let f: S →ℝ be a real-valued function.
+
+
+f is bounded on S  if and only if :
+:f is bounded above on S
+and also:
+:f is bounded below on S.
+
+=== Definition 2 ===
+Let f: S →ℝ be a real-valued function.
+
+
+f is bounded on S  if and only if :
+:∃ K ∈ℝ_≥ 0: ∀ x ∈ S: | f (   )x |≤ K
+where | f (   )x | denotes the absolute value of f (   )x.
+
+=== Definition 3 ===
+Let f: S →ℝ be a real-valued function.
+
+
+f is bounded on S  if and only if :
+:∃ a, b ∈ℝ_≥ 0: ∀ x ∈ S: f (   )x ∈[ a  . . ]b
+where [ a  . . ]b denotes the (closed) real interval from a to b.
+
+=== Function Attaining its Bounds ===
+Let f: S →ℝ be a bounded real-valued function.
+
+Let T be a subset of S.
+
+Suppose that:
+:∃ a, b ∈ T: ∀ x ∈ S: f (   )a ≤ f (   )x ≤ f (   )b
+
+
+Then f attains its bounds on T.",Definition:Bounded Mapping/Real-Valued
+35,Definition:Bounded Sequence/Real,Bounded,"Let ⟨ x_n ⟩ be a real sequence.
+
+
+Then ⟨ x_n ⟩ is bounded  if and only if  ∃ m, M ∈ℝ such that ∀ i ∈ℕ:
+:m ≤ x_i
+:x_i ≤ M
+
+
+That is,  if and only if  it is bounded above and bounded below.
+
+
+=== Unbounded ===
+Let ⟨ x_n ⟩ be a real sequence.
+
+
+⟨ x_n ⟩ is unbounded  if and only if  it is not bounded.",Definition:Bounded Sequence/Real
+36,Definition:Bounded Region of Plane,Bounded,"Let D ⊆ℝ^2 be a subset of the plane.
+
+D is bounded  if and only if  there exists a circle in the plane which completely encloses D.",Definition:Bounded Region of Plane
+37,Definition:Bounded Metric Space,Bounded,"Let M = ( A, d ) be a metric space.
+
+Let M' = ( B, d_B ) be a subspace of M.
+
+
+=== Definition 1 ===
+Let M = ( A, d ) be a metric space.
+
+Let M' = ( B, d_B ) be a subspace of M.
+
+
+M' is bounded (in M)  if and only if :
+:∃ a ∈ A, K ∈ℝ: ∀ x ∈ B: d (   )x, a≤ K
+
+That is, there exists an element of A within a finite distance of all elements of B.
+
+=== Definition 2 ===
+Let M = ( A, d ) be a metric space.
+
+Let M' = ( B, d_B ) be a subspace of M.
+
+
+M' is bounded (in M)  if and only if :
+:∃ K ∈ℝ: ∀ x, y ∈ M': d_B (   )x, y≤ K
+
+That is, there exists a finite distance such that all pairs of elements of B are within that distance.
+
+=== Definition 3 ===
+Let M = ( A, d ) be a metric space.
+
+Let M' = ( B, d_B ) be a subspace of M.
+
+
+M' is bounded (in M)  if and only if :
+:∃ x ∈ A, ϵ∈ℝ_>0: B ⊆ B_ϵ(   )x
+
+where B_ϵ(   )x is the open ϵ-ball of x.
+
+
+That is, M' can be fitted inside an open ball.
+
+=== Definition 4 ===
+Let M = ( A, d ) be a metric space.
+
+Let M' = ( B, d_B ) be a subspace of M.
+
+Let a' ∈ A.
+
+
+M' is bounded (in M)  if and only if :
+:∃ K ∈ℝ: ∀ x ∈ B: d (   )x, a'≤ K",Definition:Bounded Metric Space
+38,Definition:Bounded Metric Space/Complex,Bounded,"Let D be a subset of the complex plane ℂ.
+
+
+Then D is bounded (in ℂ)  if and only if  there exists M ∈ℝ such that:
+: ∀ z ∈ D: | z |≤ M
+
+
+=== Unbounded ===
+Let D be a subset of the complex plane ℂ.
+
+
+Then D is unbounded (in ℂ)  if and only if :
+: ∄ M ∈ℝ: ∀ z ∈ D: | z |≤ M
+
+That is, if D is not bounded in ℂ.",Definition:Bounded Subset of Topological Vector Space
+39,Definition:Bounded Subset of Topological Vector Space,Bounded,"Let 𝔽∈{ℝ, ℂ}.
+
+Let ( V, τ) be a topological vector space over 𝔽.
+
+
+A subset B ⊆ V is bounded  if and only if :
+:for each U ∈τ such that 0_V ∈ U there is an ϵ∈ℝ_>0 such that:
+::ϵ B ⊆ U
+
+where:
+:0_V denotes the zero vector of V
+:ϵ B denotes the dilation of B by ϵ",Definition:Bounded Subset of Topological Vector Space
+40,Definition:Bounded Subset of Normed Vector Space,Bounded,"Let M = ( X, ‖ · ‖) be a normed vector space.
+
+Let M' ⊆ X. 
+
+
+=== Definition 1 ===
+Let M = ( X, ‖ · ‖) be a normed vector space.
+
+Let M' = ( Y, ‖ · ‖_Y ) be a subspace of M.
+
+
+M' is bounded (in M)  if and only if :
+:∃ x ∈ X, C ∈ℝ_> 0: ∀ y ∈ Y: ‖ x - y ‖≤ C
+
+=== Definition 2 ===
+Let M = ( X, ‖ · ‖) be a normed vector space.
+
+Let M' = ( Y, ‖ · ‖_Y ) be a subspace of M.
+
+
+M' is bounded (in M)  if and only if :
+:∃ϵ∈ℝ_>0 : ∃ x ∈ X : Y ⊆ B_ϵ^- (   )x
+
+where B_ϵ^- (   )x is a closed ball in M.",Definition:Bounded Subset of Normed Vector Space
+41,Definition:Bounded Above Set/Real Numbers,Bounded Above,"Let ℝ be the set of real numbers.
+
+A subset T ⊆ℝ is bounded above (in ℝ)  if and only if  T admits an upper bound (in ℝ).
+
+
+=== Unbounded Above ===
+Let ℝ be the set of real numbers.
+
+Let T ⊆ℝ be a subset of ℝ .
+
+
+T ⊆ℝ is unbounded above (in ℝ)  if and only if  it is not bounded above.",Definition:Bounded Above Set/Real Numbers
+42,Definition:Bounded Above Mapping/Real-Valued,Bounded Above,"Let f: S →ℝ be a real-valued function.
+
+
+f is bounded above on S by the upper bound H  if and only if :
+:∀ x ∈ S: f (   )x ≤ H
+
+
+That is,  if and only if  the set { f (   )x: x ∈ S } is bounded above in ℝ by H.",Definition:Bounded Above Mapping/Real-Valued
+43,Definition:Bounded Above Sequence/Real,Bounded Above,"Let ⟨ x_n ⟩ be a real sequence.
+
+
+Then ⟨ x_n ⟩ is bounded above  if and only if :
+:∃ M ∈ℝ: ∀ i ∈ℕ: x_i ≤ M",Definition:Bounded Above Sequence/Real
+44,Definition:Concave Polygon,Concave,"Let P be a polygon.
+
+P is a concave polygon  if and only if :
+:at least one internal angle of P is greater than 180 ^∘.",Definition:Concave Polygon
+45,Definition:Concave Polyhedron,Concave,"Let P be a polyhedron.
+
+=== Definition 1 ===
+Let P be a polyhedron.
+
+P is a concave polyhedron  if and only if :
+:at least one face of P lies in a plane which intersects at least one other face.
+
+=== Definition 2 ===
+Let P be a polyhedron.
+
+P is a concave polyhedron  if and only if :
+:at least one face of P lies in a plane such that P does not lie completely on one side of that plane.",Definition:Concave Polyhedron
+46,Definition:Concave Real Function,Concave,"Let f be a real function which is defined on a real interval I.
+
+=== Definition 1 ===
+Let f be a real function which is defined on a real interval I.
+
+
+f is concave on I  if and only if :
+
+:∀ x, y ∈ I: ∀α, β∈ℝ_>0, α + β = 1: f (   )α x + β y≥α f (   )x + β f (   )y
+
+
+:
+
+=== Strictly Concave ===
+Let f be a real function which is defined on a real interval I.
+
+
+f is strictly concave on I  if and only if :
+
+:∀ x, y ∈ I, x  y: ∀α, β∈ℝ_>0, α + β = 1: f (   )α x + β y > α f (   )x + β f (   )y
+
+
+:
+
+
+The geometric interpretation is that any point on the chord drawn on the graph of any strictly concave function always lies below the graph.
+
+=== Definition 2 ===
+Let f be a real function which is defined on a real interval I.
+
+
+f is concave on I  if and only if :
+
+:∀ x_1, x_2, x_3 ∈ I: x_1 < x_2< x_3: f (   )x_2 - f (   )x_1/x_2 - x_1≥f (   )x_3 - f (   )x_2/x_3 - x_2
+
+
+Hence a geometrical interpretation: the slope of P_1 P_2 is greater than that of P_2 P_3:
+
+
+:
+
+
+=== Strictly Concave ===
+Let f be a real function which is defined on a real interval I.
+
+
+f is strictly concave on I  if and only if :
+
+:∀ x_1, x_2, x_3 ∈ I: x_1 < x_2 < x_3: f (   )x_2 - f (   )x_1x_2 - x_1 > f (   )x_3 - f (   )x_2x_3 - x_2
+
+
+Hence a geometrical interpretation: the slope of P_1 P_2 is greater than that of P_2 P_3:
+
+
+:
+
+=== Definition 3 ===
+Let f be a real function which is defined on a real interval I.
+
+
+f is concave on I  if and only if :
+
+:∀ x_1, x_2, x_3 ∈ I: x_1 < x_2< x_3: f (   )x_2 - f (   )x_1x_2 - x_1≥f (   )x_3 - f (   )x_1x_3 - x_1
+
+
+Hence a geometrical interpretation: the slope of P_1 P_2 is greater than that of P_1 P_3:
+
+
+:
+
+
+=== Strictly Concave ===
+Let f be a real function which is defined on a real interval I.
+
+
+f is strictly concave on I  if and only if :
+
+:∀ x_1, x_2, x_3 ∈ I: x_1 < x_2 < x_3: f (   )x_2 - f (   )x_1x_2 - x_1 > f (   )x_3 - f (   )x_1x_3 - x_1
+
+
+Hence a geometrical interpretation: the slope of P_1 P_2 is greater than that of P_1 P_3:
+
+
+:",Definition:Concave Real Function
+47,Definition:Cone (Geometry),Cone,"A cone is a three-dimensional geometric figure which consists of the set of all straight lines joining the boundary of a plane figure PQR to a point A not in the same plane of PQR:
+
+
+:",Definition:Cone (Geometry)
+48,Definition:Cone (Category Theory),Cone,"Let 𝐂 be a metacategory.
+
+Let D: 𝐉→𝐂 be a 𝐉-diagram in 𝐂.
+
+
+A cone to D comprises an object C of 𝐂, and a morphism:
+
+:c_j: C → D_j
+
+for each object of 𝐉, such that for each morphism α: i → j of 𝐉:
+
+::@+0.5em@L+2px
+ C
+  [d]_*+c_i[dr]^*+c_j
+
+ D_i
+  [r]_*+D_α   
+ D_j
+
+is a commutative diagram.
+
+ ",Definition:Cone (Category Theory)
+49,Definition:Congruence (Geometry),Congruence,"In the field of Euclidean geometry, two geometric figures are congruent  if and only if :
+
+:they are, informally speaking, both ""the same size and shape""
+
+:they differ only in position in space
+
+:one figure can be overlaid on the other figure with a series of rotations, translations, and reflections.
+
+
+Specifically:
+:all corresponding angles of the congruent figures must have the same measurement
+:all corresponding sides of the congruent figures must be be the same length.",Definition:Congruence (Geometry)
+50,Definition:Congruence (Metric Spaces),Congruence,"Let ( X, d ) be a metric space.
+
+Two subsets A, B ⊆ X of X are said to be congruent  if and only if  there exists an isometry f: X → X such that f^→(   )A = B.
+
+Such an isometry is called a congruence.",Definition:Congruence (Metric Spaces)
+51,Definition:Congruence Modulo an Ideal,Congruence,"Let ( R, +, ∘) be a ring, and let J be an ideal of R.
+
+
+The notation:
+
+:a ≡ b  J
+
+is used to mean:
+
+:a + ( -b ) ∈ J",Definition:Congruence Modulo an Ideal
+52,Definition:Congruence Relation,Congruence,"Let ( S, ∘) be an algebraic structure.
+
+Let ℛ be an equivalence relation on S.
+
+
+Then ℛ is a congruence relation for ∘  if and only if :
+
+:∀ x_1, x_2, y_1, y_2 ∈ S: ( x_1 ℛ x_2 ) ( y_1 ℛ y_2 ) ( x_1 ∘ y_1 ) ℛ( x_2 ∘ y_2 )",Definition:Congruence Relation
+53,Definition:Congruence (Number Theory),Congruence,"Let z ∈ℝ.
+
+
+=== Definition by Remainder after Division ===
+Let z ∈ℝ.
+
+
+We define a relation ℛ_z on the set of all x, y ∈ℝ:
+:ℛ_z := {( x, y ) ∈ℝ×ℝ: ∃ k ∈ℤ: x = y + k z }
+
+
+This relation is called congruence modulo z, and the real number z is called the modulus.
+
+
+When ( x, y ) ∈ℛ_z, we write:
+:x ≡ y  z
+and say:
+:x is congruent to y modulo z.
+
+
+Similarly, when ( x, y ) ∉ℛ_z, we write:
+:x ≢y  z
+and say:
+:x is not congruent (or incongruent) to y modulo z.
+
+=== Definition by Modulo Operation ===
+Let z ∈ℝ.
+
+Let  be defined as the modulo operation:
+
+:x  y :=  x - y ⌊ x y ⌋    : y  0 
+ x     : y = 0
+
+
+Then congruence modulo z is the relation on ℝ defined as:
+:∀ x, y ∈ℝ: x ≡ y  z  x  z = y  z 
+
+
+The real number z is called the modulus.
+
+=== Definition by Integer Multiple ===
+Let z ∈ℝ.
+
+Let x, y ∈ℝ.
+
+
+Then x is congruent to y modulo z  if and only if  their difference is an integer multiple of z:
+:x ≡ y  z ∃ k ∈ℤ: x - y = k z",Definition:Congruence Relation
+54,Definition:Matrix Congruence,Congruence,"Let R be a commutative ring with unity.
+
+Let n be a positive integer.
+
+Let 𝐀 and 𝐁 be square matrices of order n over R.
+
+
+Then:
+:𝐀 and 𝐁 are congruent
+ if and only if :
+:there exists a nonsingular matrix 𝐏∈ R^n × n such that 𝐁 = 𝐏^⊺𝐀𝐏
+where 𝐏^⊺ denotes the transpose of 𝐏.",Definition:Matrix Congruence
+55,Definition:Consistent (Logic),Consistent,"Let ℒ be a logical language.
+
+Let 𝒫 be a proof system for ℒ.
+
+
+=== Proof System ===
+Let ℒ be a logical language.
+
+Let 𝒫 be a proof system for ℒ.
+
+
+Then 𝒫 is consistent  if and only if :
+
+:There exists a logical formula ϕ such that ⊬_𝒫ϕ
+
+That is, some logical formula ϕ is not a theorem of 𝒫.
+
+
+=== Propositional Logic ===
+Let ℒ_0 be the language of propositional logic.
+
+Let 𝒫 be a proof system for ℒ_0.
+
+
+=== Definition 1 ===
+Let ℒ_0 be the language of propositional logic.
+
+Let 𝒫 be a proof system for ℒ_0.
+
+
+Then 𝒫 is consistent  if and only if :
+
+:There exists a logical formula ϕ such that ⊬_𝒫ϕ
+
+That is, some logical formula ϕ is not a theorem of 𝒫.
+
+
+Category:Definitions/Proof Systems
+Category:Definitions/Propositional Logic
+
+=== Definition 2 ===
+Let ℒ be the language of propositional logic.
+
+Let 𝒫 be a proof system for ℒ_0.
+
+Suppose that in 𝒫, the Rule of Explosion (Variant 3) holds.
+
+
+Then 𝒫 is consistent  if and only if :
+
+:For every logical formula ϕ, not both of ϕ and ϕ are theorems of 𝒫
+
+=== Set of Formulas ===
+Let ℒ be a logical language.
+
+Let 𝒫 be a proof system for ℒ.
+
+Let ℱ be a collection of logical formulas.
+
+
+Then ℱ is consistent for 𝒫  if and only if :
+
+:There exists a logical formula ϕ such that ℱ⊬_𝒫ϕ.
+
+That is, some logical formula ϕ is not a provable consequence of ℱ.
+
+
+=== Propositional Logic ===
+ 
+Let ℒ_0 be the language of propositional logic.
+
+Let 𝒫 be a proof system for ℒ_0.
+
+Let ℱ be a collection of logical formulas.
+
+
+=== Definition 1 ===
+Let ℒ_0 be the language of propositional logic.
+
+Let 𝒫 be a proof system for ℒ_0.
+
+Let ℱ be a collection of logical formulas.
+
+
+Then ℱ is consistent for 𝒫  if and only if :
+
+:There exists a logical formula ϕ such that ℱ⊬_𝒫ϕ
+
+That is, some logical formula ϕ is not a 𝒫-provable consequence of ℱ.
+
+
+Category:Definitions/Proof Systems
+Category:Definitions/Propositional Logic
+
+=== Definition 2 ===
+Let ℒ be the language of propositional logic.
+
+Let 𝒫 be a proof system for ℒ_0.
+
+Let ℱ be a collection of logical formulas.
+
+Suppose that in 𝒫, the Rule of Explosion (Variant 3) holds.
+
+
+Then ℱ is consistent for 𝒫  if and only if :
+
+:For every logical formula ϕ, not both of ϕ and ϕ are 𝒫-provable consequences of ℱ",Definition:Consistent (Logic)
+56,Definition:Consistent Simultaneous Equations,Consistent,"A system of simultaneous equations is referred to as consistent  if and only if  it has at least one solution.
+
+That is,  if and only if  there exists a set of values for its variables such that all the equations are satisfied.
+
+
+=== Inconsistent ===
+A set of equations is described as inconsistent  if and only if  they are not consistent
+
+That is, there exists no set of values for its variables such that all the equations are satisfied.",Definition:Consistent Simultaneous Equations
+57,Definition:Consistent Estimator,Consistent,"Let X_1, X_2, …, X_n be random variables.
+
+Let the joint distribution of X_1, X_2, …, X_n be indexed by a population parameter θ.
+
+Let θ̂ be an estimator of θ.
+
+Then θ̂ is consistent  if and only if :
+:lim_n →∞(   )|θ̂- θ|≥ϵ = 0
+for all ϵ > 0.",Definition:Consistent Estimator
+58,Definition:Critical Point (Topology),Critical Point,"Let f: X → Y be a smooth map of manifolds.
+
+
+A point x ∈ X is called a critical point of f  if and only if  d f_x: T_x [ X ] → T_y [ Y ] is not surjective at x.
+
+ 
+
+Category:Definitions/Topology",Definition:Critical Point (Topology)
+59,Definition:Critical Point/Smooth Manifold,Critical Point,"Let M be a smooth manifold.
+
+Let f ∈𝒞^∞(   )M : M →ℝ be a smooth real-valued function.
+
+Let p ∈ M be a base point in M.
+
+Let d f_p be the differential of f at p.
+
+Suppose d f_p = 0.
+
+
+Then p is called a critical point of f.
+ ",Definition:Critical Point/Smooth Manifold
+60,Definition:Critical Point of Riemannian Length,Critical Point,"Let ( M, g ) be a Riemannian manifold.
+
+Let I = [ a  . . ]b be a closed real interval.
+
+Let J ⊆ℝ be an open real interval.
+
+Let γ : I → M be an admissible curve.
+
+Let L_g be the Riemannian length of some admissible curve.
+
+Let Γ : J × I → M be the proper variation of γ such that:
+
+:∀ s ∈ J, ∀ t ∈ I : ( s, t ) Γ↦Γ_s (   )t
+
+Suppose:
+
+:∀Γ :  d d s L_g (   )Γ_s = 0
+
+
+Then γ is called the critical point of L_g.",Definition:Critical Point of Riemannian Length
+61,Definition:Critical Point (Analysis),Critical Point,"A critical point is a point on a graph where the curve has a vertical tangent.
+
+That is, where limit of the derivative tends to infinity.",Definition:Critical Point (Analysis)
+62,Definition:Cyclic Group,Cyclic,"=== Definition 1 ===
+The group G is cyclic  if and only if  every element of G can be expressed as the power of one element of G:
+:∃ g ∈ G: ∀ h ∈ G: h = g^n
+for some n ∈ℤ.
+
+=== Definition 2 ===
+The group G is cyclic  if and only if  it is generated by one element g ∈ G:
+:G = ⟨ g ⟩",Definition:Cyclic Group
+63,Definition:Cyclic Polygon,Cyclic,A cyclic polygon is a polygon P which can be inscribed in a circle.,Definition:Cyclic Polygon
+64,Definition:Cyclic Quadrilateral,Cyclic,"A cyclic quadrilateral is a quadrilateral which can be circumscribed:
+
+:
+
+
+This is an example of a quadrilateral which cannot be circumscribed, and so therefore is not cyclic:
+
+:",Definition:Cyclic Quadrilateral
+65,Definition:Quadrilateral/Dart/Deltoid,Deltoid,"A deltoid is a dart such that:
+:the 2 sides which are adjacent to the reflex angle are equal to each other
+:the other 2 sides are also equal to each other.
+
+
+:
+
+In the above diagram, the figure on the right is a deltoid.",Definition:Deltoid (Hypocycloid)
+66,Definition:Deltoid (Hypocycloid),Deltoid,"A deltoid is a hypocycloid with 3 cusps.
+
+
+:",Definition:Deltoid (Hypocycloid)
+67,Definition:Diagram (Graphical Technique),Diagram,"A diagram is a graphical technique for illustrating a concept in picture form.
+
+It is generally considered that its use should be limited to that of an aid to understanding, and should not be used in order to prove something.",Definition:Diagram (Graphical Technique)
+68,Definition:Diagram (Category Theory),Diagram,"Let 𝐉 and 𝐂 be metacategories.
+
+
+A diagram of type 𝐉 in 𝐂 is a functor D: 𝐉→𝐂.
+
+
+=== Index Category ===
+
+In this context, 𝐉 is referred to as the index category.
+
+Its objects are typically denoted by lowercase letters, i, j etc.
+
+
+Furthermore, one writes D_i in place of the formally more correct D (i).
+
+Similarly, for α: i → j a morphism one writes D_α in place of D (α).",Definition:Diagram (Category Theory)
+69,Definition:Circle/Diameter,Diameter,":
+
+ 
+: 
+:A diameter of the circle is any straight line drawn through the center and terminated in both directions by the circumference of the circle, and such a straight line also bisects the center.
+ ”
+ 
+
+In the above diagram, the line CD is a diameter.",Definition:Circle/Diameter
+70,Definition:Diameter of Ellipse,Diameter,"Let 𝒦 be an ellipse.
+
+A diameter of 𝒦 is the locus of the midpoints of a system of parallel chords of 𝒦.
+
+
+:",Definition:Diameter of Ellipse
+71,Definition:Diameter of Hyperbola,Diameter,"Let 𝒦 be a hyperbola.
+
+A diameter of 𝒦 is the locus of the midpoints of a system of parallel chords of 𝒦.
+
+
+:",Definition:Diameter of Hyperbola
+72,Definition:Diameter of Parabola,Diameter,"Let 𝒦 be a parabola.
+
+A diameter of 𝒦 is the locus of the midpoints of a system of parallel chords of 𝒦.
+
+
+:",Definition:Diameter of Parabola
+73,Definition:Sphere/Geometry/Diameter,Diameter,"By the definition of a sphere, there is one point inside it such that the distance between that point and any given point on the surface of the sphere are equal, and that point is called the center of the sphere.
+
+
+The diameter of a sphere is the length of any straight line drawn from a point on the surface to another point on the surface through the center.
+
+
+ 
+: 
+:A diameter of the sphere is any straight line drawn through the centre and terminated in both directions by the surface of the sphere.
+ ”
+ ",Definition:Sphere/Geometry/Diameter
+74,Definition:Diameter of Parallelogram,Diameter,"Let ABCD be a parallelogram:
+
+:
+
+The diameters of ABCD are the lines AC and BD joining their opposite vertices.",Definition:Diameter of Parallelogram
+75,Definition:Geometric Figure/Diameter,Diameter,The diameter of a geometric figure is the greatest length that can be formed between two opposite parallel straight lines that can be drawn tangent to its boundary.,Definition:Geometric Figure/Diameter
+76,Definition:Diameter of Subset of Metric Space,Diameter,"Let M = ( A, d ) be a metric space.
+
+Let S ⊆ A be subset of A.
+
+
+Then the diameter of S is the extended real number defined by:
+
+:diam(   )S := sup{ d (   )x, y: x, y ∈ S }    : if this quantity is finite
+ + ∞    : otherwise
+
+
+Thus, by the definition of the supremum, the diameter is the smallest real number D such that any two points of S are at most a distance D apart.
+
+If d: S^2 →ℝ does not admit a supremum, then diam(   )S is infinite.",Definition:Diameter of Subset of Metric Space
+77,Definition:Discrete Mathematics,Discrete,Discrete mathematics is the branch of mathematics which studies mathematical structures that are discrete rather than continuous.,Definition:Discrete Mathematics
+78,Definition:Discrete Category,Discrete,"Let 𝒞 be a metacategory.
+
+
+Then 𝒞 is said to be discrete  if and only if  it comprises only identity morphisms.
+
+If the collection 𝒞 constitutes the objects of 𝐂, then 𝐂 may also be denoted 𝐃𝐢𝐬(   )𝒞.",Definition:Discrete Mathematics
+79,Definition:Discrete Topology,Discrete,"Let S ∅ be a set.
+
+Let τ = 𝒫( S ) be the power set of S.
+
+That is, let τ be the set of all subsets of S:
+:τ := { H: H ⊆ S }
+
+
+Then τ is called the discrete topology on S and ( S, τ) = ( S, 𝒫( S ) ) the discrete space on S, or just a discrete space.
+
+
+=== Finite Discrete Topology ===
+Let S ∅ be a set.
+
+Let τ = 𝒫( S ) be the power set of S.
+
+That is, let τ be the set of all subsets of S:
+:τ := { H: H ⊆ S }
+
+
+Let S be a finite set.
+
+Then τ = 𝒫( S ) is a finite discrete topology, and ( S, τ) = ( S, 𝒫( S ) ) is a finite discrete space.
+
+=== Infinite Discrete Topology ===
+Let S ∅ be a set.
+
+Let τ = 𝒫( S ) be the power set of S.
+
+That is, let τ be the set of all subsets of S:
+:τ := { H: H ⊆ S }
+
+
+Let S be an infinite set.
+
+Then τ = 𝒫( S ) is an infinite discrete topology, and ( S, τ) = ( S, 𝒫( S ) ) is an infinite discrete space.
+
+
+=== Countable Discrete Topology ===
+Let S ∅ be an infinite set.
+
+Let τ = 𝒫( S ) be the power set of S.
+
+That is, let τ be the set of all subsets of S:
+:τ := { H: H ⊆ S }
+
+
+Let S be a countably infinite set.
+
+Then τ = 𝒫( S ) is a countable discrete topology, and ( S, τ) = ( S, 𝒫( S ) ) is a countable discrete space.
+
+=== Uncountable Discrete Topology ===
+Let S ∅ be a set.
+
+Let τ = 𝒫( S ) be the power set of S.
+
+That is, let τ be the set of all subsets of S:
+:τ := { H: H ⊆ S }
+
+
+Let S be an uncountably infinite set.
+
+Then τ = 𝒫( S ) is an uncountable discrete topology, and ( S, τ) = ( S, 𝒫( S ) ) is an uncountable discrete space.",Definition:Discrete Topology
+80,Definition:Discrete Group,Discrete,"A discrete group is a topological group whose topology is discrete.
+
+Category:Definitions/Topological Groups",Definition:Discrete Group
+81,Definition:Discrete Subgroup/Real Numbers,Discrete,"Let G be a subgroup of the additive group of real numbers.
+
+
+Then G is discrete  if and only if :
+:∀ g ∈ G: ∃ϵ∈ℝ_>0: ( g - ϵ . . )g + ϵ∩ G = { g }
+
+That is, there exists a neighborhood of g which contains no other elements of G.
+
+
+Category:Definitions/Subgroups
+Category:Definitions/Topological Groups
+Category:Definitions/Real Numbers",Definition:Discrete Subgroup/Real Numbers
+82,Definition:Standard Discrete Metric,Discrete,"The standard discrete metric on a set S is the metric satisfying:
+
+:d (   )x, y =  0     : x = y 
+ 1     : x  y
+
+
+This can be expressed using the Kronecker delta notation as:
+:d (   )x, y = 1 - δ_x y
+
+
+The resulting metric space M = ( S, d ) is the standard discrete metric space on S.",Definition:Standard Discrete Metric
+83,Definition:Discrete Set of Subsets,Discrete,"Let T = ( S, τ) be a topological space.
+
+Let ℱ be a set of subsets of S.
+
+
+Then ℱ is discrete  if and only if  each element of S has a neighborhood which intersects at most one of the sets in ℱ.",Definition:Discrete Topology
+84,Definition:Discrete Geometry,Discrete,Discrete geometry is a branch of geometry that studies constructive methods of discrete geometric objects.,Definition:Discrete Geometry
+85,Definition:Discrete Measure,Discrete,"Let ( X, x3a3, μ) be a measure space.
+
+
+Then μ is said to be a discrete measure  if and only if  it is a series of Dirac measures.
+
+That is,  if and only if  there exist:
+:a sequence ⟨ x_n ⟩_n ∈ℕ in X
+and:
+:a sequence ⟨λ_n ⟩_n ∈ℕ in ℝ
+
+such that:
+
+:(1):  ∀ E ∈x3a3: μ(   )E = ∑_n ∈ℕλ_n  δ_x_n(   )E
+
+where δ_x_n denotes the Dirac measure at x_n.
+
+
+By Series of Measures is Measure, defining μ by (1) yields a measure.",Definition:Discrete Measure
+86,Definition:Discrete Probability Distribution,Discrete,A discrete probability distribution is a probability distribution of a discrete random variable.,Definition:Discrete Probability Distribution
+87,Definition:Sample Space/Discrete,Discrete,"Let ℰ be an experiment.
+
+Let Ω denote the sample space of ℰ.
+
+
+If Ω is a countable set, whether finite or infinite, then it is known as a discrete sample space.",Definition:Sample Space/Discrete
+88,Definition:Variable/Discrete,Discrete,A discrete variable is a variable which is not continuous.,Definition:Variable/Discrete
+89,Definition:Sample Statistic/Discrete,Discrete,Data which can be described with a discrete variable are known as discrete data.,Definition:Variable/Discrete
+90,Definition:Divergent Product/Divergence to Zero,Divergence,"Let ( 𝕂, ‖ · ‖) be a valued field.
+
+Let ⟨ a_n ⟩ be a sequence of elements of 𝕂.
+
+
+If either:
+
+:there exist infinitely many n ∈ℕ with a_n = 0
+
+:there exists n_0 ∈ℕ with a_n  0 for all n > n_0 and the sequence of partial products of ∏_n  = n_0 + 1^∞ a_n converges to 0
+
+the product diverges to 0, and we assign the value:
+:∏_n  = 1^∞ a_n = 0
+
+
+Category:Definitions/Divergent Products
+Category:Definitions/Infinite Products",Definition:Divergent Product/Divergence to Zero
+91,Definition:Divergence Operator,Divergence,"=== Physical Interpretation ===
+Let 𝐕 be a vector field acting over a region of space R.
+
+The divergence of 𝐕 at a point P is the total flux away from P per unit volume.
+
+It is a scalar field.
+
+=== Geometrical Representation ===
+Let R be a region of space embedded in a Cartesian coordinate frame.
+
+Let 𝐕 be a vector field acting over R.
+
+
+The divergence of 𝐕 at a point A in R is defined as:
+
+ 
+ 
+ 
+ 
+
+where:
+:∇ denotes the Del operator
+:· denotes the dot product
+:V_x, V_y and V_z denote the magnitudes of the components of 𝐕 at A in the directions of the coordinate axes x, y and z respectively.
+
+=== Real Cartesian Space ===
+Let ℝ^n (   )x_1, x_2, …, x_n denote the real Cartesian space of n dimensions.
+
+Let ( 𝐞_1, 𝐞_2, …, 𝐞_n ) be the standard ordered basis on ℝ^n.
+
+Let 𝐟 = ( f_1 (   )𝐱, f_2 (   )𝐱, …, f_n (   )𝐱): ℝ^n →ℝ^n be a vector-valued function on ℝ^n.
+
+
+Let the partial derivative of 𝐟 with respect to x_k exist for all f_k.
+
+
+The divergence of 𝐟 is defined as:
+
+ 
+ 
+ 
+ 
+ 
+
+
+=== Cartesian 3-Space ===
+
+In 3 dimensions with the standard ordered basis ( 𝐢, 𝐣, 𝐤), this is usually rendered:
+
+Let R be a region of Cartesian 3-space ℝ^3.
+
+Let 𝐕(   )x, y, z be a vector field acting over R.
+
+
+The divergence of 𝐕 is defined as:
+
+ 
+ 
+ 
+ 
+
+=== Riemannian Manifold ===
+Let ( M, g ) be a Riemannian manifold equipped with a metric g.
+
+Let 𝐗 : 𝒞^∞(   )M →𝒞^∞(   )M be a smooth vector field.
+
+
+The divergence of 𝐗 is defined as:
+
+ 
+ 
+ 
+ 
+
+where:
+:⋆_g is the Hodge star operator of ( M, g )
+:d_d R is de Rham differential.
+
+=== Integral Form ===
+Let R be a region of space embedded in a Cartesian coordinate frame.
+
+Let 𝐕 be a vector field acting over R.
+
+
+The divergence of 𝐕 at a point A in R is defined as:
+
+:div𝐕 := lim_δτ→ 0∫_S 𝐕·d Sδτ
+
+where:
+:S is the surface of a volume element δτ containing A
+:· denotes the dot product
+:∫_S denotes the surface integral over S.",Definition:Divergence Operator
+92,Definition:Domain (Relation Theory),Domain,"=== Relation ===
+Let ℛ⊆ S × T be a relation.
+
+The domain of ℛ is defined and denoted as:
+:Dom( ℛ) := { s ∈ S: ∃ t ∈ T: ( s, t ) ∈ℛ}
+
+
+That is, it is the same as what is defined here as the preimage of ℛ.
+
+
+=== General Definition ===
+Let ∏_i  = 1^n S_i be the cartesian product of sets S_1 to S_n.
+
+Let ℛ⊆∏_i  = 1^n S_i be an n-ary relation on ∏_i  = 1^n S_i.
+
+The domain of ℛ is the set defined as:
+:Dom( ℛ) := {( s_1, s_2, …, s_n - 1) ∈∏_i  = 1^n - 1 S_i: ∃ s_n ∈ S_n: ( s_1, s_2, …, s_n ) ∈ℛ}
+
+
+The concept is usually encountered when ℛ is an endorelation on S:
+:Dom( ℛ) := {( s_1, s_2, …, s_n - 1) ∈ S^n - 1: ∃ s_n ∈ S_n: ( s_1, s_2, …, s_n ) ∈ℛ}
+
+=== Class Theory ===
+ 
+Let V be a basic universe.
+
+Let ℛ⊆ V × V be a relation in V.
+
+The domain of ℛ is defined and denoted as:
+:Dom( ℛ) := { x ∈ V: ∃ y ∈ V: ( x, y ) ∈ℛ}
+
+That is, it is the class of all x such that ( x, y ) ∈ℛ for at least one y.
+
+=== Mapping ===
+
+The term domain is usually seen when the relation in question is actually a mapping.
+
+Let f: S → T be a mapping.
+
+The domain of f is S, and can be denoted Dom( f ).
+
+=== Binary Operation ===
+Let ∘: S × S → T be a binary operation.
+
+The domain of ∘ is the set S and can be denoted Dom( ∘).
+
+
+This definition can be considered as the same as that for the domain of a mapping, where the domain would be defined as S × S.
+
+Category:Definitions/Abstract Algebra",Definition:Domain (Relation Theory)
+93,Definition:Variable/Domain,Domain,"The collection of all possible objects that a variable may refer to has to be specified.
+
+This collection is the domain of the variable.",Definition:Variable/Domain
+94,Definition:Domain (Category Theory),Domain,"Let f: X → Y be a morphism.
+
+Then the domain of f is defined to be the object X.
+
+This is usually denoted X = Dom( f ) or X = D (   )f.",Definition:Domain (Category Theory)
+95,Definition:Integral Domain,Domain,"=== Definition 1 ===
+An integral domain ( D, +, ∘) is:
+
+:a commutative ring which is non-null
+:with a unity
+:in which there are no (proper) zero divisors, that is:
+::: ∀ x, y ∈ D: x ∘ y = 0_D  x = 0_D  or  y = 0_D
+
+that is, in which all non-zero elements are cancellable.
+
+=== Definition 2 ===
+An integral domain ( D, +, ∘) is a commutative ring such that ( D^*, ∘) is a monoid, all of whose elements are cancellable.
+
+In this context, D^* denotes the ring D without zero: D ∖{ 0_D }.
+
+=== Integral Domain Axioms ===
+ ",Definition:Integral Domain
+96,Definition:Avoirdupois/Dram,Dram,"The dram is an avoirdupois unit of mass.
+
+=== Conversion Factors ===
+",Definition:Avoirdupois/Dram
+97,Definition:Apothecaries' Weights and Measures/Mass/Drachm,Dram,"The drachm is an apothecaries' unit of mass.
+
+=== Conversion Factors ===
+",Definition:Apothecaries' Weights and Measures/Mass/Drachm
+98,Definition:Graph (Graph Theory)/Edge,Edge," 
+
+
+Let G = ( V, E ) be a graph.
+
+The edges are the elements of E.
+
+
+In the above, the edges are AB, AE, BE, CD, CE, CF, DE, DF, FG.
+
+
+=== Join ===
+Let G = ( V, E ) be a graph.
+
+Let u and v be vertices of G.
+
+Let e = u v be an edge of G.
+
+
+Then e joins the vertices u and v.",Definition:Graph (Graph Theory)/Edge
+99,Definition:Polyhedron/Edge,Edge,The edges of a polyhedron are the sides of the polygons which constitute its faces.,Definition:Polyhedron/Edge
+100,Definition:Polyhedral Angle/Edge,Edge,Each of the half-lines that form a polyhedral angle is known as an edge of the polyhedral angle.,Definition:Polyhedral Angle/Edge
+101,Definition:Half-Plane/Edge,Edge,"Let 𝒫 denote the plane.
+
+Let ℒ denote an infinite straight line in 𝒫.
+
+Let ℋ denote one of the half-planes into which ℒ divides 𝒫.
+
+Then ℒ is called the edge of ℋ.",Definition:Half-Plane/Edge
+102,Definition:Morphism,Edge,"Let 𝐂 be a metacategory.
+
+
+A morphism of 𝐂 is an object f, together with:
+
+* A domain dom f, which is an object of 𝐂
+* A codomain cod f, also an object of 𝐂
+
+
+The collection of all morphisms of 𝐂 is denoted 𝐂_1.
+
+
+If A is the domain of f and B is its codomain, this is mostly represented by writing:
+
+:f: A → B or A  f ⟶ B",Definition:Morphism
+103,Definition:Elevation of Point,Elevation,The elevation of a point P is the height of P above some reference horizontal baseline or plane.,Definition:Elevation of Point
+104,Definition:Angle of Elevation,Elevation,"Let A and B be points in space such that A is higher than B.
+
+The angle of elevation of A from B is the angle between the line AB and the horizontal.",Definition:Angle of Elevation
+105,Definition:Empty Class (Class Theory),Empty Class,"A class is defined as being empty  if and only if  it has no elements.
+
+That is:
+:∀ x: x ∉ A
+or:
+:∃ x: x ∈ A
+
+
+The empty class is usually denoted ∅ or ∅.
+
+On   the preferred symbol is ∅.",Definition:Empty Class (Class Theory)
+106,Definition:Class Interval/Empty,Empty Class,A class interval is empty  if and only if  it is of frequency zero.,Definition:Class Interval/Empty
+107,Definition:Epicycle (Ptolemaic Astronomy),Epicycle,"An epicycle is the orbit described by a body moving in a uniform circular motion around a point which is itself moving in a uniform circular motion around another point.
+
+:
+
+That point may itself also be moving in a uniform circular motion around yet another point.",Definition:Epicycle (Ptolemaic Astronomy)
+108,Definition:Epicycloid/Generator/Epicycle,Epicycle,"Let an epicycloid be generated by rolling a circle C_1 around the outside of another circle C_2.
+
+
+:
+
+
+The circle C_1 can be referred to as the epicycle of the epicycloid.",Definition:Epicycloid/Generator/Epicycle
+109,Definition:Hypocycloid/Generator/Epicycle,Epicycle,"Let a hypocycloid be generated by rolling circle C_1 around the inside of another (larger) circle C_2.
+
+
+:
+
+
+The circle C_1 can be referred to as the epicycle of the hypocycloid.",Definition:Hypocycloid/Generator/Epicycle
+110,Definition:Geographical Equator,Equator,"The (geographical) equator is the great circle described on the surface of Earth whose plane is perpendicular to Earth's axis of rotation.
+
+
+:",Definition:Geographical Equator
+111,Definition:Celestial Equator,Equator,"Consider the celestial sphere with observer O.
+
+Let P be the north celestial pole.
+
+
+The great circle whose plane is perpendicular to OP is known as the celestial equator.
+
+
+:",Definition:Celestial Equator
+112,Definition:Galactic Equator,Equator,"The galactic equator is the great circle that is the intersection of the plane of the Milky Way with the celestial sphere.
+
+
+=== Galactic Poles ===
+The galactic poles are the two poles of the great circle that is the galactic equator.
+
+=== Galactic Axis ===
+The galactic axis is the axis of the great circle that is the galactic equator.",Definition:Galactic Equator
+113,Definition:Euclidean Geometry,Euclidean,"Euclidean geometry is the branch of geometry in which the parallel postulate applies.
+
+An assumption which is currently under question is whether or not ordinary space is itself Euclidean.
+
+
+Euclidean geometry adheres to Euclid's postulates.",Definition:Euclidean Geometry
+114,Definition:Euclidean Space,Euclidean,"Let S be one of the standard number fields ℚ, ℝ, ℂ.
+
+Let S^n be a cartesian space for n ∈ℕ_≥ 1.
+
+Let d: S^n × S^n →ℝ be the usual (Euclidean) metric on S^n.
+
+Then ( S^n, d ) is a Euclidean space.",Definition:Euclidean Metric
+115,Definition:Euclidean Space/Euclidean Topology,Euclidean,"Let S be one of the standard number fields ℚ, ℝ, ℂ.
+
+Let S^n be a cartesian space for n ∈ℕ_≥ 1.
+
+Let M = ( S^n, d ) be a Euclidean space.
+
+
+The topology τ_d induced by the Euclidean metric d is called the Euclidean topology.",Definition:Euclidean Space/Euclidean Topology
+116,Definition:Euclidean Metric,Euclidean,"Let M_1' = ( A_1', d_1') and M_2' = ( A_2', d_2') be metric spaces.
+
+Let A_1'× A_2' be the cartesian product of A_1' and A_2'.
+
+
+The Euclidean metric on A_1'× A_2' is defined as:
+
+:d_2 (   )x, y := ( ( d_1'(   )x_1, y_1)^2 + ( d_2'(   )x_2, y_2)^2 )^1/2
+
+where x = ( x_1, x_2 ), y = ( y_1, y_2 ) ∈ A_1'× A_2'.
+
+
+=== General Definition ===
+Let M_1' = ( A_1', d_1'), M_2' = ( A_2', d_2'), …, M_n' = ( A_n', d_n') be metric spaces.
+
+Let 𝒜 = ∏_i  = 1^n A_i' be the cartesian product of A_1', A_2', …, A_n'.
+
+
+The Euclidean metric on 𝒜 = ∏_i  = 1^n A_i' is defined as:
+
+:d_2 (   )x, y := ( ∑_i  = 1^n ( d_i'(   )x_i, y_i)^2 )^1/2
+
+where x = ( x_1, x_2, …, x_n ), y = ( y_1, y_2, …, y_n ) ∈𝒜.
+
+=== Riemannian Manifold ===
+Let x ∈ℝ^n be a point.
+
+Let ( x_1, …, x_n ) be the standard coordinates.
+
+Let T_x ℝ^n be the tangent space of ℝ^n at x.
+
+Let T_x ℝ^n be identified with ℝ^n:
+
+:T_x ℝ^n ≅ℝ^n
+ 
+
+Let v, w ∈ T_x ℝ^n be vectors such that:
+
+:v = ∑_i  = 1^n v^i . ∂_i |_x
+
+:w = ∑_i  = 1^n w^i . ∂_i |_x
+
+Let g be a Riemannian metric such that:
+
+:g_x = ⟨ v,   ⟩ w_x = ∑_i  = 1^n v^i w^i
+
+
+Then g is called the Euclidean metric.
+
+ ",Definition:Euclidean Metric
+117,Definition:Euclidean Norm,Euclidean,"Let 𝐯 = ( v_1, v_2, …, v_n ) be a vector in the real Euclidean n-space ℝ^n.
+
+
+The Euclidean norm of 𝐯 is defined as:
+
+ 
+ 
+ 
+ ",Definition:Euclidean Norm
+118,Definition:Euclidean Domain,Euclidean,"Let ( D, +, ∘) be an integral domain.
+
+Let there exist a Euclidean valuation on D.
+
+Then D is called a Euclidean domain.
+
+
+=== Euclidean Valuation ===
+Let ( D, +, ∘) be an integral domain with zero 0_D.
+
+Let there exist a mapping ν: D ∖{ 0_D }→ℕ such that for all a ∈ D, b ∈ D_ 0_D:
+
+ 
+ 
+ 
+ 
+
+Then ν is a Euclidean valuation on D.",Definition:Euclidean Domain
+119,Definition:Euclidean Relation,Euclidean,"Let ℛ⊆ S × S be a relation in S.
+
+
+=== Left-Euclidean ===
+Let ℛ⊆ S × S be a relation in S.
+
+
+ℛ is left-Euclidean  if and only if :
+
+:( x, z ) ∈ℛ( y, z ) ∈ℛ( x, y ) ∈ℛ
+
+=== Right-Euclidean ===
+Let ℛ⊆ S × S be a relation in S.
+
+
+ℛ is right-Euclidean  if and only if :
+
+:( x, y ) ∈ℛ( x, z ) ∈ℛ( y, z ) ∈ℛ
+
+=== Euclidean ===
+
+ℛ is Euclidean  if and only if  it is both left-Euclidean and right-Euclidean.
+
+
+",Definition:Euclidean Relation
+120,Definition:Field (Abstract Algebra),Field,"Let ( F, +, ×) be an algebraic structure.
+
+
+=== Definition 1 ===
+Let ( F, +, ×) be an algebraic structure.
+
+
+( F, +, ×) is a field  if and only if :
+:(1): the algebraic structure ( F, + ) is an abelian group
+:(2): the algebraic structure ( F^*, ×) is an abelian group where F^* = F ∖{ 0_F }
+:(3): the operation × distributes over +.
+
+=== Definition 2 ===
+Let ( F, +, ×) be an algebraic structure.
+
+
+Let ( F, +, ×) be an integral domain such that every non-zero element a of F has a multiplicative inverse a^-1 such that:
+:a × a^-1 = 1_F = a^-1× a
+where 1_F denotes the unity of ( F, +, ×).
+
+
+Then ( F, +, ×) is a field.
+
+=== Definition 3 ===
+Let ( F, +, ×) be an algebraic structure.
+
+
+Let ( F, +, ×) be a commutative ring with unity ( F, +, ×) such that every non-zero element a of F has a multiplicative inverse:
+:a^-1 such that a × a^-1 = 1_F = a^-1× a
+where 1_F denotes the unity of ( F, +, ×).
+
+
+Then ( F, +, ×) is a field.
+
+=== Definition 4 ===
+Let ( F, +, ×) be an algebraic structure.
+
+
+Let ( F, +, ×) be a non-trivial division ring whose ring product is commutative.
+
+
+Then ( F, +, ×) is a field.
+
+=== Definition 5 ===
+Let ( F, +, ×) be an algebraic structure.
+
+
+( F, +, ×) is a field  if and only if  it fulfils the conditions of the field axioms, as follows:
+ 
+
+=== Addition ===
+The distributand + of a field ( F, +, ×) is referred to as field addition, or just addition.
+
+
+=== Additive Group ===
+Let ( F, +, ×) be a field.
+
+
+The group ( F, + ) is known as the additive group of F.
+
+=== Additive Inverse ===
+Let ( F, +, ×) be a field whose addition operation is +.
+
+Let a ∈ R be any arbitrary element of F.
+
+
+The additive inverse of a is its inverse under addition, denoted -a:
+
+:a + ( -a ) = 0_F
+
+where 0_F is the zero of R.
+
+
+=== Additive Inverse of Number ===
+
+The concept is often encountered in the context of numbers:
+Let F be one of the standard number systems: ℕ, ℤ, ℚ, ℝ, ℂ.
+
+Let a ∈ F be any arbitrary number.
+
+
+The additive inverse of a is its inverse under addition, denoted -a:
+
+:a + ( -a ) = 0
+
+=== Product ===
+Let ( F, +, ×) be a field.
+
+
+The distributive operation × in ( F, +, ×) is known as the (field) product.",Definition:Field (Abstract Algebra)
+121,Definition:Field of Relation,Field,"Let S and T be sets.
+
+Let ℛ⊆ S × T be a relation.
+
+
+The field of ℛ is defined as:
+:Field( ℛ) := { x ∈ S: ∃ t ∈ T: ( x, t ) ∈ℛ}∪{ x ∈ T: ∃ s ∈ S: ( s, x ) ∈ℛ}
+
+That is, it is the union of the domain of ℛ with its image.
+
+
+=== Class Theory ===
+ 
+Let V be a basic universe.
+
+Let ℛ⊆ V × V be a relation in V.
+
+
+The field of ℛ is defined as:
+:Field( ℛ) := { x ∈ V: ∃ y ∈ V: ( x, y ) ∈ℛ}∪{ y ∈ V: ∃ x ∈ V: ( x, y ) ∈ℛ}
+
+That is, it is the union of the domain of ℛ with its image.",Definition:Field of Relation
+122,Definition:Vector Field,Field,"Let F be a field which acts on a region of space S.
+
+Let the point-function giving rise to F be a vector quantity.
+
+
+Then F is a vector field.
+
+
+=== Vector Field on Smooth Manifold ===
+Let M be a smooth manifold.
+
+Let TM be the tangent bundle of M.
+
+Let T_p M be the tangent space at p ∈ M.
+
+
+Then by the vector field on M we mean the continuous map X : M → TM such that:
+
+:∀ p ∈ M : X_p ∈ T_p M",Definition:Vector Field
+123,Definition:Operation/Arity/Finitary,Finitary,"A finitary operation is an operation which takes a finite number of operands.
+
+
+Category:Definitions/Operations",Definition:Operation/Arity/Finitary
+124,Definition:Logical Argument/Finitary,Finitary,"A finitary argument is a logical argument which starts with a finite number of axioms, and can be translated into a finite number of statements.",Definition:Logical Argument/Finitary
+125,Definition:Finitely Generated Algebraic Structure,Finitely Generated,"Let ( A, ∘) be an algebraic structure.
+
+Let ( A, ∘) have a generator which is finite.
+
+
+Then ( A, ∘) is finitely generated.",Definition:Finitely Generated Algebraic Structure
+126,Definition:Generator of Monoid,Finitely Generated,"Let ( M, ∘) be a monoid.
+
+Let S ⊆ M.
+
+Let H be the smallest submonoid of M such that S ⊆ H.
+
+
+Then:
+:S is a generator of ( H, ∘)
+:S generates ( H, ∘)
+:( H, ∘) is the submonoid of ( M, ∘) generated by S.
+
+
+This is written H = ⟨ S ⟩.
+
+
+If S is a singleton, for example S = { x }, then we can (and usually do) write H = ⟨ x ⟩ for H = ⟨{ x }⟩.",Definition:Generator of Monoid
+127,Definition:Finitely Generated Group,Finitely Generated,"Let G be a group.
+
+
+G is finitely generated  if and only if  G has a generator which is finite.",Definition:Finitely Generated Group
+128,Definition:Finitely Generated Module,Finitely Generated,"Let R be a ring.
+
+Let M be a module over R.
+
+
+Then M is finitely generated  if and only if  there is a generator for M which is finite.",Definition:Finitely Generated Module
+129,Definition:Finitely Generated Field Extension,Finitely Generated,"Let E / F be a field extension.
+
+
+Then E is said to be finitely generated over F  if and only if , for some α_1, …, α_n ∈ E:
+
+:E = F (α_1, …, α_n) 
+
+where F (α_1, …, α_n) is the field in E generated by F ∪{α_1, …, α_n}.",Definition:Finitely Generated Field Extension
+130,Definition:Finitely Generated Algebra,Finitely Generated,"Let A be a commutative ring.
+
+Let B be an A-algebra.
+
+
+Then B is finitely generated  if and only if  B has a generator which is finite.",Definition:Finitely Generated Algebra
+131,Definition:Galois Group of Field Extension,Galois Group,"Let L / K be a field extension.
+
+
+The Galois group of L / K is the subgroup of the automorphism group of L consisting of field automorphisms that fix K point-wise:
+:Gal( L / K ) = {σ∈Aut( L ): ∀ k ∈ K: σ(   )k = k }
+
+
+=== Topological Group ===
+The notation Gal( L / K ) is also a shorthand for the topological group:
+:( Gal( L / K ), τ)
+where τ is the Krull topology.",Definition:Galois Group of Field Extension
+132,Definition:Galois Group of Polynomial,Galois Group,"Let P be a polynomial.
+
+The Galois group of P is the symmetry group of the roots of P.",Definition:Galois Group of Polynomial
+133,Definition:Group Homomorphism,Homomorphism,"Let ( G, ∘) and ( H, * ) be groups.
+
+Let ϕ: G → H be a mapping such that ∘ has the morphism property under ϕ.
+
+
+That is, ∀ a, b ∈ G:
+:ϕ(   )a ∘ b = ϕ(   )a * ϕ(   )b
+
+
+Then ϕ: ( G, ∘) →( H, * ) is a group homomorphism.",Definition:Group Homomorphism
+134,Definition:Ring Homomorphism,Homomorphism,"Let ( R, +, ∘) and ( S, ⊕, * ) be rings.
+
+Let ϕ: R → S be a mapping such that both + and ∘ have the morphism property under ϕ.
+
+
+That is, ∀ a, b ∈ R:
+
+ 
+ 
+ 
+ 
+
+
+Then ϕ: ( R, +, ∘) →( S, ⊕, * ) is a ring homomorphism.",Definition:Ring Homomorphism
+135,Definition:Field Homomorphism,Homomorphism,"Let ( F, +, ×) and ( K, ⊕, ⊗) be fields.
+
+Let ϕ: F → K be a mapping such that both + and × have the morphism property under ϕ.
+
+
+That is, ∀ a, b ∈ F:
+
+ 
+ 
+ 
+ 
+
+
+Then ϕ: ( F, +, ×) →( K, ⊕, ⊗) is a field homomorphism.",Definition:Field Homomorphism
+136,Definition:F-Homomorphism,Homomorphism,"Let R, S be rings with unity.
+
+Let F be a subfield of both R and S.
+
+
+Then a ring homomorphism φ: R → S is called an F-homomorphism if:
+:∀ a ∈ F: ϕ(   )a = a
+
+
+That is, ϕ_F = I_F where:
+:ϕ_F is the restriction of ϕ to F
+:I_F is the identity mapping on F.",Definition:Ring Homomorphism
+137,Definition:R-Algebraic Structure Homomorphism,Homomorphism,"Let R be a ring.
+
+Let ( S, ∗_1, ∗_2, …, ∗_n, ∘)_R and ( T, ⊙_1, ⊙_2, …, ⊙_n, ⊗)_R be R-algebraic structures.
+
+Let ϕ: S → T be a mapping.
+
+
+Then ϕ is an R-algebraic structure homomorphism  if and only if :
+
+:(1):   ∀ k ∈[ 1  . . ]n: ∀ x, y ∈ S: ϕ(   )x ∗_k y = ϕ(   )x ⊙_k ϕ(   )y
+:(2):   ∀ x ∈ S: ∀λ∈ R: ϕ(   )λ∘ x = λ⊗ϕ(   )x
+where [ 1  . . ]n = { 1, 2, …, n } denotes an integer interval.
+
+
+Note that this definition also applies to modules and vector spaces.",Definition:R-Algebraic Structure Homomorphism
+138,Definition:Homomorphism (Graph Theory),Homomorphism,"Let G = ( V (   )G, E (   )G ) and H = ( V (   )H, E (   )H ) be graphs.
+
+
+Let there exist a mapping F: V (   )G → V (   )H such that:
+:for each edge { u, v }∈ E (   )G
+:there exists an edge { F (   )u, F (   )v }∈ E (   )H.
+
+
+Then G and H are homomorphic.
+
+The mapping F is called a homomorphism from G to H.",Definition:Homomorphism (Graph Theory)
+139,Definition:Ideal of Ring/Left Ideal,Ideal,"Let ( R, +, ∘) be a ring.
+
+Let ( J, + ) be a subgroup of ( R, + ).
+
+
+J is a left ideal of R  if and only if :
+:∀ j ∈ J: ∀ r ∈ R: r ∘ j ∈ J
+
+that is,  if and only if :
+:∀ r ∈ R: r ∘ J ⊆ J",Definition:Ideal of Ring/Left Ideal
+140,Definition:Ideal of Ring/Right Ideal,Ideal,"Let ( R, +, ∘) be a ring.
+
+Let ( J, + ) be a subgroup of ( R, + ).
+
+
+J is a right ideal of R  if and only if :
+:∀ j ∈ J: ∀ r ∈ R: j ∘ r ∈ J
+
+that is,  if and only if :
+:∀ r ∈ R: J ∘ r ⊆ J",Definition:Ideal of Ring/Right Ideal
+141,Definition:Ideal of Algebra/Left Ideal,Ideal,"Let R be a ring.
+
+Let ( A, ∗) be an R-algebra.
+
+Let ( J, ∗) be a subalgebra of ( A, ∗). 
+
+
+We say that J is a left ideal of A  if and only if :
+:for each a ∈ A and x ∈ J we have a ∗ x ∈ J.",Definition:Ideal of Algebra/Left Ideal
+142,Definition:Ideal of Algebra/Right Ideal,Ideal,"Let R be a ring.
+
+Let ( A, ∗) be an R-algebra.
+
+Let ( J, ∗) be a subalgebra of ( A, ∗). 
+
+
+We say that J is a left ideal of A  if and only if :
+:for each a ∈ A and x ∈ J we have x ∗ a ∈ J.",Definition:Ideal of Algebra/Left Ideal
+143,Definition:Join Semilattice Ideal,Ideal,"Let ( S, ∨, ≼) be a join semilattice.
+
+Let I ⊆ S be a non-empty subset of S.
+
+
+Then I is a join semilattice ideal of S  if and only if  I satisifies the join semilattice ideal axioms:
+ ",Definition:Join Semilattice Ideal
+144,Definition:Lattice Ideal,Ideal,"Let ( S, ∨, ∧, ≼) be a lattice.
+
+Let I ⊆ S be a non-empty subset of S.
+
+
+=== Definition 1 ===
+Let ( S, ∨, ∧, ≼) be a lattice.
+
+Let I ⊆ S be a non-empty subset of S.
+
+
+
+I is a lattice ideal of S  if and only if  I satisifes the lattice ideal axioms:
+ 
+
+=== Definition 2 ===
+Let ( S, ∨, ∧, ≼) be a lattice.
+
+Let I ⊆ S be a non-empty subset of S.
+
+
+
+I is a lattice ideal of S  if and only if  I is a join semilattice ideal",Definition:Join Semilattice Ideal
+145,Definition:Ideal (Physics),Ideal,An ideal (or idealized) object is one in which certain attributes are approximated to zero or infinity.,Definition:Ideal (Physics)
+146,Definition:Image (Relation Theory)/Mapping/Mapping,Image Set,"Let f: S → T be a mapping.
+
+
+=== Definition 1 ===
+The image of a mapping f: S → T is the set:
+
+:Img( f ) = { t ∈ T: ∃ s ∈ S: f (   )s = t }
+
+That is, it is the set of values taken by f.
+
+=== Definition 2 ===
+The image of a mapping f: S → T is the set:
+
+:Img( f ) = f [ S ]
+
+where f [ S ] is the image of S under f.
+
+
+=== Class Theory ===
+
+ 
+Let V be a basic universe.
+
+Let A ⊆ V and B ⊆ V be classes.
+
+Let f: A → B be a class mapping.
+
+The image of ℛ is defined and denoted as:
+:Img( ℛ) := { y ∈ V: ∃ x ∈ V: ( x, y ) ∈ℛ}
+
+That is, it is the class of all y such that ( x, y ) ∈ℛ for at least one x.",Definition:Image (Relation Theory)/Mapping/Mapping
+147,Definition:Image (Relation Theory)/Relation/Relation,Image Set,"Let ℛ⊆ S × T be a relation.
+
+
+The image of ℛ is defined as:
+
+:Img( ℛ) := ℛ[ S ] = { t ∈ T: ∃ s ∈ S: ( s, t ) ∈ℛ}
+
+
+=== General Definition ===
+Let ∏_i  = 1^n S_i be the cartesian product of sets S_1 to S_n.
+
+Let ℛ⊆∏_i  = 1^n S_i be an n-ary relation on ∏_i  = 1^n S_i.
+
+The image of ℛ is the set defined as:
+:Img( ℛ) := { s_n ∈ S_n: ∃( s_1, s_2, …, s_n - 1) ∈∏_i  = 1^n - 1 S_i: ( s_1, s_2, …, s_n ) ∈ℛ}
+
+
+The concept is usually encountered when ℛ is an endorelation on S:
+:Img( ℛ) := { s_n ∈ S: ∃( s_1, s_2, …, s_n - 1) ∈ S^n - 1: ( s_1, s_2, …, s_n ) ∈ℛ}
+
+=== Class Theory ===
+
+ 
+Let V be a basic universe.
+
+Let ℛ⊆ V × V be a relation in V.
+
+The image of ℛ is defined and denoted as:
+:Img( ℛ) := { y ∈ V: ∃ x ∈ V: ( x, y ) ∈ℛ}
+
+That is, it is the class of all y such that ( x, y ) ∈ℛ for at least one x.",Definition:Image (Relation Theory)/Relation/Relation
+148,Definition:Interior (Topology),Interior,"Let T = ( S, τ) be a topological space.
+
+Let H ⊆ S.
+
+
+=== Definition 1 ===
+Let T = ( S, τ) be a topological space.
+
+Let H ⊆ S.
+
+
+The interior of H is the union of all subsets of H which are open in T.
+
+
+That is, the interior of H is defined as:
+:H^∘ := ⋃_K ∈𝕂 K
+where 𝕂 = { K ∈τ: K ⊆ H }.
+
+=== Definition 2 ===
+Let T = ( S, τ) be a topological space.
+
+Let H ⊆ S.
+
+
+The interior of H is defined as the largest open set of T which is contained in H.
+
+=== Definition 3 ===
+Let T = ( S, τ) be a topological space.
+
+Let H ⊆ S.
+
+
+The interior of H is the set of all interior points of H.",Definition:Interior (Topology)
+149,Definition:Interior (Complex Analysis),Interior,"Let H ⊆ℂ be a subset of the complex plane.
+
+The interior of H is the subset of H which consists of the interior points of H.",Definition:Interior Point (Complex Analysis)
+150,Definition:Interior Point (Complex Analysis),Interior,"Let S ⊆ℂ be a subset of the complex plane.
+
+Let z ∈ S.
+
+
+z is an interior point of S  if and only if  z has an ϵ-neighborhood N_ϵ(   )z such that N_ϵ(   )z ⊆ S.",Definition:Interior Point (Complex Analysis)
+151,Definition:Region,Interior,"=== Metric Space ===
+Let M = ( A, d ) be a metric space.
+
+A region of M is a subset U of M such that U is:
+
+:(1): non-empty
+:(2): path-connected.
+
+=== Complex ===
+Let D ⊆ℂ be a subset of the set of complex numbers.
+
+D is a region of ℂ  if and only if :
+:(1): D is non-empty
+:(2): D is path-connected.
+
+=== Region in the Plane ===
+
+The usual usage of region is in the real number plane or complex plane.
+
+A point set R in the plane is a region  if and only if :
+
+:(1): Each point of R is the center of a circle all of whose elements consist of points of R
+:(2): Each point of R can be joined by a curve consisting entirely of points of R.
+
+==== Interior ====
+
+The boundary of a region separates its interior from the exterior.
+
+The interior consists of the points of the plane which are the elements of the region.
+
+Such points are called interior points of the region.
+
+
+It is ""usual"" that the interior is the ""smaller bit"" which is visually apparently on the inside as it appears on the page or screen, but this is of course not necessarily the case.
+
+
+Also see the definition of interior and boundary from a topological perspective.
+
+
+==== Bounded ====
+
+A region in the the plane is bounded if there is a circle in the plane which encloses it.
+
+
+Also see the definition of bounded in the context of a metric space.",Definition:Region
+152,Definition:Transversal (Geometry)/Interior Angle,Interior,":
+
+
+An interior angle of a transversal is an angle which is between the two lines cut by that transversal.
+
+In the above figure, the interior angles with respect to the transversal EF are:
+:∠ AHJ
+:∠ CJH
+:∠ BHJ
+:∠ DJH",Definition:Transversal (Geometry)/Interior Angle
+153,Definition:Polygon/Internal Angle,Interior,"The internal angle of a vertex of a polygon is the size of the angle between the sides adjacent to that vertex, as measured inside the polygon.",Definition:Polygon/Internal Angle
+154,Definition:Jordan Curve/Interior,Interior,"Let f: [ 0  . . ]1 →ℝ^2 be a Jordan curve.
+
+
+It follows from the Jordan Curve Theorem that ℝ^2 ∖Img( f ) is a union of two disjoint connected components, one of which is bounded.
+
+This bounded component is called the interior of f, and is denoted as Int( f ).",Definition:Jordan Curve/Interior
+155,Definition:Set Intersection,Intersection,"Let S and T be sets.
+
+
+The (set) intersection of S and T is written S ∩ T.
+
+It means the set which consists of all the elements which are contained in both of S and T:
+
+:x ∈ S ∩ T  x ∈ S  x ∈ T
+
+or, more formally:
+
+:A = S ∩ T ∀ z: ( z ∈ A  z ∈ S  z ∈ T )
+
+
+We can write:
+
+:S ∩ T := { x: x ∈ S  x ∈ T }
+
+and can voice it S intersect T.
+
+
+It can be seen that, in this form, ∩ is a binary operation which acts on sets.
+
+
+One often says that two sets intersect  if and only if  they have non-empty intersection.
+
+
+=== Set of Sets ===
+Let S be a set of sets.
+
+The intersection of S is:
+:⋂ S := { x: ∀ S ∈ S: x ∈ S }
+That is, the set of all objects that are elements of all the elements of S.
+
+
+Thus:
+:⋂{ S, T } := S ∩ T
+
+=== Family of Sets ===
+Let I be an indexing set.
+
+Let ⟨ S_i ⟩_i ∈ I be a family of sets indexed by I.
+
+
+Then the intersection of ⟨ S_i ⟩ is defined as:
+
+:⋂_i ∈ I S_i := { x: ∀ i ∈ I: x ∈ S_i }
+
+
+=== In the context of the Universal Set ===
+
+In treatments of set theory in which the concept of the universal set is recognised, this can be expressed as follows.
+
+Let 𝕌 be a universal set.
+
+Let I be an indexing set.
+
+Let ⟨ S_i ⟩_i ∈ I be an indexed family of subsets of 𝕌.
+
+
+Then the intersection of ⟨ S_i ⟩ is defined and denoted as:
+
+:⋂_i ∈ I S_i := { x ∈𝕌: ∀ i ∈ I: x ∈ S_i }
+
+=== Subsets of General Set ===
+This definition is the same when the universal set 𝕌 is replaced by any set X, which may or may not be a universal set:
+
+Let I be an indexing set.
+
+Let ⟨ S_i ⟩_i ∈ I be an indexed family of subsets of a set X.
+
+
+Then the intersection of ⟨ S_i ⟩ is defined as:
+
+:⋂_i ∈ I S_i := { x ∈ X: ∃ i ∈ I: x ∈ S_i }
+where i is a bound variable.
+
+=== Countable Intersection ===
+Let 𝕊 be a set of sets.
+
+Let ⟨ S_n ⟩_n ∈ℕ be a sequence in 𝕊.
+
+Let S be the intersection of ⟨ S_n ⟩_n ∈ℕ:
+:S = ⋂_n ∈ℕ S_n
+
+
+Then S is a countable intersection of sets in 𝕊.
+
+=== Finite Intersection ===
+Let S = S_1 ∩ S_2 ∩…∩ S_n.
+
+Then:
+:S = ⋂_i ∈ℕ^*_n S_i := { x: ∀ i ∈ℕ^*_n: x ∈ S_i }
+where ℕ^*_n = { 1, 2, 3, …, n }.
+
+
+If it is clear from the context that i ∈ℕ^*_n, we can also write ⋂_ℕ^*_n S_i.",Definition:Set Intersection
+156,Definition:Intersection (Geometry),Intersection,"The intersection of two lines AB and CD is denoted by AB ∩ CD.
+
+The intersection of two geometric figures is the set of points shared by both figures.
+
+
+Note that this use of ∩ is consistent with that of its more usual context of set intersection.
+
+
+When two lines intersect, they are said to cut each other.",Definition:Intersection (Geometry)
+157,Definition:Inverse Image Mapping,Inverse Image,"Let S and T be sets.
+
+Let 𝒫( S ) and 𝒫( T ) be their power sets.
+
+
+=== Relation ===
+
+Let ℛ⊆ S × T be a relation on S × T.
+
+Let S and T be sets.
+
+Let 𝒫( S ) and 𝒫( T ) be their power sets.
+
+Let ℛ⊆ S × T be a relation on S × T.
+
+
+The inverse image mapping of ℛ is the mapping ℛ^: 𝒫( T ) →𝒫( S ) that sends a subset Y ⊆ T to its preimage ℛ^-1(   )Y under ℛ:
+
+:∀ Y ∈𝒫( T ): ℛ^(   )Y = { s ∈ S: ∃ t ∈ Y: ( t, s ) ∈ℛ^-1}    : Img( ℛ) ∩ Y ∅
+∅    : Img( ℛ) ∩ Y = ∅
+
+=== Mapping ===
+
+Let f: S → T be a mapping.
+
+Let S and T be sets.
+
+Let 𝒫( S ) and 𝒫( T ) be their power sets.
+
+Let f: S → T be a mapping.
+
+
+The inverse image mapping of f is the mapping f^: 𝒫( T ) →𝒫( S ) that sends a subset Y ⊆ T to its preimage f^-1[ T ] under f:
+
+:∀ Y ∈𝒫( T ): f^(   )Y = { s ∈ S: ∃ t ∈ Y: f (   )s = t }    : Img( f ) ∩ Y ∅
+∅    : Img( f ) ∩ Y = ∅",Definition:Inverse Image Mapping/Mapping
+158,Definition:Inverse Image Mapping/Mapping,Inverse Image,"Let S and T be sets.
+
+Let 𝒫( S ) and 𝒫( T ) be their power sets.
+
+Let f: S → T be a mapping.
+
+
+=== Definition 1 ===
+Let S and T be sets.
+
+Let 𝒫( S ) and 𝒫( T ) be their power sets.
+
+Let f: S → T be a mapping.
+
+
+The inverse image mapping of f is the mapping f^: 𝒫( T ) →𝒫( S ) that sends a subset Y ⊆ T to its preimage f^-1[ T ] under f:
+
+:∀ Y ∈𝒫( T ): f^(   )Y = { s ∈ S: ∃ t ∈ Y: f (   )s = t }    : Img( f ) ∩ Y ∅
+∅    : Img( f ) ∩ Y = ∅
+
+=== Definition 2 ===
+Let S and T be sets.
+
+Let 𝒫( S ) and 𝒫( T ) be their power sets.
+
+Let f: S → T be a mapping.
+
+
+The inverse image mapping of f is the direct image mapping of the inverse f^-1 of f:
+:f^ = ( f^-1)^→: 𝒫( T ) →𝒫( S ):
+
+That is:
+:∀ Y ∈𝒫( T ): f^(   )Y = { s ∈ S: ∃ t ∈ Y: f (   )s = t }",Definition:Inverse Image Mapping
+159,Definition:Inverse Image Mapping/Relation,Inverse Image,"Let S and T be sets.
+
+Let 𝒫( S ) and 𝒫( T ) be their power sets.
+
+Let ℛ⊆ S × T be a relation on S × T.
+
+
+=== Definition 1 ===
+Let S and T be sets.
+
+Let 𝒫( S ) and 𝒫( T ) be their power sets.
+
+Let ℛ⊆ S × T be a relation on S × T.
+
+
+The inverse image mapping of ℛ is the mapping ℛ^: 𝒫( T ) →𝒫( S ) that sends a subset Y ⊆ T to its preimage ℛ^-1(   )Y under ℛ:
+
+:∀ Y ∈𝒫( T ): ℛ^(   )Y = { s ∈ S: ∃ t ∈ Y: ( t, s ) ∈ℛ^-1}    : Img( ℛ) ∩ Y ∅
+∅    : Img( ℛ) ∩ Y = ∅
+
+=== Definition 2 ===
+Let S and T be sets.
+
+Let 𝒫( S ) and 𝒫( T ) be their power sets.
+
+Let ℛ⊆ S × T be a relation on S × T.
+
+
+The inverse image mapping of ℛ is the direct image mapping of the inverse ℛ^-1 of ℛ:
+:ℛ^ = ( ℛ^-1)^→: 𝒫( T ) →𝒫( S )
+
+That is:
+:∀ Y ∈𝒫( T ): ℛ^(   )Y = { s ∈ S: ∃ t ∈ Y: ( t, s ) ∈ℛ^-1}",Definition:Inverse Image Mapping/Relation
+160,Definition:Inverse Image Presheaf,Inverse Image,"Let T_1 = ( S_1, τ_1 ) and T_2 = ( S_2, τ_2 ) be topological spaces.
+
+Let f: T_1 → T_2 be continuous.
+
+Let 𝐂 be a category which has all small inductive limits.
+
+Let ℱ be a 𝐂-valued presheaf on T_2.
+
+
+The inverse image presheaf of ℱ via f is the presheaf f^-1_Pshℱ on T_1 with:
+:( f^-1_Pshℱ)  (   )U = _V ⊇ f (   )Uℱ(   )V where the inductive limit goes over open V ⊆ Y
+:res^U_W is the induced map on the inductive limit of the subset { V: V ⊇ f (   )U }⊆{ V : V ⊇ f (   )W }",Definition:Inverse Image Presheaf
+161,Definition:Isomorphism (Abstract Algebra)/Group Isomorphism,Isomorphism,"Let ( G, ∘) and ( H, * ) be groups.
+
+Let ϕ: G → H be a (group) homomorphism.
+
+
+Then ϕ is a group isomorphism  if and only if  ϕ is a bijection.
+
+
+That is, ϕ is a group isomorphism  if and only if  ϕ is both a monomorphism and an epimorphism.
+
+
+If G is isomorphic to H, then the notation G ≅ H can be used (although notation varies).",Definition:Isomorphism (Abstract Algebra)/Group Isomorphism
+162,Definition:Isomorphism (Abstract Algebra)/Ring Isomorphism,Isomorphism,"Let ( R, +, ∘) and ( S, ⊕, * ) be rings.
+
+Let ϕ: R → S be a (ring) homomorphism.
+
+
+Then ϕ is a ring isomorphism  if and only if  ϕ is a bijection.
+
+That is, ϕ is a ring isomorphism  if and only if  ϕ is both a monomorphism and an epimorphism.",Definition:Isomorphism (Abstract Algebra)/Ring Isomorphism
+163,Definition:Isomorphism (Abstract Algebra)/R-Algebraic Structure Isomorphism,Isomorphism,"Let ( S, ∗_1, ∗_2, …, ∗_n, ∘)_R and ( T, ⊙_1, ⊙_2, …, ⊙_n, ⊗)_R be R-algebraic structures.
+
+Let ϕ: S → T be an R-algebraic structure homomorphism.
+
+
+Then ϕ is an R-algebraic structure isomorphism  if and only if  ϕ is a bijection.
+
+
+=== Module Isomorphism ===
+Let R be a ring.
+
+Let ( G, +_G, ∘)_R and ( H, +_H, ∘)_R be R-modules.
+
+Let ϕ: G → H be a module homomorphism.
+
+
+Then ϕ is a module isomorphism  if and only if  ϕ is a bijection.
+
+=== Vector Space Isomorphism ===
+Let ( V, +, ∘) and ( W, +', ∘' ) be K-vector spaces.
+
+Then ϕ: V → W is a vector space isomorphism  if and only if :
+
+:(1):   ϕ is a bijection
+:(2):   ∀𝐱, 𝐲∈ V: ϕ(   )𝐱 + 𝐲 = ϕ(   )𝐱 +' ϕ(   )𝐲
+:(3):   ∀𝐱∈ V: ∀λ∈ K: ϕ(   )λ𝐱 = λϕ(   )𝐱
+
+
+Category:Definitions/Isomorphisms (Abstract Algebra)
+Category:Definitions/R-Algebraic Structure Isomorphisms
+Category:Definitions/Linear Algebra",Definition:Isomorphism (Abstract Algebra)/R-Algebraic Structure Isomorphism
+164,Definition:Relation Isomorphism,Isomorphism,"Let ( S_1, ℛ_1 ) and ( S_2, ℛ_2 ) be relational structures.
+
+Let there exist a bijection ϕ: S_1 → S_2 such that:
+:(1):   ∀( s_1, t_1 ) ∈ℛ_1: ( ϕ(   )s_1, ϕ(   )t_1) ∈ℛ_2
+:(2):   ∀( s_2, t_2 ) ∈ℛ_2: ( ϕ^-1(   )s_2, ϕ^-1(   )t_2) ∈ℛ_1
+
+
+Then ( S_1, ℛ_1 ) and ( S_2, ℛ_2 ) are isomorphic, and this is denoted S_1 ≅ S_2.
+
+
+The function ϕ is called a relation isomorphism, or just an isomorphism, from ( S_1, ℛ_1 ) to ( S_2, ℛ_2 ).",Definition:Relation Isomorphism
+165,Definition:Order Isomorphism,Isomorphism,"Let ( S, ≼_1 ) and ( T, ≼_2 ) be ordered sets.
+
+=== Definition 1 ===
+Let ( S, ≼_1 ) and ( T, ≼_2 ) be ordered sets.
+
+
+Let ϕ: S → T be a bijection such that:
+
+:ϕ: S → T is order-preserving
+:ϕ^-1: T → S is order-preserving.
+
+Then ϕ is an order isomorphism.
+
+
+That is, ϕ is an order isomorphism  if and only if :
+
+:ϕ is bijective
+:∀ x, y ∈ S: x ≼_1 y ϕ(   )x ≼_2 ϕ(   )y
+:∀ p, q ∈ T: p ≼_2 q ϕ^-1(   )p ≼_1 ϕ^-1(   )q
+
+So an order isomorphism can be described as a bijection that preserves ordering in both directions.
+
+=== Definition 2 ===
+Let ( S, ≼_1 ) and ( T, ≼_2 ) be ordered sets.
+
+
+Let ϕ: S → T be a surjective order embedding.
+
+Then ϕ is an order isomorphism.
+
+
+That is, ϕ is an order isomorphism  if and only if :
+
+:(1):   ϕ is surjective
+:(2):   ∀ x, y ∈ S: x ≼_1 y ϕ(   )x ≼_2 ϕ(   )y
+
+=== Definition 3 ===
+Let ( S, ≼_1 ) and ( T, ≼_2 ) be ordered sets.
+
+
+Let ϕ: S → T be a bijection such that:
+:∀ x, y ∈ S: x ≼_1 y ϕ(   )x ≼_2 ϕ(   )y
+
+Then ϕ is an order isomorphism.
+
+=== Well-Orderings ===
+
+When ≼_1 and ≼_2 are well-orderings, the condition on the order preservation can be relaxed:
+
+Let ( S, ≼_1 ) and ( T, ≼_2 ) be well-ordered sets.
+
+Let ϕ: S → T be a bijection such that ϕ: S → T is order-preserving:
+:∀ x, y ∈ S: x ≼_1 y ϕ(   )x ≼_2 ϕ(   )y
+
+
+Then ϕ is an order isomorphism.
+
+
+Two well-ordered sets ( S, ≼_1 ) and ( T, ≼_2 ) are (order) isomorphic  if and only if  there exists such an order isomorphism between them.
+
+Thus ( S, ≼_1 ) is described as (order) isomorphic to (or with) ( T, ≼_2 ), and vice versa.
+
+This may be written ( S, ≼_1 ) ≅( T, ≼_2 ).
+
+
+Where no confusion is possible, it may be abbreviated to S ≅ T.
+
+
+=== Class-Theoretical Definition ===
+ 
+Let ( A, ≼_1 ) and ( B, ≼_2 ) be well-ordered classes.
+
+Let ϕ: A → B be a bijection such that ϕ: A → B is order-preserving:
+:∀ x, y ∈ S: x ≼_1 y ϕ(   )x ≼_2 ϕ(   )y
+
+
+Then ϕ is an order isomorphism.",Definition:Order Isomorphism
+166,Definition:Isomorphism (Abstract Algebra)/Ordered Structure Isomorphism,Isomorphism,"An ordered structure isomorphism from an ordered structure ( S, ∘, ≼) to another ( T, *, ≼) is a mapping ϕ: S → T that is both:
+
+:(1): An isomorphism, that is a bijective homomorphism, from the structure ( S, ∘) to the structure ( T, * )
+:(2): An order isomorphism from the ordered set ( S, ≼) to the ordered set ( T, ≼).
+
+
+=== Ordered Semigroup Isomorphism ===
+Let ( S, ∘, ≼) and ( T, *, ≼) be ordered semigroups.
+
+
+An ordered semigroup isomorphism from ( S, ∘, ≼) to ( T, *, ≼) is a mapping ϕ: S → T that is both:
+
+:(1): A semigroup isomorphism from the semigroup ( S, ∘) to the semigroup ( T, * )
+
+:(2): An order isomorphism from the ordered set ( S, ≼) to the ordered set ( T, ≼).
+
+=== Ordered Group Isomorphism ===
+Let (S, ∘, ≼) and (T, *, ≼) be ordered groups.
+
+
+An ordered group isomorphism from (S, ∘, ≼) to (T, *, ≼) is a mapping ϕ: S → T that is both:
+
+:(1): A group isomorphism from the group (S, ∘) to the group (T, *)
+
+:(2): An order isomorphism from the ordered set (S, ≼) to the ordered set (T, ≼).
+
+=== Ordered Ring Isomorphism ===
+Let ( S, +, ∘, ≼) and ( T, ⊕, *, ≼) be ordered rings.
+
+
+An ordered ring isomorphism from ( S, +, ∘, ≼) to ( T, ⊕, *, ≼) is a mapping ϕ: S → T that is both:
+
+:(1): An ordered group isomorphism from the ordered group ( S, +, ≼) to the ordered group ( T, ⊕, ≼)
+
+:(2): A semigroup isomorphism from the semigroup ( S, ∘) to the semigroup ( T, * ).
+
+=== Ordered Field Isomorphism ===
+Let ( S, +, ∘, ≼) and ( T, ⊕, *, ≼) be ordered fields.
+
+
+An ordered field isomorphism from ( S, +, ∘, ≼) to ( T, ⊕, *, ≼) is a mapping ϕ: S → T that is both:
+
+:(1): An ordered group isomorphism from the ordered group ( S, +, ≼) to the ordered group ( T, ⊕, ≼)
+
+:(2): A group isomorphism from the group ( S_ 0, ∘) to the semigroup ( T_ 0, * )
+
+where S_ 0 and T_ 0 denote the sets S and T without the zeros of S and T respectively.",Definition:Order Isomorphism
+167,Definition:Isomorphism (Category Theory),Isomorphism,"Let 𝐂 be a category, and let X, Y be objects of 𝐂.
+
+
+A morphism f: X → Y is an isomorphism  if and only if  there exists a morphism g: Y → X such that:
+
+:g ∘ f = I_X
+:f ∘ g = I_Y
+
+where I_X denotes the identity morphism on X.
+
+It can be seen that this is equivalent to g being both a retraction and a section of f.
+
+
+=== Isomorphic Objects ===
+Let 𝐂 be a category, and let X, Y be objects of 𝐂
+
+
+X and Y are isomorphic objects  if and only if  there exists an isomorphism f: X → Y.
+
+=== Inverse Morphism ===
+Let 𝐂 be a metacategory.
+
+Let f: X → Y be a morphism of 𝐂.
+
+
+A morphism g: Y → X is said to be an inverse (morphism) for f  if and only if :
+
+:g ∘ f = I_X
+:f ∘ g = I_Y
+
+where I_X denotes the identity morphism on X.
+
+
+It follows that f is an isomorphism  if and only if  it has an inverse (morphism).",Definition:Isomorphism (Category Theory)
+168,Definition:Isomorphism of Categories,Isomorphism,"Let 𝐂 and 𝐃 be metacategories.
+
+Let F: 𝐂→𝐃 be a functor.
+
+
+Then F is an isomorphism (of categories)  if and only if  there exists a functor G: 𝐂→𝐃 such that:
+
+:G F: 𝐂→𝐂 is the identity functor I_𝐂
+:F G: 𝐃→𝐃 is the identity functor I_𝐃
+
+
+=== Isomorphic Categories ===
+Let 𝐂 and 𝐃 be metacategories.
+
+Let F: 𝐂→𝐃 be an isomorphism of categories.
+
+
+Then 𝐂 and 𝐃 are said to be isomorphic, and we write 𝐂≅𝐃.",Definition:Isomorphism (Category Theory)
+169,Definition:Isomorphism (Graph Theory),Isomorphism,"Let G = ( V (   )G, E (   )G ) and H = ( V (   )H, E (   )H ) be graphs.
+
+Let there exist a bijection F: V (   )G → V (   )H such that:
+:for each edge { u, v }∈ E (   )G, there exists an edge { F (   )u, F (   )v }∈ E (   )H.
+
+
+That is, that:
+:F: V (   )G → V (   )H is a homomorphism, and
+
+:F^-1: V (   )H → V (   )G is a homomorphism.
+
+
+Then G and H are isomorphic, and this is denoted G ≅ H.
+
+The function F is called an isomorphism from G to H.",Definition:Isomorphism (Graph Theory)
+170,Definition:Isomorphism (Hilbert Spaces),Isomorphism,"Let H, K be Hilbert spaces.
+
+Denote by ⟨·,   ⟩·_H and ⟨·,   ⟩·_K their respective inner products.
+
+An isomorphism between H and K is a map U: H → K, such that:
+
+:(1):    U is a linear map
+:(2):    U is surjective
+:(3):   ∀ g, h ∈ H: ⟨ g,   ⟩ h_H = ⟨ U g,   ⟩U h_K
+
+These three requirements may be summarized by stating that U be a surjective isometry.
+
+Furthermore, Surjection that Preserves Inner Product is Linear shows that requirement (1) is superfluous.
+
+
+If such an isomorphism U exists, H and K are said to be isomorphic.
+
+
+As the name isomorphism suggests, Hilbert Space Isomorphism is Equivalence Relation.",Definition:Isomorphism (Hilbert Spaces)
+171,Definition:Homeomorphism/Topological Spaces,Isomorphism,"Let T_α = ( S_α, τ_α) and T_β = ( S_β, τ_β) be topological spaces.
+
+Let f: T_α→ T_β be a bijection.
+
+
+=== Definition 1 ===
+Let T_α = ( S_α, τ_α) and T_β = ( S_β, τ_β) be topological spaces.
+
+Let f: T_α→ T_β be a bijection.
+
+
+f is a homeomorphism  if and only if  both f and f^-1 are continuous.
+
+=== Definition 2 ===
+Let T_α = ( S_α, τ_α) and T_β = ( S_β, τ_β) be topological spaces.
+
+Let f: T_α→ T_β be a bijection.
+
+
+f is a homeomorphism  if and only if :
+:∀ U ⊆ S_α: U ∈τ_α f [ U ] ∈τ_β
+
+
+That is, f is a homeomorphism  if and only if :
+:for all subsets U of S_α, U is open in T_α  if and only if  f [ U ] is open in T_β.
+
+=== Definition 3 ===
+Let T_α = ( S_α, τ_α) and T_β = ( S_β, τ_β) be topological spaces.
+
+Let f: T_α→ T_β be a bijection.
+
+
+f is a homeomorphism  if and only if  f is both an open mapping and a continuous mapping.
+
+=== Definition 4 ===
+Let T_α = ( S_α, τ_α) and T_β = ( S_β, τ_β) be topological spaces.
+
+Let f: T_α→ T_β be a bijection.
+
+
+f is a homeomorphism  if and only if  f is both a closed mapping and a continuous mapping.",Definition:Homeomorphism/Topological Spaces
+172,Definition:Isotropy (Physics),Isotropy,"Isotropy is a property of a physical system such that measurements of that system are independent of the direction in which those measurements are taken.
+
+ ",Definition:Isotropy (Physics)
+173,Definition:Isotropy Representation,Isotropy,"Let ( M, g ) be a Riemannian manifold.
+
+Let Iso(   )M, g be the set of all isometries from M to itself.
+
+Let Iso_p (   )M, g be the isotropy subgroup at p ∈ M.
+
+That is, let Iso_p (   )M, g be the subgroup of Iso(   )M, g consisting of isometries that fix p ∈ M.
+
+Let T_p M be the tangent space of M at p ∈ M.
+
+For each ϕ∈Iso_p (   )M, g let dϕ_p be a linear mapping such that:
+
+:dϕ_p : T_p M → T_p M
+
+Let GL( T_p M ) be the general linear group over T_p M.
+
+Let I_p : Iso_p (   )M, g→GL( T_p M ) be a mapping such that I_p (   )ϕ =  dϕ_p.
+
+
+Then the mapping I_p is a representation of Iso_p (   )M, g and is called the isotropy representation.",Definition:Isotropy Representation
+174,Definition:Linear Measure/Length,Length,"Length is linear measure taken in a particular direction.
+
+Usually, in multi-dimensional figures, the dimension in which the linear measure is greatest is referred to as length.
+
+It is the most widely used term for linear measure, as it is the standard term used when only one dimension is under consideration.
+
+
+Length is the fundamental notion of Euclidean geometry, never defined but regarded as an intuitive concept at the basis of every geometrical theorem.
+
+
+=== Vector Definition ===
+Let A and B be points in a real Euclidean space ℝ^n.
+
+Let 𝐚 and 𝐛 be the position vectors of A and B respectively.
+
+
+The length of the straight line AB is given by:
+:L (   )AB := |𝐚 - 𝐛|
+where:
+:𝐚 - 𝐛 denotes the vector subtraction operation
+:|𝐚 - 𝐛| denotes the magnitude of 𝐚 - 𝐛.",Definition:Linear Measure/Length
+175,Definition:Real Interval/Length,Length,"Let:
+:[ a  . . ]b
+or
+:[ a  . . )b
+or
+:( a  . . ]b
+or
+:( a  . . )b
+be a real interval.
+
+
+The difference b - a between the endpoints is called the length of the interval.",Definition:Real Interval/Length
+176,Definition:Arc Length,Length,"Let y = f (   )x be a real function which is:
+:continuous on the closed interval [ a  . . ]b
+and:
+:continuously differentiable on the open interval ( a  . . )b.
+
+=== Definition 1 ===
+Let y = f (   )x be a real function which is:
+:continuous on the closed interval [ a  . . ]b
+and:
+:continuously differentiable on the open interval ( a  . . )b.
+
+
+The arc length s of f between a and b is defined as: 
+
+:s := ∫_a^b √(1 + ( d y/d x)^2) d x
+
+=== Definition 2 ===
+The length of the arc of a curve is defined as the limit of the length of a polygonal line inscribed within the curve as the maximum length of the chords which form that polygonal line tends to zero.",Definition:Arc Length
+177,Definition:Length of Sequence,Length,"The length of a finite sequence is the number of terms it contains, or equivalently, the cardinality of its domain.
+
+
+=== Sequence of n Terms ===
+A sequence of n terms is a (finite) sequence whose length is n.",Definition:Length of Sequence
+178,Definition:Contour/Length/Complex Plane,Length,"Let C be a contour in ℂ defined by the (finite) sequence ⟨ C_1, …, C_n ⟩ of directed smooth curves in ℂ.
+
+Let C_k be parameterized by the smooth path γ_k: [ a_k  . . ]b_k→ℂ for all k ∈{ 1, …, n }.
+
+
+The length of C is defined as:
+
+:L (   )C := ∑_k  = 1^n ∫_a_k^b_k|γ_k' (   )t | d t
+
+
+It follows from Length of Contour is Well-Defined that L (   )C is defined and independent of the parameterizations of C_1, …, C_n.",Definition:Length of Sequence
+179,Definition:Vector Length,Length,"The length of a vector 𝐯 in a normed vector space ( V, ‖ · ‖) is defined as ‖𝐯‖, the norm of 𝐯.
+
+
+=== Arrow Representation ===
+Let 𝐯 be a vector quantity represented as an arrow in a real vector space ℝ^n.
+
+The length of 𝐯 is the length of the line segment representing 𝐯 in ℝ^n.",Definition:Vector Length
+180,Definition:Length of Chain,Length,"Let ( S, ≼) be an ordered set.
+
+Let T be a chain in S.
+
+Let T be finite and non-empty.
+
+
+The length of the chain T is its cardinality minus 1.
+
+
+Category:Definitions/Chains (Order Theory)",Definition:Length of Chain
+181,Definition:Ordinal Sequence/Length,Length,"Let α be an ordinal.
+
+Let θ be an ordinal sequence whose domain is α.
+
+
+Then α can be referred to as the length of θ.
+
+
+The length of θ can be denoted |θ|.",Definition:Length of Sequence
+182,Definition:Periodic Continued Fraction/Cycle/Length,Length,The number of partial denominators in a cycle of a periodic continued fraction is called the cycle length.,Definition:Periodic Continued Fraction/Cycle/Length
+183,Definition:Length of Continued Fraction,Length,"Let k be a field.
+
+Let C be a continued fraction in k, either finite or infinite.
+
+
+The length of C is an extended natural number equal to:
+*∞ if C is an infinite continued fraction.
+*n if C is a finite continued fraction with domain the integer interval [0  . .  n].",Definition:Length of Continued Fraction
+184,Definition:Walk (Graph Theory)/Length,Length,"The length of a walk (or a path, or a trail) is the number of edges it has, counting repeated edges as many times as they appear.
+
+
+A walk is said to be of infinite length  if and only if  it has infinitely many edges.
+
+
+=== Zero Length Walk ===
+A zero length walk is a walk which consists of one vertex.
+
+
+Category:Definitions/Walks",Definition:Walk (Graph Theory)/Length
+185,Definition:Rooted Tree/Branch/Length,Length,"Let T be a rooted tree with root node r_T.
+
+Let Γ be a finite branch of T.
+
+
+The length of Γ is defined as the number of ancestors of the leaf at the end of that branch.",Definition:Rooted Tree/Branch/Length
+186,Definition:Length of String,Length,"The length of a finite string in a formal language is the number of symbols it contains.
+
+
+The length of a string S can be denoted len(   )S or | S |.",Definition:Length of String
+187,Definition:Tableau Proof (Formal Systems)/Length,Length,"The length of a tableau proof is the number of lines it has.
+
+
+Category:Definitions/Proof Systems",Definition:Tableau Proof (Formal Systems)/Length
+188,Definition:Orbit (Group Theory)/Length,Length,"Let G be a group acting on a set X.
+
+Let x ∈ X.
+
+
+Let Orb( x ) be the orbit of x.
+
+The length of the orbit Orb( x ) of x is the number of elements of X it contains:
+:|Orb( x ) |
+
+
+Category:Definitions/Group Actions",Definition:Orbit (Group Theory)/Length
+189,Definition:Normal Series/Length,Length,"Let G be a group whose identity is e.
+
+Let ⟨ G_i ⟩_i ∈[ 0  . . ]n be a normal series for G:
+:⟨ G_i ⟩_i ∈[ 0  . . ]n = ( { e } = G_0  G_1 ⋯ G_n-1 G_n = G )
+
+
+The length of ⟨ G_i ⟩_i ∈[ 0  . . ]n is the number of (normal) subgroups which make it.
+
+In this context, the length of ⟨ G_i ⟩_i ∈[ 0  . . ]n is n.
+
+
+If such a normal series is infinite, then its length is not defined.
+
+
+Category:Definitions/Normal Series",Definition:Normal Series/Length
+190,Definition:Length of Group,Length,"Let G be a finite group.
+
+The length of G is the length of a composition series for G.
+
+That is, the length of G is the number of factors in a composition series for G (not including G itself).
+
+
+The length of G can be denoted l (   )G.
+
+
+By the Jordan-Hölder Theorem, all composition series for G have the same length.
+
+Therefore, the length of a finite group G is well-defined.",Definition:Length of Group
+191,Definition:Cyclic Permutation,Length,"Let S_n denote the symmetric group on n letters.
+
+Let ρ∈ S_n be a permutation on S.
+
+
+Then ρ is a cyclic permutation of length k  if and only if  there exists k ∈ℤ: k > 0 and i ∈ℤ such that:
+:(1):    k is the smallest such that ρ^k (   )i = i
+
+:(2):   ρ fixes each j not in { i, ρ(   )i, …, ρ^k - 1(   )i }.
+
+
+ρ is usually denoted using cycle notation as:
+:[             i       ρ(   )i             … ρ^k - 1(   )i ]
+
+but some sources introduce it using two-row notation:
+
+:[ a_1 a_2   ⋯ a_k   ⋯   i   ⋯; a_2 a_3   ⋯ a_1   ⋯   i   ⋯ ]",Definition:Cyclic Permutation
+192,Definition:Limit of Sequence,Limit,"=== Topological Space ===
+Let T = ( S, τ) be a topological space.
+
+Let A ⊆ S.
+
+Let ⟨ x_n ⟩ be a sequence in A.
+
+Let ⟨ x_n ⟩ converge to a value α∈ S.
+
+
+Then α is known as a limit (point) of ⟨ x_n ⟩ (as n tends to infinity).
+
+=== Metric Space ===
+Let M = ( A, d ) be a metric space or pseudometric space.
+
+Let ⟨ x_n ⟩ be a sequence in M.
+
+Let ⟨ x_n ⟩ converge to a value l ∈ A.
+
+
+Then l is a limit of ⟨ x_n ⟩ as n tends to infinity.
+
+
+If M is a metric space, this is usually written:
+:l = lim_n →∞ x_n
+
+=== Normed Division Ring ===
+Let ( R, ‖ · ‖) be a normed division ring.
+
+Let ⟨ x_n ⟩ be a sequence in R.
+
+Let ⟨ x_n ⟩ converge to x ∈ R.
+
+Then x is a limit of ⟨ x_n ⟩ as n tends to infinity which is usually written:
+:x = lim_n →∞ x_n
+
+=== Normed Vector Space ===
+Let M = ( X, ‖ · ‖) be a normed vector space.
+
+Let L ∈ X.
+
+Let ⟨ x_n ⟩_n ∈ℕ be a sequence in X.
+
+Let ⟨ x_n ⟩_n ∈ℕ converge to L. 
+
+
+Then L is a limit of ⟨ x_n ⟩_n ∈ℕ as n tends to infinity which is usually written:
+:L = lim_n →∞ x_n
+
+=== Test Function Space ===
+Let 𝒟(   )ℝ^d be the test function space.
+
+Let ϕ∈𝒟(   )ℝ^d be a test function.
+
+Let ⟨ϕ_n ⟩_n ∈ℕ be a sequence of test functions in 𝒟(   )ℝ^d.
+
+Let ⟨ϕ_n ⟩_n ∈ℕ converge to ϕ in 𝒟(   )ℝ^d. 
+
+
+Then ϕ is a limit of ⟨ϕ_n ⟩_n ∈ℕ in 𝒟(   )ℝ^d as n tends to infinity which is usually written:
+:ϕ_n 𝒟⟶ϕ",Definition:Limit of Sequence
+193,Definition:Limit of Mapping between Metric Spaces,Limit,"Let M_1 = ( A_1, d_1 ) and M_2 = ( A_2, d_2 ) be metric spaces.
+
+Let D ⊆ A_1 be a subset of A_1 that has a limit point c ∈ A_1.
+
+Let f: D → A_2 be a mapping from D to A_2.
+
+
+Let L ∈ M_2.
+
+
+f (   )x is said to tend to the limit L as x tends to c and is written:
+:f (   )x → L as x → c
+or:
+:lim_x → c f (   )x = L
+
+ if and only if  the following equivalent conditions hold:
+
+
+=== ϵ-δ Condition ===
+Let M_1 = ( A_1, d_1 ) and M_2 = ( A_2, d_2 ) be metric spaces.
+
+Let c be a limit point of M_1.
+
+Let f: A_1 → A_2 be a mapping from A_1 to A_2 defined everywhere on A_1 except possibly at c.
+
+
+Let L ∈ M_2.
+
+
+f (   )x is said to tend to the limit L as x tends to c and is written:
+:f (   )x → L as x → c
+or
+:lim_x → c f (   )x = L
+
+ if and only if :
+
+:∀ϵ∈ℝ_>0: ∃δ∈ℝ_>0: 0 < d_1 (   )x, c < δ d_2 (   )f (   )x, L < ϵ
+
+That is, for every real positive ϵ there exists a real positive δ such that every point in the domain of f within δ of c has an image within ϵ of some point L in the codomain of f.
+
+
+This is voiced:
+:the limit of f (   )x as x tends to c.
+
+=== ϵ-Ball Condition ===
+Let M_1 = ( A_1, d_1 ) and M_2 = ( A_2, d_2 ) be metric spaces.
+
+Let c be a limit point of M_1.
+
+Let f: A_1 → A_2 be a mapping from A_1 to A_2 defined everywhere on A_1 except possibly at c.
+
+
+Let L ∈ M_2.
+
+
+f (   )x is said to tend to the limit L as x tends to c and is written:
+:f (   )x → L as x → c
+or
+:lim_x → c f (   )x = L
+
+ if and only if :
+
+:∀ϵ∈ℝ_>0: ∃δ∈ℝ_>0: f [ B_δ(   )c; d_1∖{ c }] ⊆ B_ϵ(   )L; d_2
+
+where:
+:B_δ(   )c; d_1∖{ c } is the deleted δ-neighborhood of c in M_1
+:B_ϵ(   )L; d_2 is the open ϵ-ball of L in M_2.
+
+
+That is, for every open ϵ-ball of L in M_2, there exists a deleted δ-neighborhood of c in M_1 whose image is a subset of that open ϵ-ball.
+
+
+This is voiced:
+: the limit of f (   )x as x tends to c.
+
+This is voiced:
+: the limit of f (   )x as x tends to c.",Definition:Limit of Mapping between Metric Spaces
+194,Definition:Limit of Real Function,Limit,"Let ( a  . . )b be an open real interval.
+
+Let c ∈( a  . . )b.
+
+Let f: ( a  . . )b ∖{ c }→ℝ be a real function.
+
+Let L ∈ℝ.
+
+
+=== Definition 1 ===
+Let ( a  . . )b be an open real interval.
+
+Let c ∈( a  . . )b.
+
+Let f: ( a  . . )b ∖{ c }→ℝ be a real function.
+
+Let L ∈ℝ.
+
+
+f (   )x tends to the limit L as x tends to c  if and only if :
+
+:∀ϵ∈ℝ_>0: ∃δ∈ℝ_>0: ∀ x ∈ℝ: 0 < | x - c | < δ| f (   )x - L | < ϵ
+
+where ℝ_>0 denotes the set of strictly positive real numbers.
+
+=== Definition 2 ===
+Let ( a  . . )b be an open real interval.
+
+Let c ∈( a  . . )b.
+
+Let f: ( a  . . )b ∖{ c }→ℝ be a real function.
+
+Let L ∈ℝ.
+
+
+f (   )x tends to the limit L as x tends to c  if and only if :
+:∀ϵ∈ℝ_>0: ∃δ∈ℝ_>0: x ∈ N_δ(   )c ∖{ c } f (   )x ∈ N_ϵ(   )L
+where:
+:N_ϵ(   )L denotes the ϵ-neighborhood of L
+:N_δ(   )c ∖{ c } denotes the deleted δ-neighborhood of c
+:ℝ_>0 denotes the set of strictly positive real numbers.
+
+
+That is:
+:For every (strictly) positive real number ϵ, there exists a (strictly) positive real number δ such that every real number x  c in the domain of f within δ of c has an image within ϵ of L.
+
+
+ϵ is usually considered as having the connotation of being ""small"" in magnitude, but this is a misunderstanding of its intent: the point is that (in this context) ϵ can be made arbitrarily small.
+
+
+:
+
+It can directly be seen that this definition is the same as that for a general metric space.",Definition:Limit of Real Function
+195,Definition:Limit of Complex Function,Limit,"The definition for the limit of a complex function is exactly the same as that for the general metric space.
+
+
+Let A_1, A_2 ⊆ℂ be subsets of the complex plane.
+
+Let c be a limit point of A_1.
+
+Let f: A_1 → A_2 be a complex function from A_1 to A_2 defined everywhere on A_1 except possibly at c.
+
+
+Let L ∈ A_2.
+
+
+Then f (   )z is said to tend to the limit L as z tends to c, and we write:
+:f (   )z → L as z → c
+
+or
+:lim_z → c f (   )z = L
+
+if the following equivalent conditions hold.
+
+
+This is voiced:
+: the limit of f (   )z as z tends to c.
+
+
+=== Epsilon-Delta Condition ===
+
+:∀ϵ∈ℝ_>0: ∃δ∈ℝ_>0: ∀ z ∈ A_1: 0 < | z - c | < δ| f (   )z - L | < ϵ
+
+
+That is, for every real positive ϵ there exists a real positive δ such that every point in the domain of f within δ of c has an image within ϵ of some point L in the codomain of f.
+
+
+=== Epsilon-Neighborhood Condition ===
+
+:∀ N_ϵ(   )L: ∃ N_δ(   )c ∖{ c }: f (   )N_δ(   )c ∖{ c }⊆ N_ϵ(   )L
+
+where:
+:N_δ(   )c ∖{ c } is the deleted δ-neighborhood of c in M_1;
+:N_ϵ(   )L is the ϵ-neighborhood of L in M_2.
+
+
+That is, for every ϵ-neighborhood of L in A_2, there exists a deleted δ-neighborhood of c in A_1 whose image is a subset of that ϵ-neighborhood.",Definition:Limit of Complex Function
+196,Definition:Limit Superior,Limit,"Let ⟨ x_n ⟩ be a bounded sequence in ℝ.
+
+
+=== Definition 1 ===
+Let ⟨ x_n ⟩ be a bounded sequence in ℝ.
+
+Let L be the set of all real numbers which are the limit of some subsequence of ⟨ x_n ⟩.
+
+
+From Existence of Maximum and Minimum of Bounded Sequence, L has a maximum.
+
+This maximum is called the limit superior.
+
+It can be denoted:
+:lim sup_n →∞(   )x_n = l
+
+=== Definition 2 ===
+Let ⟨ x_n ⟩ be a bounded sequence in ℝ.
+
+
+The limit superior of ⟨ x_n ⟩ is defined and denoted as:
+:lim sup_n →∞(   )x_n = inf{sup_m ≥ n x_m: n ∈ℕ}",Definition:Limit Superior
+197,Definition:Limit Inferior,Limit,"Let ⟨ x_n ⟩ be a bounded sequence in ℝ.
+
+
+=== Definition 1 ===
+Let ⟨ x_n ⟩ be a bounded sequence in ℝ.
+
+Let L be the set of all real numbers which are the limit of some subsequence of ⟨ x_n ⟩.
+
+
+From Existence of Maximum and Minimum of Bounded Sequence, L has a minimum.
+
+This minimum is called the limit inferior.
+
+It can be denoted:
+:lim inf_n →∞(   )x_n = l
+
+=== Definition 2 ===
+Let ⟨ x_n ⟩ be a bounded sequence in ℝ.
+
+
+The limit inferior of ⟨ x_n ⟩ is defined and denoted as:
+:lim inf_n →∞(   )x_n = sup{inf_m ≥ n x_m: n ∈ℕ}",Definition:Limit Inferior
+198,Definition:Radius of Convergence/Real Domain,Limit,"Let ξ∈ℝ be a real number.
+
+Let S (   )x = ∑_n  = 0^∞ a_n ( x - ξ)^n be a power series about ξ.
+
+Let I be the interval of convergence of S (   )x.
+
+Let the endpoints of I be ξ - R and ξ + R.
+
+(This follows from the fact that ξ is the midpoint of I.)
+
+
+Then R is called the radius of convergence of S (   )x.
+
+
+If S (   )x is convergent over the whole of ℝ, then I = ℝ and thus the radius of convergence is infinite.",Definition:Radius of Convergence/Real Domain
+199,Definition:Limit of Sets,Limit,"Let S = { E_n : n ∈ℕ} be a sequence of sets.
+
+Let the limit superior of S be equal to the limit inferior of S.
+
+
+Then the limit of S, denoted lim_n →∞ E_n, is defined as:
+
+:lim_n →∞ E_n := lim sup_n →∞ E_n
+and so also:
+:lim_n →∞ E_n := lim inf_n →∞ E_n
+
+and S converges to the limit.",Definition:Limit Superior
+200,Definition:Limit (Category Theory),Limit,"Let 𝐂 be a metacategory.
+
+Let D: 𝐉→𝐂 be a 𝐉-diagram in 𝐂.
+
+Let 𝐂𝐨𝐧𝐞(D) be the category of cones to D.
+
+
+A limit for D is a terminal object in 𝐂𝐨𝐧𝐞(D).
+ 
+
+It is denoted by _j D_j; the associated morphisms p_i: _j D_j → D_i are usually left implicit.
+
+
+=== Finite Limit ===
+Let 𝐂 be a metacategory.
+
+Let D: 𝐉→𝐂 be a 𝐉-diagram in 𝐂.
+
+Let _j D_j be a limit for D.
+
+
+Then _j D_j is called a finite limit  if and only if  𝐉 is a finite category.",Definition:Limit (Category Theory)
+201,Definition:Value of Continued Fraction/Infinite,Limit,"Let ( F, ‖ · ‖) be a valued field.
+
+Let C = ⟨ a_n ⟩_n ≥ 0 be a infinite continued fraction in F.
+
+
+Let C converge to x ∈ F:
+
+Then x is the value of C.",Definition:Value of Continued Fraction/Infinite
+202,Definition:Limit Ordinal,Limit,"=== Definition 1 ===
+An ordinal λ is a limit ordinal  if and only if  it is a limit element in the well-ordering on the class of all ordinals On that is the subset relation.
+
+=== Definition 2 ===
+An ordinal λ is a limit ordinal  if and only if  it is neither the zero ordinal nor a successor ordinal.",Definition:Limit Ordinal
+203,Definition:Limit Element under Well-Ordering,Limit,"Let A be a class.
+
+Let ≼ be a well-ordering on A.
+
+Let x be neither the smallest element of A nor an immediate successor of any element of A.
+
+
+Then x is a limit element of A (under ≼).",Definition:Limit Element under Well-Ordering
+204,Definition:Linear Form (Linear Algebra),Linear Form,"Let ( R, +, ×) be a commutative ring.
+
+Let ( R, +_R, ∘)_R denote the R-module R.
+
+Let ( G, +_G, ∘)_R be a module over R.
+
+
+Let ϕ: ( G, +_G, ∘)_R →( R, +_R, ∘)_R be a linear transformation from G to the R-module R.
+
+
+ϕ is called a linear form on G.",Definition:Linear Form (Linear Algebra)
+205,Definition:Linear Form (Polynomial Theory),Linear Form,A linear form is a form whose variables are of degree 1.,Definition:Linear Form (Polynomial Theory)
+206,Definition:Meet (Order Theory),Meet,"Let ( S, ≼) be an ordered set.
+
+Let a, b ∈ S, and suppose that their infimum inf{ a, b } exists in S.
+
+
+Then a ∧ b, the meet of a and b, is defined as:
+
+:a ∧ b = inf{ a, b }
+
+
+Expanding the definition of infimum, one sees that c = a ∧ b  if and only if :
+
+:(1):    c ≼ a and c ≼ b
+:(2):   ∀ s ∈ S: s ≼ a and s ≼ b  s ≼ c",Definition:Meet (Order Theory)
+207,Definition:Boolean Algebra/Meet,Meet,"Consider the Boolean algebra ( S, ∨, ∧, )
+
+
+The operation ∧ is called meet.",Definition:Boolean Algebra/Meet
+208,Definition:Set Meeting Set,Meet,"Let ⟨ S_i ⟩_i ∈ I be an family of sets indexed by some  indexing set I.
+
+The sets in ⟨ S_i ⟩ are said to meet  if and only if  their intersection is not empty.
+
+
+That is,  if and only if :
+:⋂_i ∈ I⟨ S_i ⟩∅
+
+
+That is,  if and only if  ⟨ S_i ⟩_i ∈ I is not disjoint.",Definition:Set Meeting Set
+209,Definition:Multiple Root/Multiplicity,Multiplicity,The multiplicity of a multiple root is the number of times it appears.,Definition:Multiple Root/Multiplicity
+210,Definition:Multiplicity (Complex Analysis),Multiplicity,"Let f: ℂ→ℂ be a function.
+
+Suppose there is a ∈ℂ such that f (   )a = 0.
+
+Then a is said to be a zero of multiplicity k  if and only if  there exists non-zero L ∈ℝ such that:
+
+:lim_z → a| f (   )z || z - a |^k = L
+
+ 
+
+Category:Definitions/Complex Analysis",Definition:Multiplicity (Complex Analysis)
+211,Definition:Multiple Edge/Multiplicity,Multiplicity,"Let G = ( V, E ) be a multigraph.
+
+The multiplicity of an edge is the number of edges having the same pair of endvertices.
+
+
+For example, simple edges have multiplicity 1.
+
+Thus, an edge is a multiple edge  if and only if  its multiplicity exceeds 1.
+
+Category:Definitions/Multigraphs",Definition:Multigraph/Multiplicity
+212,Definition:Multigraph/Multiplicity,Multiplicity,"The multiplicity of a multigraph is the maximum multiplicity of its (multiple) edges.
+
+
+Category:Definitions/Multigraphs",Definition:Multigraph/Multiplicity
+213,Definition:Prime Decomposition/Multiplicity,Multiplicity,"Let n > 1 ∈ℤ.
+
+Let:
+:n = p_1^k_1 p_2^k_2⋯ p_r^k_r
+be the prime decomposition of n, where:
+:p_1 < p_2 < ⋯ < p_r are distinct primes
+:k_1, k_2, …, k_r are (strictly) positive integers.
+
+
+For each p_j ∈{ p_1, p_2, …, p_r }, its power k_j is known as the multiplicity of p_j.",Definition:Prime Decomposition/Multiplicity
+214,Definition:Proper Name,Name,"A proper name is a symbol or collection of symbols used to identify a particular object uniquely.
+
+
+In contrast with natural language, a proper name has a wider range than being the particular identifying label attached to a particular single entity (be it a person, or a place, or whatever else).
+
+For example:
+:Sloth is a proper name for the concept of being lazy.
+:Rain is a proper name for the meteorological phenomenon of water falling from the sky.",Definition:Proper Name
+215,Definition:Variable/Predicate Logic,Name,"In the context of predicate logic, a variable is often called an object variable or arbitrary name.
+
+As such, it is a symbol which is assigned to an arbitrarily selected object from a given universe of discourse.
+
+
+The understanding is that (during the scope of the argument to which it is relevant) the arbitrary name could apply equally well to any of the objects in that universe.",Definition:Variable/Predicate Logic
+216,Definition:Node (Graph Theory),Node,"=== Vertex ===
+
+For graphs which are not trees, the term vertex is generally used instead:
+
+ 
+
+Let G = ( V, E ) be a graph.
+
+The vertices (singular: vertex) are the elements of V.
+
+Informally, the vertices are the points that are connected by the edges.
+
+
+In the above, the vertices are the points A, B, C, D, E, F, G which are marked as dots.
+
+=== Node ===
+The vertices of a tree are called its nodes.",Definition:Node (Graph Theory)
+217,Definition:Acnode,Node,An acnode is a singular point of the locus of an equation describing a curve which is not actually on that curve.,Definition:Acnode
+218,Definition:Crunode,Node,A crunode is a double point P of the locus of an equation describing a curve which intersects itself in such a way that there are 2 distinct tangents at P.,Definition:Crunode
+219,Definition:Cusp,Node,"A cusp is a singular point on a curve at which there are two different tangents which coincide.
+
+Thus a cusp is a special case of a double point in which the tangents are coincident.
+
+
+=== Cusp of the First Kind ===
+A cusp of the first kind is a cusp in which both parts of the curve lie on opposite sides of the coincident tangents defining that cusp.
+
+
+=== Single Cusp of the First Kind ===
+A single cusp of the first kind is a single cusp in which both parts of the curve lie on opposite sides of the coincident tangents defining that single cusp.
+:
+
+=== Double Cusp of the First Kind ===
+A double cusp of the first kind is a double cusp in which both parts of the curve lie on opposite sides of the coincident tangents defining that double cusp.
+:
+
+=== Cusp of the Second Kind ===
+A cusp of the second kind is a cusp in which both parts of the curve lie on the same side of the coincident tangents defining that cusp.
+
+
+=== Single Cusp of the Second Kind ===
+A single cusp of the second kind is a single cusp in which both parts of the curve lie on the same side of the coincident tangents defining that single cusp.
+:
+
+=== Double Cusp of the Second Kind ===
+A double cusp of the second kind is a double cusp in which both parts of the curve lie on the same side of the coincident tangents defining that double cusp.
+:",Definition:Double Cusp
+220,Definition:Double Cusp,Node,"A double cusp is a cusp in which 2 or more parts of the curve are both continuous through the point.
+
+That is, the curve is tangential to itself.
+
+
+=== Double Cusp of the First Kind ===
+A double cusp of the first kind is a double cusp in which both parts of the curve lie on opposite sides of the coincident tangents defining that double cusp.
+:
+
+=== Double Cusp of the Second Kind ===
+A double cusp of the second kind is a double cusp in which both parts of the curve lie on the same side of the coincident tangents defining that double cusp.
+:
+
+=== Point of Osculinflection ===
+A point of osculinflection is a double cusp in which one or both parts of the curve has a point of inflection at the point of contact with the tangents defining that double cusp.
+:",Definition:Double Cusp
+221,Definition:Metagraph,Node,"A metagraph 𝒢 consists of:
+
+* objects X, Y, Z, …
+* morphisms f, g, h, … between its objects
+
+These are subjected to the following two axioms:
+
+ 
+ 
+ 
+ 
+
+ 
+A metagraph is purely axiomatic, and does not use set theory.
+
+For example, the objects are not ""elements of the set of objects"", because these axioms are (without further interpretation) unfounded in set theory.",Definition:Metagraph
+222,Definition:Spline Function/Knot,Node,"Let [ a  . . ]b be a closed real interval.
+
+Let T := { a = t_0, t_1, t_2, …, t_n - 1, t_n = b } form a subdivision of [ a  . . ]b.
+
+Let S: [ a  . . ]b →ℝ be a spline function on [ a  . . ]b on T.
+
+
+The points T := { t_0, t_1, t_2, …, t_n - 1, t_n } of S are known as the knots.
+
+
+=== Knot Vector ===
+Let [ a  . . ]b be a closed real interval.
+
+Let T := { a = t_0, t_1, t_2, …, t_n - 1, t_n = b } form a subdivision of [ a  . . ]b.
+
+Let S: [ a  . . ]b →ℝ be a spline function on [ a  . . ]b on T.
+
+
+The ordered n + 1-tuple 𝐭 := ( t_0, t_1, t_2, …, t_n - 1, t_n ) of S is known as the knot vector.
+
+
+Category:Definitions/Knots of Splines",Definition:Spline Function/Knot
+223,Definition:Injection,One-to-One,"=== Definition 1 ===
+A mapping f is an injection, or injective  if and only if :
+:∀ x_1, x_2 ∈Dom( f ): f (   )x_1 = f (   )x_2 x_1 = x_2
+
+
+That is, an injection is a mapping such that the output uniquely determines its input.
+
+
+=== Definition 1 a ===
+
+This can otherwise be put:
+A mapping f is an injection, or injective  if and only if :
+
+:∀ x_1, x_2 ∈Dom( f ): x_1  x_2  f (   )x_1 f (   )x_2
+
+
+That is, distinct elements of the domain are mapped to distinct elements of the image.
+
+=== Definition 2 ===
+An injection is a relation which is both one-to-one and left-total.
+
+
+Thus, a relation f is an injection  if and only if :
+
+ 
+ 
+ 
+ 
+ 
+
+=== Definition 3 ===
+Let f be a mapping.
+
+Then f is an injection  if and only if :
+:f^-1_Img( f ): Img( f ) →Dom( f ) is a mapping
+where f^-1_Img( f ) is the restriction of the inverse of f to the image set of f.
+
+=== Definition 4 ===
+Let f be a mapping.
+
+f is an injection  if and only if :
+:∀ y ∈Img( f ): | f^-1(   )y | = |{ f^-1[ { y }]  }| = 1
+where:
+:Img( f ) denotes the image set of f
+:| · | denotes the cardinality of a set
+:f^-1(   )y is the preimage of y
+:f^-1[ { y }] is the preimage of the subset { y }⊆Img( f ).
+
+
+That is,  if and only if  the preimage of y is a singleton for all y in the image set of f.
+
+=== Definition 5 ===
+Let f: S → T be a mapping where S ∅.
+
+Then f is an injection  if and only if :
+:∃ g: T → S: g ∘ f = I_S
+where g is a mapping.
+
+
+That is,  if and only if  f has a left inverse.
+
+=== Definition 6 ===
+Let f: S → T be a mapping where S ∅.
+
+Then f is an injection  if and only if  f is left cancellable:
+:∀ X: ∀ g_1, g_2: X → S: f ∘ g_1 = f ∘ g_2  g_1 = g_2
+where g_1 and g_2 are arbitrary mappings from an arbitrary set X to the domain S of f.",Definition:Injection
+224,Definition:One-to-One Relation,One-to-One,"A relation ℛ⊆ S × T is one-to-one if it is both many-to-one and one-to-many.
+
+
+That is, every element of the domain of ℛ relates to no more than one element of its codomain, and every element of the image is related to by exactly one element of its domain.",Definition:One-to-One Relation
+225,Definition:Path (Topology),Path,"Let T = ( S, τ) be a topological space.
+
+Let I ⊂ℝ be the closed real interval [ a  . . ]b.
+
+
+A path in T is a continuous mapping γ: I → S.
+
+
+The mapping γ can be referred as:
+:a path (in T) joining γ(   )a and γ(   )b
+or:
+:a path (in T) from γ(   )a to γ(   )b.
+
+
+It is common to refer to a point z = γ(   )t as a point on the path γ, even though z is in fact on the image of γ.
+
+
+=== Initial Point ===
+Let T be a topological space.
+
+Let I ⊂ℝ be the closed real interval [ a  . . ]b.
+
+Let γ: I → T be a path in T.
+
+
+The initial point of γ is γ(   )a.
+
+That is, the path starts (or begins) at γ(   )a.
+
+=== Final Point ===
+Let T be a topological space.
+
+Let I ⊂ℝ be the closed real interval [ a  . . ]b.
+
+Let γ: I → T be a path in T.
+
+
+The final point of γ is γ(   )b.
+
+That is, the path ends (or finishes) at γ(   )b.
+
+=== Endpoint ===
+Let T be a topological space.
+
+Let I ⊂ℝ be the closed real interval [ a  . . ]b.
+
+Let γ: I → T be a path in T.
+
+
+The initial point and final point of γ can be referred to as the endpoints of γ
+
+
+Category:Definitions/Path-Connected Spaces
+
+=== Composable Paths ===
+Let T be a topological space.
+
+Let f, g: [ 0  . . ]1 → T be paths.
+
+
+f and g are said to be composable paths if:
+
+:f (   )1 = g (   )0.",Definition:Path (Topology)
+226,Definition:Path (Graph Theory),Path,"Let G be an undirected graph.
+
+A path in G is a trail in G in which all vertices (except perhaps the first and last ones) are distinct.
+
+
+A path between two vertices u and v is called a u-v path.
+
+
+=== Subgraph ===
+The set of vertices and edges which go to make up a path in a graph G form a subgraph of G.
+
+This subgraph itself is also referred to as a path in G.
+
+=== Open Path ===
+An open path is a path in which the first and last vertices are distinct.
+
+
+
+=== Endpoint of Open Path ===
+Let P be an open path in a graph G.
+
+The endpoints of P are its first and last vertices.
+
+
+Category:Definitions/Paths (Graph Theory)",Definition:Path (Graph Theory)
+227,Definition:Path (Graph Theory)/Digraph,Path,"Let D = ( V, E ) be a digraph.
+
+A path P in D is:
+:a sequence of vertices v_1, v_2, …, v_n in V and a sequence of arcs e_1, e_2, …, e_n - 1 in E such that:
+:P begins with v_1 and ends with v_n
+:in which each arc e_j is incident from v_j and incident to v_j + 1
+:all arcs are distinct
+:all vertices (except perhaps the first and last ones) are distinct.
+
+A path between two vertices u and v is called a path from u to v.
+
+
+=== Predecessor ===
+Let D = ( V, E ) be a digraph.
+
+Let P be a path in D such that the vertices of P are v_1, v_2, …, v_n.
+
+Let v_j be a vertex of P such that j > 1.
+
+Then the predecessor (vertex) of v_j is the vertex v_j - 1.
+
+
+That is, if v → w is an arc in P, v is the predecessor (vertex) of w.
+
+=== Successor ===
+Let D = ( V, E ) be a digraph.
+
+Let P be a path in D such that the vertices of P are v_1, v_2, …, v_n.
+
+Let v_j be a vertex of P such that j < n.
+
+Then the successor (vertex) of v_j is the vertex v_j + 1.
+
+
+That is, if v → w is an arc in P, w is the successor (vertex) of v.",Definition:Path (Graph Theory)/Digraph
+228,Definition:Cycle (Graph Theory),Path,"A cycle is a circuit in which no vertex except the first (which is also the last) appears more than once.
+
+
+An n-cycle is a cycle with n vertices.
+
+
+=== Subgraph ===
+The set of vertices and edges which go to make up a cycle form a subgraph.
+
+This subgraph itself is also referred to as a cycle.
+
+=== Odd Cycle ===
+An odd cycle is a cycle with odd length, that is, with an odd number of edges.
+
+=== Even Cycle ===
+An even cycle is a cycle with even length, that is, with an even number of edges.",Definition:Cycle (Graph Theory)
+229,Definition:Perfect Number,Perfect,"=== Definition 1 ===
+A perfect number is a (strictly) positive integer equal to its aliquot sum.
+
+
+=== Sequence of Perfect Numbers ===
+ 
+
+=== Definition 2 ===
+A perfect number n is a (strictly) positive integer such that:
+:σ_1 (   )n= 2 n
+where σ_1: ℤ_>0→ℤ_>0 is the divisor sum function.
+
+
+=== Sequence of Perfect Numbers ===
+ 
+
+=== Definition 3 ===
+Let n ∈ℤ_≥ 0 be a positive integer.
+
+
+Let A (   )n denote the abundance of n.
+
+n is perfect  if and only if  A (   )n = 0.
+
+
+=== Sequence of Perfect Numbers ===
+ 
+
+=== Definition 4 ===
+A perfect number n is a (strictly) positive integer such that:
+:σ_1 (   )n n = 2
+where σ_1: ℤ_>0→ℤ_>0 is the divisor sum function.
+
+
+=== Sequence of Perfect Numbers ===
+ ",Definition:Perfect Number
+230,Definition:Perfect Set,Perfect,"=== Definition 1 ===
+A perfect set of a topological space T = (S, τ) is a subset H ⊆ S such that:
+:H = H'
+where H' is the derived set of H.
+
+That is, where:
+:every point of H is a limit point of H
+and
+:every limit point of H is a point of H.
+
+=== Definition 2 ===
+A perfect set of a topological space T = (S, τ) is a subset H ⊆ S such that:
+: H is a closed set of T
+: H has no isolated points.
+
+=== Definition 3 ===
+A perfect set of a topological space T = ( S, τ) is a subset H ⊆ S such that:
+:H is dense-in-itself.
+:H contains all its limit points.",Definition:Perfect Set
+231,Definition:Perfect Graph,Perfect,A graph is perfect if no two vertices have the same degree.,Definition:Perfect Graph
+232,Definition:Perfect Group,Perfect,"A perfect group is a group which is its own derived subgroup.
+
+That is, it is a group G such that:
+:G = G'
+where G' is the derived subgroup of G.
+
+
+ ",Definition:Perfect Group
+233,Definition:Perfect Field,Perfect,"Let F be a field.
+
+
+=== Definition 1 ===
+Let F be a field.
+
+
+F is a perfect field   if and only if  F has no inseparable extensions.
+
+=== Definition 2 ===
+Let F be a field.
+
+
+F is a perfect field  if and only if  one of the following holds:
+:Char( F ) = 0
+:Char( F ) = p with p prime and Frob is an automorphism of F
+
+where:
+:Char( F ) denotes the characteristic of F
+:Frob denotes the Frobenius endomorphism on F",Definition:Perfect Field
+234,Definition:Positive Definite (Ring),Positive Definite,"Let ( R, +, ×) be a ring whose zero is denoted 0_R.
+
+Let f: R →ℝ be a (real-valued) function on R.
+
+
+Then f is positive definite  if and only if :
+
+:∀ x ∈ R:  f (   )x = 0     : x = 0_R 
+ f (   )x > 0     : x  0_R",Definition:Positive Definite (Ring)
+235,Definition:Positive Definite Matrix,Positive Definite,"Let 𝐀 be a symmetric square matrix of order n.
+
+=== Definition 1 ===
+Let 𝐀 be a symmetric square matrix of order n.
+
+𝐀 is positive definite  if and only if :
+:for all nonzero column matrices 𝐱 of order n, 𝐱^⊺𝐀𝐱 is strictly positive.
+
+=== Definition 2 ===
+Let 𝐀 be a symmetric square matrix of order n.
+
+𝐀 is positive definite  if and only if :
+:all the eigenvalues of 𝐀 are strictly positive.",Definition:Positive Definite Matrix
+236,Definition:Positive Definite Vector Space,Positive Definite," 
+
+Let 𝐕 be a vector space such that:
+:∀𝐯∈𝐕: 𝐯·𝐯 > 0
+where 𝐯·𝐯 denotes the dot product.
+
+
+Then 𝐕 is a positive definite vector space.",Definition:Positive Definite Vector Space
+237,Definition:Power (Algebra),Power,"=== Natural Numbers ===
+Let ℕ denote the natural numbers.
+
+
+For each m ∈ℕ, recursively define e_m: ℕ→ℕ to be the mapping:
+:e_m (   )n =  1     : n = 0 
+ m × e_m (   )x     : n = x + 1
+where:
+:+ denotes natural number addition.
+:× denotes natural number multiplication.
+
+
+e_m (   )n is then expressed as a binary operation in the form:
+:m^n := e_m (   )n
+
+and is called m to the power of n.
+
+=== Integers ===
+Let x ∈ℝ be a real number.
+
+Let n ∈ℤ be an integer.
+
+The expression x^n is called x to the power of n.
+
+x^n is defined recursively as:
+
+
+:x^n =  1     : n = 0 
+   
+ x × x^n - 1    : n > 0 
+   
+x^n + 1 x     : n < 0
+
+where x^n + 1 x denotes division.
+
+
+=== Even Power ===
+Let x ∈ℝ be a real number.
+
+Let n ∈ℤ be an even integer.
+
+
+Then x^n is called an even power of x.
+
+
+Category:Definitions/Integer Powers
+Category:Definitions/Even Integers
+
+=== Odd Power ===
+Let x ∈ℝ be a real number.
+
+Let n ∈ℤ be an odd integer.
+
+
+Then x^n is called an odd power of x
+
+
+Category:Definitions/Integer Powers
+Category:Definitions/Odd Integers
+
+=== Rational Numbers ===
+Let x ∈ℝ be a real number such that x > 0.
+
+Let m ∈ℤ be an integer.
+
+Let y = √(x) be the mth root of x.
+
+
+Then we can write y = x^1/m which means the same thing as y = √(x).
+
+
+Thus we can define the power to a positive rational number:
+
+Let r =  p q ∈ℚ be a positive rational number where p ∈ℤ_≥ 0, q ∈ℤ_> 0.
+
+Then x^r is defined as:
+:x^r = x^p/q = ( √(x))^p = √(( x^p ) )
+
+
+When r = -p q ∈ℚ: r < 0 we define:
+:x^r = x^-p/q =  1 x^p/q
+analogously for the negative integer definition.
+
+=== Real Numbers ===
+Let x ∈ℝ_>0 be a (strictly) positive real number.
+
+Let r ∈ℝ be a real number.
+
+
+We define x^r as:
+
+:x^r := exp(   )r ln x
+where exp denotes the exponential function.
+
+
+This definition is an extension of the definition for rational r.
+
+This follows from Logarithms of Powers and Exponential of Natural Logarithm: it can be seen that:
+:∀ r ∈ℚ: exp(   )r ln x = exp(   )ln(   )x^r = x^r
+
+ 
+
+=== Complex Numbers ===
+Let z, k ∈ℂ be complex numbers.
+
+
+z to the power of k is defined as the multifunction:
+
+:z^k := e^k ln( z )
+
+where:
+:e^z is the exponential function
+:ln is the  natural logarithm multifunction.
+
+
+=== Principal Branch ===
+The principal branch of a complex number raised to a complex power is defined as:
+
+:z^k = e^k Ln z
+
+where Ln z is the principal branch of the natural logarithm.
+
+
+=== Positive Real Base ===
+Let t > 0 be a real number and let k be a complex number.
+
+
+The principal branch of a positive real number raised to a complex power is defined as:
+
+:t^k = e^k ln t
+
+where ln is the natural logarithm of a positive real number.
+
+
+Category:Definitions/Complex Powers
+
+Category:Definitions/Complex Powers
+
+=== Multiindices ===
+Let k = ⟨k_j⟩_j = 1, …, n be a multiindex indexed by { 1, …, n }.
+
+Let x = ( x_1, …, x_n ) ∈ℝ^n be an ordered tuple of real numbers.
+
+
+Then x^k is defined as:
+
+:x^k := ∏_j  = 1^n x_j^k_j
+where the powers on the   are integer powers.
+
+
+Category:Definitions/Analysis
+
+=== Power of Zero ===
+Let r ∈ℝ be a real number.
+
+(This includes the situation where r ∈ℤ or r ∈ℚ.)
+
+When x=0, x^r is defined as follows:
+
+:0^r =  1     : r = 0 
+ 0     : r > 0 
+Undefined    : r < 0
+
+This takes account of the awkward case 0^0: it is ""generally accepted"" that 0^0 = 1 as this convention agrees with certain general results which would otherwise need a special case.",Definition:Power (Algebra)
+238,Definition:Power of Element/Magma,Power,"Let ( S, ∘) be a magma which has no identity element.
+
+Let a ∈ S.
+
+
+Let the mapping ∘^n a: ℕ_>0→ S be recursively defined as:
+
+:∀ n ∈ℕ_>0: ∘^n a =  a     : n = 1 
+( ∘^r a ) ∘ a     : n = r + 1
+
+
+The mapping ∘^n a is known as the nth power of a (under ∘).
+
+
+=== Notation ===
+",Definition:Power of Element/Magma
+239,Definition:Power of Element/Magma with Identity,Power,"Let ( S, ∘) be a magma with an identity element e.
+
+Let a ∈ S.
+
+
+Let the mapping ∘^n a: ℕ→ S be recursively defined as:
+
+:∀ n ∈ S: ∘^n a =  e     : n = 0 
+( ∘^r a ) ∘ a     : n = r + 1
+
+
+The mapping ∘^n a is known as the nth power of a (under ∘).
+
+
+=== Notation ===
+
+
+Furthermore:
+:a^0 = ∘^0 a = e",Definition:Power of Element/Magma with Identity
+240,Definition:Power of Element/Semigroup,Power,"Let ( S, ∘) be a semigroup which has no identity element.
+
+Let a ∈ S.
+
+
+For n ∈ℕ_>0, the nth power of a (under ∘) is defined as:
+
+:∘^n a =  a     : n = 1 
+( ∘^m a ) ∘ a     : n = m + 1
+
+That is:
+:a^n = a ∘ a ∘⋯∘ a_n  copies of  a
+
+which from the General Associativity Theorem is unambiguous.
+
+
+=== Notation ===
+",Definition:Power of Element/Semigroup
+241,Definition:Power of Element/Monoid,Power,"Let ( S, ∘) be a monoid whose identity element is e.
+
+Let a ∈ S.
+
+Let n ∈ℕ.
+
+
+The definition a^n = ∘^n (   )a as the nth power of a in a semigroup can be extended to allow an exponent of 0:
+
+:a^n =  e     : n = 0 
+ a^n - 1∘ a     : n > 0
+
+or:
+
+:n · a =  e     : n = 0 
+( ( n - 1 ) · a ) ∘ a     : n > 0
+
+
+The validity of this definition follows from the fact that a monoid has an identity element.
+
+
+=== Invertible Element ===
+Let ( S, ∘) be a monoid whose identity element is e.
+
+Let b ∈ S be invertible for ∘.
+
+Let n ∈ℤ.
+
+
+The definition b^n = ∘^n (   )b as the nth power of b in (S, ∘) can be extended to include the inverse of b:
+
+:b^-n = ( b^-1)^n
+
+
+Category:Definitions/Monoids",Definition:Power of Element/Monoid
+242,Definition:Power of Element/Group,Power,"Let ( G, ∘) be a group whose identity element is e.
+
+Let g ∈ G.
+
+Let n ∈ℤ.
+
+
+The definition g^n = ∘^n (   )g as the nth power of g in a monoid can be extended to allow negative values of n:
+
+:g^n =  e     : n = 0 
+ g^n - 1∘ g     : n > 0 
+( g^-n)^-1    : n < 0
+
+or
+
+:n · g =  e     : n = 0 
+( ( n - 1 ) · g ) ∘ g     : n > 0 
+ -( -n · g )     : n < 0
+
+The validity of this definition follows from the group axioms: g has an inverse element.",Definition:Power of Element/Monoid
+243,Definition:Power of Element/Ring,Power,"Let ( R, +, ∘) be a ring.
+
+Let r ∈ R.
+
+Let n ∈ℤ_>0 be the set of strictly positive integers.
+
+The nth power of r in R is defined as the nth power of r with respect to the semigroup ( R, ∘):
+
+:∀ n ∈ℤ_>0: r^n =  r     : n = 1 
+ r^n - 1∘ r     : n > 1
+
+
+If R is a ring with unity where 1_R is that unity, the definition extends to n ∈ℤ_≥ 0:
+
+:∀ n ∈ℤ_≥ 0: r^n =  1_R     : n = 0 
+ r^n - 1∘ r     : n > 0",Definition:Power of Element/Ring
+244,Definition:Power (B-Algebra),Power,"Let ( X, ∘) be a B-algebra.
+
+For any x ∈ X and n ∈ℕ, define the nth power of x, denoted x^n, inductively:
+
+:x^n = 
+0    if n = 0
+
+x^n - 1∘( 0 ∘ x )    if n ≥ 1",Definition:Power (B-Algebra)
+245,Definition:Cardinality,Power,"Two sets (either finite or infinite) which are equivalent are said to have the same cardinality.
+
+The cardinality of a set S is written | S |.
+
+
+=== Cardinality of Finite Set ===
+Let S be a finite set.
+
+The cardinality | S | of S is the number of elements in S.
+
+That is, if:
+:S ∼ℕ_< n
+
+where:
+:∼ denotes set equivalence
+:ℕ_
+
+Also note that from the definition of finite:
+:∃ n ∈ℕ: | S | = n  S is finite.
+
+=== Cardinality of Infinite Set ===
+Let S be an infinite set.
+
+The cardinality | S | of S can be indicated as:
+:| S | = ∞
+
+However, it needs to be noted that this just means that the cardinality of S cannot be assigned a number n ∈ℕ.
+
+
+It means that | S | is at least ℵ_0 (aleph null).",Definition:Cardinality
+246,Definition:Power Set,Power,"The power set of a set S is the set defined and denoted as:
+
+:𝒫( S ) := { T: T ⊆ S }
+
+That is, the set whose elements are all of the subsets of S.
+
+
+=== Class Theory ===
+The power set of a set x is the class of all the subsets of x:
+
+:𝒫( x ) := { y: y ⊆ x }
+
+
+It is clear from the definition that:
+:y ∈𝒫( x )  y ⊆ x
+
+
+=== Axiom of Powers ===
+
+The concept of the power set is axiomatised in the   in class theory:
+
+ ",Definition:Power Set
+247,Definition:Power (Physics),Power,"Power is defined as the amount of energy transferred or converted per unit time.
+
+That is, the rate at which energy is transformed.
+
+
+Power is a scalar quantity.
+
+
+=== Instantaneous ===
+The instantaneous power transformed at an instant of time is defined as:
+:p (   )t = d E (   )td t
+where:
+:p (   )t is the power as a function of time
+:E (   )t is the energy as a function of time.
+
+=== Symbol ===
+
+
+=== Dimension ===
+The dimension of measurement of power is 𝖬 𝖫^2 𝖳^-3.
+
+This derives from its definition as:
+:EnergyTime
+
+
+Category:Definitions/Dimensions of Measurement
+Category:Definitions/Power (Physics)
+
+=== Unit ===
+The SI unit of power  is the watt W.
+
+
+=== Watt ===
+The watt is the SI unit of power.
+
+
+It is defined as being the rate at which 1 joule of energy is uniformly transformed in 1 second:
+
+:1  W = 1  J s^-1
+
+
+Hence it can be understood as:
+:the rate at which work is done when the velocity of a body is held constant at 1 metre per second against a constant opposing force of 1 newton
+:the rate at which work is performed when an electric current of 1 ampere flows across an electrical potential difference of 1 volt.
+
+
+=== Conversion Factors ===
+
+
+=== Symbol ===
+ 
+
+=== Base Units ===
+The SI base units of the watt are:
+
+:W := kg m^2 s^-3
+where:
+:kg denotes kilograms
+:m denotes metres
+:s denotes seconds (of time).
+
+This arises from the definition of the watt as J s^-1, that is, joules per second.
+ ",Definition:Power (Physics)
+248,Definition:Primitive Root (Number Theory),Primitive Root,"Let a, n ∈ℤ_>0, that is, let a and n be strictly positive integers.
+
+Let the multiplicative order of a modulo n be ϕ(   )n, where ϕ(   )n is the Euler phi function of n.
+
+
+Then a is a primitive root of n or a primitive root modulo n.",Definition:Primitive Root (Number Theory)
+249,Definition:Root of Unity/Primitive,Primitive Root,"Let n ∈ℤ_> 0 be a strictly positive integer.
+
+Let F be a field.
+
+Let U_n denote the set of all nth roots of unity.
+
+
+=== Definition 1 ===
+Let n ∈ℤ_> 0 be a strictly positive integer.
+
+Let F be a field.
+
+Let U_n denote the set of all n-th roots of unity.
+
+
+A primitive nth root of unity of F is an element α∈ U_n such that:
+
+:U_n = { 1, α, …, α^n - 1}
+
+=== Definition 2 ===
+Let n ∈ℤ_> 0 be a strictly positive integer.
+
+Let F be a field.
+
+Let U_n denote the set of all n-th roots of unity.
+
+
+A primitive nth root of unity of F is an element α∈ U_n such that:
+:∀ m : 0 < m < n : α^m  1",Definition:Root of Unity/Primitive
+250,Definition:Main Connective,Principal,"In a compound statement, exactly one of its logical connectives has the largest scope.
+
+That connective is called the main connective.
+
+The scope of the main connective comprises the entire compound statement.
+
+
+ ",Definition:Main Connective
+251,Definition:Principal Ideal of Preordered Set,Principal,"Let ( S, ≼) be a preordered set.
+
+Let I be an ideal in S.
+
+=== Definition 1 ===
+Let ( S, ≼) be a preordered set.
+
+Let I be an ideal in S.
+
+
+Then I is a principal ideal  if and only if :
+:∃ x ∈ I: x is upper bound for I
+
+=== Definition 2 ===
+Let ( S, ≼) be a preordered set.
+
+Let I be an ideal in S.
+
+
+Then I is a principal ideal  if and only if :
+:∃ x ∈ S: I = x^≼
+where x^≼ denotes the lower closure of x.",Definition:Principal Ideal of Preordered Set
+252,Definition:Matrix/Diagonal/Main,Principal,"Let 𝐀 = [ a ]_m n be a matrix.
+
+The elements a_j j: j ∈[ 1  . . ]min{ m, n } constitute the main diagonal of 𝐀.
+
+That is, the main diagonal of 𝐀 is the diagonal of 𝐀 from the top left corner, that is, the element a_1 1, running towards the lower right corner.
+
+
+=== Diagonal Elements ===
+The elements of the main diagonal of a matrix or a determinant are called the diagonal elements.",Definition:Matrix/Diagonal/Main
+253,Definition:Multifunction/Principal Branch,Principal,"Let A and B be sets.
+
+Let f: A → B be a multifunction on A.
+
+Let ⟨ S_i ⟩_i ∈ I be a partitioning of the codomain of f into branches.
+
+
+It is usual to distinguish one such branch of f from the others, and label it the principal branch of f.
+
+
+=== Principal Value ===
+Let A and B be sets.
+
+Let f: A → B be a multifunction on A.
+
+Let x ∈ A be an element of the domain of f.
+
+The principal value of x is the element y of the principal branch of f such that f (   )x = y.",Definition:Multifunction/Principal Branch
+254,Definition:Argument of Complex Number/Principal Range,Principal,"It is understood that the argument of a complex number z is unique only up to multiples of 2 k π.
+
+With this understanding, we can limit the choice of what θ can be for any given z by requiring that θ lie in some half open interval of length 2 π.
+
+The most usual of these are:
+:[ 0  . . )2 π
+:( -π . . ]π
+
+but in theory any such interval may be used.
+
+This interval is known as the principal range.",Definition:Argument of Complex Number/Principal Range
+255,Definition:Argument of Complex Number/Principal Argument,Principal,"Let R be the principal range of the complex numbers ℂ.
+
+The unique value of θ in R is known as the principal argument, of z.
+
+This is denoted Arg( z ).
+
+Note the capital A.
+
+The standard practice is for R to be ( -π . . ]π.
+
+This ensures that the principal argument is continuous on the real axis for positive numbers.
+
+Thus, if z is represented in the complex plane, the principal argument Arg( z ) is intuitively defined as the angle which z yields with the real (y = 0) axis.
+
+
+ ",Definition:Argument of Complex Number/Principal Argument
+256,Definition:Square Root/Complex Number/Principal Square Root,Principal,"Let z ∈ℂ be a complex number.
+
+Let z^1/2 = { w ∈ℂ: w^2 = z } be the square root of z.
+
+
+The principal square root of z is the principal branch of the 2nd power of w.
+
+
+Hence, by the conventional definition of the principal branch of the natural logarithm of z, it is the element w of z^1/2 such that:
+:-π 2 <  w ≤π 2",Definition:Square Root/Complex Number/Principal Square Root
+257,Definition:Power (Algebra)/Complex Number/Principal Branch,Principal,"The principal branch of a complex number raised to a complex power is defined as:
+
+:z^k = e^k Ln z
+
+where Ln z is the principal branch of the natural logarithm.
+
+
+=== Positive Real Base ===
+Let t > 0 be a real number and let k be a complex number.
+
+
+The principal branch of a positive real number raised to a complex power is defined as:
+
+:t^k = e^k ln t
+
+where ln is the natural logarithm of a positive real number.
+
+
+Category:Definitions/Complex Powers
+
+Category:Definitions/Complex Powers",Definition:Power (Algebra)/Complex Number/Principal Branch
+258,Definition:Remainder,Principal,"Let a, b ∈ℤ be integers such that b  0.
+
+From the Division Theorem, we have that:
+
+:∀ a, b ∈ℤ, b  0: ∃_1 q, r ∈ℤ: a = q b + r, 0 ≤ r < | b |
+
+
+The value r is defined as the remainder of a on division by b, or the remainder of a b”'.
+
+
+=== Real Arguments ===
+
+When x, y ∈ℝ the remainder is still defined:
+
+Let x, y ∈ℝ be real numbers such that y  0.
+
+The remainder of x on division by y is defined as the value of r in the expression:
+
+:∀ x, y ∈ℝ, y  0: ∃! q ∈ℤ, r ∈ℝ: x = q y + r, 0 ≤ r < | y |
+
+
+From the definition of the Modulo Operation:
+
+:x  y := x - y ⌊ x y ⌋
+
+it can be seen that the remainder of x on division by y is defined as:
+:r = x  y",Definition:Remainder
+259,Definition:Trivial Character,Principal,"Let G be a finite abelian group.
+
+The character χ_0: G →ℂ_ 0 defined as:
+
+:∀ g ∈ G: χ_0 (   )g = 1
+
+is the trivial character on G.",Definition:Trivial Character
+260,Definition:Principal Ideal of Ring,Principal,"Let ( R, +, ∘) be a ring with unity.
+
+Let a ∈ R.
+
+
+We define:
+
+=== Definition 1 ===
+Let ( R, +, ∘) be a ring with unity.
+
+Let a ∈ R.
+
+We define:
+
+:( a ) = {∑_i  = 1^n r_i ∘ a ∘ s_i: n ∈ℕ, r_i, s_i ∈ R }
+
+
+The ideal ( a ) is called the principal ideal of R generated by a.
+
+=== Definition 2 ===
+Let ( R, +, ∘) be a ring with unity.
+
+Let a ∈ R.
+
+We define:
+
+:( a ) is the smallest ideal of ( R, +, ∘) containing a as an element.
+
+
+The ideal ( a ) is called the principal ideal of R generated by a.
+
+=== Definition 3 ===
+Let ( R, +, ∘) be a ring with unity.
+
+Let a ∈ R.
+
+We define:
+
+:( a ) is the intersection of all ideals of ( R, +, ∘) which contain a as an element.
+
+
+The ideal ( a ) is called the principal ideal of R generated by a.
+
+=== Definition 4 ===
+Let ( R, +, ∘) be a ring with unity.
+
+Let a ∈ R.
+
+We define:
+
+:( a ) is an ideal of ( R, +, ∘) such that every element of ( a ) is of the form a ∘ r, where r ∈ R
+
+
+The ideal ( a ) is called the principal ideal of R generated by a.
+
+The ideal ( a ) is called the principal ideal of R generated by a.",Definition:Principal Ideal of Ring
+261,Definition:Principal Ideal Domain,Principal,A principal ideal domain is an integral domain in which every ideal is a principal ideal.,Definition:Principal Ideal Domain
+262,Definition:Principal Ultrafilter,Principal,"Let S be a set.
+
+Let 𝒫( S ) denote the power set of S.
+
+Let ℱ⊂𝒫( S ) be an ultrafilter on S with a cluster point.
+
+
+Then ℱ is a principal ultrafilter on S.
+
+
+=== Nonprincipal Ultrafilter ===
+Let S be a set.
+
+Let 𝒫( S ) denote the power set of S.
+
+
+Let ℱ⊂𝒫( S ) be an ultrafilter on S which does not have a cluster point.
+
+Then ℱ is a nonprincipal ultrafilter  on S.",Definition:Principal Ultrafilter
+263,Definition:Principal (Economics),Principal,Principal is defined as a quantity of money on which interest is paid.,Definition:Principal (Economics)
+264,Definition:Compact Space/Topology,Quasi-Compact,"=== Definition 1 ===
+A topological space T = ( S, τ) is compact  if and only if  every open cover for S has a finite subcover.
+
+=== Definition 2 ===
+A topological space T = ( S, τ) is compact  if and only if  it satisfies the Finite Intersection Axiom.
+
+=== Definition 3 ===
+A topological space T = ( S, τ) is compact  if and only if  τ has a sub-basis ℬ such that:
+:from every cover of S by elements of ℬ, a finite subcover of S can be selected.
+
+=== Definition 4 ===
+A topological space T = ( S, τ) is compact  if and only if  every filter on S has a limit point in S.
+
+=== Definition 5 ===
+A topological space T = ( S, τ) is compact  if and only if  every ultrafilter on S converges.",Definition:Compact Space/Topology
+265,Definition:Quasi-Compact Scheme,Quasi-Compact,"Let ( X, 𝒪_X ) be a scheme.
+
+
+Then ( X, 𝒪_X ) is quasi-compact  if and only if  X is compact.",Definition:Quasi-Compact Scheme
+266,Definition:Quasi-Compact Morphism of Schemes,Quasi-Compact,"Let ( X, 𝒪_X ) and ( Y, 𝒪_Y ) be schemes.
+
+Let f : ( X, 𝒪_X ) →( Y, 𝒪_Y ) be a morphism of schemes.
+
+
+f is quasi-compact  if and only if  for all quasi-compact open subsets U ⊂ Y, the set f^-1(   )U ⊂ X is quasi-compact.",Definition:Quasi-Compact Scheme
+267,Definition:Right Inverse Mapping,Right Inverse,"Let S, T be sets where S ∅, that is, S is not empty.
+
+Let f: S → T be a mapping.
+
+
+Let g: T → S be a mapping such that:
+:f ∘ g = I_T
+where:
+:f ∘ g denotes the composite mapping g followed by f
+:I_T is the identity mapping on T.
+
+
+Then g: T → S is called a right inverse (mapping) of f.",Definition:Right Inverse Mapping
+268,Definition:Inverse (Abstract Algebra)/Right Inverse,Right Inverse,"Let ( S, ∘) be a monoid whose identity is e_S.
+
+An element x_R ∈ S is called a right inverse of x  if and only if :
+:x ∘ x_R = e_S",Definition:Inverse (Abstract Algebra)/Right Inverse
+269,Definition:Inverse Matrix/Right,Right Inverse,"Let m, n ∈ℤ_>0 be a (strictly) positive integer.
+
+
+Let 𝐀 = [ a ]_m n be a matrix of order m × n.
+
+Let 𝐁 = [ b ]_n m be a matrix of order n × m such that:
+:𝐀𝐁 = 𝐈_m
+
+where 𝐈_m denotes the unit matrix of order m.
+
+
+Then 𝐁 is known as a right inverse (matrix) of 𝐀.",Definition:Inverse Matrix/Right
+270,Definition:Root of Number,Root,"Let x, y ∈ℝ_≥ 0 be positive real numbers.
+
+Let n ∈ℤ be an integer such that n  0.
+
+
+Then y is the positive nth root of x  if and only if :
+:y^n = x
+
+and we write:
+:y = √(x)
+
+
+Using the power notation, this can also be written:
+:y = x^1/n
+
+
+When n = 2, we write y = √(x) and call y the positive square root of x.
+
+When n = 3, we write y = √(x) and call y the cube root of x.
+
+
+Note the special case where x = 0 = y:
+:0 = √(0)
+
+
+=== Index ===
+Let √(x) denote the nth root of x.
+
+The number n is known as the index of the root.
+
+
+If n is not specified, that is √(x) is presented, this means the square root.
+
+=== Extraction of Root ===
+The process of evaluating roots of a given real number is referred to as extraction.",Definition:Root of Number
+271,Definition:Root of Equation,Root,"Let E (   )x be a mathematical expression representing an equation which is dependent upon a variable x.
+
+A root of E (   )x is a constant which, when substituted for x in E (   )x, makes E (   )x a true statement.
+
+
+=== Extraction of Root ===
+The process of finding roots of a given equation is referred to as extraction.",Definition:Root of Equation
+272,Definition:Root of Mapping,Root,"Let f: R → R be a mapping on a ring R.
+
+Let x ∈ R.
+
+
+Then the values of x for which f (   )x = 0_R are known as the roots of the mapping f.",Definition:Root of Mapping
+273,Definition:Root of Polynomial,Root,"Let R be a commutative ring with unity.
+
+Let f ∈ R [ x ] be a polynomial over R.
+
+
+A root in R of f is an element x ∈ R for which f (   )x = 0, where f (   )x denotes the image of f under the evaluation homomorphism at x.",Definition:Root of Polynomial
+274,Definition:Rooted Tree/Root Node,Root,"Let T be a rooted tree.
+
+The root node of T is the node of T which is distinguished from the others by being the ancestor node of every node of T.",Definition:Rooted Tree/Root Node
+275,Definition:Labeled Tree for Propositional Logic/Hypothesis Set,Root,"Let ( T, 𝐇, Φ) be a labeled tree for propositional logic.
+
+
+The countable set 𝐇 of WFFs of propositional logic is called the hypothesis set.
+
+The elements of 𝐇 are known as hypothesis WFFs.
+
+
+The hypothesis set 𝐇 is considered to be attached to the root node of T.",Definition:Labeled Tree for Propositional Logic/Hypothesis Set
+276,Definition:Run (Statistics),Run,A run is a sequence of observations which follows some specified pattern.,Definition:Run (Statistics)
+277,Definition:Run (Analytic Geometry),Run,"Let P_1 = ( x_1, y_1 ) and P_2 = ( x_2, y_2 ) be points in the Cartesian plane.
+
+
+The run from P_1 to P_2 is the difference between their abscissae:
+:x_2 - x_1",Definition:Run (Analytic Geometry)
+278,Definition:Sector of Circle,Sector,"A sector of a circle is the region bounded by two radii and an arc.
+
+ 
+: 
+:A sector of a circle is the figure which, when an angle is constructed at the center of the circle, is contained by the straight lines containing the angle and the circumference cut off by them.
+ ”
+ 
+
+In the diagram below, BAC is a sector. 
+
+:
+
+
+In fact there are two sectors, together making up the whole of the circle.
+
+When describing a sectors by means of its three defining points (as in BAC above), the convention is to report them in the following order:
+
+:(1): The point on the circumference at the end of the clockwise radius
+:(2): The point at the center of the circle
+:(3): The point on the circumference at the end of the anticlockwise radius
+
+Thus in the sector above, BAC describes the sector indicated by θ, while the sector comprising the rest of the circle is described by CAB.
+
+
+=== Angle of Sector ===
+:
+
+The angle of a sector of a circle is the angle between the two radii which delimit the sector.
+
+In the above diagram, the angle of the sector BAC is θ.
+
+
+The conjugate angle of θ also forms a sector, denoted CAB (see above).",Definition:Sector of Circle
+279,Definition:Spherical Sector,Sector,"A spherical sector is a surface of revolution of a sector of a circle C rotated 360 ^∘ around a diameter of C.
+
+The surfaces of the spherical sector are:
+:the zone of S, formed by the arc of the sector
+:one or two conical surfaces formed by the radius or radii of the sector
+where S is the sphere formed as the surface of revolution of C as it rotates 360 ^∘ around the same diameter of C.
+
+
+=== Spherical Cone ===
+A spherical cone is a spherical sector S whose axis of revolution passes through the sector of the circle which is the generating curve of S.",Definition:Spherical Sector
+280,Definition:Segment of Circle,Segment,":
+
+ 
+: 
+:A segment of a circle is the figure contained by a straight line and a circumference of a circle.
+ ”
+ 
+
+=== Base ===
+:
+
+The base of a segment of a circle is the straight line forming one of the boundaries of the seqment.
+
+In the above diagram, AB is the base of the highlighted segment.
+
+=== Angle of a Segment ===
+ 
+: 
+:An angle of a segment is that contained by a straight line and a circumference of a circle.
+ ”
+ 
+That is, it is the angle the base makes with the circumference where they meet.
+
+
+It can also be defined as the angle between the base and the tangent to the circle at the end of the base:
+
+:
+
+
+Category:Definitions/Segments of Circles
+
+=== Angle in a Segment ===
+ 
+: 
+:An angle in a segment is the angle which, when a point is taken on the circumference of the segment and straight lines are joined from it to the extremities of the straight line which is the base of the segment, is contained by the straight lines so joined.
+ ”
+ 
+: 
+:And, when the straight lines containing the angle cut off a circumference, the angle is said to stand upon that circumference.
+ ”
+ 
+
+:
+
+Such a segment is said to admit the angle specified.
+
+
+Category:Definitions/Segments of Circles
+
+=== Similar Segments ===
+ 
+: 
+:Similar segments of circles are those which admit equal angles, or in which the angles are equal to one another.
+ ”
+ 
+
+
+Category:Definitions/Segments of Circles
+
+=== Major Segment ===
+Let AB be a chord of a circle 𝒞 defined by the points A and B on the circumference of 𝒞.
+
+The major segment of 𝒞   AB is the segment between AB and the major arc of 𝒞 between A and B.
+
+=== Minor Segment ===
+Let AB be a chord of a circle 𝒞 defined by the points A and B on the circumference of 𝒞.
+
+The minor segment of 𝒞   AB is the segment between AB and the minor arc of 𝒞 between A and B.",Definition:Segment of Circle
+281,Definition:Line/Segment,Segment,"A line segment is any line (straight or not) which terminates at two points.
+
+
+=== Straight Line Segment ===
+A straight line segment is a line segment which is straight.
+
+
+ 
+:A straight line segment can be drawn joining any two points.
+ 
+
+
+Thus a definition for straight line which is frequently encountered is:
+:A straight line is the shortest distance between two points.
+This is all very well but it assumes that the line in question terminates at two particular endpoints.
+
+=== Endpoint ===
+Each of the points at either end of a line segment is called an endpoint of that line segment.
+
+Similarly, the point at which an infinite half-line terminates is called the endpoint of that line.
+
+
+ 
+: 
+:The extremities of a line are points.
+ ”
+ 
+
+=== Midpoint ===
+Let L = AB be a line segment whose endpoints are A and B.
+
+Let M be a point on L such that the line segment AM is equal to the line segment MB.
+
+That is, let M be the bisector of L.
+
+
+Then M is the midpoint of L.",Definition:Line/Segment
+282,Definition:Initial Segment,Segment,"Let ( S, ≼) be a well-ordered set.
+
+Let a ∈ S.
+
+
+The initial segment (of S) determined by a is defined as:
+
+:S_a := { b ∈ S: b ≼ a  b  a }
+
+which can also be rendered as:
+
+:S_a := { b ∈ S: b ≺ a }
+
+
+That is, S_a is the set of all elements of S that strictly precede a.
+
+That is, S_a is the strict lower closure of a (in S).
+
+
+By extension, S_a is described as an initial segment (of S).
+
+
+=== Class Theoretical Definition ===
+ 
+Let A be a class.
+
+Let ≼ be a well-ordering on A.
+
+Let a ∈ A.
+
+
+The initial segment (of A) determined by a is defined as:
+
+:A_a := { b ∈ S: b ≼ a  b  a }
+
+which can also be rendered as:
+
+:A_a := { b ∈ S: b ≺ a }",Definition:Initial Segment
+283,Definition:Lower Closure/Element,Segment,"Let ( S, ≼) be an ordered set.
+
+Let a ∈ S.
+
+
+The lower closure of a (in S) is defined as:
+
+:a^≼ := { b ∈ S: b ≼ a }
+
+
+That is, a^≼ is the set of all elements of S that precede a.
+
+
+=== Class Theory ===
+ 
+Let A be a class under an ordering ≼.
+
+Let a ∈ A.
+
+
+The lower closure of a (in A) is defined as:
+
+:a^≼ := { b ∈ A: b ≼ a }",Definition:Lower Closure/Element
+284,Definition:Submatrix,Segment,"Let 𝐀 be a matrix with m rows and n columns.
+
+
+A submatrix of 𝐀 is a matrix formed by selecting from 𝐀:
+:a subset of the rows
+and:
+:a subset of the columns
+and forming a new matrix by using those entries, in the same relative positions, that appear in both the rows and columns of those selected.",Definition:Submatrix
+285,Definition:Ellipse/Major Axis/Semi-Major Axis,Semimajor Axis,":
+
+Consider an ellipse K.
+
+
+A semi-major axis of K is either half of the major axis of K from its midpoint to its endpoint.
+
+
+In the above diagram, O V_1 and O V_2 are the semi-major axes of K.",Definition:Ellipse/Major Axis/Semi-Major Axis
+286,Definition:Semimajor Axis of Ellipsoid,Semimajor Axis,"Let ℰ be an ellipsoid.
+
+A semimajor axis of ℰ is one of the two halves of the major axis of ℰ divided by its midpoint.",Definition:Semimajor Axis of Ellipsoid
+287,Definition:Separable Space,Separable,"A topological space T = ( S, τ) is separable  if and only if  there exists a countable subset of S which is everywhere dense in T.
+
+
+=== Normed Vector Space ===
+Let M = ( X, ‖ · ‖) be a normed vector space.
+
+Let Y ⊆ X be a subset of X.
+
+Let Y be countable set and (everywhere) dense in X.
+
+In other words, suppose Y = { y_i : i ∈ℕ} such that:
+
+:∀ x ∈ X : ∀ϵ∈ℝ_> 0 : ϵ > 0 : ∃ y_n ∈ℕ∈ Y : ‖ y_n - x ‖ < ϵ
+
+
+Then X is separable.
+
+ ",Definition:Separable Space
+288,Definition:Second-Countable Space,Separable,"A topological space T = ( S, τ) is second-countable or satisfies the Second Axiom of Countability  if and only if  its topology has a countable basis.",Definition:Second-Countable Space
+289,Definition:Separable Element,Separable,"Let L/K be a field extension.
+
+Let α∈ L.
+
+
+Then α is separable over K  if and only if  its minimal polynomial over K is separable.",Definition:Separable Extension
+290,Definition:Separable Extension,Separable,"Let K be a field.
+
+Let L/K be an algebraic field extension.
+
+
+Then L/K is a separable extension  if and only if  every α∈ L is separable over K.
+
+That is:
+:For every α∈ L, its minimal polynomial over K is separable.",Definition:Separable Extension
+291,Definition:Separable Polynomial,Separable,"Let K be a field.
+
+Let P (   )X ∈ K [ X ] be a polynomial of degree n.
+
+
+=== Definition 1 ===
+Let K be a field.
+
+Let P (   )X ∈ K [ X ] be a polynomial of degree n.
+
+
+P is separable  if and only if  its roots are distinct in an algebraic closure of K.
+
+
+Category:Definitions/Separable Polynomials
+
+=== Definition 2 ===
+Let K be a field.
+
+Let P (   )X ∈ K [ X ] be a polynomial of degree n.
+
+
+P is separable  if and only if  it has no double roots in every field extension of K.
+
+
+Category:Definitions/Separable Polynomials
+
+=== Definition 3 ===
+Let K be a field.
+
+Let P (   )X ∈ K [ X ] be a polynomial of degree n.
+
+
+P is separable  if and only if  it has n distinct roots in every field extension where P splits.
+
+
+Category:Definitions/Separable Polynomials",Definition:Separable Polynomial
+292,Definition:Separable Differential Equation,Separable,"A first order ordinary differential equation which can be expressed in the form:
+:d yd x = g (   )x h (   )y
+is known as a separable differential equation.
+
+
+Its general solution is found by solving the integration:
+:∫d y/h (   )y = ∫ g (   )x  d x + C
+
+
+=== General Form ===
+A first order ordinary differential equation which can be expressed in the form:
+:g_1 (   )x h_1 (   )y + g_2 (   )x h_2 (   )y d yd x = 0
+is known as a separable differential equation.
+
+
+Its general solution is found by solving the integration:
+:∫g_1 (   )x/g_2 (   )x d x + ∫h_2 (   )y/h_1 (   )y d y = C",Definition:Separable Differential Equation
+293,Definition:Formal Language/Alphabet/Sign,Sign,"A sign of a formal language ℒ is a symbol whose primary purpose is to structure ℒ.
+
+In building a formal language, signs form the hooks allowing the formal grammar to define the well-formed formulae of the formal language.
+
+
+Common examples of signs are parentheses, ""("" and "")"", and the comma, "","".
+
+The logical connectives are also signs.
+
+
+Signs form part of the alphabet of ℒ.
+
+Unlike the letters, they must be the same for each signature for ℒ.",Definition:Formal Language/Alphabet/Sign
+294,Definition:Sign of Permutation,Sign,"Let n ∈ℕ be a natural number.
+
+Let ℕ_n denote the set of natural numbers { 1, 2, …, n }.
+
+Let ( x_1, x_2, …, x_n ) be an ordered n-tuple of real numbers.
+
+Let π be a permutation of ℕ_n.
+
+Let Δ_n (   )x_1, x_2, …, x_n be the product of differences of ( x_1, x_2, …, x_n ).
+
+Let π·Δ_n (   )x_1, x_2, …, x_n be defined as:
+
+:π·Δ_n (   )x_1, x_2, …, x_n := Δ_n (   )x_π(   )1, x_π(   )2, …, x_π(   )n
+
+
+The sign of π∈ S_n is defined as:
+
+:sgn(   )π = Δ_nπ·Δ_n    : Δ_n  0 
+ 0     : Δ_n = 0",Definition:Sign of Permutation
+295,Definition:Sign (Arithmetic),Sign,"In the context of arithmetic and algebra, the term sign is used to mean one of the operators:
+
+* Addition: +
+* Subtraction: -
+* Multiplication: ×
+* Division: ÷
+
+It can also be used to describe a general operator in the context of abstract algebra: ∘ and so on.",Definition:Sign (Arithmetic)
+296,Definition:Sign of Number,Sign,"The sign of a number is the symbol indicating whether it is:
+: positive, denoted by the symbol +
+or:
+: negative, denoted by the symbol -.
+
+
+Hence a number's sign has evolved to define the fact of the number being positive or negative independently of the symbol itself.
+
+
+Thus:
+:the sign of 3.14159 is positive
+and
+:the sign of -75 is negative.",Definition:Sign of Number
+297,Definition:Signum Function,Sign,"Let X ⊆ℝ be a subset of the real numbers.
+
+
+The signum function sgn: X →{ -1, 0, 1 } is defined as:
+:∀ x ∈ X: sgn(   )x := [ x > 0 ] - [ x < 0 ]
+where [ x > 0 ] etc. denotes Iverson's convention.
+
+
+That is:
+:∀ x ∈ X: sgn(   )x :=  -1     : x < 0 
+ 0     : x = 0 
+ 1     : x > 0
+
+
+=== Graph of Signum Function ===
+The graph of the signum function is illustrated below:
+
+
+:
+
+=== Natural Numbers ===
+The signum function sgn: ℕ→{ 0, 1 } is the restriction of the signum function to the natural numbers, defined as:
+:∀ n ∈ℕ: sgn(   )n :=  0     : n = 0 
+ 1     : n > 0
+
+
+=== Signum Complement ===
+Let sgn: ℕ→{ 0, 1 } be the signum function on the natural numbers.
+
+The signum complement function sgn: ℕ→{ 0, 1 } is defined as:
+:∀ n ∈ℕ: sgn(   )n :=  1     : n = 0 
+ 0     : n > 0",Definition:Signum Function
+298,Definition:Similarity Mapping,Similarity,"Let G be a vector space over a field K.
+
+Let β∈ K.
+
+Let s_β: G → G be the mapping on G defined as:
+:∀𝐱∈ G: s_β(   )𝐱 = β𝐱
+
+
+s_β is called a similarity (mapping).
+
+
+=== Scale Factor ===
+Let G be a vector space over a field K.
+
+Let β∈ K.
+
+Let s_β: G → G be a similarity mapping on G:
+:∀𝐱∈ G: s_β(   )𝐱 = β𝐱
+
+
+The coefficient β is called the scale factor of s_β.",Definition:Similarity Mapping
+299,Definition:Self-Similarity,Similarity,"Let S be a geometric object.
+
+S has the property of self-similarity  if and only if :
+:every point of S is contained in a copy of S at a smaller scale.
+
+
+ ",Definition:Self-Similarity
+300,Definition:Matrix Similarity,Similarity,"Let R be a ring with unity.
+
+Let n ∈ℕ_>0 be a natural number.
+
+Let 𝐀, 𝐁 be square matrices of order n over R.
+
+
+=== Definition 1 ===
+Let R be a ring with unity.
+
+Let n ∈ℕ_>0 be a natural number.
+
+Let 𝐀, 𝐁 be square matrices of order n over R.
+
+Let there exist a nonsingular square matrix 𝐏 of order n over R such that 𝐁 = 𝐏^-1𝐀𝐏.
+
+
+Then 𝐀 and 𝐁 are similar.
+
+
+We write:
+:𝐀∼𝐁
+
+=== Definition 2 ===
+Let R be a ring with unity.
+
+Let n ∈ℕ_>0 be a natural number.
+
+Let 𝐀, 𝐁 be square matrices of order n over R.
+
+
+𝐀 and 𝐁 are similar  if and only if  they are the relative matrices, to (possibly) different ordered bases, of the same linear operator.
+
+
+We write:
+:𝐀∼𝐁
+
+
+We write:
+:𝐀∼𝐁",Definition:Matrix Similarity
+301,Definition:Set Equivalence,Similarity,"Let S and T be sets.
+
+Then S and T are equivalent  if and only if :
+:there exists a bijection f: S → T between the elements of S and those of T.
+
+That is,  if and only if  they have the same cardinality.
+
+
+This can be written S ∼ T.
+
+
+If S and T are not equivalent we write S  T.",Definition:Set Equivalence
+302,Definition:Small Class,Small,"Let A denote an arbitrary class.
+
+
+Then A is said to be small  if and only if :
+
+:∃ x: x = A
+
+where = denotes class equality and x is a set variable.
+
+
+That is, a class is small  if and only if  it is equal to some set variable.
+
+
+To denote that a class A is small, the notation ℳ(   )A may be used.
+
+Thus:
+:ℳ(   )A ∃ x: x = A",Definition:Small Class
+303,Definition:Small Category,Small,"Let 𝐂 be a metacategory.
+
+
+Then 𝐂 is said to be small  if and only if  both of the following hold:
+
+:The collection of objects 𝐂_0 is a set;
+:The collection of morphisms 𝐂_1 is a set.",Definition:Small Class
+304,Definition:Sound (Physics),Sound,"Sound is the vibration of an elastic medium whose frequency ranges between approximately 20  Hz and 20  kHz.
+
+It is characterised by the ability of humans to detect it with their aural sensory systems.
+
+
+Category:Definitions/Sound
+Category:Definitions/Acoustics
+Category:Definitions/Physics",Definition:Sound (Physics)
+305,Definition:Sound Logistic System,Sound,A sound logistic system is a logistic system in which every theorem is a valid WFF.,Definition:Sound Logistic System
+306,Definition:Generator of Module,Spanning Set,"Let R be a ring.
+
+Let M be an R-module.
+
+Let S ⊆ M be a subset.
+
+
+=== Definition 1 ===
+Let R be a ring.
+
+Let M be an R-module.
+
+Let S ⊆ M be a subset.
+
+
+S is a generator of M  if and only if  M is the submodule generated by S.
+
+=== Definition 2 ===
+Let R be a ring.
+
+Let M be an R-module.
+
+Let S ⊆ M be a subset.
+
+
+S is a generator of M  if and only if  M has no proper submodule containing S.",Definition:Generator of Module
+307,Definition:Generator of Vector Space,Spanning Set,"Let K be a division ring.
+
+Let 𝐕 be a vector space over K.
+
+Let S ⊆𝐕 be a subset of 𝐕.
+
+
+S is a generator of 𝐕  if and only if  every element of 𝐕 is a linear combination of elements of S.",Definition:Generator of Vector Space
+308,Definition:Structure for Predicate Logic,Structure,"Let ℒ_1 be the language of predicate logic.
+
+
+A structure 𝒜 for ℒ_1 comprises:
+
+:(1): A non-empty set A;
+:(2): For each function symbol f of arity n, a mapping f_𝒜: A^n → A;
+:(3): For each predicate symbol p of arity n, a mapping p_𝒜: A^n → B
+
+where B denotes the set of truth values.
+
+A is called the underlying set of 𝒜.
+
+f_𝒜 and p_𝒜 are called the interpretations of f and p in 𝒜, respectively.
+
+
+We remark that function symbols of arity 0 are interpreted as constants in A.
+
+To avoid pathological situations with the interpretation of arity-0 function symbols, it is essential that A be non-empty.
+
+Also, the predicate symbols may be interpreted as relations via their characteristic functions.
+
+
+ ",Definition:Structure for Predicate Logic
+309,Definition:Relational Structure,Structure,"A relational structure is an ordered pair ( S, ℛ), where:
+:S is a set
+:ℛ is an endorelation on S.",Definition:Relational Structure
+310,Definition:Algebraic Structure,Structure,"An algebraic structure with n operations is an ordered tuple:
+:( S, ∘_1, ∘_2, …, ∘_n )
+where:
+:S is a set
+:∘_1, ∘_2, …, ∘_n are n binary operations which are defined on all the elements of S × S.
+
+
+=== One Operation ===
+An algebraic structure with 1 operation is an ordered pair:
+:( S, ∘)
+where:
+:S is a set
+:∘ is a binary operation defined on all the elements of S × S.
+
+=== Two Operations ===
+An algebraic structure with 2 operations is an ordered triple:
+:( S, ∘, * )
+where:
+:S is a set
+:∘ and * are binary operations defined on all the elements of S × S.",Definition:Algebraic Structure
+311,Definition:Subnormal Subgroup,Subnormal,"Let G be a group.
+
+Let H be a subgroup of G.
+
+
+Then H is a k-subnormal subgroup of G  if and only if  there is a finite sequence of subgroups of G:
+:H = H_0, H_1, H_2, …, H_k = G
+such that H_i is a normal subgroup of H_i + 1 for all i ∈{ 0, 1, …, k - 1 }.
+
+That is,  if and only if  there exists a normal series:
+:H = H_0  H_1  H_2 ⋯ H_k = G
+where  denotes the relation of normality.
+
+
+Thus H is a subnormal subgroup of G  if and only if  there exists k ∈ℤ_>0 such that H is a k-subnormal subgroup of G.
+
+
+By this definition, a normal subgroup is a 1-subnormal subgroup.",Definition:Subnormal Subgroup
+312,Definition:Subnormal (Analytic Geometry),Subnormal,":
+Let 𝒞 be a plane curve embedded in a Cartesian plane.
+
+Let P be a point on 𝒞.
+
+Let 𝒩 be the normal to 𝒞 at P.
+
+Let Q be the x-intercept of 𝒩.
+
+Let AP be the line through P perpendicular to the x-axis meeting the x-axis at A.
+
+
+The subnormal to 𝒞 at P is the straight line segment AQ.
+
+
+Thus the subnormal is the projection of the length of the normal onto the x-axis.",Definition:Subnormal (Analytic Geometry)
+313,Definition:Laplace Transform,Transform,"Let f: ℝ_≥ 0→𝔽 be a function of a real variable t, where 𝔽∈{ℝ, ℂ}.
+
+The Laplace transform of f, denoted ℒ{ f } or F, is defined as:
+
+:ℒ{ f (   )t } = F (   )s = ∫_0^→ +∞ e^-s t f (   )t  d t
+
+whenever this improper integral converges.
+
+If this improper integral does not converge, then ℒ{ f (   )t } does not exist.
+
+
+Here ℒ{ f } is a complex function of the variable s.
+
+
+=== Discontinuity at Zero ===
+Let f: ℝ_> 0→𝔽 be a function of a real variable t, where 𝔽∈{ℝ, ℂ}.
+
+Let f be discontinuous or not defined at t = 0.
+
+Then the Laplace transform of f  is defined as:
+
+:ℒ{ f (   )t } = F (   )s = ∫_0^+^→ +∞ e^-s t f (   )t  d t = lim_ϵ→ 0^+∫_ϵ^→ +∞ e^-s t f (   )t  d t
+
+whenever this improper integral converges.
+
+If this improper integral does not converge, then ℒ{ f (   )t } does not exist.
+
+
+Here the integral is improper not only because of its upper limit but also because of its lower limit.",Definition:Laplace Transform
+314,Definition:Hough Transform,Transform,"The Hough transform is a general technique which is now used to identify the locations of features in digital images.
+
+It is a development of the Radon transform suitable for numerical calculation.
+
+
+ ",Definition:Hough Transform
+315,Definition:Radon Transform,Transform,"The Radon transform is a transform which reconstructs a function from the values of its integral over a set of lines in the plane.
+
+It is used for measuring data from incomplete observations.
+
+
+ ",Definition:Radon Transform
+316,Definition:Mellin Transform,Transform,"Let f (   )t: ℝ_≥ 0→ℂ be a function of a real variable t.
+
+The Mellin transform of f is defined and denoted as:
+:ℳ{ f (   )t }(   )s := ∫_0^→ +∞ t^s - 1 f (   )t  d t
+
+wherever this improper integral exists.
+
+
+Here ℳ(   )f is a complex function of the variable s.",Definition:Mellin Transform
+317,Definition:Legendre Transform,Transform,"Let f (   )x be a strictly convex real function.
+
+Let p = f' (   )x.
+
+Let f^* (   )p = -f (   )x (   )p + p x (   )p.
+
+ 
+
+ 
+
+The Legendre Transform on x and f is the mapping of the variable and function pair:
+:( x, f (   )x ) →( p, f^* (   )p )
+
+
+ ",Definition:Legendre Transform
+318,Definition:Fourier Transform,Transform,"The Fourier transform of a Lebesgue integrable function f: ℝ^N →ℂ is the function ℱ(   )f: ℝ^N →ℂ given by:
+:ℱ(   )f (   )𝐬 := ∫_ℝ^N f (   )𝐱 e^-2 π i 𝐱·𝐬 d𝐱
+for 𝐬∈ℝ^N.
+
+Here, the product 𝐱·𝐬 in the exponential is the dot product of the vectors 𝐱 and 𝐬.
+
+In this context ℱ(   )f is to be considered the operator.
+
+
+=== Real Function ===
+
+Let f: ℝ→ℝ be a real function which is Lebesgue integrable.
+
+Let f: ℝ→ℝ be a real function which is Lebesgue integrable.
+
+
+=== Formulation 1 ===
+Let f: ℝ→ℝ be a real function which is Lebesgue integrable.
+
+
+The Fourier transform of f is defined and denoted as:
+:ℱ(   )f  (   )s = f̂(   )s := ∫_-∞^∞ e^-2 π i s t f (   )t  d t
+
+=== Formulation 2 ===
+Let f: ℝ→ℝ be a real function which is Lebesgue integrable.
+
+
+The Fourier transform of f is defined and denoted as:
+:ℱ(   )f (   )s = f̂(   )s := ∫_-∞^∞ e^-i s t f (   )t  d t
+
+=== Formulation 3 ===
+Let f: ℝ→ℝ be a real function which is Lebesgue integrable.
+
+
+The Fourier transform of f is defined and denoted as:
+:ℱ(   )f  (   )s = f̂(   )s :=  1 √(2 π)∫_-∞^∞ e^-i s t f (   )t  d t
+
+=== Tempered Distribution ===
+
+Let T ∈𝒮' (   )ℝ be a tempered distribution.
+
+Let 𝒮(   )ℝ be the Schwartz space.
+
+
+The Fourier transform T̂ of (the tempered distribution) T:
+
+:T̂∈𝒮' (   )ℝ
+
+is defined as:
+
+:∀ϕ∈𝒮(   )ℝ: T̂(   )ϕ := T (   )ϕ̂",Definition:Fourier Transform
+319,Definition:Transitive Closure of Relation,Transitive Closure,"=== Smallest Transitive Superset ===
+Let ℛ be a relation on a set S.
+
+
+The transitive closure of ℛ is defined as the smallest transitive relation on S which contains ℛ as a subset.
+
+
+The transitive closure of ℛ is denoted ℛ^+.
+
+=== Intersection of Transitive Supersets ===
+Let ℛ be a relation on a set S.
+
+
+The transitive closure of ℛ is defined as the intersection of all transitive relations on S which contain ℛ.
+
+
+The transitive closure of ℛ is denoted ℛ^+.
+
+=== Finite Chain ===
+Let ℛ be a relation on a set or class S.
+
+
+The transitive closure of ℛ is the relation ℛ^+ defined as follows:
+
+For x, y ∈ S, x ℛ^+ y  if and only if  for some n ∈ℕ_>0 there exist s_0, s_1, …, s_n ∈ S such that s_0 = x, s_n = y, and:
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+That is:
+
+:∀ k ∈ℕ_n: s_k ℛ s_k + 1
+
+=== Union of Compositions ===
+Let ℛ be a relation on a set S.
+
+Let:
+
+:ℛ^n := ℛ    : n = 1 
+ℛ^n-1∘ℛ    : n > 1
+
+where ∘ denotes composition of relations.
+
+Finally, let:
+
+:ℛ^+ = ⋃_i  = 1^∞ℛ^i
+
+
+Then ℛ^+ is called the transitive closure of ℛ.",Definition:Transitive Closure of Relation
+320,Definition:Transitive Closure of Set,Transitive Closure,"=== Definition 1 ===
+Let x be a set.
+
+Then the transitive closure of x is the smallest transitive superset of x.
+
+The following is not equivalent to the above, but they are almost the same.
+
+=== Definition 2 ===
+Let x be a set.
+
+For each natural number n ∈ℕ_≥ 0 let:
+
+:⋃^n x = ⋃⋃⋯⋃_n x
+
+
+Then the transitive closure of x is the union of the sets:
+:{ x }, x, ⋃ x, ⋃^2 x, …, ⋃^n x, …
+
+
+More precisely:
+
+Let F be the mapping on the universal class defined by letting:
+:F (   )A = ⋃ a
+for each set a.
+
+Let G be the mapping on the natural numbers defined recursively by letting:
+
+:G (   )0 = { x }
+:G (   )n^+ = F (   )G (   )n
+
+for each natural number n.
+
+Then the transitive closure of x is defined as the union of the image of G.",Definition:Transitive Closure of Set
+321,Definition:Transversal (Geometry),Transversal,"A transversal of two straight lines lying in the same plane is a straight line which intersects them in two different points.
+
+The transversal is said to cut the two lines that it crosses.
+
+:
+
+In the above diagram, EF is a transversal of the lines AB and CD.
+
+
+It is also apparent that:
+:AB is a transversal of the lines EF and CD
+:CD is a transversal of the lines EF and AB
+although this is not as obvious.
+
+
+=== Interior Angle ===
+:
+
+
+An interior angle of a transversal is an angle which is between the two lines cut by that transversal.
+
+In the above figure, the interior angles with respect to the transversal EF are:
+:∠ AHJ
+:∠ CJH
+:∠ BHJ
+:∠ DJH
+
+=== Exterior Angle ===
+:
+
+
+An exterior angle of a transversal is an angle which is not between the two lines cut by a transversal.
+
+In the above figure, the exterior angles with respect to the transversal EF are:
+:∠ AHE
+:∠ CJF
+:∠ BHE
+:∠ DJF
+
+=== Alternate Angles ===
+:
+
+
+Alternate angles are interior angles of a transversal which are on opposite sides and different lines.
+
+In the above figure, the pairs of alternate angles   the transversal EF are:
+:∠ AHJ and ∠ DJH
+:∠ CJH and ∠ BHJ
+
+=== Corresponding Angles ===
+:
+
+
+Corresponding angles are the angles in equivalent positions on the two lines cut by a transversal with respect to that transversal.
+
+In the above figure, the corresponding angles with respect to the transversal EF are:
+:∠ AHJ and ∠ CJF
+:∠ AHE and ∠ CJH
+:∠ BHE and ∠ DJH
+:∠ BHJ and ∠ DJF",Definition:Transversal (Geometry)
+322,Definition:Transversal (Group Theory),Transversal,"Let G be a group.
+
+Let H be a subgroup of G.
+
+Let S ⊆ G be a subset of G.
+
+
+=== Left Transversal ===
+Let G be a group.
+
+Let H be a subgroup of G.
+
+Let S ⊆ G be a subset of G.
+
+
+S is a left transversal for H in G  if and only if  every left coset of H contains exactly one element of S.
+
+=== Right Transversal ===
+Let G be a group.
+
+Let H be a subgroup of G.
+
+Let S ⊆ G be a subset of G.
+
+
+S is a right transversal for H in G  if and only if  every right coset of H contains exactly one element of S.
+
+=== Transversal ===
+
+A transversal for H in G is either a left transversal or a right transversal.
+
+
+ 
+Clearly if S is a transversal for H it contains [ G :   ]H elements, where [ G :   ]H denotes the index of H in G.",Definition:Transversal (Group Theory)
+323,Definition:Scalar Triple Product,Triple Product,"Let 𝐚, 𝐛 and 𝐜 be vectors in a Cartesian 3-space:
+
+ 
+ 
+ 
+ 
+ 
+
+where ( 𝐢, 𝐣, 𝐤) is the standard ordered basis of 𝐕.
+
+
+=== Definition 1 ===
+Let 𝐚, 𝐛 and 𝐜 be vectors in a Cartesian 3-space:
+
+ 
+ 
+ 
+ 
+ 
+
+where ( 𝐢, 𝐣, 𝐤) is the standard ordered basis.
+
+
+The scalar triple product of 𝐚, 𝐛 and 𝐜 is defined and denoted as:
+
+:[ 𝐚, 𝐛, 𝐜] := 𝐚·( 𝐛×𝐜)
+where:
+:· denotes dot product
+:× denotes vector cross product.
+
+=== Definition 2 ===
+Let 𝐚, 𝐛 and 𝐜 be vectors in a Cartesian 3-space:
+
+ 
+ 
+ 
+ 
+ 
+
+where ( 𝐢, 𝐣, 𝐤) is the standard ordered basis.
+
+
+The scalar triple product of 𝐚, 𝐛 and 𝐜 is defined and denoted as:
+:[ 𝐚, 𝐛, 𝐜] := 
+a_i     a_j     a_k 
+
+b_i     b_j     b_k 
+
+c_i     c_j     c_k
+
+where … is interpreted as a determinant.",Definition:Scalar Triple Product
+324,Definition:Vector Triple Product,Triple Product,"Let 𝐚, 𝐛 and 𝐜 be vectors in a Cartesian 3-space:
+
+ 
+ 
+ 
+ 
+ 
+
+where ( 𝐢, 𝐣, 𝐤) is the standard ordered basis of 𝐕.
+
+
+The vector triple product is defined as:
+:𝐚×( 𝐛×𝐜)
+
+where × denotes the vector cross product.",Definition:Vector Triple Product
+325,Definition:Universe of Discourse,Universe,"The universe of discourse is the term used to mean everything we are talking about.
+
+
+When introducing the symbols:
+:∀ (the universal quantifier)
+or:
+:∃ (the existential quantifier)
+it is understood that the objects referred to are those in the specified universe of discourse.
+
+It is usual to define that universe.",Definition:Universe of Discourse
+326,Definition:Grothendieck Universe,Universe,"A Grothendieck universe is a set (not a class) which has the properties expected of the universal set 𝕌 of sets in the sense of the Zermelo-Fraenkel axioms with the following properties:
+
+:(1):   𝕌 is a transitive set: If u ∈𝕌 and x ∈ u then x ∈𝕌
+
+:(2): If u, v ∈𝕌 then { u, v }∈𝕌
+
+:(3): If u ∈𝕌 then the power set 𝒫( u ) ∈𝕌
+
+:(4): If A ∈𝕌, and { u_α: α∈ A } is a family of elements u_α∈𝕌 indexed by A, then ⋃_α∈ A u_α∈𝕌
+
+
+ ",Definition:Grothendieck Universe
+327,Definition:Population,Universe,"The population of a statistical study is everything in the universe of discourse that is relevant to the study.
+
+It includes all objects, measures, and observations under discussion.
+
+
+=== Finite Population ===
+A finite population is a population which is finite.
+
+=== Infinite Population ===
+An infinite population is a population which is infinite.",Definition:Population
+328,Definition:Physical Universe,Universe,"The physical universe, or usually just universe, is commonly defined as, and understood to be,  .
+
+
+=== Real-World ===
+Used to describe a phenomenon or object that has a genuine existence in the physical universe.",Definition:Physical Universe
+329,Definition:Valid Argument,Valid,"A valid argument is a logical argument in which the premises provide conclusive reasons for the conclusion.
+
+
+When an argument is valid, we may say one of the following:
+* The conclusion follows from the premises;
+* The premises entail the conclusion;
+* The conclusion is true on the strength of the premises;
+* The conclusion is drawn from the premises;
+* The conclusion is deduced from the premises;
+* The conclusion is derived from the premises.
+
+
+=== Proof ===
+
+If all the premises of a valid argument are true, then the conclusion must also therefore be true.
+
+It is not possible for the premises of a valid argument to be true, but for the conclusion to be false.
+
+A proof is a valid argument whose premises are all true.
+
+
+Hence a valid argument that has one or more false premises is not a proof.
+
+
+Suppose P is a proposition whose truth or falsehood is to be determined.
+
+Constructing a valid argument upon a set of premises, all of which have previously been established as being true, is called proving P.
+
+
+=== Formal Proof ===
+
+Let 𝒫 be a proof system for a formal language ℒ.
+
+Let 𝒫 be a proof system for a formal language ℒ.
+
+
+Let ϕ be a WFF of ℒ.
+
+A formal proof of ϕ in 𝒫 is a collection of axioms and rules of inference of 𝒫 that leads to the conclusion that ϕ is a theorem of 𝒫.
+
+
+The term formal proof is also used to refer to specific presentations of such collections.
+
+For example, the term applies to tableau proofs in natural deduction.",Definition:Valid Argument
+330,Definition:Formal Semantics/Valid,Valid,"Let ℒ be a formal language.
+
+Part of specifying a formal semantics ℳ for ℒ is to define a notion of validity.
+
+
+Concretely, a precise meaning needs to be assigned to the phrase:
+
+:""The ℒ-WFF ϕ is valid in the ℳ-structure ℳ.""
+
+It can be expressed symbolically as:
+
+:ℳ_ℳϕ",Definition:Formal Semantics/Valid
+331,Definition:Zero (Ordinal),Zero,"The zero ordinal, denoted 0, is the empty set ∅.",Definition:Zero (Ordinal)
+332,Definition:Zero (Cardinal),Zero,"The cardinal associated with the empty set ∅ is called zero, and is denoted 0.
+
+
+More informally, this means that zero is defined as being the number of elements in the empty set.",Definition:Zero (Cardinal)
+333,Definition:Zero (Number)/Complex,Zero,"Let ℂ denote the set of complex numbers.
+
+The zero of ℂ is the complex number:
+:0 + 0 i",Definition:Zero (Number)/Complex
+334,Definition:Zero Digit,Zero,"Let x ∈ℝ be a number.
+
+Let b ∈ℤ such that b > 1 be a number base in which x is represented.
+
+By the Basis Representation Theorem, x can be expressed uniquely in the form:
+
+:x = ∑_j ∈ℤ^m r_j b^j
+
+
+Any instance of r_j being equal to 0 is known as a zero (digit) of n.",Definition:Zero Digit
+335,Definition:Zero (Number)/Naturally Ordered Semigroup,Zero,"Let ( S, ∘, ≼) be a naturally ordered semigroup.
+
+Then from  , ( S, ∘, ≼) has a smallest element.
+
+
+This smallest element of ( S, ∘, ≼) is called zero and has the symbol 0.
+
+That is:
+:∀ n ∈ S: 0 ≼ n",Definition:Zero (Number)/Naturally Ordered Semigroup
+336,Definition:Zero Element,Zero,"Let ( S, ∘) be an algebraic structure.
+
+
+=== Left Zero ===
+Let ( S, ∘) be an algebraic structure.
+
+An element z_L ∈ S is called a left zero element (or just left zero)  if and only if :
+:∀ x ∈ S: z_L ∘ x = z_L
+
+=== Right Zero ===
+Let ( S, ∘) be an algebraic structure.
+
+An element z_R ∈ S is called a right zero element (or just right zero)  if and only if :
+:∀ x ∈ S: x ∘ z_R = z_R
+
+=== Zero ===
+
+An element z ∈ S is called a two-sided zero element (or simply zero element or zero)  if and only if  it is both a left zero and a right zero:
+:∀ x ∈ S: x ∘ z = z = z ∘ x",Definition:Zero Element
+337,Definition:Ring Zero,Zero,"Let ( R, +, ∘) be a ring.
+
+The identity for ring addition is called the ring zero (of ( R, +, ∘)).
+
+
+It is denoted 0_R (or just 0 if there is no danger of ambiguity).",Definition:Ring Zero
+338,Definition:Field Zero,Zero,"Let ( F, +, ×) be a field.
+
+The identity for field addition is called the field zero (of ( F, +, ×)).
+
+
+It is denoted 0_F (or just 0 if there is no danger of ambiguity).",Definition:Field Zero
+339,Definition:Zero Mapping,Zero,"Let 𝔸 be one of the standard number systems ℕ,ℤ,ℚ,ℝ,ℂ.
+
+Let S be a set.
+
+
+Let f_0: S →𝔸 denote the constant mapping:
+
+:∀ x ∈ S: f_0 (   )x = 0
+
+Then f_0 is referred to as the zero mapping.
+
+
+=== Vector Space ===
+Let Y be a vector space.
+
+Let S be a set.
+
+Let 0_Y be the identity element of Y.
+
+Suppose 0 : S → Y is a mapping such that:
+
+:∀ x ∈ S: 0(   )x = 0_Y
+
+
+Then 0 is referred to as the zero mapping.
+
+=== Distribution ===
+Let 𝒟(   )ℝ be the test function space.
+
+Let 0∈𝒟' (   )ℝ be a distribution.
+
+Suppose:
+
+:∀ϕ∈𝒟(   )ℝ : 0(   )ϕ = 0
+
+
+Then 0 is referred to as the zero distribution.
+
+
+Category:Definitions/Distributions",Definition:Zero Mapping
+340,Definition:Root of Mapping,Zero,"Let f: R → R be a mapping on a ring R.
+
+Let x ∈ R.
+
+
+Then the values of x for which f (   )x = 0_R are known as the roots of the mapping f.",Definition:Root of Mapping
+341,Definition:Zero Vector,Zero,"Let ( R, +_R, ×_R ) be a ring.
+
+Let ( G, +_G ) be an abelian group.
+
+Let ( G, +_G, ∘)_R be an R-module.
+
+
+The identity of ( G, +_G ) is usually denoted 0, or some variant of this, and called the zero vector:
+
+:∀𝐚∈( G, +_G, ∘)_R:  0 +_G 𝐚 = 𝐚 = 𝐚 +_G  0
+
+
+Note that on occasion it is advantageous to denote the zero vector differently, for example by e, or 0_V or 0_G, in order to highlight the fact that the zero vector is not the same object as the zero scalar.
+
+
+=== Zero Vector in ℝ^n ===
+Let ( ℝ^n, +, ×)_ℝ be a real vector space.
+
+The zero vector in ( ℝ^n, +, ×)_ℝ is:
+
+:0_n × 1 := [ 0; 0; ⋮; 0 ]
+
+where 0 ∈ℝ.
+
+=== Zero Vector Quantity ===
+A vector quantity whose magnitude is zero is referred to as a zero vector.",Definition:Zero Vector

@@ -1,0 +1,5901 @@
+,title,term,definition,pred
+0,Definition:Generalized Sum/Absolute Net Convergence,Absolute,"Let V be a Banach space.
+
+Let ⟨ v_i ⟩_i ∈ I be an indexed family of elements of V.
+
+
+Then ∑{ v_i: i ∈ I } converges absolutely  if and only if  ∑{‖ v_i ‖: i ∈ I } converges.
+
+This nomenclature is appropriate as we have Absolutely Convergent Generalized Sum Converges.",Definition:Generalized Sum/Absolute Net Convergence
+1,Definition:Retract (Topology)/Absolute,Absolute,"Let T_1 = ( S_1, τ_1 ) be a topological space.
+
+Let T_2 = ( S_2, τ_2 ) be a topological subspace of T_1.
+
+
+Let T_2 be a retract of T_1.
+
+
+T_2 is an absolute retract of T_1  if and only if :
+:for every closed subspace B of a T_4 space T such that B is homeomorphic to A, then B is a retract of T.",Definition:Generalized Sum/Absolute Net Convergence
+2,Definition:Error/Absolute,Absolute,"Let x_0 be an approximation to a (true) value x.
+
+
+The absolute error of x_0 in x is defined as:
+
+:Δ x := x_0 - x
+
+
+=== Correction ===
+Let x_0 be an approximation to a (true) value x.
+
+Let Δ x denote the absolute error of x_0.
+
+
+The correction to x is the quantity that needs to be added to x_0 to change it to x.
+
+That is, the correction to x is defined as -Δ x.",Definition:Absolute Zero
+3,Definition:Frequency (Descriptive Statistics),Absolute,"Let S be a sample or a population.
+
+Let ω be a qualitative variable, or a class interval of a quantitative variable.
+
+
+The frequency of ω is the number of individuals in S satisfying ω.",Definition:Frequency (Descriptive Statistics)
+4,Definition:Absolute Measure of Dispersion,Absolute,An absolute measure of dispersion is a measure of dispersion that indicates how spread out or scattered a set of observations with respect to the actual values of those observations.,Definition:Frequency (Descriptive Statistics)
+5,Definition:Absolute Geometry,Absolute,Absolute geometry is the study of Euclidean geometry without the parallel postulate.,Definition:Absolute Geometry
+6,Definition:Absolutely Normal Number,Absolute,"A real number r is absolutely normal if it is normal   every number base b.
+
+That is,  if and only if  its basis expansion in every number base b is such that:
+:no finite sequence of digits of r of length n occurs more frequently than any other such finite sequence of length n.
+
+
+In particular, for every number base b, all digits of r have the same natural density in the basis expansion of r.",Definition:Generalized Sum/Absolute Net Convergence
+7,Definition:Temperature/Absolute,Absolute,"Absolute temperature is a measure of the amount of heat energy in a body.
+
+It is defined as:
+:T =  1 k ( ∂ U∂ln g)
+where:
+:k is a constant that relates the mean kinetic energy and absolute temperature of the body B
+:U is the total energy of B
+:g is the number of possible states in which B can be.
+
+
+=== Dimension ===
+Temperature is frequently, at elementary levels at least, considered as one of the fundamental dimensions of physics.
+
+In dimensional analysis it is usually assigned the symbol Θ.
+
+
+Category:Definitions/Dimensions of Measurement
+Category:Definitions/Temperature",Definition:Temperature/Absolute
+8,Definition:Absolute Zero,Absolute,"Absolute zero is the lowest temperature which can theoretically be achieved.
+
+It is the temperature where all motion due to thermal effects stops.
+
+Before that temperature can be reached, quantum effects come into play.",Definition:Temperature/Absolute
+9,Definition:Array/Element/Absolute Address,Absolute,"Let 𝐀 be an array.
+
+
+When referring to a specific element of 𝐀 directly by its indices ( i, j ), those indices can be referred to as the absolute address of that element.
+
+This terminology is most often seen in the context of computer spreadsheet programs.",Definition:Array/Element/Absolute Address
+10,Definition:Polygon/Adjacent/Sides,Adjacent,Two sides of a polygon that meet at the same vertex are adjacent to each other.,Definition:Polygon/Adjacent/Vertex to Side
+11,Definition:Polygon/Adjacent/Vertices,Adjacent,"Each side of a polygon intersects two other sides, and so is terminated at either endpoint by two vertices.
+
+
+Those two vertices are described as adjacent to each other.",Definition:Polygon/Adjacent/Vertices
+12,Definition:Polyhedron/Adjacent/Face to Vertex,Adjacent,"Each vertex of a polyhedron is formed by the intersection of a number of faces.
+
+The faces that form a particular vertex are referred to as the adjacents of that vertex, or described as adjacent to that vertex.",Definition:Polyhedron/Adjacent/Face to Edge
+13,Definition:Polyhedron/Adjacent/Vertex to Face,Adjacent,"The vertices that intersect a particular face are referred to as the adjacents of that face, or described as adjacent to that face.",Definition:Polygon/Adjacent/Vertices
+14,Definition:Polyhedron/Adjacent/Face to Edge,Adjacent,"Each edge of a polyhedron is formed by the intersection of two faces.
+
+The faces that form a particular edge are referred to as the adjacents of that edge, or described as adjacent to that edge.",Definition:Polyhedron/Adjacent/Face to Edge
+15,Definition:Polyhedron/Adjacent/Edge to Face,Adjacent,"The edges that intersect at a particular face are referred to as the adjacents of that face, or described as adjacent to that face.",Definition:Polygon/Adjacent/Vertices
+16,Definition:Polyhedron/Adjacent/Faces,Adjacent,Two faces of a polyhedron that meet at the same vertex are adjacent to each other.,Definition:Polyhedron/Adjacent/Face to Vertex
+17,Definition:Triangle (Geometry)/Adjacent,Adjacent,"The two sides of a triangle which form a particular vertex are referred to as adjacent to that angle.
+
+Similarly, the two vertices of a triangle to which a particular side contributes are referred to as adjacent to that side.
+
+
+Category:Definitions/Triangles",Definition:Polygon/Adjacent/Sides
+18,Definition:Triangle (Geometry)/Right-Angled/Adjacent,Adjacent,":
+
+
+In a right-angled triangle, for a given non-right angled vertex, the adjacent side which is not the hypotenuse is referred to as the adjacent.
+
+In the above figure:
+:the adjacent to vertex A is side c
+:the adjacent to vertex C is side a.",Definition:Polygon/Adjacent/Sides
+19,Definition:Algebra of Sets,Algebra,"=== Definition 1 ===
+
+Let S be a set.
+
+Let 𝒫( S ) be the power set of S.
+
+Let ℛ⊆𝒫( S ) be a set of subsets of S.
+
+
+ℛ is an algebra of sets over S  if and only if  ℛ satisfies the algebra of sets axioms:
+ 
+
+=== Definition 2 ===
+An algebra of sets is a ring of sets with a unit.",Definition:Algebra of Sets
+20,Definition:Sigma-Algebra,Algebra,"=== Definition 1 ===
+Let X be a set.
+
+Let x3a3 be a system of subsets of X.
+
+
+x3a3 is a σ-algebra over X  if and only if  x3a3 satisfies the sigma-algebra axioms:
+ 
+
+=== Definition 2 ===
+Let X be a set.
+
+Let x3a3 be a system of subsets of X.
+
+
+x3a3 is a σ-algebra over X  if and only if  x3a3 satisfies the sigma-algebra axioms:
+ 
+
+=== Definition 3 ===
+A σ-algebra x3a3 is a σ-ring with a unit.
+
+=== Definition 4 ===
+Let X be a set.
+
+A σ-algebra x3a3 over X is an algebra of sets which is closed under countable unions.",Definition:B-Algebra
+21,Definition:Borel Sigma-Algebra,Algebra,"=== Topological Space ===
+Let ( S, τ) be a topological space
+
+The Borel sigma-algebra ℬ(   )S, τ of ( S, τ) is the σ-algebra generated by τ.
+
+That is, it is the σ-algebra generated by the set of open sets in S.
+
+
+=== Borel Set ===
+Let ( S, τ) be a topological space.
+
+Let ℬ(   )S, τ be the Borel σ-algebra of ( S, τ).
+
+
+The elements of ℬ(   )S, τ are called the Borel (measurable) sets of ( S, τ).
+
+=== Metric Space ===
+Let ( S, d ) be a metric space.
+
+The Borel sigma-algebra (or σ-algebra) on ( S, d ) is the σ-algebra generated by the open sets in 𝒫( S ).
+
+By the definition of a topology induced by a metric, this definition is a particular instance of the definition of a Borel σ-algebra on a topological space.
+
+
+=== Borel Set ===
+Let ( S, τ) be a topological space.
+
+Let ℬ(   )S, τ be the Borel σ-algebra of ( S, τ).
+
+
+The elements of ℬ(   )S, τ are called the Borel (measurable) sets of ( S, τ).
+
+=== Borel Set ===
+Let ( S, τ) be a topological space.
+
+Let ℬ(   )S, τ be the Borel σ-algebra of ( S, τ).
+
+
+The elements of ℬ(   )S, τ are called the Borel (measurable) sets of ( S, τ).",Definition:Algebra of Sets
+22,Definition:B-Algebra,Algebra,"Let ( X, ∘) be an algebraic structure.
+
+
+( X, ∘) is a B-algebra  if and only if  ( X, ∘) satisfies the B-algebra axioms:
+ ",Definition:B-Algebra
+23,Definition:Algebra (Abstract Algebra),Algebra,"In the context of abstract algebra, in particular ring theory and linear algebra, the following varieties of algebra exist:
+
+* Definition:Boolean Algebra
+
+* Definition:Algebra over Ring: an R-module G_R over a commutative ring R with a bilinear mapping ⊕: G^2 → G.
+
+* Definition:Algebra over Field: a vector space G_F over a field F with a bilinear mapping ⊕: G^2 → G.
+
+* Definition:Real Algebra: an algebra over a field where the field in question is the field of real numbers ℝ.
+
+* Definition:Division Algebra: an algebra over a field ( A_F, ⊕) such that ∀ a, b ∈ A_F, b 0_A: ∃_1 x ∈ A_F, y ∈ A_F: a = b ⊕ x, a = y ⊕ b.
+
+* Definition:Associative Algebra: an algebra over a ring in which the bilinear mapping ⊕ is associative. 
+
+* Definition:Unitary Algebra, also known as a Unital Algebra: an algebra over a ring ( A_R, ⊕) in which there exists an identity element, that is, a unit, usually denoted 1, for ⊕.
+
+* Definition:Unitary Division Algebra: a division algebra ( A_F, ⊕) in which there exists an identity element, that is, a unit, usually denoted 1, for ⊕.
+
+* Definition:Graded Algebra: an algebra over a ring where the ring has a gradation, that is, is a graded ring.
+
+* Definition:Filtered Algebra: an algebra over a field which has a sequence of subalgebras which constitute a gradation.
+
+* Definition:Quadratic Algebra: a filtered algebra whose generator consists of degree one elements, with defining relations of degree 2.
+
+* Definition:Lie Algebra",Definition:Vector Algebra
+24,Definition:Altitude of Prism,Altitude,":
+
+
+An altitude of a prism is a line which is perpendicular to the bases of the prism.
+
+In the above diagram, a line of length h is an altitude of the prism AJ.",Definition:Altitude of Polygon
+25,Definition:Altitude of Pyramid,Altitude,":
+
+
+An altitude of a pyramid is a straight line perpendicular to the plane of the base to its apex.
+
+In the above diagram, an altitude is a straight line length is h.",Definition:Altitude of Triangle
+26,Definition:Celestial Altitude,Altitude,"Let X be a point on the celestial sphere.
+
+The (celestial) altitude of X is defined as the angle subtended by the the arc of the vertical circle through X between the celestial horizon and X itself.
+
+
+=== Symbol ===
+",Definition:Celestial Altitude
+27,Definition:Right Circular Cone/Base,Base,"
+
+Let AOB be a right-angled triangle such that ∠ AOB is the right angle.
+
+Let K be the right circular cone formed by the rotation of AOB around OB.
+
+Let BC be the circle described by B.
+
+The base of K is the plane surface enclosed by the circle BC.
+
+
+ 
+: 
+:And the base is the circle described by the straight line which is carried round.
+ ”
+ ",Definition:Triangle (Geometry)/Isosceles/Base
+28,Definition:Pyramid/Base,Base,":
+
+
+The polygon of a pyramid to whose vertices the apex is joined is called the base of the pyramid.
+
+
+In the above diagram, ABCDE is the base of the pyramid ABCDEQ.",Definition:Triangle (Geometry)/Isosceles/Base Angles
+29,Definition:Hemisphere/Base,Base,The base of a hemisphere ℋ is the plane which bisects the sphere from which ℋ was formed.,Definition:Segment of Circle/Base
+30,Definition:Triangle (Geometry)/Isosceles/Base Angles,Base,":
+
+
+The two (equal) vertices adjacent to the base of an isosceles triangle are called the base angles.
+
+In the above diagram, ∠ ABC and ∠ ACB are the base angles.",Definition:Triangle (Geometry)/Isosceles/Base Angles
+31,Definition:Number Base,Base,"=== Integers ===
+Let n ∈ℤ be an integer.
+
+Let b ∈ℤ be an integer such that b > 1.
+
+By the Basis Representation Theorem, n can be expressed uniquely in the form:
+
+:n = ∑_j  = 0^m r_j b^j
+
+where:
+:m is such that b^m ≤ n < b^m + 1
+:all the r_j are such that 0 ≤ r_j < b.
+
+
+The number b is known as the number base to which n is represented.
+
+n is thus described as being (written) in base b.
+
+  
+ 
+
+Thus we can write n = ∑_j  = 0^m r_j b^j as:
+:[ r_m r_m - 1… r_2 r_1 r_0 ]_b
+or, if the context is clear:
+:r_m r_m - 1… r_2 r_1 r_0_b
+
+=== Real Numbers ===
+Let x ∈ℝ be a real number such that x ≥ 0.
+
+Let b ∈ℕ: b ≥ 2.
+
+
+See the definition of Basis Expansion for how we can express x in the form:
+
+:x = [ s  d_1 d_2 d_3 …]_b
+
+Then we express m as for integers, and arrive at:
+:x = [ r_m r_m - 1… r_2 r_1 r_0  d_1 d_2 d_3 …]_b
+
+or, if the context is clear:
+:r_m r_m - 1… r_2 r_1 r_0  d_1 d_2 d_3 …_b
+
+=== Integer Part ===
+Let x ∈ℝ be a real number such that x ≥ 0.
+
+Let b ∈ℕ: b ≥ 2.
+
+
+In the basis expansion:
+:x = [r_m r_m-1… r_2 r_1 r_0 . d_1 d_2 d_3 …]_b
+the part r_m r_m-1… r_2 r_1 r_0 is known as the integer part.
+
+=== Fractional Part ===
+Let x ∈ℝ be a real number such that x ≥ 0.
+
+Let b ∈ℕ: b ≥ 2.
+
+
+In the basis expansion:
+:x = [ r_m r_m - 1… r_2 r_1 r_0 . d_1 d_2 d_3 …]_b
+the part .d_1 d_2 d_3 … is known as the fractional part.
+
+=== Radix Point ===
+Let x ∈ℝ be a real number such that x ≥ 0.
+
+Let b ∈ℕ: b ≥ 2.
+
+
+In the basis expansion:
+:x = [ r_m r_m - 1… r_2 r_1 r_0  d_1 d_2 d_3 …]_b
+the dot that separates the integer part from the fractional part is called the radix point.",Definition:Logarithm/Base
+32,Definition:Logarithm/Base,Base,"Let log_a denote the logarithm function on whatever domain: ℝ or ℂ.
+
+The constant a is known as the base of the logarithm.",Definition:Logarithm/Base
+33,Definition:Bounded Metric Space/Complex,Bounded,"Let D be a subset of the complex plane ℂ.
+
+
+Then D is bounded (in ℂ)  if and only if  there exists M ∈ℝ such that:
+: ∀ z ∈ D: | z |≤ M
+
+
+=== Unbounded ===
+Let D be a subset of the complex plane ℂ.
+
+
+Then D is unbounded (in ℂ)  if and only if :
+: ∄ M ∈ℝ: ∀ z ∈ D: | z |≤ M
+
+That is, if D is not bounded in ℂ.",Definition:Bounded Set/Real Numbers
+34,Definition:Bounded Subset of Topological Vector Space,Bounded,"Let 𝔽∈{ℝ, ℂ}.
+
+Let ( V, τ) be a topological vector space over 𝔽.
+
+
+A subset B ⊆ V is bounded  if and only if :
+:for each U ∈τ such that 0_V ∈ U there is an ϵ∈ℝ_>0 such that:
+::ϵ B ⊆ U
+
+where:
+:0_V denotes the zero vector of V
+:ϵ B denotes the dilation of B by ϵ",Definition:Bounded Set/Real Numbers
+35,Definition:Bounded Subset of Normed Vector Space,Bounded,"Let M = ( X, ‖ · ‖) be a normed vector space.
+
+Let M' ⊆ X. 
+
+
+=== Definition 1 ===
+Let M = ( X, ‖ · ‖) be a normed vector space.
+
+Let M' = ( Y, ‖ · ‖_Y ) be a subspace of M.
+
+
+M' is bounded (in M)  if and only if :
+:∃ x ∈ X, C ∈ℝ_> 0: ∀ y ∈ Y: ‖ x - y ‖≤ C
+
+=== Definition 2 ===
+Let M = ( X, ‖ · ‖) be a normed vector space.
+
+Let M' = ( Y, ‖ · ‖_Y ) be a subspace of M.
+
+
+M' is bounded (in M)  if and only if :
+:∃ϵ∈ℝ_>0 : ∃ x ∈ X : Y ⊆ B_ϵ^- (   )x
+
+where B_ϵ^- (   )x is a closed ball in M.",Definition:Bounded Subset of Normed Vector Space
+36,Definition:Loop (Topology),Closed,"Let T = ( S, τ) be a topological space.
+
+Let γ: [ 0  . . ]1 → S be a path in T.
+
+Let γ(   )0 = γ(   )1.
+
+
+Then γ is called a loop (in T).
+
+
+=== Simple Loop ===
+Let T = ( S, τ) be a topological space.
+
+Let γ: [ 0  . . ]1 → S be a path in T.
+
+
+γ is a simple loop (in T)  if and only if :
+:γ(   )t_1γ(   )t_2 for all t_1 ,t_2 ∈[ 0  . . )1 with t_1  t_2
+:γ(   )0 = γ(   )1
+
+=== Base Point ===
+Let X be a topological space.
+
+Let γ: [ 0  . . ]1 → X be a loop.
+
+
+The base point of γ is γ(   )0.
+
+In other words, γ is said to be based at γ(   )0.
+
+=== Set of All Loops ===
+Let T be a topological space.
+
+
+The set of all loops based at p ∈ T is denoted by Ω(   )T, p.
+
+=== Constant Loop ===
+Let T be a topological space.
+
+Let p ∈ T.
+
+Let Ω(   )T, p denote the set of all loops based at p.
+
+
+A constant loop c_p is the loop c_p ∈Ω(   )T, p such that:
+
+:∀ t ∈[ 0  . . ]1 : c_p (   )t = p
+
+=== Null-Homotopic Loop ===
+Let T = ( S, τ) be a topological space.
+
+Let γ be a loop in T.
+
+Suppose γ is path-homotopic to a constant loop.
+
+
+Then γ is said to be null-homotopic.
+
+=== Circle Representative of Loop ===
+Let T = ( S, τ) be a topological space.
+
+Let γ: [ 0  . . ]1 → S be a loop in T.
+
+Let S^1 ⊆ℂ be the unit circle in ℂ:
+
+:S^1 = { z ∈ℂ : | z | = 1 }
+
+Suppose ω : [ 0  . . ]1 → S^1 such that ω(   )s = exp(   )2 π i s.
+
+
+Then the unique map f̃ :  S^1 → T such that f̃∘ω = f is called the circle representative of f.
+
+=== Loop in Topological Manifold ===
+Let M be a topological manifold.
+
+Let σ : [ 0  . . ]1 → M be a continuous path.
+
+Let σ(   )0 = σ(   )1.
+
+
+Then σ is called a loop.",Definition:Closure (Abstract Algebra)/Algebraic Structure
+37,Definition:Closed Region,Closed,"=== Complex Analysis ===
+Let D ⊆ℂ be a subset of the set of complex numbers.
+
+D is a closed region  if and only if  D the closure of an open region.
+
+=== Closed Region in the Plane ===
+A closed region is a region complete with its boundary.",Definition:Real Interval/Closed
+38,Definition:Closed under Mapping,Closed,"Let f: S → T be a mapping.
+
+Let S' ⊆ S.
+
+
+Then S' is closed under f  if and only if :
+
+:f [ S' ] ⊆ S'
+
+where f [ S' ] is the image of S' under f.
+
+
+That is:
+:x ∈ S'  f (   )x ∈ S'
+
+
+=== Arbitrary Product ===
+Let ϕ: X^I → T be a mapping or a partial mapping, taking I-indexed families as arguments.
+
+Denote with Dom( ϕ) the domain of ϕ (if ϕ is a mapping, this is simply X^I).
+
+
+A set S is closed under ϕ  if and only if :
+
+:∀⟨ s_i ⟩_i ∈ I∈ S^I ∩Dom( ϕ): ϕ(   )⟨ s_i ⟩_i ∈ I∈ S
+
+Phrased in terms of image of a mapping, this translates to:
+
+:ϕ(   )S^I ∩Dom( ϕ)⊆ S
+
+
+Thus, in words, S is closed under ϕ,  if and only if :
+
+:Whenever ϕ is defined for an I-indexed family from S, it maps that indexed family into S again.
+
+=== Class Theoretical Definition ===
+Let A and B be classes such that A is a subclass of B.
+
+Let g: B → B be a mapping on B.
+
+
+Then A is closed under g  if and only if :
+
+:∀ x ∈ A: g (   )x ∈ A",Definition:Closed under Mapping
+39,Definition:Closed Set/Closure Operator,Closed,"Let S be a set.
+
+Let cl: 𝒫( S ) →𝒫( S ) be a closure operator.
+
+Let T ⊆ S be a subset.
+
+
+=== Definition 1 ===
+Let S be a set.
+
+Let cl: 𝒫( S ) →𝒫( S ) be a closure operator.
+
+Let T ⊆ S be a subset.
+
+
+T is closed (with respect to cl)  if and only if :
+:cl(   )T = T
+
+=== Definition 2 ===
+Let S be a set.
+
+Let cl: 𝒫( S ) →𝒫( S ) be a closure operator.
+
+Let T ⊆ S be a subset.
+
+
+T is closed (with respect to cl)  if and only if  T is in the image of cl:
+:T ∈Img( cl)",Definition:Closed Set/Closure Operator
+40,Definition:Closed Element,Closed,"Let ( S, ≼) be an ordered set.
+
+Let cl be a closure operator on S.
+
+Let x ∈ S.
+
+
+=== Definition 1 ===
+Let ( S, ≼) be an ordered set.
+
+Let cl be a closure operator on S.
+
+Let x ∈ S.
+
+
+The element x is a closed element of S (with respect to cl)  if and only if  x is a fixed point of cl:
+:cl(   )x = x
+
+=== Definition 2 ===
+Let ( S, ≼) be an ordered set.
+
+Let cl be a closure operator on S.
+
+Let x ∈ S.
+
+
+The element x is a closed element of S (with respect to cl)  if and only if  x is in the image of cl:
+:x ∈Img( cl)",Definition:Closed Set/Closure Operator
+41,Definition:Real Interval/Closed,Closed,"Let a, b ∈ℝ.
+
+The closed (real) interval from a to b is defined as:
+
+:[ a  . . ]b = { x ∈ℝ: a ≤ x ≤ b }",Definition:Real Interval/Closed
+42,Definition:Walk (Graph Theory)/Closed,Closed,"A closed walk is a walk whose first vertex is the same as the last.
+
+That is, it is a walk which ends where it starts.",Definition:Cycle (Graph Theory)
+43,Definition:Cycle (Graph Theory),Closed,"A cycle is a circuit in which no vertex except the first (which is also the last) appears more than once.
+
+
+An n-cycle is a cycle with n vertices.
+
+
+=== Subgraph ===
+The set of vertices and edges which go to make up a cycle form a subgraph.
+
+This subgraph itself is also referred to as a cycle.
+
+=== Odd Cycle ===
+An odd cycle is a cycle with odd length, that is, with an odd number of edges.
+
+=== Even Cycle ===
+An even cycle is a cycle with even length, that is, with an even number of edges.",Definition:Cycle (Graph Theory)
+44,Definition:Circuit (Graph Theory),Closed,"A circuit is a closed trail with at least one edge.
+
+
+=== Subgraph ===
+The set of vertices and edges which go to make up a circuit form a subgraph.
+
+This subgraph itself is also referred to as a circuit.",Definition:Cycle (Graph Theory)
+45,Definition:Closure (Abstract Algebra)/Algebraic Structure,Closed,"Let ( S, ∘) be an algebraic structure.
+
+
+Then S has the property of closure under ∘  if and only if :
+
+:∀( x, y ) ∈ S × S: x ∘ y ∈ S
+
+
+S is said to be closed under ∘, or just that ( S, ∘) is closed.",Definition:Closed under Mapping
+46,Definition:Closure (Abstract Algebra)/Scalar Product,Closed,"Let ( S, ∘)_R be an R-algebraic structure over a ring R.
+
+Let T ⊆ S such that ∀λ∈ R: ∀ x ∈ T: λ∘ x ∈ T.
+
+
+Then T is closed for scalar product.
+
+
+If T is also closed for operations on S, then it is called a closed subset of S.",Definition:Multiplicatively Closed Subset of Ring
+47,Definition:Algebraically Closed Field,Closed,"Let K be a field.
+
+
+Then K is algebraically closed  if and only if :
+
+
+=== Definition 1 ===
+Let K be a field.
+
+
+K is algebraically closed  if and only if :
+
+The only algebraic field extension of K is K itself.
+
+=== Definition 2 ===
+Let K be a field.
+
+
+K is algebraically closed  if and only if :
+
+Every irreducible polynomial f over K has degree 1.
+
+=== Definition 3 ===
+Let K be a field.
+
+
+K is algebraically closed  if and only if :
+
+Every polynomial f over K of strictly positive degree has a root in K.
+
+=== Definition 4 ===
+Let K be a field.
+
+
+K is algebraically closed  if and only if :
+
+Every root of every polynomial f whose coefficients are in K is in K.",Definition:Algebraically Closed Field
+48,Definition:Integrally Closed,Closed,"=== Ring Extension ===
+Let ϕ : A ↪ B be a ring extension.
+
+Let C be the integral closure of A in B.
+
+
+Then A is integrally closed in B  if and only if  C = ϕ(A).
+
+=== Integral Domain ===
+Let R be an integral domain.
+
+
+Then R is integrally closed  if and only if  it is integrally closed in its field of fractions.",Definition:Multiplicatively Closed Subset of Ring
+49,Definition:Multiplicatively Closed Subset of Ring,Closed,"Let ( A, +, ∘) be a ring with unity 1_A and zero 0_A.
+
+Let S ⊆ A be a subset.
+
+
+Then S is multiplicatively closed  if and only if :
+
+:(1):    1_A ∈ S
+:(2):    x, y ∈ S  x ∘ y ∈ S",Definition:Multiplicatively Closed Subset of Ring
+50,Definition:Generated Normal Subgroup,Closure,"Let G be a group.
+
+Let S ⊆ G be a subset.
+
+
+=== Definition 1 ===
+Let G be a group. 
+
+Let S ⊆ G be a subset.
+
+
+The normal subgroup generated by S, denoted ⟨ S^G ⟩,  is the intersection of all normal subgroups of G containing S.
+
+=== Definition 2 ===
+ 
+
+Let G be a group. 
+
+Let S ⊆ G be a subset.
+
+
+The normal subgroup generated by S, denoted ⟨ S^G ⟩,  is the smallest normal subgroup of G containing S:
+:⟨ S^G ⟩ = ⟨ x S x^-1: x ∈ G ⟩",Definition:Generated Normal Subgroup
+51,Definition:Closure (Topology),Closure,"Let T = ( S, τ) be a topological space.
+
+Let H ⊆ S.
+
+
+=== Definition 1 ===
+Let T = ( S, τ) be a topological space.
+
+Let H ⊆ S.
+
+
+The closure of H (in T) is defined as:
+:H^- := H ∪ H'
+where H' is the derived set of H.
+
+
+That is, H^- is the union of H and its limit points.
+
+=== Definition 2 ===
+Let T = ( S, τ) be a topological space.
+
+Let H ⊆ S.
+
+
+The closure of H (in T) is defined as:
+:H^- := ⋂{ K ⊇ H: K . is closed in . T }
+
+
+That is, H^- is the intersection of all closed sets in T which contain H.
+
+=== Definition 3 ===
+Let T = ( S, τ) be a topological space.
+
+Let H ⊆ S.
+
+
+The closure of H (in T), denoted H^-, is defined as the smallest closed set of T that contains H.
+
+=== Definition 4 ===
+Let T = ( S, τ) be a topological space.
+
+Let H ⊆ S.
+
+
+The closure of H (in T) is defined as the union of H and its boundary in T:
+:H^- := H ∪∂ H
+
+=== Definition 5 ===
+Let T = ( S, τ) be a topological space.
+
+Let H ⊆ S.
+
+
+The closure of H (in T) is the union of the set of all isolated points of H and the set of all limit points of H:
+:H^- := H^i ∪ H'
+
+=== Definition 6 ===
+Let T = ( S, τ) be a topological space.
+
+Let H ⊆ S.
+
+
+The closure of H (in T), denoted H^-, is the set of all adherent points of H.
+
+
+=== Adherent Point ===
+
+Let A ⊆ S.
+
+Let T = ( S, τ) be a topological space.
+
+Let H ⊆ S.
+
+
+A point x ∈ S is an adherent point of H  if and only if  x is an element of the closure of H.",Definition:Transitive Closure of Set
+52,Definition:Closure (Topology)/Metric Space,Closure,"Let M = ( A, d ) be a metric space.
+
+Let H ⊆ A.
+
+Let H' be the set of limit points of H.
+
+Let H^i be the set of isolated points of H.
+
+
+The closure of H (in M) is the union of all isolated points of H and all limit points of H:
+:H^- := H' ∪ H^i",Definition:Transitive Closure of Set
+53,Definition:Closure/Normed Vector Space,Closure,"Let M = ( X, ‖ · ‖) be a normed vector space.
+
+Let S ⊆ X.
+
+
+The closure of S (in M) is the union of S and S', the set of all limit points of S:
+:S^- := S ∪ S'",Definition:Closure/Normed Vector Space
+54,Definition:Transitive Closure of Set,Closure,"=== Definition 1 ===
+Let x be a set.
+
+Then the transitive closure of x is the smallest transitive superset of x.
+
+The following is not equivalent to the above, but they are almost the same.
+
+=== Definition 2 ===
+Let x be a set.
+
+For each natural number n ∈ℕ_≥ 0 let:
+
+:⋃^n x = ⋃⋃⋯⋃_n x
+
+
+Then the transitive closure of x is the union of the sets:
+:{ x }, x, ⋃ x, ⋃^2 x, …, ⋃^n x, …
+
+
+More precisely:
+
+Let F be the mapping on the universal class defined by letting:
+:F (   )A = ⋃ a
+for each set a.
+
+Let G be the mapping on the natural numbers defined recursively by letting:
+
+:G (   )0 = { x }
+:G (   )n^+ = F (   )G (   )n
+
+for each natural number n.
+
+Then the transitive closure of x is defined as the union of the image of G.",Definition:Transitive Closure of Set
+55,Definition:Reflexive Closure,Closure,"=== Definition 1 ===
+Let ℛ be a relation on a set S.
+
+
+The reflexive closure of ℛ is denoted ℛ^=, and is defined as:
+
+:ℛ^= := ℛ∪{( x, x ): x ∈ S }
+
+That is:
+
+:ℛ^= := ℛ∪Δ_S
+where Δ_S is the diagonal relation on S.
+
+=== Definition 2 ===
+Let ℛ be a relation on a set S.
+
+
+The reflexive closure of ℛ is defined as the smallest reflexive relation on S that contains ℛ as a subset.
+
+
+The reflexive closure of ℛ is denoted ℛ^=.
+
+=== Definition 3 ===
+Let ℛ be a relation on a set S.
+
+Let 𝒬 be the set of all reflexive relations on S that contain ℛ.
+
+The reflexive closure of ℛ is denoted ℛ^=, and is defined as:
+
+:ℛ^= := ⋂𝒬
+
+That is:
+
+:ℛ^= is the intersection of all reflexive relations on S containing ℛ.",Definition:Closure of Set under Closure Operator
+56,Definition:Symmetric Closure,Closure,"Let ℛ be a relation on a set S.
+
+
+=== Definition 1 ===
+Let ℛ be a relation on a set S.
+
+
+The symmetric closure of ℛ is denoted ℛ^↔, and is defined as the union of ℛ with its inverse:
+
+:ℛ^↔ = ℛ∪ℛ^-1
+
+=== Definition 2 ===
+Let ℛ be a relation on a set S.
+
+
+The symmetric closure of ℛ is denoted ℛ^↔, and is defined as the smallest symmetric relation on S which contains ℛ.",Definition:Closure of Set under Closure Operator
+57,Definition:Transitive Closure of Relation,Closure,"=== Smallest Transitive Superset ===
+Let ℛ be a relation on a set S.
+
+
+The transitive closure of ℛ is defined as the smallest transitive relation on S which contains ℛ as a subset.
+
+
+The transitive closure of ℛ is denoted ℛ^+.
+
+=== Intersection of Transitive Supersets ===
+Let ℛ be a relation on a set S.
+
+
+The transitive closure of ℛ is defined as the intersection of all transitive relations on S which contain ℛ.
+
+
+The transitive closure of ℛ is denoted ℛ^+.
+
+=== Finite Chain ===
+Let ℛ be a relation on a set or class S.
+
+
+The transitive closure of ℛ is the relation ℛ^+ defined as follows:
+
+For x, y ∈ S, x ℛ^+ y  if and only if  for some n ∈ℕ_>0 there exist s_0, s_1, …, s_n ∈ S such that s_0 = x, s_n = y, and:
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+That is:
+
+:∀ k ∈ℕ_n: s_k ℛ s_k + 1
+
+=== Union of Compositions ===
+Let ℛ be a relation on a set S.
+
+Let:
+
+:ℛ^n := ℛ    : n = 1 
+ℛ^n-1∘ℛ    : n > 1
+
+where ∘ denotes composition of relations.
+
+Finally, let:
+
+:ℛ^+ = ⋃_i  = 1^∞ℛ^i
+
+
+Then ℛ^+ is called the transitive closure of ℛ.",Definition:Closure of Set under Closure Operator
+58,Definition:Lowest Common Multiple,Common,"=== Integral Domain ===
+Let D be an integral domain and let a, b ∈ D be nonzero.
+
+l is the lowest common multiple of a and b  if and only if :
+:(1): both a and b divide l
+:(2): if m is another element such that a and b divide m, then l divides m.
+
+=== Integers ===
+=== Definition 1 ===
+For all a, b ∈ℤ: a b  0, there exists a smallest m ∈ℤ: m > 0 such that a \ m and b \ m.
+
+This m is called the lowest common multiple of a and b, and denoted lcm{ a, b }.
+
+=== Definition 2 ===
+Let a, b ∈ℤ be integers such that a b  0.
+
+Then the lowest common multiple of a and b is the (strictly) positive integer m which satisfies:
+:(1):    a \ m and b \ m
+:(2):If there exists c ∈ℤ_>0 such that a \ c and b \ c, then m ≤ c
+where \ denotes divisibility.
+
+=== General Definition ===
+
+This definition can be extended to any (finite) number of integers.
+Let S = { a_1, a_2, …, a_n }⊆ℤ such that ∏_a ∈ S a = 0 (that is, all elements of S are non-zero).
+
+Then the lowest common multiple of S:
+:lcm(   )S = lcm{ a_1, a_2, …, a_n }
+
+is defined as the smallest m ∈ℤ_>0 such that:
+:∀ x ∈ S: x \ m
+
+where \ denotes divisibility.",Definition:Arithmetic Sequence/Common Difference
+59,Definition:Arithmetic Sequence/Common Difference,Common,"Let ⟨ a_k ⟩ be the arithmetic sequence:
+
+:a_k = a_0 + k d for k = 0, 1, 2, …, n - 1
+
+
+The term d is the common difference of ⟨ a_k ⟩.",Definition:Arithmetic Sequence/Common Difference
+60,Definition:Geometric Sequence/Common Ratio,Common,"Let ⟨ x_n ⟩ be a geometric sequence in ℝ defined as:
+:x_n = a r^n for n = 0, 1, 2, 3, …
+
+
+The parameter:
+:r ∈ℝ: r  0
+is called the common ratio of ⟨ x_n ⟩.",Definition:Geometric Sequence/Common Ratio
+61,Definition:Fraction/Vulgar,Common,A vulgar fraction is a fraction representing a rational number whose numerator and denominator are both integers.,Definition:Common Denominator/Lowest
+62,Definition:Common Section,Common,"Let A and B be planes.
+
+The common section of A and B is the intersection of A and B.",Definition:Common Denominator/Lowest
+63,Definition:Universally Compatible Relation,Compatible,"A relation ℛ is universally compatible on a set S  if and only if  it is compatible with every closed operation that can be defined on S.
+
+Category:Definitions/Abstract Algebra",Definition:Relation Strongly Compatible with Operation
+64,Definition:Congruence Relation,Compatible,"Let ( S, ∘) be an algebraic structure.
+
+Let ℛ be an equivalence relation on S.
+
+
+Then ℛ is a congruence relation for ∘  if and only if :
+
+:∀ x_1, x_2, y_1, y_2 ∈ S: ( x_1 ℛ x_2 ) ( y_1 ℛ y_2 ) ( x_1 ∘ y_1 ) ℛ( x_2 ∘ y_2 )",Definition:Gradation Compatible with Ring Structure
+65,Definition:Compatible Quasiuniformities,Compatible,"Let 𝒰_1 and 𝒰_2 be quasiuniformities on a set S.
+
+Let ( ( S, 𝒰_1 ), τ_1 ) and ( ( S, 𝒰_2 ), τ_2 ) be the quasiuniform spaces generated by 𝒰_1 and 𝒰_2.
+
+
+Then 𝒰_1 and 𝒰_2 are compatible (with each other)  if and only if  their topologies are equal.
+
+That is,  if and only if  τ_1 = τ_2.",Definition:Universally Compatible Relation
+66,Definition:Compatible Atlases,Compatible,"Let M be a topological space.
+
+Let ℱ, 𝒢 be d-dimensional atlases of class C^k on M.
+
+
+=== Definition 1 ===
+Let M be a topological space.
+
+Let ℱ, 𝒢 be d-dimensional atlases of class C^k on M.
+
+
+ℱ, 𝒢 are C^k-compatible  if and only if  their union ℱ∪𝒢 is an atlas of class C^k.
+
+=== Definition 2 ===
+Let M be a topological space.
+
+Let ℱ, 𝒢 be d-dimensional atlases of class C^k on M.
+
+
+ℱ and 𝒢 are C^k-compatible  if and only if  every pair of charts ( U, ϕ) ∈ℱ and ( V, ψ) ∈𝒢 are C^k-compatible.",Definition:Compatible Atlases
+67,Definition:Compatible Charts/Smooth,Compatible,"Let M be a topological space.
+
+Let d be a natural number.
+
+Let ( U, ϕ) and ( V, ψ) be d-dimensional charts of M.
+
+
+( U, ϕ) and ( V, ψ) are smoothly compatible  if and only if  their transition mapping:
+:ψ∘ϕ^-1 : ϕ(   )U ∩ V→ψ(   )U ∩ V
+is of class C^∞.
+
+
+Category:Definitions/Manifolds",Definition:Chart Compatible with Atlas
+68,Definition:Chart Compatible with Atlas,Compatible,"Let M be a topological space.
+
+Let A be a d-dimensional C^k-atlas on M.
+
+Let ( U, ϕ) be a d-dimensional chart of M.
+
+
+Then ( U, ϕ) is C^k-compatible with A  if and only if  ( U, ϕ) is C^k-compatible with every chart of A.
+
+Category:Definitions/Manifolds",Definition:Compatible Quasiuniformities
+69,Definition:Compatible Module Structures,Compatible,"Let A and B be rings.
+
+Let ( M, + ) be an abelian group.
+
+Let * : A × M → M and ⊛: B × M → M be left or right linear ring actions so that:
+:(1):   ( M, +, * ) is a left or right module over A
+:(2):   ( M, +, ⊛) is a left or right module over B
+
+
+=== Definition 1 ===
+Let A and B be rings.
+
+Let ( M, + ) be an abelian group.
+
+Let * : A × M → M and ⊛: B × M → M be left or right linear ring actions so that:
+:(1):   ( M, +, * ) is a left or right module over A
+:(2):   ( M, +, ⊛) is a left or right module over B
+
+
+The module structures are compatible  if and only if  for all a ∈ A, b ∈ B, the homotheties h_a and h_b commute.
+
+That is, for all m ∈ M, a ∈ A, b ∈ B:
+:a * ( b ⊛ m ) = b ⊛( a * m )
+
+=== Definition 2 ===
+Let A and B be rings.
+
+Let ( M, + ) be an abelian group.
+
+Let * : A × M → M and ⊛: B × M → M be left or right linear ring actions so that:
+:(1):   ( M, +, * ) is a left or right module over A
+:(2):   ( M, +, ⊛) is a left or right module over B
+
+
+The module structures are compatible  if and only if  for all a ∈ A, the homothety h_a : M → M is an endomorphism of the B-module M.
+
+That is,  if and only if  the image of the ring representation A →End(   )M is contained in the endomorphism ring End_B  (   )M.
+
+=== Definition 3 ===
+Let A and B be rings.
+
+Let ( M, + ) be an abelian group.
+
+Let * : A × M → M and ⊛: B × M → M be left or right linear ring actions so that:
+:(1):   ( M, +, * ) is a left or right module over A
+:(2):   ( M, +, ⊛) is a left or right module over B
+
+
+The module structures are compatible  if and only if  for all b ∈ A, the homothety h_b : M → M is an endomorphism of the A-module M.
+
+That is,  if and only if  the image of the ring representation B →End(   )M is contained in the endomorphism ring End_A (   )M.",Definition:Compatible Module Structures
+70,Definition:Composition Functor on Categories of Subobjects,Composition,"Let 𝐂 be a metacategory.
+
+Let C and D be objects of 𝐂.
+
+Let 𝐒𝐮𝐛_𝐂(C) and 𝐒𝐮𝐛_𝐂(D) be the associated categories of subobjects.
+
+
+Let g: C → D be a monomorphism of 𝐂.
+
+Then g defines a composition functor g_* : 𝐒𝐮𝐛_𝐂(C) →𝐒𝐮𝐛_𝐂(D):
+
+ 
+ 
+ 
+ 
+
+
+That it is in fact a functor is shown on Composition Functor on Categories of Subobjects is Functor.
+
+
+The effect of g_* is captured in the following commutative diagram:
+
+::<-3em,0em>*+X = ""X"",
+<3em,0em>*+X' = ""X2"",
+<0em,-4em>*+C = ""C"",
+<0em,-8em>*+D = ""D"",
+
+""X"";""X2"" **@- ?>*@> ?*!/_1em/a,
+""X"";""C"" **@- ?>*@> ?<>(.4)*!/^.6em/f,
+""X2"";""C"" **@- ?>*@> ?<>(.4)*!/_.6em/f',
+""C"";""D"" **@- ?>*@> ?<>(.4)*!/^.6em/g,
+
+""X"";""D"" **<-5em,-4em> ?>*@> ?*!/^1.6em/g_* f = 
+ g ∘ f,
+""X2"";""D"" **<5em,-4em> ?>*@> ?*!/_1.6em/g_* f' = 
+ g ∘ f',",Definition:Composition of Functors
+71,Definition:Composition (Combinatorics),Composition,"A k-composition of a (strictly) positive integer n ∈ℤ_> 0 is an ordered k-tuple:
+:c = ( c_1, c_2, …, c_k )
+such that:
+:(1):    c_1 + c_2 + ⋯ + c_k = n
+:(2):   ∀ i ∈[ 1  . . ]k: c_i ∈ℤ_>0, that is, all the c_i are strictly positive integers.
+
+Category:Definitions/Combinatorics",Definition:Composition (Combinatorics)
+72,Definition:Composition of Ratio,Composition,"Let R = a : b be a ratio.
+
+Then the composition of R is the ratio a + b : b.
+
+
+ 
+: 
+:Composition of a ratio means taking the antecedent together with the consequent as one in relation to the consequent by itself.
+ 
+ 
+
+Category:Definitions/Euclidean Algebra",Definition:Composition of Relations
+73,Definition:Continuous Real-Valued Vector Function,Continuous,"Let ℝ^n be the cartesian n-space.
+
+Let f: ℝ^n →ℝ be a real-valued function on ℝ^n.
+
+
+Then f is continuous on ℝ^n  if and only if :
+:∀ a ∈ℝ^n: ∀ϵ∈ℝ_>0: ∃δ∈ℝ_>0: ∀ x ∈ℝ^n: d (   )x, a < δ| f (   )x - f (   )a | < ϵ
+where d (   )x, a is the distance function on ℝ^n:
+
+:d: ℝ^n →ℝ: d (   )x, y := √(∑_i  = 1^n ( x_i - y_i )^2)
+
+where x = ( x_1, x_2, …, x_n ), y = ( y_1, y_2, …, y_n ) are general elements of ℝ^n.",Definition:Continuous Real Function/Right-Continuous
+74,Definition:Continuous Complex Function,Continuous,"As the complex plane is a metric space, the same definition of continuity applies to complex functions as to metric spaces.
+
+
+
+Let A_1, A_2 ⊆ℂ be subsets of the complex plane.
+
+Let f: A_1 → A_2 be a complex function from A_1 to A_2.
+
+Let a ∈ A_1.
+
+
+=== Definition using Limit ===
+Let A_1, A_2 ⊆ℂ be subsets of the complex plane.
+
+Let f: A_1 → A_2 be a complex function from A_1 to A_2.
+
+Let a ∈ A_1.
+
+
+f is continuous at (the point) a  if and only if :
+:The limit of f (   )z as z → a exists, and
+:lim_z → a f (   )z = f (   )a
+
+=== Epsilon-Delta Definition ===
+Let A_1, A_2 ⊆ℂ be subsets of the complex plane.
+
+Let f: A_1 → A_2 be a complex function from A_1 to A_2.
+
+Let a ∈ A_1.
+
+
+f is continuous at (the point) a  if and only if :
+
+:∀ϵ > 0: ∃δ > 0: ∀ z ∈ A_1: | z - a | < δ| f (   )z - f (   )a | < ϵ
+
+=== Epsilon-Neighborhood Definition ===
+Let A_1, A_2 ⊆ℂ be subsets of the complex plane.
+
+Let f: A_1 → A_2 be a complex function from A_1 to A_2.
+
+Let a ∈ A_1.
+
+
+Let A_1 be open in ℂ.
+
+
+f is continuous at (the point) a  if and only if :
+:∀𝒩_ϵ(   )f (   )a: ∃𝒩_δ(   )a: f [ 𝒩_δ(   )a ] ⊆𝒩_ϵ(   )f (   )a
+where 𝒩_ϵ(   )a is the ϵ-neighborhood of a in A_1.
+
+
+That is, for every ϵ-neighborhood of f (   )a in ℂ, there exists a δ-neighborhood of a in ℂ whose image is a subset of that ϵ-neighborhood.
+
+=== Open Sets Definition ===
+Let A_1, A_2 ⊆ℂ be subsets of the complex plane.
+
+Let f: A_1 → A_2 be a complex function from A_1 to A_2.
+
+
+Let A_1 be open in ℂ.
+
+
+f is continuous  if and only if :
+:for every set U ⊆ℂ which is open in ℂ, f^-1[ U ] is open in ℂ.",Definition:Continuous Real Function/Left-Continuous
+75,Definition:Continuity/Functional,Continuous,"Let S be a set of mappings.
+
+Let y ∈ S be a mapping.
+
+Let J [ y ]: S →ℝ be a functional.
+
+Suppose:
+  
+:∀ϵ∈ℝ_>0: ∃δ∈ℝ_>0: | y - y_0 | < δ| J [ y ] - J [ y_0 ]  | < ϵ
+
+
+Then J [ y ] is said to be a continuous functional and is continuous at the point y_0 ∈ S.",Definition:Continuous Real Function
+76,Definition:Continuous Mapping (Metric Space),Continuous,"Let M_1 = ( A_1, d_1 ) and M_2 = ( A_2, d_2 ) be metric spaces.
+
+Let f: A_1 → A_2 be a mapping from A_1 to A_2.
+
+Let a ∈ A_1 be a point in A_1.
+
+
+=== Continuous at a Point ===
+Let M_1 = ( A_1, d_1 ) and M_2 = ( A_2, d_2 ) be metric spaces.
+
+Let f: A_1 → A_2 be a mapping from A_1 to A_2.
+
+Let a ∈ A_1 be a point in A_1.
+
+
+=== ϵ-δ Definition ===
+
+Let M_1 = ( A_1, d_1 ) and M_2 = ( A_2, d_2 ) be metric spaces.
+
+Let f: A_1 → A_2 be a mapping from A_1 to A_2.
+
+Let a ∈ A_1 be a point in A_1.
+
+
+f is continuous at (the point) a (  the metrics d_1 and d_2)  if and only if :
+:∀ϵ∈ℝ_>0: ∃δ∈ℝ_>0: ∀ x ∈ A_1: d_1 (   )x, a < δ d_2 (   )f (   )x, f (   )a < ϵ
+where ℝ_>0 denotes the set of all strictly positive real numbers.
+
+=== Definition by Limits ===
+Let M_1 = ( A_1, d_1 ) and M_2 = ( A_2, d_2 ) be metric spaces.
+
+Let f: A_1 → A_2 be a mapping from A_1 to A_2.
+
+Let a ∈ A_1 be a point in A_1.
+
+
+f is continuous at (the point) a (  the metrics d_1 and d_2)  if and only if :
+:(1): The limit of f (   )x as x → a exists
+:(2):   lim_x → a f (   )x = f (   )a.
+
+=== ϵ-Ball Definition ===
+Let M_1 = ( A_1, d_1 ) and M_2 = ( A_2, d_2 ) be metric spaces.
+
+Let f: A_1 → A_2 be a mapping from A_1 to A_2.
+
+Let a ∈ A_1 be a point in A_1.
+
+
+f is continuous at (the point) a (  the metrics d_1 and d_2)  if and only if :
+:∀ϵ∈ℝ_>0: ∃δ∈ℝ_>0: f [ B_δ(   )a; d_1] ⊆ B_ϵ(   )f (   )a; d_2
+where B_ϵ(   )f (   )a; d_2 denotes the open ϵ-ball of f (   )a with respect to the metric d_2, and similarly for B_δ(   )a; d_1.
+
+=== Definition by Neighborhoods ===
+Let M_1 = ( A_1, d_1 ) and M_2 = ( A_2, d_2 ) be metric spaces.
+
+Let f: A_1 → A_2 be a mapping from A_1 to A_2.
+
+Let a ∈ A_1 be a point in A_1.
+
+
+f is continuous at (the point) a (  the metrics d_1 and d_2)  if and only if :
+:for each neighborhood N' of f (   )a in M_2 there exists a corresponding neighborhood N of a in M_1 such that f [ N ] ⊆ N'.
+
+=== Continuous on a Space ===
+Let M_1 = ( A_1, d_1 ) and M_2 = ( A_2, d_2 ) be metric spaces.
+
+Let f: A_1 → A_2 be a mapping from A_1 to A_2.
+
+
+=== Definition 1 ===
+
+Let M_1 = ( A_1, d_1 ) and M_2 = ( A_2, d_2 ) be metric spaces.
+
+Let f: A_1 → A_2 be a mapping from A_1 to A_2.
+
+
+f is continuous from ( A_1, d_1 ) to ( A_2, d_2 )  if and only if  it is continuous at every point x ∈ A_1.
+
+=== Definition 2 ===
+Let M_1 = ( A_1, d_1 ) and M_2 = ( A_2, d_2 ) be metric spaces.
+
+Let f: A_1 → A_2 be a mapping from A_1 to A_2.
+
+
+f is continuous from ( A_1, d_1 ) to ( A_2, d_2 )  if and only if :
+:for every U ⊆ A_2 which is open in M_2, f^-1[ U ] is open in M_1.
+
+
+By definition, this is equivalent to the continuity of f with respect to the induced topologies on A_1 and A_2.",Definition:Continuous Mapping (Metric Space)
+77,Definition:Continuous Extension,Continuous,"Let T_1 = (S_1, τ_1) and T_2 = (S_2, τ_2) be topological spaces.
+
+Let A, B ⊆ S_1 be subsets of S_1 such that A ⊆ B.
+
+Let f: A → S_2 and g: B → S_2 be continuous mappings.
+
+
+Then g is a continuous extension of f  if and only if :
+:∀ s ∈ A: f (s) = g (s)
+
+
+That is, a continuous extension of f is a continuous mapping on a superset which agrees with f on the domain of f.
+
+
+Simply, it is a continuous mapping which is an extension.
+
+
+=== Real Function ===
+Let A, B ⊆ℝ be subsets of the real numbers such that A ⊆ B.
+
+Let f: A →ℝ and g: B →ℝ be continuous real functions.
+
+
+Then g is a continuous extension of f  if and only if :
+:∀ x ∈ A : f (   )x = g (   )x
+
+
+Category:Definitions/Continuous Real Functions
+
+Category:Definitions/Continuity",Definition:Continuous Real Function/Right-Continuous
+78,Definition:Continuous Mapping (Topology),Continuous,"Let T_1 = ( S_1, τ_1 ) and T_2 = ( S_2, τ_2 ) be topological spaces.
+
+Let f: S_1 → S_2 be a mapping from S_1 to S_2.",Definition:Continuous Real Function/Right-Continuous
+79,Definition:Continuous Functor,Continuous,"Let 𝐂, 𝐃 be metacategories.
+
+Let F: 𝐂→𝐃 be a functor.
+
+
+Then F is continuous  if and only if  for all diagrams D: 𝐉→𝐂 with limit _j   D_j:
+
+:F (   ) _j   D_j≅ _j   F D_j
+
+where F D: 𝐉→𝐃 is the diagram obtained by composition of F with D, and 𝐉 is an arbitrary metacategory.",Definition:Continuous Functor
+80,Definition:Degree of Algebraic Element,Degree,"Let E / F be a field extension.
+
+Let α∈ E be algebraic over F.
+
+
+The degree of α is the degree of the minimal polynomial μ_F (   )α whose coefficients are all in F.",Definition:Algebraic Number over Field/Degree
+81,Definition:Transcendence Degree,Degree,"Let K be a field, and let L/K be a field extension of K.
+
+The transcendence degree of L/K is the largest cardinality of an algebraically independent subset A ⊆ L.
+
+Category:Definitions/Field Extensions",Definition:Field Extension/Degree
+82,Definition:Degree of Vertex,Degree,"Let G = ( V, E ) be an undirected graph.
+
+Let v ∈ V be a vertex of G.
+
+
+The degree of v in G is the number of edges to which it is incident.
+
+It is denoted _G (   )v, or just (   )v if it is clear from the context which graph is being referred to.
+
+
+That is:
+:_G (   )v = |{ u ∈ V : { u, v }∈ E }|
+
+
+=== Even Vertex ===
+Let G = ( V, E ) be an undirected graph.
+
+Let v ∈ V be a vertex of G.
+
+
+If the degree of v is even, then v is called an even vertex.
+
+=== Odd Vertex ===
+Let G = ( V, E ) be an undirected graph.
+
+Let v ∈ V be a vertex of G.
+
+
+If the degree of v is odd, then v is an odd vertex.
+
+=== Isolated Vertex ===
+Let G = ( V, E ) be an undirected graph.
+
+Let v ∈ V be a vertex of G.
+
+
+If the degree of v is zero, then v is an isolated vertex.",Definition:Degree of Vertex
+83,Definition:Degree of Arc,Degree,"The degree (of arc) is a unit of measurement of the length of an arc of a circle.
+
+It is defined as the length of the arc which subtends 1 degree (of angle) at the center of the circle.",Definition:Degree of Arc
+84,Definition:Algebraic Curve/Degree,Degree," 
+
+
+The degree of an algebraic curve is defined as the highest degree of the polynomial equations defining it.",Definition:Algebraic Curve/Degree
+85,Definition:Degrees of Freedom (Physics),Degree,"Consider an oscillating system S disturbed from equilibrium.
+
+=== Definition 1 ===
+Consider an oscillating system S disturbed from equilibrium.
+
+
+The number of degrees of freedom of S is the number of normal modes of oscillation of S.
+
+=== Definition 2 ===
+Consider an oscillating system S disturbed from equilibrium.
+
+
+The number of degrees of freedom of S is the number of independent variables needed to specify the configuration of S at any time.",Definition:Transcendence Degree
+86,Definition:Celsius,Degree,"Celsius is a temperature scale.
+
+Its two reference points are:
+:0   ^∘C, which is set at the melting point of water.
+:100   ^∘C, which is set at the boiling point of water, as defined at sea level and standard atmospheric pressure.
+
+
+A temperature measured in Celsius is often referred to as so many degrees Celsius.
+
+
+=== Conversion Factors ===
+
+
+=== Symbol ===
+The symbol for the degree Celsius is ^∘C.",Definition:Homogeneous Function/Degree
+87,Definition:Fahrenheit,Degree,"Fahrenheit is a temperature scale.
+
+Its two reference points are:
+:32   ^∘F, which is set at the melting point of water.
+:212   ^∘F, which is set at the boiling point of water, as defined at sea level and standard atmospheric pressure.
+
+
+A temperature measured in Fahrenheit is often referred to as so many degrees Fahrenheit.
+
+
+=== Conversion Factors ===
+
+
+=== Symbol ===
+ ",Definition:Degrees of Freedom (Physics)
+88,Definition:Spline Function/Degree,Degree,"Let [ a  . . ]b be a closed real interval.
+
+Let T := { a = t_0, t_1, t_2, …, t_n - 1, t_n = b } form a subdivision of [ a  . . ]b.
+
+Let S: [ a  . . ]b →ℝ be a spline function on [ a  . . ]b on T.
+
+
+The degree of S is the maximum degree of the polynomials P_k fitted between t_k and t_k + 1.
+
+
+=== Order ===
+Let [ a  . . ]b be a closed real interval.
+
+Let T := { a = t_0, t_1, t_2, …, t_n - 1, t_n = b } form a subdivision of [ a  . . ]b.
+
+Let S: [ a  . . ]b →ℝ be a spline function on [ a  . . ]b on T.
+
+
+Some sources, instead of referring to the degree of a spline, use the order.
+
+Let the maximum degree of the polynomials P_k fitted between t_k and t_k + 1 be n.
+
+The order of S is then n + 1.
+
+
+Category:Definitions/Splines
+
+Category:Definitions/Splines",Definition:Spline Function/Degree
+89,Definition:Degrees of Freedom (Statistics),Degree,"The number of degrees of freedom is essentially the number of independent units of information in a sample relevant to the estimation of a parameter or calculation of a statistic.
+
+One approach is to regard the n observations as the initial data, one of which is used to determine the total or mean.
+
+As the mean must be known before we can determine deviations from it, there are n - 1 degrees of freedom left to estimate the variance.
+
+Hence, in the sense that the total is fixed, only n - 1 values can be assigned arbitrarily, as the remaining one is then fixed to ensure the correct total.",Definition:Degrees of Freedom (Statistics)
+90,Definition:Dimension (Representation Theory),Dimension,"Let ( k, +, ∘) be a field.
+
+Let V be a vector space over k of finite dimension.
+
+Let GL( V ) be the general linear group of V.
+
+Let ( G, ·) be a finite group.
+
+Let ρ: G →GL( V ) be a linear representation of G on V.
+
+
+The dimension or degree of ρ, written (   )ρ is the dimension of the vector space V.
+
+Category:Definitions/Representation Theory",Definition:Dimension (Representation Theory)
+91,Definition:Krull Dimension of Ring,Dimension,"Let ( R, +, ∘) be a commutative ring with unity.
+
+
+The Krull dimension of R is the supremum of lengths of chains of prime ideals, ordered by the subset relation:
+ 
+ 
+ 
+ 
+where:
+:ht(   )𝔭 is the height of 𝔭
+:Spec( R ) is the prime spectrum of R
+
+
+
+In particular, the Krull dimension is ∞ if there exist arbitrarily long chains.",Definition:Krull Dimension of Ring
+92,Definition:Krull Dimension of Topological Space,Dimension,"Let T be a topological space.
+
+
+Its Krull dimension _Krull(   )T is the supremum of lengths of chains of closed irreducible sets of T, ordered by the subset relation.
+
+Thus, the Krull dimension is ∞ if there exist arbitrarily long chains.",Definition:Krull Dimension of Topological Space
+93,Definition:Differential Equation/Order,Dimension,The order of a differential equation is defined as being the order of the highest order derivative that is present in the equation.,Definition:Differential Equation/Order
+94,Definition:Configuration Space/Dimension,Dimension,The dimension of a configuration space S is the number of degrees of freedom of the system defined by S.,Definition:Configuration Space/Dimension
+95,Definition:Dimension (Measurement),Dimension,"Every physical quantity has a dimension associated with it.
+
+No attempt is made here to provide an abstract definition of this term. Instead, it will be defined by example.
+
+
+=== Fundamental Dimensions ===
+The SI-recommended fundamental dimensions are:
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== Units ===
+Compare with units of measurement.
+
+This concept of dimension is more abstract than that of units, which are standard quantities of the particular dimension in question.
+
+
+=== Examples ===
+ 
+
+Category:Definitions/Units of Measurement
+Category:Definitions/Dimensions of Measurement",Definition:Dimension (Measurement)
+96,Definition:Directed Walk,Directed,"Let G = ( V, A ) be a digraph.
+
+
+A directed walk in G is a finite or infinite sequence ⟨ x_k ⟩ such that:
+
+:∀ k ∈ℕ: k + 1 ∈Dom( ⟨ x_k ⟩): ( x_k, x_k + 1) ∈ A",Definition:Directed Walk
+97,Definition:Network/Directed,Directed,"A directed network is a network whose underlying graph is a digraph:
+
+
+:",Definition:Network/Directed
+98,Definition:Direct Limit,Directed,"Let 𝐂 be a category.
+
+Let I be a directed ordered set.
+
+Let 𝐈 be the order category of I.
+
+Let D : 𝐈→𝐂 be a diagram.
+
+
+The direct limit of D is the colimit of the diagram D.",Definition:Directed Preordering
+99,Definition:Discrete Set of Subsets,Discrete,"Let T = ( S, τ) be a topological space.
+
+Let ℱ be a set of subsets of S.
+
+
+Then ℱ is discrete  if and only if  each element of S has a neighborhood which intersects at most one of the sets in ℱ.",Definition:Discrete Set of Subsets
+100,Definition:Discrete Geometry,Discrete,Discrete geometry is a branch of geometry that studies constructive methods of discrete geometric objects.,Definition:Discrete Geometry
+101,Definition:Discrete Measure,Discrete,"Let ( X, x3a3, μ) be a measure space.
+
+
+Then μ is said to be a discrete measure  if and only if  it is a series of Dirac measures.
+
+That is,  if and only if  there exist:
+:a sequence ⟨ x_n ⟩_n ∈ℕ in X
+and:
+:a sequence ⟨λ_n ⟩_n ∈ℕ in ℝ
+
+such that:
+
+:(1):  ∀ E ∈x3a3: μ(   )E = ∑_n ∈ℕλ_n  δ_x_n(   )E
+
+where δ_x_n denotes the Dirac measure at x_n.
+
+
+By Series of Measures is Measure, defining μ by (1) yields a measure.",Definition:Discrete Measure
+102,Definition:Discrete Probability Distribution,Discrete,A discrete probability distribution is a probability distribution of a discrete random variable.,Definition:Discrete Probability Distribution
+103,Definition:Sample Space/Discrete,Discrete,"Let ℰ be an experiment.
+
+Let Ω denote the sample space of ℰ.
+
+
+If Ω is a countable set, whether finite or infinite, then it is known as a discrete sample space.",Definition:Sample Space/Discrete
+104,Definition:Variable/Discrete,Discrete,A discrete variable is a variable which is not continuous.,Definition:Discrete Measure
+105,Definition:Sample Statistic/Discrete,Discrete,Data which can be described with a discrete variable are known as discrete data.,Definition:Discrete Mathematics
+106,Definition:Distance between Parallel Planes,Distance,"Let P_1 and P_2 be parallel planes.
+
+The distance between P_1 and P_2 is defined as the length of a line segment joining P_1 and P_2 that is perpendicular to both.",Definition:Distance between Parallel Planes
+107,Definition:Angular Distance,Distance,"The angular distance between two points A and B   a reference point P is the angle between the straight lines AP and BP, that is:
+:∠ APB",Definition:Angular Distance
+108,Definition:Hamming Distance,Distance,"Let u and v be two codewords of a linear code.
+
+The Hamming distance between u and v is the number of corresponding terms at which u and v are different.",Definition:Distance between Parallel Planes
+109,Definition:Distance (Graph Theory),Distance,"=== Undirected Graph ===
+Let G = ( V, E ) be an undirected graph.
+
+Let u, v ∈ V be vertices of V.
+
+
+The distance between u and v is the length of the shortest path from u to v.
+
+=== Digraph ===
+Let G = ( V, E ) be a digraph.
+
+Let u, v ∈ V be vertices of V.
+
+
+The distance from u to v is the length of the shortest path from u to v.",Definition:Distance (Graph Theory)
+110,Definition:Algebraic Dual/Double Dual,Dual,"Let R be a commutative ring.
+
+Let G be an R-module.
+
+
+The double dual G^** of G is the dual of its dual G^*.
+
+
+Category:Definitions/Algebraic Duals",Definition:Algebraic Dual/Double Dual
+111,Definition:Ordered Dual Basis,Dual,"Let R be a commutative ring with unity.
+
+Let ( G, +_G, ∘)_R be an n-dimensional module over R.
+
+Let ⟨ a_n ⟩ be an ordered basis of G.
+
+Let G^* be the algebraic dual of G.
+
+
+Then there is an ordered basis ⟨ a'_n ⟩ of G^* satisfying ∀ i, j ∈[ 1  . . ]n: a'_i (   )a_j = δ_i j.
+
+
+This ordered basis ⟨ a'_n ⟩ of G^* is called the ordered basis of G^* dual to ⟨ a_n ⟩, or the ordered dual basis of G^*.",Definition:Ordered Dual Basis
+112,Definition:Dual Vector Space,Dual,"Let V be a vector space.
+
+Let ϕ: V →ℝ be a linear mapping.
+
+
+The set of all ϕ is called a dual space (of V) and is denoted by V^*.",Definition:Dual Vector Space
+113,Definition:Normed Dual Space,Dual,"Let ( X, ‖·‖_X ) be a normed vector space.
+
+Let X^∗ be the vector space of bounded linear functionals on X. 
+
+Let ‖·‖_X^∗ be the norm on bounded linear functionals.
+
+
+We say that ( X^∗, ‖·‖_X^∗) is the normed dual space of X.",Definition:Normed Dual Space
+114,Definition:Second Normed Dual,Dual,"Let ( X, ‖·‖_X ) be a normed vector space.
+
+Let ( X^∗, ‖·‖_X^∗) be the normed dual of ( X, ‖·‖_X ).
+
+
+We define the second normed dual, written ( X^∗∗, ‖·‖_X^∗∗) as the normed dual of ( X^∗, ‖·‖_X^∗).",Definition:Normed Dual Space
+115,Definition:Dual Category,Dual,"Let 𝐂 be a metacategory.
+
+
+Its dual category, denoted 𝐂^op, is defined as follows:
+
+ 
+
+It can be seen that this comes down to the metacategory obtained by reversing the direction of all morphisms of 𝐂.",Definition:Dual Category
+116,Definition:Dual Statement (Category Theory),Dual,"=== Morphisms-Only Category Theory ===
+
+Let x3a3 be a statement in the language of category theory.
+
+The dual statement x3a3^* of x3a3 is the statement obtained from substituting:
+
+ 
+ 
+ 
+ 
+ 
+
+
+=== Object Category Theory ===
+
+In the more convenient description of metacategories by using objects, the dual statement x3a3^* of x3a3 then becomes the statement obtained from substituting:
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+=== Example ===
+
+For example, if x3a3 is the statement:
+
+:∃ g: g ∘ f = id_Dom( f )
+
+describing that f is a split mono, then x3a3^* becomes:
+
+:∃ g: f ∘ g = id_Cdm( f )
+
+which precisely expresses f to be a split epi.
+
+
+For a set ℰ of statements, write:
+
+:ℰ^* := {x3a3^*: x3a3∈ℰ} 
+
+for the set comprising of the dual statement of those in ℰ.",Definition:Dual Category
+117,Definition:Dual Polyhedron,Dual,"Let P be a polyhedron.
+
+The dual polyhedron D of P is the polyhedron which can be constructed as follows:
+
+:(1): The vertices of D are the centroids of the faces of P.
+
+:(2): For each edge of P which is adjacent to two faces F_1 and F_2 of P, an edge of D is constructed which is adjacent to the vertices of D forming the centroids of F_1 and F_2.",Definition:Dual Polyhedron
+118,Definition:Generated Subring,Generated,"Let ( R, +, ∘) be a ring.
+
+Let S ⊆ R be a subset.
+
+
+The subring generated by S is the smallest subring of R containing S; that is, it is the intersection of all subrings of R containing S.",Definition:Generated Ideal of Ring
+119,Definition:Generated Ring Extension,Generated,"Let S be a commutative rings with unity.
+
+Let R be a subring of S with unity such that the unity of R is the unity of S.
+
+That is, S is a ring extension of R.
+
+
+Let T ⊆ S be a subset of S.
+
+
+=== Definition 1 ===
+Let S be a commutative rings with unity.
+
+Let R be a subring of S with unity such that the unity of R is the unity of S.
+
+That is, S is a ring extension of R.
+
+
+Let T ⊆ S be a subset of S.
+
+
+=== Definition 1 ===
+Let S be a commutative rings with unity.
+
+Let R be a subring of S with unity such that the unity of R is the unity of S.
+
+That is, S is a ring extension of R.
+
+
+Let T ⊆ S be a subset of S.
+
+
+=== Definition 1 ===
+
+
+=== Definition 2 ===
+
+
+The ring extension R [ T ] generated by T is the smallest subring of S containing T and R, that is, the intersection of all subrings of S containing T and R.
+
+Thus T is a generator of R [ T ]  if and only if  R [ T ] has no proper subring containing T and R.
+
+=== Definition 2 ===
+Let S be a commutative rings with unity.
+
+Let R be a subring of S with unity such that the unity of R is the unity of S.
+
+That is, S is a ring extension of R.
+
+
+Let T ⊆ S be a subset of S.
+
+
+=== Definition 1 ===
+
+
+=== Definition 2 ===
+
+
+Let R [ { X_t }] be the polynomial ring in T variables X_t.
+
+Let ev : R [ { X_t }] → S be the evaluation homomorphism associated with the inclusion T ↪ S.
+
+
+The ring extension R [ T ] generated by T is Img( ev), the image of ev.
+
+T is said to be a generator of R [ T ].
+
+The ring extension R [ T ] generated by T is the smallest subring of S containing T and R, that is, the intersection of all subrings of S containing T and R.
+
+Thus T is a generator of R [ T ]  if and only if  R [ T ] has no proper subring containing T and R.
+
+=== Definition 2 ===
+Let S be a commutative rings with unity.
+
+Let R be a subring of S with unity such that the unity of R is the unity of S.
+
+That is, S is a ring extension of R.
+
+
+Let T ⊆ S be a subset of S.
+
+
+=== Definition 1 ===
+Let S be a commutative rings with unity.
+
+Let R be a subring of S with unity such that the unity of R is the unity of S.
+
+That is, S is a ring extension of R.
+
+
+Let T ⊆ S be a subset of S.
+
+
+=== Definition 1 ===
+
+
+=== Definition 2 ===
+
+
+The ring extension R [ T ] generated by T is the smallest subring of S containing T and R, that is, the intersection of all subrings of S containing T and R.
+
+Thus T is a generator of R [ T ]  if and only if  R [ T ] has no proper subring containing T and R.
+
+=== Definition 2 ===
+Let S be a commutative rings with unity.
+
+Let R be a subring of S with unity such that the unity of R is the unity of S.
+
+That is, S is a ring extension of R.
+
+
+Let T ⊆ S be a subset of S.
+
+
+=== Definition 1 ===
+
+
+=== Definition 2 ===
+
+
+Let R [ { X_t }] be the polynomial ring in T variables X_t.
+
+Let ev : R [ { X_t }] → S be the evaluation homomorphism associated with the inclusion T ↪ S.
+
+
+The ring extension R [ T ] generated by T is Img( ev), the image of ev.
+
+T is said to be a generator of R [ T ].
+
+Let R [ { X_t }] be the polynomial ring in T variables X_t.
+
+Let ev : R [ { X_t }] → S be the evaluation homomorphism associated with the inclusion T ↪ S.
+
+
+The ring extension R [ T ] generated by T is Img( ev), the image of ev.
+
+T is said to be a generator of R [ T ].",Definition:Generated Ring Extension
+120,Definition:Generated Field Extension,Generated,"Let E / F be a field extension.
+
+Let S ⊂ E be a subset of E.
+
+
+=== Definition 1 ===
+Let E / F be a field extension.
+
+Let S ⊂ E be a subset of E.
+
+
+The field extension F [ S ] generated by S is the smallest subfield extension of E containing S, that is, the intersection of all subfields of E containing S and F.
+
+Thus S is a generator of F [ S ]  if and only if  F [ S ] has no proper subfield extension containing S.
+
+=== Definition 2 ===
+Let E / F be a field extension.
+
+Let S ⊂ E be a subset of E.
+
+
+Let F [ { X_s }] be the polynomial ring in S variables X_s.
+
+Let ev : F [ { X_s }] → E be the evaluation homomorphism associated to the inclusion S ↪ E.
+
+
+The field extension F [ S ] generated by S is the set of all elements of E of the form ev(   )f / ev(   )g, where ev(   )g  0.
+
+S is said to be a generator of F [ S ].",Definition:Generated Algebraic Substructure
+121,Definition:Topology Generated by Synthetic Basis,Generated,"Let S be a set.
+
+Let ℬ be a synthetic basis of S.
+
+
+=== Definition 1 ===
+Let S be a set.
+
+Let ℬ be a synthetic basis of S.
+
+
+The topology on S generated by ℬ is defined as:
+:τ = {⋃𝒜: 𝒜⊆ℬ}
+
+That is, the set of all unions of sets from ℬ.
+
+
+Category:Definitions/Topology
+
+=== Definition 2 ===
+Let S be a set.
+
+Let ℬ be a synthetic basis of S.
+
+
+The topology on S generated by ℬ is defined as:
+:τ = { U ⊆ S: U = ⋃{ B ∈ℬ: B ⊆ U }}
+
+
+Category:Definitions/Topology
+
+=== Definition 3 ===
+Let S be a set.
+
+Let ℬ be a synthetic basis of S.
+
+
+The topology on S generated by ℬ is defined as:
+:τ = { U ⊆ S: ∀ x ∈ U: ∃ B ∈ℬ: x ∈ B ⊆ U }
+
+
+Category:Definitions/Topology",Definition:Monotone Class Generated by Collection of Subsets
+122,Definition:Topology Generated by Synthetic Sub-Basis,Generated,"Let X be a set.
+
+Let 𝒮⊆𝒫( X ) be a synthetic sub-basis on X.
+
+
+=== Definition 1 ===
+Let S be a set.
+
+Let 𝒮⊆𝒫( S ) be a synthetic sub-basis on S.
+
+
+Define:
+:ℬ = {⋂ℱ: ℱ⊆𝒮, ℱ is finite}
+
+That is, ℬ is the set of all finite intersections of sets in 𝒮.
+
+Note that ℱ is allowed to be empty in the above definition.
+
+
+The topology generated by 𝒮, denoted τ(   )𝒮, is defined as:
+:τ(   )𝒮 = {⋃𝒜: 𝒜⊆ℬ}
+
+
+It follows directly from Synthetic Basis formed from Synthetic Sub-Basis and Union from Synthetic Basis is Topology that τ(   )𝒮 is a topology on S.
+
+=== Definition 2 ===
+Let X be a set.
+
+Let 𝒮⊆𝒫( X ) be a synthetic sub-basis on X.
+
+
+The topology generated by 𝒮, denoted τ(   )𝒮, is defined as the unique topology on X that satisfies the following axioms:
+:(1):   𝒮⊆τ(   )𝒮
+:(2): For any topology 𝒯 on X, the implication 𝒮⊆𝒯τ(   )𝒮⊆𝒯 holds.
+
+That is, τ(   )𝒮 is the coarsest topology on X for which every element of 𝒮 is open.",Definition:Monotone Class Generated by Collection of Subsets
+123,Definition:Dynkin System Generated by Collection of Subsets,Generated,"Let X be a set.
+
+Let 𝒢⊆𝒫( X ) be a collection of subsets of X.
+
+
+Then the Dynkin system generated by 𝒢, denoted δ(   )𝒢, is the smallest Dynkin system on X that contains 𝒢.
+
+That is, δ(   )𝒢 is subject to:
+
+:(1):  𝒢⊆δ(   )𝒢
+:(2):  𝒢⊆𝒟δ(   )𝒢⊆𝒟 for any Dynkin system 𝒟 on X
+
+
+In fact, δ(   )𝒢 always exists, and is unique, as proved on Existence and Uniqueness of Dynkin System Generated by Collection of Subsets.
+
+
+=== Generator ===
+
+One says that 𝒢 is a generator for δ(   )𝒢.",Definition:Dynkin System Generated by Collection of Subsets
+124,Definition:Sigma-Algebra Generated by Collection of Subsets,Generated,"Let X be a set.
+
+Let 𝒢⊆𝒫( X ) be a collection of subsets of X.
+
+
+=== Definition 1 ===
+Let X be a set.
+
+Let 𝒢⊆𝒫( X ) be a collection of subsets of X.
+
+
+The σ-algebra generated by 𝒢, denoted σ(   )𝒢, is the smallest σ-algebra on X that contains 𝒢.
+
+That is, σ(   )𝒢 is subject to:
+
+:(1):   𝒢⊆σ(   )𝒢
+:(2): for all σ-algebras x3a3 on X: 𝒢⊆x3a3σ(   )𝒢⊆x3a3
+
+
+=== Generator ===
+Let X be a set.
+
+Let 𝒢⊆𝒫( X ) be a collection of subsets of X.
+
+Let σ(   )𝒢 be the σ-algebra generated by 𝒢.
+
+
+One says that 𝒢 is a generator for σ(   )𝒢.
+
+Also, elements G of 𝒢 may be called generators.
+
+=== Definition 2 ===
+Let X be a set.
+
+Let 𝒢⊆𝒫( X ) be a collection of subsets of X.
+
+
+The σ-algebra generated by 𝒢, σ(   )𝒢, is the intersection of all σ-algebras on X that contain 𝒢.
+
+
+=== Generator ===
+Let X be a set.
+
+Let 𝒢⊆𝒫( X ) be a collection of subsets of X.
+
+Let σ(   )𝒢 be the σ-algebra generated by 𝒢.
+
+
+One says that 𝒢 is a generator for σ(   )𝒢.
+
+Also, elements G of 𝒢 may be called generators.
+
+=== Generator ===
+Let X be a set.
+
+Let 𝒢⊆𝒫( X ) be a collection of subsets of X.
+
+Let σ(   )𝒢 be the σ-algebra generated by 𝒢.
+
+
+One says that 𝒢 is a generator for σ(   )𝒢.
+
+Also, elements G of 𝒢 may be called generators.",Definition:Sigma-Algebra Generated by Collection of Subsets
+125,Definition:Sigma-Algebra Generated by Collection of Mappings,Generated,"Let I be an indexing set.
+
+Let ⟨( X_i, x3a3_i )  ⟩_i ∈ I be a family of measurable spaces.
+
+Let X be a set.
+
+Let ⟨ f_i: X → X_i ⟩_i ∈ I be a family of mappings.
+
+
+Then the σ-algebra generated by ⟨ f_i ⟩_i ∈ I, σ(   )f_i: i ∈ I, is the smallest σ-algebra on X such that every f_i is σ(   )f_i: i ∈ I  /  x3a3_i-measurable.
+
+That is, σ(   )f_i: i ∈ I is subject to:
+
+:(1):  ∀ i ∈ I: ∀ E_i ∈x3a3_i: f_i^-1(   )E_i∈σ(   )f_i: i ∈ I
+:(2):  σ(   )f_i: i ∈ I⊆x3a3 for all σ-algebras x3a3 on X satisfying (1)
+
+
+In fact, σ(   )f_i: i ∈ I always exists, and is unique, as proved on Existence and Uniqueness of Sigma-Algebra Generated by Collection of Mappings.",Definition:Sigma-Algebra Generated by Collection of Mappings
+126,Definition:Monotone Class Generated by Collection of Subsets,Generated,"Let X be a set.
+
+Let 𝒢⊆𝒫( X ) be a collection of subsets of X.
+
+
+Then the monotone class generated by 𝒢, 𝔪(   )𝒢, is the smallest monotone class on X that contains 𝒢.
+
+That is, 𝔪(   )𝒢 is subject to:
+
+:(1):   𝒢⊆𝔪(   )𝒢
+:(2):   𝒢⊆ℳ𝔪(   )𝒢⊆ℳ for any monotone class ℳ on X
+
+
+=== Generator ===
+
+One says that 𝒢 is a generator for 𝔪(   )𝒢.",Definition:Monotone Class Generated by Collection of Subsets
+127,Definition:Filter Basis/Generated Filter,Generated,"Let S be a set.
+
+Let 𝒫( S ) be the power set of S.
+
+Let ℬ⊂𝒫( S ) be a filter basis of a filter ℱ on S.
+
+
+ℱ is said to be generated by ℬ.",Definition:Generated Submodule
+128,Definition:Harmonic Sequence,Harmonic,"A harmonic sequence is a sequence ⟨ a_k ⟩ in ℝ defined as:
+:h_k =  1 a + k d
+where:
+:k ∈{ 0, 1, 2, …}
+:- a d ∉{ 0, 1, 2, …}
+
+
+Thus its general form is:
+:1 a,  1 a + d,  1 a + 2 d,  1 a + 3 d, …
+
+
+=== Initial Term ===
+Let ⟨ h_k ⟩ be the harmonic sequence:
+
+:a_k =  1 a + k d for k = 0, 1, 2, …
+
+
+The term a is the initial term of ⟨ a_k ⟩.
+
+
+Category:Definitions/Harmonic Sequences
+
+=== Common Difference ===
+Let ⟨ h_k ⟩ be the harmonic sequence:
+
+:a_k =  1 a + k d for k = 0, 1, 2, …
+
+
+The term d is the common difference of ⟨ a_k ⟩.
+
+
+Category:Definitions/Harmonic Sequences",Definition:Harmonic Sequence
+129,Definition:Mercator's Constant,Harmonic,"Mercator's constant is the real number:
+
+ 
+ 
+ 
+ 
+ 
+
+ ",Definition:Mercator's Constant
+130,Definition:Harmonic Series/General,Harmonic,"Let ⟨ x_n ⟩ be a sequence of numbers such that ⟨| x_n |⟩ is a harmonic sequence.
+
+
+Then the series defined as:
+:∑_n  = 1^∞ x_n
+
+is a (general) harmonic series.",Definition:Harmonic Series/General
+131,Definition:Harmonic (Analysis),Harmonic,"A harmonic is a solution ϕ to Laplace's equation in 2 dimensions:
+:∇^2 ϕ = 0
+that is:
+:∂^2 ϕ∂ x^2 + ∂^2 ϕ∂ y^2 = 0",Definition:Spherical Harmonic
+132,Definition:Spherical Harmonic,Harmonic,A spherical harmonic is a solution ϕ to Laplace's equation in 3 dimensions when expressed in spherical coordinates.,Definition:Spherical Harmonic
+133,Definition:Surface Harmonic,Harmonic,"A surface harmonic is a spherical harmonic:
+:r^n ( a_n P_n (   )cosθ + ∑_m  = 1^n (  a_n^m cos m ϕ + b_n^m sin m ϕ)  P_n^m (   )cosθ)
+
+such that r = 1.
+
+That is:
+:a_n P_n (   )cosθ + ∑_m  = 1^n (  a_n^m cos m ϕ + b_n^m sin m ϕ)  P_n^m (   )cosθ",Definition:Spherical Harmonic
+134,Definition:Tesseral Harmonic,Harmonic,"A tesseral harmonic is a surface harmonic in the form:
+:cos m ϕ P_n^m (   )cosθ
+or:
+:sin m ϕ P_n^m (   )cosθ
+
+such that m < n.",Definition:Surface Harmonic
+135,Definition:Sectoral Harmonic,Harmonic,"A sectoral harmonic is a surface harmonic in the form:
+:cos m ϕ P_n^m (   )cosθ
+or:
+:sin m ϕ P_n^m (   )cosθ
+
+such that m = n.",Definition:Surface Harmonic
+136,Definition:Zonal Harmonic,Harmonic,"Let H be a spherical harmonic in the form:
+:r^n ( a_n P_n (   )cosθ + ∑_m  = 1^n (  a_n^m cos m ϕ + b_n^m sin m ϕ)  P_n^m (   )cosθ)
+
+The function P_n (   )cosθ is known as a zonal harmonic.",Definition:Zonal Harmonic
+137,Definition:Harmonic Potential Energy,Harmonic,"Let P be a physical particle.
+
+Let its position x (   )t be a real function, where t is time.
+
+Let k > 0.
+
+
+Then the potential energy of the form:
+
+:U (   )x =  1 2 k x^2
+
+is called the harmonic potential energy.",Definition:Harmonic Potential Energy
+138,Definition:Harmonic Oscillator,Harmonic,"Let P be a physical particle.
+
+Let the potential energy of P be that of the harmonic potential.
+
+
+Then P is called the harmonic oscillator.",Definition:Harmonic Potential Energy
+139,Definition:Simple Harmonic Motion,Harmonic,"Consider a physical system S whose motion can be expressed in the form of the following equation:
+:x = A sin(   )ω t + ϕ
+where A and ϕ are constants.
+
+
+Then S is in a state of simple harmonic motion.
+
+
+=== Amplitude ===
+Consider a physical system S in a state of simple harmonic motion:
+:x = A sin(   )ω t + ϕ
+
+
+The parameter A is known as the amplitude of the motion.
+
+=== Phase ===
+Consider a physical system S in a state of simple harmonic motion:
+:x = A sin(   )ω t + ϕ
+
+
+The expression ω t + ϕ is known as the phase of the motion.
+
+
+=== Initial Phase ===
+Consider a physical system S in a state of simple harmonic motion:
+:x = A sin(   )ω t + ϕ
+
+
+The parameter ϕ is known as the initial phase of the motion.
+
+Let S_1 and S_2 be physical systems in a state of simple harmonic motion described respectively by the equations:
+
+ 
+ 
+ 
+ 
+
+=== Out of Phase ===
+Let S_1 and S_2 be physical systems in a state of simple harmonic motion described respectively by the equations:
+
+ 
+ 
+ 
+ 
+
+S_1 and S_2 are out of phase  if and only if  α_1 α_2.
+
+
+=== Phase Difference ===
+Let S_1 and S_2 be physical systems in a state of simple harmonic motion described respectively by the equations:
+
+ 
+ 
+ 
+ 
+
+such that S_1 and S_2 are out of phase.
+
+The phase difference of S_1 and S_2 is defined as |α_1 - α_2 |.
+
+=== In Phase ===
+Let S_1 and S_2 be physical systems in a state of simple harmonic motion described respectively by the equations:
+
+ 
+ 
+ 
+ 
+
+S_1 and S_2 are in phase  if and only if  α_1 = α_2.
+
+=== Period ===
+Consider a physical system S in a state of simple harmonic motion:
+:x = A sin(   )ω t + ϕ
+
+
+The period T of the motion of S is the time required for one complete cycle:
+:T = 2 πω
+
+=== Frequency ===
+Consider a physical system S in a state of simple harmonic motion:
+:x = A sin(   )ω t + ϕ
+
+
+The frequency ν of the motion of S is the number of complete cycles per unit time:
+:ν =  1 T = ω2 π",Definition:Harmonic Analysis
+140,Definition:Harmonic Ratio,Harmonic,"Let A, B, C and D be points on a straight line.
+
+Let the cross-ratio { A, B; C, D } of A, B, C and D be equal to -1:
+:AC / CBAD / DB = -1
+that is:
+:AC · DBAD · CB = -1
+
+
+Then { A, B; C, D } is known as a harmonic ratio.",Definition:Surface Harmonic
+141,Definition:Harmonic Range,Harmonic,"Let A and B be points on a straight line.
+
+Let P and Q lie on AB such that P is on the line segment AB while Q is outside the line segment AB.
+
+
+:
+
+
+Let P and Q be positioned such that the cross-ratio { A, B; P, Q } forms a harmonic ratio:
+:APPB = -AQQB
+
+
+Then ( AB, PQ ) are said to be a harmonic range.",Definition:Tesseral Harmonic
+142,Definition:Harmonic Conjugates,Harmonic,"=== Harmonic Range ===
+Let AB and PQ be line segments on a straight line such that ( AB, PQ ) is a harmonic range.
+
+Then P and Q are said to be harmonic conjugates with respect to A and B.
+
+=== Harmonic Pencil ===
+Let AB and PQ be line segments on a straight line such that ( AB, PQ ) is a harmonic range.
+
+Let O be a point which is not on the straight line AB.
+
+Let O (   )AB, PQ be the harmonic pencil formed from O and ( AB, PQ ).
+
+
+:
+
+
+The rays OP and OQ are said to be harmonic conjugates with respect to OA and OB.",Definition:Tesseral Harmonic
+143,Definition:Harmonic Pencil,Harmonic,"Let A and B be points on a straight line.
+
+Let P and Q lie on AB such that ( AB, PQ ) is a harmonic range.
+
+
+Let O be a point which is not on the straight line AB.
+
+
+:
+
+
+Then the pencil O (   )AB, PQ formed by joining O to the four points A, B, P and Q is said to be a harmonic pencil.",Definition:Tesseral Harmonic
+144,Definition:Integral Multiple,Integral,"=== Rings and Fields ===
+Let ( F, +, ×) be a ring or a field whose zero is 0_F.
+
+Let a ∈ F.
+
+Let n ∈ℤ be an integer.
+
+Then n · a is an integral multiple of a where n · a is defined as:
+
+:n · a := 
+0_F     : n = 0 
+( ( n - 1 ) · a ) + a     : n > 1 
+| n |·( -a )     : n < 0
+where | n | is the absolute value of n.
+
+
+Using sum notation:
+:n · a := ∑_j  = 1^n a
+
+=== Real Numbers ===
+
+This concept is often seen when F is the set of real numbers ℝ.
+
+Let x, y ∈ℝ be real numbers.
+
+Then x is an integral multiple of y  if and only if  x is congruent to 0 modulo y:
+:x ≡ 0  y
+
+That is:
+:∃ k ∈ℤ: x = 0 + k y",Definition:Integral Element of Ring Extension
+145,Definition:Floor Function,Integral,":
+
+
+Let x be a real number.
+
+Informally, the floor function of x is the greatest integer less than or equal to x.
+
+=== Definition 1 ===
+Let x be a real number.
+
+
+The floor function of x is defined as the supremum of the set of integers no greater than x:
+:⌊ x ⌋ := sup{ m ∈ℤ: m ≤ x }
+where ≤ is the usual ordering on the real numbers.
+
+=== Definition 2 ===
+Let x ∈ℝ be a real number.
+
+
+The floor function of x, denoted ⌊ x ⌋, is defined as the greatest element of the set of integers:
+:{ m ∈ℤ: m ≤ x }
+where ≤ is the usual ordering on the real numbers.
+
+=== Definition 3 ===
+Let x be a real number.
+
+
+The floor function of x is the unique integer ⌊ x ⌋ such that:
+:⌊ x ⌋≤ x < ⌊ x ⌋ + 1",Definition:Floor Function
+146,Definition:Calculus/Integral,Integral,"Integral calculus is a subfield of calculus which is concerned with the study of the rates at which quantities accumulate.
+
+Equivalently, given the rate of change of a quantity integral calculus provides techniques of providing the quantity itself.
+
+The equivalence of the two uses are demonstrated in the Fundamental Theorem of Calculus.
+
+The technique is also frequently used for the purpose of calculating areas and volumes of curved geometric figures.",Definition:Definite Integral
+147,Definition:Integral (Calculus),Integral,"=== Indefinite Integral ===
+Let F be a real function which is continuous on the closed interval [ a  . . ]b and differentiable on the open interval ( a  . . )b.
+
+Let f be a real function which is continuous on the open interval ( a  . . )b.
+
+
+Let:
+:∀ x ∈( a  . . )b: F' (   )x = f (   )x
+where F' denotes the derivative of F   x.
+
+
+Then F is a primitive of f, and is denoted:
+:F = ∫ f (   )x  d x
+
+=== Definite Integral ===
+Let [ a  . . ]b be a closed real interval.
+
+Let f: [ a  . . ]b →ℝ be a real function.
+
+Let Δ be a finite subdivision of [ a  . . ]b, Δ = { x_0, …, x_n }, x_0 = a and x_n = b.
+
+Let there for Δ be a corresponding sequence C of sample points c_i, C = ( c_1, …, c_n ), where c_i ∈[ x_i - 1 . . ]x_i for every i ∈{ 1, …, n }.
+
+Let S (   )f; Δ, C denote the Riemann sum of f for the subdivision Δ and the sample point sequence C.
+
+
+Then f is said to be (properly) Riemann integrable on [ a  . . ]b  if and only if :
+:∃ L ∈ℝ: ∀ϵ∈ℝ_>0: ∃δ∈ℝ_>0: ∀ finite subdivisions Δ of [ a  . . ]b: ∀ sample point sequences C of Δ: ‖Δ‖ < δ| S (   )f; Δ, C - L | < ϵ
+where ‖Δ‖ denotes the norm of Δ.
+
+
+The real number L is called the Riemann integral of f over [ a  . . ]b and is denoted:
+:∫_a^b f (   )x  d x
+
+
+More usually (and informally), we say:
+:f is (Riemann) integrable over [ a  . . ]b.
+
+
+=== Riemann Integral as Integral Operator ===
+Let C [ a  . . ]b be the space of continuous functions.
+
+Let x ∈ C [ a  . . ]b be a Riemann integrable function.
+
+Let ℝ be the set of real numbers.
+
+
+The Riemann integral operator, denoted by I, is the mapping I : C [ a  . . ]b →ℝ such that:
+
+:I (   )x := ∫_a^b x (   )t  d t
+
+where ∫_a^b x (   )t  d t is the Riemann integral.",Definition:Integral Multiple
+148,Definition:Definite Integral,Integral,"Let [ a  . . ]b be a closed real interval.
+
+Let f: [ a  . . ]b →ℝ be a real function.
+
+
+=== Riemann Integral ===
+Let [ a  . . ]b be a closed real interval.
+
+Let f: [ a  . . ]b →ℝ be a real function.
+
+Let Δ be a finite subdivision of [ a  . . ]b, Δ = { x_0, …, x_n }, x_0 = a and x_n = b.
+
+Let there for Δ be a corresponding sequence C of sample points c_i, C = ( c_1, …, c_n ), where c_i ∈[ x_i - 1 . . ]x_i for every i ∈{ 1, …, n }.
+
+Let S (   )f; Δ, C denote the Riemann sum of f for the subdivision Δ and the sample point sequence C.
+
+
+Then f is said to be (properly) Riemann integrable on [ a  . . ]b  if and only if :
+:∃ L ∈ℝ: ∀ϵ∈ℝ_>0: ∃δ∈ℝ_>0: ∀ finite subdivisions Δ of [ a  . . ]b: ∀ sample point sequences C of Δ: ‖Δ‖ < δ| S (   )f; Δ, C - L | < ϵ
+where ‖Δ‖ denotes the norm of Δ.
+
+
+The real number L is called the Riemann integral of f over [ a  . . ]b and is denoted:
+:∫_a^b f (   )x  d x
+
+
+More usually (and informally), we say:
+:f is (Riemann) integrable over [ a  . . ]b.
+
+
+=== Riemann Integral as Integral Operator ===
+Let C [ a  . . ]b be the space of continuous functions.
+
+Let x ∈ C [ a  . . ]b be a Riemann integrable function.
+
+Let ℝ be the set of real numbers.
+
+
+The Riemann integral operator, denoted by I, is the mapping I : C [ a  . . ]b →ℝ such that:
+
+:I (   )x := ∫_a^b x (   )t  d t
+
+where ∫_a^b x (   )t  d t is the Riemann integral.
+
+=== Darboux Integral ===
+Let [ a  . . ]b be a closed real interval.
+
+Let f: [ a  . . ]b →ℝ be a real function.
+
+Let f be bounded on [ a  . . ]b.
+
+
+Suppose that:
+:∫_a^b f (   )x  d x = ∫_a^b f (   )x  d x
+where ∫_a^b and ∫_a^b denote the lower Darboux integral and upper Darboux integral, respectively.
+
+
+Then the definite (Darboux) integral of f over [ a  . . ]b is defined as:
+:∫_a^b f (   )x  d x = ∫_a^b f (   )x  d x = ∫_a^b f (   )x  d x
+
+
+f is formally defined as (properly) integrable over [ a  . . ]b in the sense of Darboux, or (properly) Darboux integrable over [ a  . . ]b.
+
+
+More usually (and informally), we say:
+:f is (Darboux) integrable over [ a  . . ]b.",Definition:Integrally Closed
+149,Definition:Primitive (Calculus),Integral,"=== Primitive of Real Function ===
+Let F be a real function which is continuous on the closed interval [ a  . . ]b and differentiable on the open interval ( a  . . )b.
+
+Let f be a real function which is continuous on the open interval ( a  . . )b.
+
+
+Let:
+:∀ x ∈( a  . . )b: F' (   )x = f (   )x
+where F' denotes the derivative of F   x.
+
+
+Then F is a primitive of f, and is denoted:
+:F = ∫ f (   )x  d x
+
+=== Primitive of Complex Function ===
+Let F: D →ℂ be a complex function which is complex-differentiable on a connected domain D.
+
+Let f: D →ℂ be a continuous complex function.
+
+
+Let:
+:∀ z ∈ D: F' (   )z = f (   )z
+where F' denotes the derivative of F   z.
+
+
+Then F is a primitive of f, and is denoted:
+:F = ∫ f (   )z  d z
+
+=== Primitive of Vector-Valued Function ===
+Let U ⊂ℝ be an open set in ℝ.
+
+Let 𝐟: U →ℝ^n be a vector-valued function on U:
+
+:∀ x ∈ U: 𝐟(   )x = ∑_k  = 1^n f_k (   )x 𝐞_k
+
+where:
+:f_1, f_2, …, f_n are real functions from U to ℝ
+:( 𝐞_1, 𝐞_2, …, 𝐞_k ) denotes the standard ordered basis on ℝ^n.
+
+Let 𝐟 be differentiable on U.
+
+
+Let 𝐠(   )x := dd x𝐟(   )x be the derivative of 𝐟   x.
+
+
+The primitive of 𝐠   x is defined as:
+
+:∫𝐠(   )x  d x := 𝐟(   )x + 𝐜
+
+where 𝐜 is a arbitrary constant vector.",Definition:Integrally Closed
+150,Definition:Differential Equation/Solution,Integral,"Let Φ be a differential equation defined on a domain D.
+
+Let ϕ be a function which satisfies Φ on the whole of D.
+
+
+Then ϕ is known as a solution of Φ.
+
+
+Note that, in general, there may be more than one solution to a given differential equation.
+
+On the other hand, there may be none at all.
+
+
+=== General Solution ===
+Let Φ be a differential equation.
+
+The general solution to Φ is the set of all functions ϕ that satisfy Φ.
+
+
+ 
+
+=== Particular Solution ===
+Let Φ be a differential equation.
+
+Let S denote the solution set of Φ.
+
+A particular solution of Φ is the element of S, or subset of S, which satisfies a particular boundary condition of Φ.
+
+=== Weak Solution ===
+A weak solution is a solution to a non-standard formulation of a differential equation.
+
+ ",Definition:Differential Equation/Solution
+151,Definition:Isomorphism (Category Theory),Isomorphism,"Let 𝐂 be a category, and let X, Y be objects of 𝐂.
+
+
+A morphism f: X → Y is an isomorphism  if and only if  there exists a morphism g: Y → X such that:
+
+:g ∘ f = I_X
+:f ∘ g = I_Y
+
+where I_X denotes the identity morphism on X.
+
+It can be seen that this is equivalent to g being both a retraction and a section of f.
+
+
+=== Isomorphic Objects ===
+Let 𝐂 be a category, and let X, Y be objects of 𝐂
+
+
+X and Y are isomorphic objects  if and only if  there exists an isomorphism f: X → Y.
+
+=== Inverse Morphism ===
+Let 𝐂 be a metacategory.
+
+Let f: X → Y be a morphism of 𝐂.
+
+
+A morphism g: Y → X is said to be an inverse (morphism) for f  if and only if :
+
+:g ∘ f = I_X
+:f ∘ g = I_Y
+
+where I_X denotes the identity morphism on X.
+
+
+It follows that f is an isomorphism  if and only if  it has an inverse (morphism).",Definition:Isomorphism of Categories
+152,Definition:Isomorphism of Categories,Isomorphism,"Let 𝐂 and 𝐃 be metacategories.
+
+Let F: 𝐂→𝐃 be a functor.
+
+
+Then F is an isomorphism (of categories)  if and only if  there exists a functor G: 𝐂→𝐃 such that:
+
+:G F: 𝐂→𝐂 is the identity functor I_𝐂
+:F G: 𝐃→𝐃 is the identity functor I_𝐃
+
+
+=== Isomorphic Categories ===
+Let 𝐂 and 𝐃 be metacategories.
+
+Let F: 𝐂→𝐃 be an isomorphism of categories.
+
+
+Then 𝐂 and 𝐃 are said to be isomorphic, and we write 𝐂≅𝐃.",Definition:Isomorphism of Categories
+153,Definition:Isomorphism (Graph Theory),Isomorphism,"Let G = ( V (   )G, E (   )G ) and H = ( V (   )H, E (   )H ) be graphs.
+
+Let there exist a bijection F: V (   )G → V (   )H such that:
+:for each edge { u, v }∈ E (   )G, there exists an edge { F (   )u, F (   )v }∈ E (   )H.
+
+
+That is, that:
+:F: V (   )G → V (   )H is a homomorphism, and
+
+:F^-1: V (   )H → V (   )G is a homomorphism.
+
+
+Then G and H are isomorphic, and this is denoted G ≅ H.
+
+The function F is called an isomorphism from G to H.",Definition:Isomorphism (Graph Theory)
+154,Definition:Isomorphism (Hilbert Spaces),Isomorphism,"Let H, K be Hilbert spaces.
+
+Denote by ⟨·,   ⟩·_H and ⟨·,   ⟩·_K their respective inner products.
+
+An isomorphism between H and K is a map U: H → K, such that:
+
+:(1):    U is a linear map
+:(2):    U is surjective
+:(3):   ∀ g, h ∈ H: ⟨ g,   ⟩ h_H = ⟨ U g,   ⟩U h_K
+
+These three requirements may be summarized by stating that U be a surjective isometry.
+
+Furthermore, Surjection that Preserves Inner Product is Linear shows that requirement (1) is superfluous.
+
+
+If such an isomorphism U exists, H and K are said to be isomorphic.
+
+
+As the name isomorphism suggests, Hilbert Space Isomorphism is Equivalence Relation.",Definition:Isomorphism (Hilbert Spaces)
+155,Definition:Homeomorphism/Topological Spaces,Isomorphism,"Let T_α = ( S_α, τ_α) and T_β = ( S_β, τ_β) be topological spaces.
+
+Let f: T_α→ T_β be a bijection.
+
+
+=== Definition 1 ===
+Let T_α = ( S_α, τ_α) and T_β = ( S_β, τ_β) be topological spaces.
+
+Let f: T_α→ T_β be a bijection.
+
+
+f is a homeomorphism  if and only if  both f and f^-1 are continuous.
+
+=== Definition 2 ===
+Let T_α = ( S_α, τ_α) and T_β = ( S_β, τ_β) be topological spaces.
+
+Let f: T_α→ T_β be a bijection.
+
+
+f is a homeomorphism  if and only if :
+:∀ U ⊆ S_α: U ∈τ_α f [ U ] ∈τ_β
+
+
+That is, f is a homeomorphism  if and only if :
+:for all subsets U of S_α, U is open in T_α  if and only if  f [ U ] is open in T_β.
+
+=== Definition 3 ===
+Let T_α = ( S_α, τ_α) and T_β = ( S_β, τ_β) be topological spaces.
+
+Let f: T_α→ T_β be a bijection.
+
+
+f is a homeomorphism  if and only if  f is both an open mapping and a continuous mapping.
+
+=== Definition 4 ===
+Let T_α = ( S_α, τ_α) and T_β = ( S_β, τ_β) be topological spaces.
+
+Let f: T_α→ T_β be a bijection.
+
+
+f is a homeomorphism  if and only if  f is both a closed mapping and a continuous mapping.",Definition:Homeomorphism/Topological Spaces
+156,Definition:Kernel Transformation of Measure,Kernel,"Let ( X, x3a3, μ) be a measure space.
+
+Let N: X ×x3a3→ℝ_≥ 0 be a kernel.
+
+
+The transformation of μ by N is the mapping μ N: x3a3→R defined by:
+
+:∀ E ∈x3a3: μ N (   )E := ∫ N_E (   )x  dμ(   )x
+
+where N_E (   )x = N (   )x, E.",Definition:Kernel of Linear Transformation
+157,Definition:Kernel Transformation of Positive Measurable Function,Kernel,"Let ( X, x3a3, μ) be a measure space.
+
+Let N: X ×x3a3→R_≥ 0 be a kernel.
+
+Let f: X →R be a positive measurable function.
+
+
+The transformation of f by N is the mapping N f: X →R defined by:
+
+:∀ x ∈ X: N f (   )x := ∫ f  d N_x
+
+where N_x is the measure E ↦ N (   )x, E.",Definition:Kernel Transformation of Positive Measurable Function
+158,Definition:Kernel (Category Theory),Kernel,"Let 𝐂 be a category.
+
+Let A and B be objects of 𝐂.
+
+Let f : A → B be a morphism in 𝐂.
+
+
+=== Definition 1: for categories with initial objects ===
+Let 𝐂 be a category.
+
+Let A and B be objects of 𝐂.
+
+Let f : A → B be a morphism in 𝐂.
+
+Let 𝐂 have an initial object 0.
+
+
+A kernel of f is a morphism (   )f → A which is a pullback of the unique morphism 0 → B via f to A.
+
+
+
+=== Uniqueness ===
+
+
+=== Definition 2: for categories with zero objects ===
+Let 𝐂 be a category.
+
+Let A and B be objects of 𝐂.
+
+Let f: A → B be a morphism in 𝐂.
+
+Let 𝐂 have a zero object 0.
+
+
+A kernel of f is a morphism (f) → A, which is an equalizer of f and the zero morphism 0: A → B.
+
+
+=== Uniqueness ===
+
+
+=== Uniqueness ===
+",Definition:Kernel (Category Theory)
+159,Definition:Left Cancellable Mapping,Left,"A mapping f: Y → Z is left cancellable (or left-cancellable)  if and only if :
+
+:∀ X: ∀( g_1, g_2: X → Y ): f ∘ g_1 = f ∘ g_2  g_1 = g_2
+
+That is, for any set X, if g_1 and g_2 are mappings from X to Y:
+:If f ∘ g_1 = f ∘ g_2
+:then g_1 = g_2.",Definition:Left Cancellable Mapping
+160,Definition:Left Inverse Mapping,Left,"Let S, T be sets where S ∅, that is, S is not empty.
+
+Let f: S → T be a mapping.
+
+
+Let g: T → S be a mapping such that:
+:g ∘ f = I_S
+where:
+:g ∘ f denotes the composite mapping f followed by g;
+:I_S is the identity mapping on S.
+
+
+Then g: T → S is called a left inverse (mapping).",Definition:Continuous Real Function/Left-Continuous
+161,Definition:Interval/Ordered Set/Left Half-Open,Left,"Let ( S, ≼) be an ordered set.
+
+Let a, b ∈ S.
+
+
+The left half-open interval between a and b is the set:
+
+:( a  . . ]b := a^≻∩ b^≼ = { s ∈ S: ( a ≺ s ) ( s ≼ b )  }
+
+where:
+:a^≻ denotes the strict upper closure of a
+:b^≼ denotes the lower closure of b.",Definition:Interval/Ordered Set/Left Half-Open
+162,Definition:Limit of Real Function/Left,Left,"Let ( a  . . )b be an open real interval.
+
+Let f: ( a  . . )b →ℝ be a real function.
+
+Let L ∈ℝ.
+
+
+Suppose that:
+:∀ϵ∈ℝ_>0: ∃δ∈ℝ_>0: ∀ x ∈ℝ: b - δ < x < b | f (   )x - L | < ϵ
+
+where ℝ_>0 denotes the set of strictly positive real numbers.
+
+That is, for every real strictly positive ϵ there exists a real strictly positive δ such that every real number in the domain of f, less than b but within δ of b, has an image within ϵ of L.
+
+
+:
+
+Then f (   )x is said to tend to the limit L as x tends to b from the left, and we write:
+:f (   )x → L as x → b^-
+or
+:lim_x → b^- f (   )x = L
+
+
+This is voiced:
+:the limit of f (   )x as x tends to b from the left
+and such an L is called:
+:a limit from the left.",Definition:Limit of Real Function/Left
+163,Definition:Difference Quotient/Left,Left,"Let V be a vector space over the real numbers ℝ.
+
+Let f: ℝ→ V be a function.
+
+
+A left difference quotient is an expression of the form:
+:f (   )x + h - f (   )x h
+where h < 0 is a strictly negative real number.",Definition:Continuous Real Function/Left-Continuous
+164,Definition:Continuous Real Function/Left-Continuous,Left,"Let A ⊆ℝ be an open subset of the real numbers ℝ.
+
+Let f: A →ℝ be a real function.
+
+
+Let x_0 ∈ A. 
+
+Then f is said to be left-continuous at x_0  if and only if  the limit from the left of f (   )x as x → x_0 exists and:
+
+:lim_x → x_0^- 
+ x_0 ∈ A f (   )x = f (   )x_0
+
+where lim_x → x_0^- is a limit from the left.
+
+
+Furthermore, f is said to be left-continuous  if and only if :
+
+:∀ x_0 ∈ A, f is left-continuous at x_0",Definition:Limit of Real Function/Left
+165,Definition:Left-Hand Derivative/Real Function,Left,"Let f: ℝ→ℝ be a real function.
+
+
+The left-hand derivative of f is defined as the left-hand limit:
+:f'_- (   )x = lim_h → 0^-f (   )x + h - f (   )x/h
+
+If the left-hand derivative exists, then f is said to be left-hand differentiable at x.",Definition:Limit of Real Function/Left
+166,Definition:Real Interval/Half-Open/Left,Left,"Let a, b ∈ℝ be real numbers.
+
+
+The left half-open (real) interval from a to b is the subset:
+:( a  . . ]b := { x ∈ℝ: a < x ≤ b }",Definition:Real Interval/Unbounded Closed
+167,Definition:Real Interval/Unbounded Closed,Left,"There are two unbounded closed intervals involving a real number a ∈ℝ, defined as:
+
+ 
+ 
+ 
+ ",Definition:Real Interval/Unbounded Closed
+168,Definition:Real Interval/Unbounded Open,Left,"There are two unbounded open intervals involving a real number a ∈ℝ, defined as:
+
+ 
+ 
+ 
+ ",Definition:Real Interval/Unbounded Closed
+169,Definition:Left Zero,Left,"Let ( S, ∘) be an algebraic structure.
+
+An element z_L ∈ S is called a left zero element (or just left zero)  if and only if :
+:∀ x ∈ S: z_L ∘ x = z_L",Definition:Real Interval/Unbounded Closed
+170,Definition:Identity (Abstract Algebra)/Left Identity,Left,"Let ( S, ∘) be an algebraic structure.
+
+An element e_L ∈ S is called a left identity (element)  if and only if :
+:∀ x ∈ S: e_L ∘ x = x",Definition:Left Cancellable Operation
+171,Definition:Left Operation,Left,"Let S be a set.
+
+For any x, y ∈ S, the left operation on S is the binary operation defined as:
+:∀ x, y ∈ S: x  y = x",Definition:Interval/Ordered Set/Left Half-Open
+172,Definition:Cancellable Element/Left Cancellable,Left,"Let ( S, ∘) be an algebraic structure.
+
+
+An element x ∈( S, ∘) is left cancellable  if and only if :
+
+:∀ a, b ∈ S: x ∘ a = x ∘ b  a = b",Definition:Inverse (Abstract Algebra)/Left Inverse
+173,Definition:Left Cancellable Operation,Left,"Let ( S, ∘) be an algebraic structure.
+
+
+The operation ∘ in ( S, ∘) is left cancellable  if and only if :
+:∀ a, b, c ∈ S: a ∘ b = a ∘ c  b = c
+
+That is,  if and only if  all elements of ( S, ∘) are left cancellable.",Definition:Left Cancellable Operation
+174,Definition:Distributive Operation/Left,Left,"Let S be a set on which is defined two binary operations, defined on all the elements of S × S, denoted here as ∘ and *.
+
+The operation ∘ is left distributive over the operation *  if and only if :
+
+:∀ a, b, c ∈ S: a ∘( b * c ) = ( a ∘ b ) * ( a ∘ c )",Definition:Interval/Ordered Set/Left Half-Open
+175,Definition:Inverse (Abstract Algebra)/Left Inverse,Left,"Let ( S, ∘) be a monoid whose identity is e_S.
+
+An element x_L ∈ S is called a left inverse of x  if and only if :
+:x_L ∘ x = e_S",Definition:Left Naturally Totally Ordered Semigroup
+176,Definition:Quasigroup/Left Quasigroup,Left,"Let ( S, ∘) be a magma. 
+
+
+( S, ∘) is a left quasigroup  if and only if :
+:for all a ∈ S, the left regular representation λ_a is a permutation on S.
+
+That is:
+:∀ a, b ∈ S: ∃ ! x ∈ S: a ∘ x = b",Definition:Quasigroup/Left Quasigroup
+177,Definition:Regular Representations/Left Regular Representation,Left,"Let ( S, ∘) be a magma.
+
+Let a ∈ S be arbitrary.
+
+The mapping λ_a: S → S is defined as:
+
+:∀ x ∈ S: λ_a (   )x = a ∘ x
+
+
+This is known as the left regular representation of ( S, ∘) with respect to a.",Definition:Operation/Binary Operation/Product/Left
+178,Definition:Operation/Binary Operation/Product/Left,Left,"Let x and y be elements which are operated on by a given operation ∘.
+
+The left-hand product of x by y is the product y ∘ x.",Definition:Operation/Binary Operation/Product/Left
+179,Definition:Left Naturally Totally Ordered Semigroup,Left,"Let ( S, ∘, ≼) be a positively totally ordered semigroup.
+
+
+Then ( S, ∘, ≼) is a left naturally totally ordered semigroup  if and only if :
+
+:a ≺ b ∃ x ∈ S: b = x ∘ a",Definition:Left Naturally Totally Ordered Semigroup
+180,Definition:Coset/Left Coset,Left,"Let ( S, ∘) be an algebraic structure.
+
+Let ( H, ∘) be a subgroup of ( S, ∘).
+
+
+The left coset of x modulo H, or left coset of H by x, is:
+
+:x ∘ H = { y ∈ S: ∃ h ∈ H: y = x ∘ h }
+
+
+That is, it is the subset product with singleton:
+
+:x ∘ H = { x }∘ H",Definition:Coset/Left Coset
+181,Definition:Coset Space/Left Coset Space,Left,"Let G be a group.
+
+Let H be a subgroup of G.
+
+
+The left coset space (of G modulo H) is the quotient set of G by left congruence modulo H, denoted G / H^l.
+
+It is the set of all the left cosets of H in G.
+
+ ",Definition:Coset/Left Coset
+182,Definition:Transversal (Group Theory)/Left Transversal,Left,"Let G be a group.
+
+Let H be a subgroup of G.
+
+Let S ⊆ G be a subset of G.
+
+
+S is a left transversal for H in G  if and only if  every left coset of H contains exactly one element of S.",Definition:Coset/Left Coset
+183,Definition:Group Action/Left Group Action,Left,"Let X be a set.
+
+Let ( G, ∘) be a group whose identity is e.
+
+
+A (left) group action is an operation ϕ: G × X → X such that:
+
+:∀( g, x ) ∈ G × X: g * x := ϕ(   )g, x∈ X
+
+in such a way that the group action axioms are satisfied:
+ ",Definition:Group Action/Left Group Action
+184,Definition:Subset Product Action/Left,Left,"Let ( G, ∘) be a group.
+
+Let 𝒫( G ) be the power set of G.
+
+
+The (left) subset product action of G is the group action *: G ×𝒫( G ) →𝒫( G ):
+:∀ g ∈ G, S ∈𝒫( G ): g * S = g ∘ S",Definition:Group Action/Left Group Action
+185,Definition:Congruence Modulo Subgroup/Left Congruence,Left,"Let G be a group.
+
+Let H be a subgroup of G.
+
+
+We can use H to define a relation on G as follows:
+
+:ℛ^l_H := {( x, y ) ∈ G × G: x^-1 y ∈ H }
+
+This is called left congruence modulo H.",Definition:Congruence Modulo Subgroup/Left Congruence
+186,Definition:Left Zero Divisor,Left,"Let ( R, +, ∘) be a ring.
+
+
+A left zero divisor (in R) is an element x ∈ R such that:
+:∃ y ∈ R^*: x ∘ y = 0_R
+
+where R^* is defined as R ∖{ 0_R }.",Definition:Left Zero Divisor
+187,Definition:Linear Ring Action/Left,Left,"Let R be a ring.
+
+Let M be an abelian group.
+
+Let ∘ : R × M → M be a mapping from the cartesian product R × M.
+
+
+∘ is a left linear ring action of R on M  if and only if  ∘ satisfies the left ring action axioms:
+ ",Definition:Group Action/Left Group Action
+188,Definition:Ideal of Ring/Left Ideal,Left,"Let ( R, +, ∘) be a ring.
+
+Let ( J, + ) be a subgroup of ( R, + ).
+
+
+J is a left ideal of R  if and only if :
+:∀ j ∈ J: ∀ r ∈ R: r ∘ j ∈ J
+
+that is,  if and only if :
+:∀ r ∈ R: r ∘ J ⊆ J",Definition:Maximal Ideal of Ring/Left
+189,Definition:Maximal Ideal of Ring/Left,Left,"Let R be a ring.
+
+
+A left ideal J of R is a maximal left ideal  if and only if :
+
+:(1):    J ⊊ R
+:(2): There is no left ideal K of R such that J ⊊ K ⊊ R.
+
+
+Category:Definitions/Maximal Ideals of Rings",Definition:Maximal Ideal of Ring/Left
+190,Definition:Left Module,Left,"Let ( R, +_R, ×_R ) be a ring.
+
+Let ( G, +_G ) be an abelian group.
+
+
+A left module over R is an R-algebraic structure ( G, +_G, ∘)_R with one operation ∘, the (left) ring action, which satisfies the left module axioms:
+ ",Definition:Linear Ring Action/Left
+191,Definition:Left Null Space,Left,"Let R be a ring.
+
+Let 𝐀 be a matrix in the matrix space ℳ_m, n(   )R.
+
+Let 𝐀^⊺ be the transpose of 𝐀.
+
+The left null space 𝐀 is defined as the null space of 𝐀^⊺.",Definition:Real Interval/Half-Open/Left
+192,Definition:Left-Truncatable Prime,Left,"A left-truncatable prime is a prime number which remains prime when any number of digits are removed from the left hand end.
+
+Zeroes are excluded, in order to eliminate, for example, prime numbers of the form 10^n + 3 for arbitrarily large n.
+
+
+=== Sequence ===
+ ",Definition:Left-Truncatable Prime
+193,Definition:Category of Left Modules,Left,"Let R be a ring.
+
+
+The category of left R-modules is the category 𝐑-𝐌𝐨𝐝 with:
+
+ ",Definition:Category of Left Modules
+194,Definition:Orientation of Coordinate Axes/Cartesian Plane/Left-Handed,Left,"A Cartesian plane is defined as being left-handed if it has the following property:
+
+Let a left hand be placed, with palm uppermost, such that the thumb points along the x-axis in the positive direction, such that the thumb and index finger are at right-angles to each other.
+
+Then the index finger is pointed along the y-axis in the positive direction.
+
+
+:",Definition:Orientation of Coordinate Axes/Cartesian Plane/Left-Handed
+195,Definition:Orientation of Coordinate Axes/Cartesian 3-Space/Left-Handed,Left,"A Cartesian 3-Space is defined as being left-handed if it has the following property:
+
+Let a left hand be placed such that:
+:the thumb and index finger are at right-angles to each other
+:the 3rd finger is at right-angles to the thumb and index finger, upwards from the palm
+:the thumb points along the x-axis in the positive direction
+:the index finger points along the y-axis in the positive direction.
+
+Then the 3rd finger is pointed along the z-axis in the positive direction.
+
+
+:",Definition:Orientation of Coordinate Axes/Cartesian Plane/Left-Handed
+196,Definition:Length of Chain,Length,"Let ( S, ≼) be an ordered set.
+
+Let T be a chain in S.
+
+Let T be finite and non-empty.
+
+
+The length of the chain T is its cardinality minus 1.
+
+
+Category:Definitions/Chains (Order Theory)",Definition:Length of Sequence
+197,Definition:Ordinal Sequence/Length,Length,"Let α be an ordinal.
+
+Let θ be an ordinal sequence whose domain is α.
+
+
+Then α can be referred to as the length of θ.
+
+
+The length of θ can be denoted |θ|.",Definition:Ordinal Sequence/Length
+198,Definition:Periodic Continued Fraction/Cycle/Length,Length,The number of partial denominators in a cycle of a periodic continued fraction is called the cycle length.,Definition:Length of Continued Fraction
+199,Definition:Length of Continued Fraction,Length,"Let k be a field.
+
+Let C be a continued fraction in k, either finite or infinite.
+
+
+The length of C is an extended natural number equal to:
+*∞ if C is an infinite continued fraction.
+*n if C is a finite continued fraction with domain the integer interval [0  . .  n].",Definition:Length of Continued Fraction
+200,Definition:Walk (Graph Theory)/Length,Length,"The length of a walk (or a path, or a trail) is the number of edges it has, counting repeated edges as many times as they appear.
+
+
+A walk is said to be of infinite length  if and only if  it has infinitely many edges.
+
+
+=== Zero Length Walk ===
+A zero length walk is a walk which consists of one vertex.
+
+
+Category:Definitions/Walks",Definition:Length of Chain
+201,Definition:Rooted Tree/Branch/Length,Length,"Let T be a rooted tree with root node r_T.
+
+Let Γ be a finite branch of T.
+
+
+The length of Γ is defined as the number of ancestors of the leaf at the end of that branch.",Definition:Rooted Tree/Branch/Length
+202,Definition:Length of String,Length,"The length of a finite string in a formal language is the number of symbols it contains.
+
+
+The length of a string S can be denoted len(   )S or | S |.",Definition:Ordinal Sequence/Length
+203,Definition:Tableau Proof (Formal Systems)/Length,Length,"The length of a tableau proof is the number of lines it has.
+
+
+Category:Definitions/Proof Systems",Definition:Tableau Proof (Formal Systems)/Length
+204,Definition:Orbit (Group Theory)/Length,Length,"Let G be a group acting on a set X.
+
+Let x ∈ X.
+
+
+Let Orb( x ) be the orbit of x.
+
+The length of the orbit Orb( x ) of x is the number of elements of X it contains:
+:|Orb( x ) |
+
+
+Category:Definitions/Group Actions",Definition:Orbit (Group Theory)/Length
+205,Definition:Normal Series/Length,Length,"Let G be a group whose identity is e.
+
+Let ⟨ G_i ⟩_i ∈[ 0  . . ]n be a normal series for G:
+:⟨ G_i ⟩_i ∈[ 0  . . ]n = ( { e } = G_0  G_1 ⋯ G_n-1 G_n = G )
+
+
+The length of ⟨ G_i ⟩_i ∈[ 0  . . ]n is the number of (normal) subgroups which make it.
+
+In this context, the length of ⟨ G_i ⟩_i ∈[ 0  . . ]n is n.
+
+
+If such a normal series is infinite, then its length is not defined.
+
+
+Category:Definitions/Normal Series",Definition:Normal Series/Length
+206,Definition:Length of Group,Length,"Let G be a finite group.
+
+The length of G is the length of a composition series for G.
+
+That is, the length of G is the number of factors in a composition series for G (not including G itself).
+
+
+The length of G can be denoted l (   )G.
+
+
+By the Jordan-Hölder Theorem, all composition series for G have the same length.
+
+Therefore, the length of a finite group G is well-defined.",Definition:Length of Sequence
+207,Definition:Cyclic Permutation,Length,"Let S_n denote the symmetric group on n letters.
+
+Let ρ∈ S_n be a permutation on S.
+
+
+Then ρ is a cyclic permutation of length k  if and only if  there exists k ∈ℤ: k > 0 and i ∈ℤ such that:
+:(1):    k is the smallest such that ρ^k (   )i = i
+
+:(2):   ρ fixes each j not in { i, ρ(   )i, …, ρ^k - 1(   )i }.
+
+
+ρ is usually denoted using cycle notation as:
+:[             i       ρ(   )i             … ρ^k - 1(   )i ]
+
+but some sources introduce it using two-row notation:
+
+:[ a_1 a_2   ⋯ a_k   ⋯   i   ⋯; a_2 a_3   ⋯ a_1   ⋯   i   ⋯ ]",Definition:Cyclic Permutation
+208,Definition:Radius of Convergence/Real Domain,Limit,"Let ξ∈ℝ be a real number.
+
+Let S (   )x = ∑_n  = 0^∞ a_n ( x - ξ)^n be a power series about ξ.
+
+Let I be the interval of convergence of S (   )x.
+
+Let the endpoints of I be ξ - R and ξ + R.
+
+(This follows from the fact that ξ is the midpoint of I.)
+
+
+Then R is called the radius of convergence of S (   )x.
+
+
+If S (   )x is convergent over the whole of ℝ, then I = ℝ and thus the radius of convergence is infinite.",Definition:Limit of Real Function
+209,Definition:Limit of Sets,Limit,"Let S = { E_n : n ∈ℕ} be a sequence of sets.
+
+Let the limit superior of S be equal to the limit inferior of S.
+
+
+Then the limit of S, denoted lim_n →∞ E_n, is defined as:
+
+:lim_n →∞ E_n := lim sup_n →∞ E_n
+and so also:
+:lim_n →∞ E_n := lim inf_n →∞ E_n
+
+and S converges to the limit.",Definition:Limit Ordinal
+210,Definition:Limit (Category Theory),Limit,"Let 𝐂 be a metacategory.
+
+Let D: 𝐉→𝐂 be a 𝐉-diagram in 𝐂.
+
+Let 𝐂𝐨𝐧𝐞(D) be the category of cones to D.
+
+
+A limit for D is a terminal object in 𝐂𝐨𝐧𝐞(D).
+ 
+
+It is denoted by _j D_j; the associated morphisms p_i: _j D_j → D_i are usually left implicit.
+
+
+=== Finite Limit ===
+Let 𝐂 be a metacategory.
+
+Let D: 𝐉→𝐂 be a 𝐉-diagram in 𝐂.
+
+Let _j D_j be a limit for D.
+
+
+Then _j D_j is called a finite limit  if and only if  𝐉 is a finite category.",Definition:Limit (Category Theory)
+211,Definition:Value of Continued Fraction/Infinite,Limit,"Let ( F, ‖ · ‖) be a valued field.
+
+Let C = ⟨ a_n ⟩_n ≥ 0 be a infinite continued fraction in F.
+
+
+Let C converge to x ∈ F:
+
+Then x is the value of C.",Definition:Value of Continued Fraction/Infinite
+212,Definition:Limit Ordinal,Limit,"=== Definition 1 ===
+An ordinal λ is a limit ordinal  if and only if  it is a limit element in the well-ordering on the class of all ordinals On that is the subset relation.
+
+=== Definition 2 ===
+An ordinal λ is a limit ordinal  if and only if  it is neither the zero ordinal nor a successor ordinal.",Definition:Limit of Sets
+213,Definition:Limit Element under Well-Ordering,Limit,"Let A be a class.
+
+Let ≼ be a well-ordering on A.
+
+Let x be neither the smallest element of A nor an immediate successor of any element of A.
+
+
+Then x is a limit element of A (under ≼).",Definition:Limit of Sets
+214,Definition:Heronian Mean,Mean,"The Heronian mean of two numbers x and y is defined as:
+
+:H = x + √(x y) + y 3
+
+
+It can also be defined as:
+
+:H =  2 3 ( x + y 2 ) +  1 3 √(x y)
+
+
+Thus it is seen to be a weighted mean of their arithmetic mean and geometric mean.
+
+ ",Definition:Heronian Mean
+215,Definition:Hölder Mean,Mean,"Let x_1, x_2, …, x_n ∈ℝ_≥ 0 be positive real numbers.
+
+Let p be an extended real number.
+
+
+The Hölder mean with exponent p of x_1, x_2, …, x_n is denoted M_p (   )x_1, x_2, …, x_n.
+
+
+=== Non-Zero Exponent ===
+Let x_1, x_2, …, x_n ∈ℝ_≥ 0 be positive real numbers.
+
+Let p be an extended real number.
+
+
+Let M_p (   )x_1, x_2, …, x_n denote the Hölder mean with exponent p of x_1, x_2, …, x_n.
+
+
+For p ∈ℝ_ 0, the Hölder mean is defined as:
+:M_p (   )x_1, x_2, …, x_n = ( 1/n∑_k  = 1^n x_k^p )^1 / p
+whenever the above expression is defined.
+
+=== Negative Exponent with Zero Parameter ===
+Let x_1, x_2, …, x_n ∈ℝ_≥ 0 be positive real numbers.
+
+Let p be an extended real number.
+
+
+Let M_p (   )x_1, x_2, …, x_n denote the Hölder mean with exponent p of x_1, x_2, …, x_n.
+
+
+For p < 0 and at least one a_k = 0, the Hölder mean is defined as:
+:M_p (   )x_1, x_2, …, x_n = 0
+
+=== Zero Exponent ===
+Let x_1, x_2, …, x_n ∈ℝ_≥ 0 be positive real numbers.
+
+Let p be an extended real number.
+
+
+Let M_p (   )x_1, x_2, …, x_n denote the Hölder mean with exponent p of x_1, x_2, …, x_n.
+
+
+For p = 0, the Hölder mean is defined as:
+:M_0 (   )x_1, x_2, …, x_n = ( x_1 x_2 ⋯ x_n )^1 / n
+which is the geometric mean of x_1, x_2, …, x_n.
+
+=== Positive Infinite Exponent ===
+Let x_1, x_2, …, x_n ∈ℝ_≥ 0 be positive real numbers.
+
+Let p be an extended real number.
+
+
+Let M_p (   )x_1, x_2, …, x_n denote the Hölder mean with exponent p of x_1, x_2, …, x_n.
+
+
+For p = ∞, the Hölder mean is defined as:
+:M_∞(   )x_1, x_2, …, x_n = max{ x_1, x_2, …, x_n }
+
+=== Negative Infinite Exponent ===
+Let x_1, x_2, …, x_n ∈ℝ_≥ 0 be positive real numbers.
+
+Let p be an extended real number.
+
+
+Let M_p (   )x_1, x_2, …, x_n denote the Hölder mean with exponent p of x_1, x_2, …, x_n.
+
+
+For p = -∞, the Hölder mean is defined as:
+:M_-∞(   )x_1, x_2, …, x_n = min{ x_1, x_2, …, x_n }",Definition:Hölder Mean
+216,Definition:Mean Value of Function,Mean,"Let f be an integrable function on some closed interval [ a  . . ]b.
+
+The mean value of f on [ a  . . ]b is defined as:
+
+:1/b - a∫_a^b f (   )x  d x",Definition:Mean Value of Function
+217,Definition:Golden Mean,Mean,"=== Definition 1 ===
+Let a line segment AB be divided at C such that:
+:AB : AC = AC : BC
+
+Then the golden mean ϕ is defined as:
+:ϕ := ABAC
+
+=== Definition 2 ===
+The golden mean is the unique positive real number ϕ satisfying:
+:ϕ = 1 + √(5) 2
+
+=== Definition 3 ===
+The golden mean is the unique positive real number ϕ satisfying:
+:ϕ =  1 ϕ - 1",Definition:Golden Mean
+218,Definition:Centroid,Mean,"=== Centroid of Set of Points ===
+Let S = { A_1, A_2, …, A_n } be a set of n points in Euclidean space.
+
+
+=== Definition 1 ===
+Let S = { A_1, A_2, …, A_n } be a set of n points in Euclidean space.
+
+Let the position vectors of the elements of S be given by 𝐚_1, 𝐚_2, …, 𝐚_n respectively.
+
+Let G be the point whose position vector is given by:
+
+:O⃗G⃗ =  1 n ( 𝐚_1 + 𝐚_2 + … + 𝐚_n )
+
+
+Then G is known as the centroid of S.
+
+=== Definition 2 ===
+Let S = { A_1, A_2, …, A_n } be a set of n points in Euclidean space.
+
+Let the Cartesian coordinates of the elements of S be ( x_j, y_j, z_j ) for each j ∈{ 1, 2, …, n }.
+
+Let G be the point whose Cartesian coordinates are given by:
+
+:G = (  1 n ∑_j  = 1^n x_j,  1 n ∑_j  = 1^n y_j,  1 n ∑_j  = 1^n z_j )
+
+That is, the arithmetic mean of the Cartesian coordinates of the elements of S
+
+
+Then G is known as the centroid of S.
+
+=== Centroid of Weighted Set of Points ===
+Let S = { A_1, A_2, …, A_n } be a set of n points in Euclidean space whose position vectors are given by 𝐚_1, 𝐚_2, …, 𝐚_n repectively.
+
+Let W: S →ℝ be a weight function on S.
+
+Let G be the point whose position vector is given by:
+
+:O⃗G⃗ = w_1 𝐚_1 + w_2 𝐚_2 + … + w_n 𝐚_nw_1 + w_2 + … + w_n
+
+where w_i = W (   )A_i for each i.
+
+
+Then G is known as the centroid of S with weights w_i, w_2, …, w_n.
+
+=== Centroid of Surface ===
+Let S be a surface.
+
+Let S be divided into a large number n of small elements.
+
+Consider one point of each of these elements.
+
+Let a weight function be associated with this set of points.
+
+Let G be the centroid of each of these weighted points.
+
+Let n increase indefinitely, such that each element of S converges to a point.
+
+Then the limiting position of G is the centroid of S.
+
+=== Centroid of Solid Figure ===
+Let F be a solid figure.
+
+Let F be divided into a large number n of small elements.
+
+Consider one point of each of these elements.
+
+Let a weight function be associated with this set of points.
+
+Let G be the centroid of each of these weighted points.
+
+Let n increase indefinitely, such that each element of F converges to a point.
+
+Then the limiting position of G is the centroid of F.
+
+=== Centroid of Triangle ===
+Let ABC be a triangle.
+
+
+The centroid of ABC is the point G where its three medians AL, MB and CN meet.
+
+
+:",Definition:Centroid
+219,Definition:Mean Deviation,Mean,"Let S = { x_1, x_2, …, x_n } be a set of observations.
+
+Let x̅ denote a measure of central tendency of S.
+
+
+The mean deviation   x̅ of S is defined as the arithmetic mean of the deviation of the elements of S from x̅:
+
+:∑_i  = 1^n  1 n ( x_i - x̅)
+
+
+=== Discrete Random Variable ===
+Let X be a discrete random variable.
+
+Let x̅ denote a measure of central tendency of X.
+
+
+The mean deviation of X is the first moment of X about x̅.
+
+=== Continuous Random Variable ===
+Let X be a continuous random variable.
+
+Let m denote the median of X.
+
+Let the frequency function of X be f.
+
+
+The mean deviation of X is defined as:
+:∫_-∞^+∞( x - m ) f (   )x  d x",Definition:Mean Deviation
+220,Definition:Mean Absolute Deviation,Mean,"Let S = { x_1, x_2, …, x_n } be a set of observations.
+
+Let x̅ denote a measure of central tendency of S.
+
+
+The mean absolute deviation   x̅ of S is defined as the arithmetic mean of the absolute values of the deviation of the elements of S from x̅ :
+
+:∑_i  = 1^n  1 n | x_i - x̅|
+
+
+=== Discrete Random Variable ===
+Let X be a discrete random variable.
+
+Let x̅ denote a measure of central tendency of X.
+
+
+The mean absolute deviation of X is the first absolute moment of X about x̅.
+
+=== Continuous Random Variable ===
+Let X be a continuous random variable.
+
+Let m denote the median of X.
+
+Let the frequency function of X be f.
+
+
+The mean absolute deviation of X is defined as:
+:∫_-∞^+∞| x - m | f (   )x  d x",Definition:Mean Deviation
+221,Definition:Mean Square Deviation,Mean,"Let S = { x_1, x_2, …, x_n } be a set of observations.
+
+Let x̅ denote a measure of central tendency of S.
+
+
+The mean square deviation   x̅ of S is defined as the arithmetic mean of the square of the deviation of the elements of S from x̅:
+
+:∑_i  = 1^n  1 n ( x_i - x̅)^2
+
+
+=== Discrete Random Variable ===
+Let X be a discrete random variable.
+
+Let x̅ denote a measure of central tendency of X.
+
+
+The mean square deviation of X is the second moment of X about x̅.
+
+=== Continuous Random Variable ===
+Let X be a continuous random variable.
+
+Let m denote the median of X.
+
+Let the frequency function of X be f.
+
+
+The mean square deviation of X is defined as:
+:∫_-∞^+∞( x - m )^2 f (   )x  d x",Definition:Mean Square Deviation
+222,Definition:Mean Squared Error,Mean,The mean squared error is the expected value of the square of the difference between an estimator T and the true parameter value θ.,Definition:Mean Squared Error
+223,Definition:Sample Mean,Mean,"Let S = { x_1, x_2, …, x_n } be a random sample from a population.
+
+The sample mean of S is defined and denoted as:
+:x = ∑x_i n",Definition:Sample Mean
+224,Definition:Normal Bundle,Normal,"Let M be a differentiable manifold.
+
+Let p ∈ M be a point in M.
+
+Let N_p M be the normal space at p.
+
+
+The normal bundle of M is the disjoint union of all the normal spaces of M:
+
+:N M = ∐_p ∈ M N_p M",Definition:Fully Normal Space
+225,Definition:Normal Subgroup,Normal,"Let G be a group.
+
+Let N be a subgroup of G.
+
+
+N is a normal subgroup of G  if and only if :
+
+
+=== Definition 1 ===
+Let G be a group.
+
+Let N be a subgroup of G.
+
+
+N is a normal subgroup of G  if and only if :
+
+:∀ g ∈ G: g ∘ N = N ∘ g
+
+where g ∘ N denotes the subset product of g with N.
+
+=== Definition 2 ===
+Let G be a group.
+
+Let N be a subgroup of G.
+
+
+N is a normal subgroup of G  if and only if :
+
+:Every right coset of N in G is a left coset
+that is:
+:The right coset space of N in G equals its left coset space.
+
+=== Definition 3 ===
+Let G be a group.
+
+Let N be a subgroup of G.
+
+
+N is a normal subgroup of G  if and only if :
+
+ 
+ 
+ 
+ 
+
+where g ∘ N etc. denotes the subset product of g with N.
+
+=== Definition 4 ===
+Let G be a group.
+
+Let N be a subgroup of G.
+
+
+N is a normal subgroup of G  if and only if :
+
+ 
+ 
+ 
+ 
+
+where g ∘ N etc. denotes the subset product of g with N.
+
+=== Definition 5 ===
+Let G be a group.
+
+Let N be a subgroup of G.
+
+
+N is a normal subgroup of G  if and only if :
+
+ 
+ 
+ 
+ 
+
+where g ∘ N etc. denotes the subset product of g with N.
+
+
+That is:
+:∀ g ∈ G: κ_g (   )N = N
+
+where κ_g (   )N denotes the inner automorphism of N by g.
+
+=== Definition 6 ===
+Let G be a group.
+
+Let N be a subgroup of G.
+
+
+N is a normal subgroup of G  if and only if :
+
+ 
+ 
+ 
+ 
+
+=== Definition 7 ===
+Let G be a group.
+
+Let N be a subgroup of G.
+
+N is a normal subgroup of G  if and only if :
+
+:N is a normal subset of G.",Definition:Generated Normal Subgroup
+226,Definition:Normal Subset,Normal,"Let ( G, ∘) be a group.
+
+Let S ⊆ G be a general subset of G.
+
+
+Then S is a normal subset of G  if and only if :
+
+
+=== Definition 1===
+Let ( G, ∘) be a group.
+
+Let S ⊆ G be a general subset of G.
+
+
+Then S is a normal subset of G  if and only if :
+
+:∀ g ∈ G: g ∘ S = S ∘ g
+
+=== Definition 2===
+Let ( G, ∘) be a group.
+
+Let S ⊆ G be a general subset of G.
+
+
+Then S is a normal subset of G  if and only if :
+
+:∀ g ∈ G: g ∘ S ∘ g^-1 = S
+or, equivalently:
+:∀ g ∈ G: g^-1∘ S ∘ g = S
+
+=== Definition 3===
+Let ( G, ∘) be a group.
+
+Let S ⊆ G be a general subset of G.
+
+
+Then S is a normal subset of G  if and only if :
+
+:∀ g ∈ G: g ∘ S ∘ g^-1⊆ S
+or, equivalently:
+:∀ g ∈ G: g^-1∘ S ∘ g ⊆ S
+
+=== Definition 4===
+Let ( G, ∘) be a group.
+
+Let S ⊆ G be a general subset of G.
+
+
+Then S is a normal subset of G  if and only if :
+
+: ∀ g ∈ G: S ⊆ g ∘ S ∘ g^-1
+or, equivalently:
+: ∀ g ∈ G: S ⊆ g^-1∘ S ∘ g
+
+=== Definition 5 ===
+Let ( G, ∘) be a group.
+
+Let S ⊆ G be a general subset of G.
+
+
+Then S is a normal subset of G  if and only if :
+
+:∀ x, y ∈ G: x ∘ y ∈ S  y ∘ x ∈ S
+
+=== Definition 6 ===
+Let ( G, ∘) be a group.
+
+Let S ⊆ G be a general subset of G.
+
+
+Then S is a normal subset of G  if and only if :
+
+:N_G (   )S = G
+where N_G (   )S denotes the normalizer of S in G.
+
+=== Definition 7 ===
+Let ( G, ∘) be a group.
+
+Let S ⊆ G be a general subset of G.
+
+
+Then S is a normal subset of G  if and only if :
+
+:∀ g ∈ G: g ∘ S ⊆ S ∘ g
+or:
+:∀ g ∈ G: S ∘ g ⊆ g ∘ S",Definition:Normal Subgroup
+227,Definition:Normal Series,Normal,"Let G be a group whose identity is e.
+
+
+A normal series for G is a sequence of (normal) subgroups of G:
+:{ e } = G_0  G_1 ⋯ G_n = G
+
+where G_i - 1 G_i denotes that G_i - 1 is a proper normal subgroup of G_i.
+
+
+=== Factors ===
+Let G be a group whose identity is e.
+
+Let ⟨ G_i ⟩_i ∈[ 0  . . ]n be a normal series for G:
+:⟨ G_i ⟩_i ∈[ 0  . . ]n = ( { e } = G_0  G_1 ⋯ G_n - 1 G_n = G )
+
+
+The factor groups of ⟨ G_i ⟩_i ∈[ 0  . . ]n:
+:{ e } = G_0  G_1 ⋯ G_n = G
+
+are the quotient groups:
+:G_1 / G_0, G_2 / G_1, …, G_i / G_i - 1, …, G_n / G_n-1
+
+=== Normal Series as Sequence of Homomorphisms ===
+Let G be a group whose identity is e.
+
+Let ⟨ G_i ⟩_i ∈[ 0  . . ]n be a normal series for G:
+:⟨ G_i ⟩_i ∈[ 0  . . ]n = ( { e } = G_0  G_1 ⋯ G_n - 1 G_n = G )
+whose factor groups are:
+:H_1 = G_1 / G_0, H_2 = G_2 / G_1, …, H_i = G_i / G_i - 1, …, H_n = G_n / G_n - 1
+
+
+By Kernel of Group Homomorphism Corresponds with Normal Subgroup of Domain, such a series can also be expressed as a sequence ϕ_1, …, ϕ_n of group homomorphisms:
+
+:{ e }ϕ_1→ H_1 ϕ_2→ H_2 ϕ_3→⋯ϕ_n→ H_n
+
+=== Infinite Normal Series ===
+A normal series may or may not terminate at either end:
+:⋯ϕ_i - 1⟶ H_i - 1ϕ_i⟶ H_i ϕ_i + 1⟶ H_i + 1ϕ_i + 2⟶⋯
+
+Such a series is referred to as an infinite normal series.
+
+The context will determine which end, if either, it terminates.
+
+=== Length ===
+Let G be a group whose identity is e.
+
+Let ⟨ G_i ⟩_i ∈[ 0  . . ]n be a normal series for G:
+:⟨ G_i ⟩_i ∈[ 0  . . ]n = ( { e } = G_0  G_1 ⋯ G_n-1 G_n = G )
+
+
+The length of ⟨ G_i ⟩_i ∈[ 0  . . ]n is the number of (normal) subgroups which make it.
+
+In this context, the length of ⟨ G_i ⟩_i ∈[ 0  . . ]n is n.
+
+
+If such a normal series is infinite, then its length is not defined.
+
+
+Category:Definitions/Normal Series",Definition:Normalizer
+228,Definition:Generated Normal Subgroup,Normal,"Let G be a group.
+
+Let S ⊆ G be a subset.
+
+
+=== Definition 1 ===
+Let G be a group. 
+
+Let S ⊆ G be a subset.
+
+
+The normal subgroup generated by S, denoted ⟨ S^G ⟩,  is the intersection of all normal subgroups of G containing S.
+
+=== Definition 2 ===
+ 
+
+Let G be a group. 
+
+Let S ⊆ G be a subset.
+
+
+The normal subgroup generated by S, denoted ⟨ S^G ⟩,  is the smallest normal subgroup of G containing S:
+:⟨ S^G ⟩ = ⟨ x S x^-1: x ∈ G ⟩",Definition:Normal Subgroup
+229,Definition:Normal Extension,Normal,"=== Definition 1 ===
+Let L / K be a field extension.
+
+Then L / K is a normal extension  if and only if :
+:for every irreducible polynomial f ∈ K [ x ] with at least one root in L, f splits completely in L.
+
+=== Definition 2 ===
+Let L / K be a field extension.
+
+Let K be the algebraic closure of K.
+
+Let Gal( L / K ) denote the set of embeddings of L in K which fix K pointwise.
+
+
+Then L / K is a normal extension  if and only if :
+: σ[ L ] = L
+for each σ∈Gal( L / K ).",Definition:Normalizer
+230,Definition:Cantor Normal Form,Normal,"Let x be an ordinal.
+
+
+The Cantor normal form of x is an ordinal summation:
+
+:x = ω^a_1 n_1 + … + ω^a_k n_k
+
+where:
+
+:k ∈ℕ is a natural number
+:ω is the minimally inductive set
+:⟨ a_i ⟩ is a strictly decreasing finite sequence of ordinals.
+:⟨ n_i ⟩ is a finite sequence of finite ordinals
+
+
+In summation notation:
+
+:x = ∑_i  = 1^k ω^a_i n_i
+
+ ",Definition:Normal Series
+231,Definition:Normal Number,Normal,"A real number r is normal with respect to a number base b  if and only if  its basis expansion in number base b is such that:
+
+:no finite sequence of digits of r of length n occurs more frequently than any other such finite sequence of length n.
+
+
+In particular, for number base b, all digits of r have the same natural density in the basis expansion of r.",Definition:Normal Number
+232,Definition:Absolutely Normal Number,Normal,"A real number r is absolutely normal if it is normal   every number base b.
+
+That is,  if and only if  its basis expansion in every number base b is such that:
+:no finite sequence of digits of r of length n occurs more frequently than any other such finite sequence of length n.
+
+
+In particular, for every number base b, all digits of r have the same natural density in the basis expansion of r.",Definition:Normal Family
+233,Definition:Normal Distribution,Normal,":
+Let X be a continuous random variable on a probability space ( Ω, x3a3, ).
+
+
+Then X has a normal distribution  if and only if  the probability density function of X is:
+
+:f_X (   )x =  1 σ√(2 π)exp(   )-( x - μ)^22 σ^2
+
+for μ∈ℝ, σ∈ℝ_> 0.
+
+
+This is written: 
+
+:X ∼ N ( μ,   )σ^2",Definition:Normal Distribution
+234,Definition:Normal Approximation,Normal,Normal approximation is the use of a normal distribution as an approximation to a given probability distribution.,Definition:Normal Distribution
+235,Definition:Conjunctive Normal Form,Normal,"A propositional formula P is in conjunctive normal form  if and only if  it consists of a conjunction of:
+:(1): disjunctions of literals
+and/or:
+:(2): literals.",Definition:Negation Normal Form
+236,Definition:Disjunctive Normal Form,Normal,"A propositional formula P is in disjunctive normal form  if and only if  it consists of a disjunction of:
+:(1): conjunctions of literals
+and/or:
+:(2): literals.",Definition:Negation Normal Form
+237,Definition:Negation Normal Form,Normal,"A propositional formula P is in negation normal form (NNF)  if and only if :
+* The only logical connectives connecting substatements of P are Not, And and Or, that is, elements of the set {, , };
+* The Not sign  appears only in front of atomic statements.
+
+That is P is in negation normal form iff it consists of literals, conjunctions and disjunctions.",Definition:Negation Normal Form
+238,Definition:Normal Space,Normal,"Let T = ( S, τ) be a topological space.
+
+
+( S, τ) is a normal space  if and only if :
+:( S, τ) is a T_4 space
+:( S, τ) is a T_1 (Fréchet) space.
+
+
+That is:
+:∀ A, B ∈∁(   )τ, A ∩ B = ∅: ∃ U, V ∈τ: A ⊆ U, B ⊆ V, U ∩ V = ∅ 
+
+:∀ x, y ∈ S, both:
+::∃ U ∈τ: x ∈ U, y ∉ U
+::∃ V ∈τ: y ∈ V, x ∉ V
+
+ 
+
+This space is also referred to as normal Hausdorff.",Definition:Completely Normal Space
+239,Definition:Completely Normal Space,Normal,"Let T = ( S, τ) be a topological space.
+
+
+( S, τ) is a completely normal space  if and only if :
+:( S, τ) is a T_5 space
+:( S, τ) is a T_1 (Fréchet) space.
+
+
+That is:
+
+:∀ A, B ⊆ S, A^- ∩ B = A ∩ B^- = ∅: ∃ U, V ∈τ: A ⊆ U, B ⊆ V, U ∩ V = ∅ 
+
+:∀ x, y ∈ S, both:
+::∃ U ∈τ: x ∈ U, y ∉ U
+::∃ V ∈τ: y ∈ V, x ∉ V
+
+ ",Definition:Completely Normal Space
+240,Definition:Fully Normal Space,Normal,"Let T = ( S, τ) be a topological space.
+
+
+T is fully normal  if and only if :
+:Every open cover of S has a star refinement
+:All points of T are closed.
+
+
+That is, T is fully normal  if and only if :
+:T is fully T_4
+:T is a T_1 (Fréchet) space.
+
+ ",Definition:Completely Normal Space
+241,Definition:Perfectly Normal Space,Normal,"Let T = ( S, τ) be a topological space.
+
+
+( S, τ) is a perfectly normal space  if and only if :
+:( S, τ) is a perfectly T_4 space
+:( S, τ) is a T_1 (Fréchet) space.
+
+
+That is:
+
+:Every closed set in T is a G_δ set.
+
+:∀ x, y ∈ S, both:
+::∃ U ∈τ: x ∈ U, y ∉ U
+::∃ V ∈τ: y ∈ V, x ∉ V",Definition:Completely Normal Space
+242,Definition:Ordinary Set,Normal,"Let S be a set.
+
+Then S is an ordinary set  if and only if :
+:S ∉ S
+
+That is,  if and only if  S is not an element of itself.",Definition:Normal Subset
+243,Definition:Left Normal Element of Relation,Normal,"Let A be a class.
+
+Let ℛ be a relation on A.
+
+
+An element x of A is left normal with respect to ℛ  if and only if :
+:∀ y ∈ A: ℛ(   )x, y holds.",Definition:Left Normal Element of Relation
+244,Definition:Right Normal Element of Relation,Normal,"Let A be a class.
+
+Let ℛ be a relation on A.
+
+
+An element x of A is right normal with respect to ℛ  if and only if :
+:∀ y ∈ A: ℛ(   )y, x holds.",Definition:Left Normal Element of Relation
+245,Definition:Normal Mode,Normal,"Consider an oscillating system S disturbed from equilibrium.
+
+The motion of S may be regarded as a combination of one or more independent normal modes of oscillation.
+
+The contribution of each normal mode is determined by the initial disturbance.
+
+This disturbance can be chosen so as to make S oscillate exclusively in an arbitrary one of those normal modes.
+
+In such a normal mode, all the elements of S perform simple harmonic motion.
+
+The period of each normal mode depends upon the structure of S and not on the initial disturbance.",Definition:Normal Mode
+246,Definition:Normalizer,Normal,"Let G be a group.
+
+Let S be a subset of G.
+
+
+Then the normalizer of S in G is the set N_G (   )S defined as:
+:N_G (   )S := { a ∈ G: S^a = S }
+
+where S^a is the G-conjugate of S by a.
+
+
+If S is a singleton such that S = { s }, we may also write N_G (   )s for N_G (   )S = N_G (   ){ s }, as long as there is no possibility of confusion.",Definition:Normal Subgroup
+247,Definition:Orthogonal Difference,Orthogonal,"Let H be a Hilbert space.
+
+Let M, N be closed linear subspaces of H.
+
+
+Then the orthogonal difference of M and N, denoted M ⊖ N, is the set M ∩ N^⊥.
+
+ ",Definition:Orthogonal Matrix
+248,Definition:Orthogonal Matrix,Orthogonal,"Let R be a ring with unity.
+
+Let 𝐐 be a nonsingular square matrix over R.
+
+
+=== Definition 1 ===
+Let R be a ring with unity.
+
+Let 𝐐 be a nonsingular square matrix over R.
+
+
+Then 𝐐 is orthogonal  if and only if :
+:𝐐^-1 = 𝐐^⊺
+where:
+:𝐐^-1 is the inverse of 𝐐
+:𝐐^⊺ is the transpose of 𝐐
+
+=== Definition 2 ===
+Let R be a ring with unity.
+
+Let 𝐐 be a nonsingular square matrix over R.
+
+
+Then 𝐐 is orthogonal  if and only if :
+:𝐐^⊺𝐐 = 𝐈
+where:
+:𝐐^⊺ is the transpose of 𝐐
+:𝐈 is the identity matrix of the same order as 𝐐.
+
+=== Definition 3 ===
+Let R be a ring with unity.
+
+Let 𝐐 be a nonsingular square matrix over R.
+
+
+Then 𝐐 is orthogonal  if and only if :
+:𝐐 = ( 𝐐^⊺)^-1
+where:
+:𝐐^⊺ is the transpose of 𝐐
+:( 𝐐^⊺)^-1 is the inverse of 𝐐^⊺.",Definition:Orthogonal Matrix
+249,Definition:Orthogonal Group,Orthogonal,"Let k be a field.
+
+
+The (nth) orthogonal group (on k), denoted O(   )n, k, is the following subset of the general linear group GL( n, k ):
+
+:O(   )n, k := { M ∈GL( n, k ): M^⊺ = M^-1}
+
+where M^⊺ denotes the transpose of M.
+
+
+Further, O(   )n, k is considered to be endowed with conventional matrix multiplication.
+
+
+That is, the (nth) orthogonal group (on k) is the set of all orthogonal order-n square matrices over k under (conventional) matrix multiplication.
+
+
+=== Orthogonal Group of Bilinear Form ===
+Let V be a vector space over a field 𝕂.
+
+Let B: V × V →𝕂 be a nondegenerate bilinear form.
+
+
+Its orthogonal group O(   )B is the group of invertible linear transformations g ∈GL( V ) such that:
+:∀ v, w ∈ V : B (   )g v, g w = B (   )v, w
+
+=== Orthogonal Group of Inner Product Space ===
+Let V be an inner product space.
+
+
+Its orthogonal group O(   )V is the group of invertible linear transformations g ∈GL( V ) such that:
+:∀ v, w ∈ V: ⟨ g v,   ⟩g w = ⟨ v,   ⟩ w
+
+That is, it is the orthogonal group of its inner product.",Definition:Orthogonal (Linear Algebra)
+250,Definition:Power of Element/Ring,Power,"Let ( R, +, ∘) be a ring.
+
+Let r ∈ R.
+
+Let n ∈ℤ_>0 be the set of strictly positive integers.
+
+The nth power of r in R is defined as the nth power of r with respect to the semigroup ( R, ∘):
+
+:∀ n ∈ℤ_>0: r^n =  r     : n = 1 
+ r^n - 1∘ r     : n > 1
+
+
+If R is a ring with unity where 1_R is that unity, the definition extends to n ∈ℤ_≥ 0:
+
+:∀ n ∈ℤ_≥ 0: r^n =  1_R     : n = 0 
+ r^n - 1∘ r     : n > 0",Definition:Power of Element/Semigroup
+251,Definition:Power (B-Algebra),Power,"Let ( X, ∘) be a B-algebra.
+
+For any x ∈ X and n ∈ℕ, define the nth power of x, denoted x^n, inductively:
+
+:x^n = 
+0    if n = 0
+
+x^n - 1∘( 0 ∘ x )    if n ≥ 1",Definition:Power (B-Algebra)
+252,Definition:Cardinality,Power,"Two sets (either finite or infinite) which are equivalent are said to have the same cardinality.
+
+The cardinality of a set S is written | S |.
+
+
+=== Cardinality of Finite Set ===
+Let S be a finite set.
+
+The cardinality | S | of S is the number of elements in S.
+
+That is, if:
+:S ∼ℕ_< n
+
+where:
+:∼ denotes set equivalence
+:ℕ_
+
+Also note that from the definition of finite:
+:∃ n ∈ℕ: | S | = n  S is finite.
+
+=== Cardinality of Infinite Set ===
+Let S be an infinite set.
+
+The cardinality | S | of S can be indicated as:
+:| S | = ∞
+
+However, it needs to be noted that this just means that the cardinality of S cannot be assigned a number n ∈ℕ.
+
+
+It means that | S | is at least ℵ_0 (aleph null).",Definition:Cardinality
+253,Definition:Power Set,Power,"The power set of a set S is the set defined and denoted as:
+
+:𝒫( S ) := { T: T ⊆ S }
+
+That is, the set whose elements are all of the subsets of S.
+
+
+=== Class Theory ===
+The power set of a set x is the class of all the subsets of x:
+
+:𝒫( x ) := { y: y ⊆ x }
+
+
+It is clear from the definition that:
+:y ∈𝒫( x )  y ⊆ x
+
+
+=== Axiom of Powers ===
+
+The concept of the power set is axiomatised in the   in class theory:
+
+ ",Definition:Cardinality
+254,Definition:Power (Physics),Power,"Power is defined as the amount of energy transferred or converted per unit time.
+
+That is, the rate at which energy is transformed.
+
+
+Power is a scalar quantity.
+
+
+=== Instantaneous ===
+The instantaneous power transformed at an instant of time is defined as:
+:p (   )t = d E (   )td t
+where:
+:p (   )t is the power as a function of time
+:E (   )t is the energy as a function of time.
+
+=== Symbol ===
+
+
+=== Dimension ===
+The dimension of measurement of power is 𝖬 𝖫^2 𝖳^-3.
+
+This derives from its definition as:
+:EnergyTime
+
+
+Category:Definitions/Dimensions of Measurement
+Category:Definitions/Power (Physics)
+
+=== Unit ===
+The SI unit of power  is the watt W.
+
+
+=== Watt ===
+The watt is the SI unit of power.
+
+
+It is defined as being the rate at which 1 joule of energy is uniformly transformed in 1 second:
+
+:1  W = 1  J s^-1
+
+
+Hence it can be understood as:
+:the rate at which work is done when the velocity of a body is held constant at 1 metre per second against a constant opposing force of 1 newton
+:the rate at which work is performed when an electric current of 1 ampere flows across an electrical potential difference of 1 volt.
+
+
+=== Conversion Factors ===
+
+
+=== Symbol ===
+ 
+
+=== Base Units ===
+The SI base units of the watt are:
+
+:W := kg m^2 s^-3
+where:
+:kg denotes kilograms
+:m denotes metres
+:s denotes seconds (of time).
+
+This arises from the definition of the watt as J s^-1, that is, joules per second.
+ ",Definition:Power (Physics)
+255,Definition:Primitive Abundant Number,Primitive,"A primitive abundant number is an abundant number whose aliquot parts are all deficient.
+
+
+=== Sequence of Primitive Abundant Numbers ===
+The sequence of primitive abundant numbers begins:
+:20, 70, 88, 104, 272, 304, 368, 464, 550, 572, 650, 748, 836, 945, 1184, 1312, …
+
+ ",Definition:Primitive Abundant Number
+256,Definition:Primitive Semiperfect Number,Primitive,"A primitive semiperfect number is a semiperfect number which is not a multiple of a smaller semiperfect number.
+
+
+=== Sequence of Primitive Semiperfect Numbers ===
+The sequence of primitive semiperfect numbers begins:
+:6, 20, 28, 88, 104, 272, 304, 350, 368, 464, 490, 496, 550, 572, …
+
+ ",Definition:Primitive Semiperfect Number
+257,Definition:Primitive Recursion,Primitive,"=== Primitive Recursion on Several Variables ===
+Let f: ℕ^k →ℕ and g: ℕ^k + 2→ℕ be functions.
+
+Let ( n_1, n_2, …, n_k ) ∈ℕ^k.
+
+Then the function h: ℕ^k + 1→ℕ is obtained from f and g by primitive recursion  if and only if :
+:∀ n ∈ℕ: h (   )n_1, n_2, …, n_k, n = 
+f (   )n_1, n_2, …, n_k    : n = 0 
+
+g (   )n_1, n_2, …, n_k, n - 1, h (   )n_1, n_2, …, n_k, n - 1    : n > 0
+
+
+Category:Definitions/Recursion Theory
+
+=== Primitive Recursion on One Variable ===
+Let a ∈ℕ be a natural number.
+
+Let g: ℕ^2 →ℕ be a function.
+
+Then the function h: ℕ→ℕ is obtained from the constant a and g by primitive recursion  if and only if :
+:∀ n ∈ℕ: h (   )n = 
+a     : n = 0 
+
+g (   )n - 1, h (   )n - 1    : n > 0
+
+=== Primitive Recursion on Partial Functions ===
+Let f: ℕ^k →ℕ and g: ℕ^k+2→ℕ be partial functions.
+
+Let ( n_1, n_2, …, n_k ) ∈ℕ^k.
+
+Then the partial function h: ℕ^k + 1→ℕ is obtained from f and g by primitive recursion  if and only if :
+:∀ n ∈ℕ: h (   )n_1, n_2, …, n_k, n≈
+f (   )n_1, n_2, …, n_k    : n = 0 
+
+g (   )n_1, n_2, …, n_k, n - 1, h (   )n_1, n_2, …, n_k, n - 1    : n > 0
+
+where ≈ is as defined in Partial Function Equality.
+
+
+Note that h (   )n_1, n_2, …, n_k, n is defined only when:
+:h (   )n_1, n_2, …, n_k, n - 1 is defined
+:g (   )n_1, n_2, …, n_k, n - 1, h (   )n_1, n_2, …, n_k, n - 1 is defined.
+
+
+Category:Definitions/Recursion Theory
+
+Category:Definitions/Recursion Theory",Definition:Primitive Polynomial (Ring Theory)
+258,Definition:Primitive Recursive,Primitive,"=== Function ===
+A function is primitive recursive  if and only if  it can be obtained from basic primitive recursive functions using the operations of substitution and primitive recursion a finite number of times.
+
+
+Category:Definitions/Recursion Theory
+Category:Definitions/Primitive Recursive Functions
+
+=== Set ===
+Let A ⊆ℕ.
+
+
+Then A is a primitive recursive set  if and only if  its characteristic function χ_A is a primitive recursive function.
+
+
+Category:Definitions/Recursion Theory
+
+=== Relation ===
+Let ℛ⊆ℕ^k be an n-ary relation on ℕ^k.
+
+
+Then ℛ is a primitive recursive relation  if and only if  its characteristic function χ_ℛ is a primitive recursive function.
+
+
+Category:Definitions/Recursion Theory
+
+Category:Definitions/Recursion Theory",Definition:Primitive Recursion
+259,Definition:Formal Language/Alphabet/Primitive Symbol,Primitive,"Let 𝒜 be the alphabet of a formal language ℒ.
+
+The symbols which comprise 𝒜 are called the primitive symbols of 𝒜.
+
+
+It is usual, during the development of a formal system, to introduce further symbols in order to abbreviate what would otherwise be unwieldy constructions.
+
+Hence the distinction between these newly-introduced symbols and the primitive symbols.",Definition:Formal Language/Alphabet/Primitive Symbol
+260,Definition:Undefined Term,Primitive,"For a definition to not be circular, the definer must use already defined terms. 
+
+However, this process cannot go on indefinitely. If we were to insist on everything being defined only using previously defined terms, we would enter an infinite regress.
+
+
+Concepts that are not defined in terms of previously defined concepts are called undefined terms.
+
+An undefined term is frequently explained by using an ostensive definition: that is, a statement that shows what something is, rather than explains.",Definition:Undefined Term
+261,Definition:Square Root/Complex Number/Principal Square Root,Principal,"Let z ∈ℂ be a complex number.
+
+Let z^1/2 = { w ∈ℂ: w^2 = z } be the square root of z.
+
+
+The principal square root of z is the principal branch of the 2nd power of w.
+
+
+Hence, by the conventional definition of the principal branch of the natural logarithm of z, it is the element w of z^1/2 such that:
+:-π 2 <  w ≤π 2",Definition:Square Root/Complex Number/Principal Square Root
+262,Definition:Power (Algebra)/Complex Number/Principal Branch,Principal,"The principal branch of a complex number raised to a complex power is defined as:
+
+:z^k = e^k Ln z
+
+where Ln z is the principal branch of the natural logarithm.
+
+
+=== Positive Real Base ===
+Let t > 0 be a real number and let k be a complex number.
+
+
+The principal branch of a positive real number raised to a complex power is defined as:
+
+:t^k = e^k ln t
+
+where ln is the natural logarithm of a positive real number.
+
+
+Category:Definitions/Complex Powers
+
+Category:Definitions/Complex Powers",Definition:Square Root/Complex Number/Principal Square Root
+263,Definition:Remainder,Principal,"Let a, b ∈ℤ be integers such that b  0.
+
+From the Division Theorem, we have that:
+
+:∀ a, b ∈ℤ, b  0: ∃_1 q, r ∈ℤ: a = q b + r, 0 ≤ r < | b |
+
+
+The value r is defined as the remainder of a on division by b, or the remainder of a b”'.
+
+
+=== Real Arguments ===
+
+When x, y ∈ℝ the remainder is still defined:
+
+Let x, y ∈ℝ be real numbers such that y  0.
+
+The remainder of x on division by y is defined as the value of r in the expression:
+
+:∀ x, y ∈ℝ, y  0: ∃! q ∈ℤ, r ∈ℝ: x = q y + r, 0 ≤ r < | y |
+
+
+From the definition of the Modulo Operation:
+
+:x  y := x - y ⌊ x y ⌋
+
+it can be seen that the remainder of x on division by y is defined as:
+:r = x  y",Definition:Square Root/Complex Number/Principal Square Root
+264,Definition:Trivial Character,Principal,"Let G be a finite abelian group.
+
+The character χ_0: G →ℂ_ 0 defined as:
+
+:∀ g ∈ G: χ_0 (   )g = 1
+
+is the trivial character on G.",Definition:Principal Ideal of Ring
+265,Definition:Principal Ideal of Ring,Principal,"Let ( R, +, ∘) be a ring with unity.
+
+Let a ∈ R.
+
+
+We define:
+
+=== Definition 1 ===
+Let ( R, +, ∘) be a ring with unity.
+
+Let a ∈ R.
+
+We define:
+
+:( a ) = {∑_i  = 1^n r_i ∘ a ∘ s_i: n ∈ℕ, r_i, s_i ∈ R }
+
+
+The ideal ( a ) is called the principal ideal of R generated by a.
+
+=== Definition 2 ===
+Let ( R, +, ∘) be a ring with unity.
+
+Let a ∈ R.
+
+We define:
+
+:( a ) is the smallest ideal of ( R, +, ∘) containing a as an element.
+
+
+The ideal ( a ) is called the principal ideal of R generated by a.
+
+=== Definition 3 ===
+Let ( R, +, ∘) be a ring with unity.
+
+Let a ∈ R.
+
+We define:
+
+:( a ) is the intersection of all ideals of ( R, +, ∘) which contain a as an element.
+
+
+The ideal ( a ) is called the principal ideal of R generated by a.
+
+=== Definition 4 ===
+Let ( R, +, ∘) be a ring with unity.
+
+Let a ∈ R.
+
+We define:
+
+:( a ) is an ideal of ( R, +, ∘) such that every element of ( a ) is of the form a ∘ r, where r ∈ R
+
+
+The ideal ( a ) is called the principal ideal of R generated by a.
+
+The ideal ( a ) is called the principal ideal of R generated by a.",Definition:Principal Ideal of Ring
+266,Definition:Principal Ideal Domain,Principal,A principal ideal domain is an integral domain in which every ideal is a principal ideal.,Definition:Principal Ideal Domain
+267,Definition:Principal Ultrafilter,Principal,"Let S be a set.
+
+Let 𝒫( S ) denote the power set of S.
+
+Let ℱ⊂𝒫( S ) be an ultrafilter on S with a cluster point.
+
+
+Then ℱ is a principal ultrafilter on S.
+
+
+=== Nonprincipal Ultrafilter ===
+Let S be a set.
+
+Let 𝒫( S ) denote the power set of S.
+
+
+Let ℱ⊂𝒫( S ) be an ultrafilter on S which does not have a cluster point.
+
+Then ℱ is a nonprincipal ultrafilter  on S.",Definition:Principal Ultrafilter
+268,Definition:Principal (Economics),Principal,Principal is defined as a quantity of money on which interest is paid.,Definition:Principal (Economics)
+269,Definition:Ring (Abstract Algebra)/Product,Product,"Let ( R, *, ∘) be a ring.
+
+
+The distributive operation ∘ in ( R, *, ∘) is known as the ring product.",Definition:Multiplication/Product
+270,Definition:Field (Abstract Algebra)/Product,Product,"Let ( F, +, ×) be a field.
+
+
+The distributive operation × in ( F, +, ×) is known as the (field) product.",Definition:Multiplication/Product
+271,Definition:Matrix Product,Product,"=== Matrix Product (Conventional) ===
+Let ( R, +, ∘) be a ring.
+
+Let 𝐀 = [ a ]_m n be an m × n matrix over R.
+
+Let 𝐁 = [ b ]_n p be an n × p matrix over R.
+
+Then the matrix product of 𝐀 and 𝐁 is written 𝐀𝐁 and is defined as follows.
+
+Let 𝐀𝐁 = 𝐂 = [ c ]_m p.
+
+
+Then:
+:∀ i ∈[ 1  . . ]m, j ∈[ 1  . . ]p: c_i j = ∑_k  = 1^n a_i k∘ b_k j
+
+
+Thus [ c ]_m p is the m × p matrix where each entry c_i j is built by forming the (ring) product of each entry in the i'th row of 𝐀 with the corresponding entry in the j'th column of 𝐁 and adding up all those products.
+
+
+This operation is called matrix multiplication, and 𝐂 is the matrix product of 𝐀 with 𝐁.
+
+
+It follows that matrix multiplication is defined whenever the first matrix has the same number of columns as the second matrix has rows.
+
+
+=== Pre-Multiplication ===
+Let ( R, +, ∘) be a ring.
+
+Let 𝐀 = [ a ]_m n be an m × n matrix over R.
+
+Let 𝐁 = [ b ]_n p be an n × p matrix over R.
+
+
+Let 𝐀𝐁 be the product of 𝐀 with 𝐁.
+
+Then 𝐁 is pre-multiplied by 𝐀.
+
+=== Post-Multiplication ===
+Let ( R, +, ∘) be a ring.
+
+Let 𝐀 = [ a ]_m n be an m × n matrix over R.
+
+Let 𝐁 = [ b ]_n p be an n × p matrix over R.
+
+
+Let 𝐀𝐁 be the product of 𝐀 with 𝐁.
+
+Then 𝐀 is post-multiplied by 𝐁.
+
+=== Using Einstein Summation Convention ===
+Let ( R, +, ∘) be a ring.
+
+Let 𝐀 = [ a ]_m n be an m × n matrix over R.
+
+Let 𝐁 = [ b ]_n p be an n × p matrix over R.
+
+
+The matrix product of 𝐀 and 𝐁 can be expressed using the Einstein summation convention as:
+
+Then:
+:c_i j := a_i k∘ b_k j
+
+
+The index which appears twice in the expressions on the   is the entry k, which is the one summated over.
+
+=== Conformable Matrices ===
+Let 𝐀 and 𝐁 be matrices.
+
+It needs to be emphasised that matrix product can be defined on 𝐀 and 𝐁  if and only if  𝐀 and 𝐁 are conformable.
+
+
+That is, if the number of rows of one is equal to the number of columns of the other.
+
+=== Matrix Scalar Product ===
+Let 𝔽 denote one of the standard number systems.
+
+Let ℳ(   )m, n be the m × n matrix space over 𝔽.
+
+Let 𝐀 = [ a ]_m n∈ℳ(   )m, n.
+
+Let λ∈𝔽 be any element of F.
+
+
+The operation of scalar multiplication of 𝐀 by λ is defined as follows.
+
+Let λ𝐀 = 𝐂.
+
+Then:
+:∀ i ∈[ 1  . . ]m, j ∈[ 1  . . ]n: c_i j = λ a_i j
+
+λ𝐀 is the scalar product of λ and 𝐀.
+
+
+Thus 𝐂 = [ c ]_m n is the m × n matrix composed of the product of λ with the corresponding elements of 𝐀.
+
+
+=== Ring ===
+Let ( R, +, ∘) be a ring.
+
+Let 𝐀 = [ a ]_m n be an m × n matrix over ( R, +, ∘).
+
+Let λ∈ R be any element of R.
+
+
+The scalar product of λ and 𝐀 is defined as follows.
+
+Let λ∘𝐀 = 𝐂.
+
+Then:
+:∀ i ∈[ 1  . . ]m, j ∈[ 1  . . ]n: c_i j = λ∘ a_i j
+
+
+Thus [ c ]_m n is the m × n matrix composed of the product of λ with the corresponding elements of 𝐀.
+
+
+=== Scalar ===
+Let ℳ(   )m, n be a matrix space of order m × n on which scalar multiplication is defined.
+
+Let 𝐀 = [ a ]_m n∈ℳ(   )m, n.
+
+
+Let λ be an element of the underlying structure such that:
+
+:𝐂 = λ𝐀
+
+where the notation denotes scalar multiplication.
+
+
+The element λ of the underlying structure of ℳ(   )m, n is known as a scalar.
+
+
+Category:Definitions/Matrix Scalar Product
+
+=== Scalar ===
+Let ℳ(   )m, n be a matrix space of order m × n on which scalar multiplication is defined.
+
+Let 𝐀 = [ a ]_m n∈ℳ(   )m, n.
+
+
+Let λ be an element of the underlying structure such that:
+
+:𝐂 = λ𝐀
+
+where the notation denotes scalar multiplication.
+
+
+The element λ of the underlying structure of ℳ(   )m, n is known as a scalar.
+
+
+Category:Definitions/Matrix Scalar Product
+
+=== Commutative Matrix Product ===
+ 
+
+=== Kronecker Product ===
+
+Also known as matrix direct product:
+
+Let 𝐀 = [ a ]_m n and 𝐁 = [ b ]_p q be matrices.
+
+The Kronecker product of 𝐀 and 𝐁 is denoted 𝐀⊗𝐁 and is defined as the block matrix:
+
+:𝐀⊗𝐁 = [ a_11𝐁 a_12𝐁     ⋯ a_1n𝐁; a_21𝐁 a_22𝐁     ⋯ a_2n𝐁;     ⋮     ⋮     ⋱     ⋮; a_m1𝐁 a_m2𝐁     ⋯ a_mn𝐁 ]
+
+
+Writing this out in full:
+
+:𝐀⊗𝐁 = [ a_11 b_11 a_11 b_12         ⋯ a_11 b_1q         ⋯         ⋯ a_1n b_11 a_1n b_12         ⋯ a_1n b_1q; a_11 b_21 a_11 b_22         ⋯ a_11 b_2q         ⋯         ⋯ a_1n b_21 a_1n b_22         ⋯ a_1n b_2q;         ⋮         ⋮         ⋱         ⋮                             ⋮         ⋮         ⋱         ⋮; a_11 b_p1 a_11 b_p2         ⋯ a_11 b_pq         ⋯         ⋯ a_1n b_p1 a_1n b_p2         ⋯ a_1n b_pq;         ⋮         ⋮                   ⋮         ⋱                   ⋮         ⋮                   ⋮;         ⋮         ⋮                   ⋮                   ⋱         ⋮         ⋮                   ⋮; a_m1 b_11 a_m1 b_12         ⋯ a_m1 b_1q         ⋯         ⋯ a_mn b_11 a_mn b_12         ⋯ a_mn b_1q; a_m1 b_21 a_m1 b_22         ⋯ a_m1 b_2q         ⋯         ⋯ a_mn b_21 a_mn b_22         ⋯ a_mn b_2q;         ⋮         ⋮         ⋱         ⋮                             ⋮         ⋮         ⋱         ⋮; a_m1 b_p1 a_m1 b_p2         ⋯ a_m1 b_pq         ⋯         ⋯ a_mn b_p1 a_mn b_p2         ⋯ a_mn b_pq ]
+
+
+Thus, if:
+:𝐀 is a matrix with order m × n
+:𝐁 is a matrix with order p × q
+
+then 𝐀⊗𝐁 is a matrix with order m p × n q.
+
+=== Hadamard Product ===
+
+Also known as Matrix Entrywise Product or Schur Product:
+
+Let 𝐀 = [ a ]_m n and 𝐁 = [ b ]_m n be m × n matrices over a ring ( R, +, ×).
+
+
+The Hadamard product of 𝐀 and 𝐁 is written 𝐀∘𝐁 and is defined as follows:
+
+:𝐀∘𝐁 := 𝐂 = [ c ]_m n
+
+where:
+
+:∀ i ∈[ 1  . . ]m, j ∈[ 1  . . ]n: c_i j = a_i j× b_i j
+
+
+=== Defined Operation ===
+
+
+=== Frobenius Inner Product ===
+ 
+
+=== Cracovian ===
+ ",Definition:Multiplication/Product
+272,Definition:Product (Category Theory),Product,"=== Binary Product ===
+Let 𝐂 be a metacategory.
+
+Let A and B be objects of 𝐂.
+
+
+A (binary) product diagram for A and B comprises an object P and morphisms p_1: P → A, p_2: P → B:
+
+::@+1em@L+3px
+ A
+   
+ P
+  [l]_*+p_1[r]^*+p_2   
+ B
+
+subjected to the following universal mapping property:
+
+
+:For any object X and morphisms x_1, x_2 like so:
+
+::@+1em@L+3px
+ A
+   
+ X
+  [l]_*+x_1[r]^*+x_2   
+ B
+
+:there is a unique morphism u: X → P such that:
+
+::@+1em@L+3px   
+ X
+  [ld]_*+x_1@–>[d]^*+u[rd]^*+x_2
+
+ A
+   
+ P
+  [l]^*+p_1[r]_*+p_2   
+ B
+
+:is a commutative diagram
+
+That is:
+:x_1 = p_1 ∘ u and x_2 = p_2 ∘ u
+
+
+In this situation, P is called a (binary) product of A and B and may be denoted A × B.
+
+Generally, one writes ⟨x_1, x_2⟩ for the unique morphism u determined by above diagram.
+
+
+The morphisms p_1 and p_2 are often taken to be implicit.
+
+They are called projections; if necessary, p_1 can be called the first projection and p_2 the second projection.
+ 
+
+=== General Definition ===
+Let 𝐂 be a metacategory.
+
+Let 𝒞 be any collection of objects of 𝐂.
+
+Let 𝐃𝐢𝐬(   )𝒞 be the discrete category on 𝒞, considered as a subcategory of 𝐂.
+
+
+A product for 𝒞, denoted ∏𝒞, is a limit for the inclusion functor D: 𝐃𝐢𝐬(   )𝒞→𝐂, considered as a diagram.
+
+
+For an object C in 𝒞, the associated morphism ∏𝒞→ C is denoted pr_C and called the projection on C.
+
+The whole construction is pictured in the following commutative diagram:
+
+::@R-.5em@L+3px      
+ A
+  @–>[dd]
+  [dddl]_*+a_C[dddr]^*+a_C'
+
+      ∏𝒞[dl]^*pr_C[dr]_*pr_C'
+𝐃𝐢𝐬(   )𝒞   
+ C
+   …  …   
+ C'
+
+
+=== Finite Product ===
+Let 𝐂 be a metacategory.
+
+Let ∏𝒞 be a product for a finite set 𝒞 of objects of 𝐂.
+
+
+Then ∏𝒞 is called a finite product.",Definition:Field (Abstract Algebra)/Product
+273,Definition:Ideal of Ring/Proper Ideal,Proper,"Let ( R, +, ∘) be a ring.
+
+
+A proper ideal J of ( R, +, ∘) is an ideal of R such that J is a proper subset of R.
+
+That is, such that J ⊆ R and J  R.",Definition:Ideal of Ring/Proper Ideal
+274,Definition:Proper G-Submodule,Proper,"Let (V, ϕ) be a G-module.
+
+
+A G-submodule of V is called proper iff it is a proper vector subspace of V.
+
+",Definition:Proper G-Submodule
+275,Definition:Proper Coloring/Vertex Coloring,Proper,"Let G = ( V, E ) be a simple graph.
+
+
+A proper (vertex) k-coloring of G is defined as a vertex coloring from a set of k colors such that no two adjacent vertices share a common color.
+
+That is, a proper k-coloring of G is a mapping c: V →{ 1, 2, … k } such that:
+:∀ e = { u, v }∈ E: c (   )u  c (   )v",Definition:Proper Coloring/Vertex Coloring
+276,Definition:Rooted Tree/Ancestor Node/Proper,Proper,"Let T be a rooted tree with root r_T.
+
+Let t be a node of T.
+
+
+A proper ancestor node of t is an ancestor node of t that is not t itself.",Definition:Rooted Tree/Ancestor Node/Proper
+277,Definition:Refinement of Normal Series/Proper Refinement,Proper,"A proper refinement of a normal series is a refinement which is not equal to the original normal series.
+
+
+That is, it contains extra (normal) subgroups which are not present in the original normal series.",Definition:Refinement of Normal Series/Proper Refinement
+278,Definition:Proper Orthogonal Matrix,Proper,"Let 𝐐 be an orthogonal matrix.
+
+
+Then 𝐐 is a proper orthogonal matrix  if and only if :
+:(   )𝐐 = 1
+where (   )𝐐 is the determinant of 𝐐.",Definition:Proper Orthogonal Matrix
+279,Definition:Well-Formed Part/Proper Well-Formed Part,Proper,"Let ℱ be a formal language with alphabet 𝒜.
+
+Let 𝐀 be a well-formed formula of ℱ.
+
+Let 𝐁 be a well-formed part of 𝐀.
+
+
+Then 𝐁 is a proper well-formed part of 𝐀  if and only if  𝐁 is not equal to 𝐀.",Definition:Refinement of Normal Series/Proper Refinement
+280,Definition:Proper Divisor/Integer,Proper,"Let ( ℤ, +, ×) be the ring of integers.
+
+Let x, y ∈ℤ.
+
+Let x divides y be defined as:
+:x \ y ∃ t ∈ℤ: y = t × x
+in the conventional way.
+
+
+Then x is a proper divisor of y  if and only if :
+
+:(1):    x \ y
+:(2):   | x || y |
+:(3):    x ± 1
+
+That is:
+:(1):    x is a divisor of y
+:(2):    x and y are not equal in absolute value
+:(3):    x is not equal to either 1 or -1.",Definition:Proper Divisor/Integer
+281,Definition:Proper Element of Ring,Proper,A non-zero element of a ring which does not have a product inverse is called a proper element.,Definition:Proper Element of Ring
+282,Definition:Proper Zero Divisor,Proper,"Let ( R, +, ∘) be a ring.
+
+
+A proper zero divisor of R is an element x ∈ R^* such that:
+
+:∃ y ∈ R^*: x ∘ y = 0_R
+
+where R^* is defined as R ∖{ 0_R }.
+
+
+That is, it is a zero divisor of R which is specifically not 0_R.
+
+
+The presence of a proper zero divisor in a ring means that the product of two elements of the ring may be zero even if neither factor is zero.
+
+That is, if R has proper zero divisor, then ( R^*, ∘) is not closed.",Definition:Proper Zero Divisor
+283,Definition:Proper Subset,Proper,"Let S and T be sets such that S is a subset of T.
+
+Let S  T.
+
+Then S is referred to as a proper subset of T, and we write:
+:S ⊊ T
+or:
+:S ⫋ T
+
+
+=== Proper Superset ===
+If S is a proper subset of T, then T is a proper superset of S.
+
+This can be expressed by the notation T ⫌ S.
+
+=== Notation ===
+",Definition:Proper Subset
+284,Definition:Class (Class Theory)/Proper Class,Proper,"A proper class is a class which is not a set.
+
+That is, A is a proper class  if and only if :
+:∃ x: x = A
+where x is a set.",Definition:Proper Subset
+285,Definition:Relative Complement,Proper,"Let S be a set, and let T ⊆ S, that is: let T be a subset of S.
+
+Then the set difference S ∖ T can be written ∁_S(   )T, and is called the relative complement of T in S, or the complement of T relative to S.
+
+Thus:
+:∁_S(   )T = { x ∈ S : x ∉ T }",Definition:Proper Subset
+286,Definition:Filter/Proper Filter,Proper,"Let ( S, ≼) be an ordered set.
+
+Let ℱ be a filter on ( S, ≼).
+
+
+Then:
+:ℱ is a proper filter on S
+ if and only if :
+:ℱ S
+
+That is,  if and only if  ℱ is a proper subset of S.",Definition:Proper Well-Ordering
+287,Definition:Proper Well-Ordering,Proper,"Let V be a basic universe.
+
+Let A be a class.
+
+Let ℛ be a well-ordering on A.
+
+
+Then ℛ is a proper well-ordering  if and only if :
+:every proper lower section of A is a set.",Definition:Proper Well-Ordering
+288,Definition:Proper Mapping,Proper,"Let X and Y be topological spaces.
+
+
+A mapping f: X → Y is proper  if and only if  for every compact subspace K ⊂ Y, its preimage f^-1[ K ] is also compact.",Definition:Submodule/Proper
+289,Definition:Proper Group Action,Proper,"Let G be a topological group.
+
+Let X be a topological space.
+
+
+A group action ϕ: G × X → X is called proper  if and only if  ϕ is a proper mapping.
+
+
+Here G× X is equipped with the product topology.",Definition:Proper Group Action
+290,Definition:Proper Name,Proper,"A proper name is a symbol or collection of symbols used to identify a particular object uniquely.
+
+
+In contrast with natural language, a proper name has a wider range than being the particular identifying label attached to a particular single entity (be it a person, or a place, or whatever else).
+
+For example:
+:Sloth is a proper name for the concept of being lazy.
+:Rain is a proper name for the meteorological phenomenon of water falling from the sky.",Definition:Filter/Proper Filter
+291,Definition:Polygon/Regular,Regular,"A regular polygon is a polygon which is both equilateral and equiangular.
+
+That is, in which all the sides are the same length, and all the vertices have the same angle:
+
+:
+
+
+=== Center ===
+The center of a regular polygon P is defined as the point which is the center of the circumcircle of P.
+
+:300px
+
+In the above, O is the center of the regular polygon.
+
+=== Long Radius ===
+The long radius of a regular polygon P is defined as the distance from the center of P to one of its vertices.
+
+:
+
+In the above, the length of OA is the long radius of the regular polygon.
+
+=== Apothem ===
+The apothem of a regular polygon P is defined as the perpendicular distance from the center of P to one of its sides.
+
+:
+
+In the above, the length of OM is the apothem of the regular polygon.",Definition:Regular Polyhedron
+292,Definition:Pentagon/Regular,Regular,"A regular pentagon is a pentagon which is both equilateral and equiangular.
+
+That is, a regular polygon with 5 sides.
+
+That is, a pentagon in which all the sides are the same length, and all the vertices have the same angle:
+
+:",Definition:Pentagon/Regular
+293,Definition:Hexagon/Regular,Regular,"A regular hexagon is a hexagon which is both equilateral and equiangular.
+
+That is, a regular polygon with 6 sides.
+
+That is, a hexagon in which all the sides are the same length, and all the vertices have the same angle:
+
+:",Definition:Regular Polyhedron
+294,Definition:Regular Polyhedron,Regular,"A regular polyhedron is a polyhedron:
+:(1): whose faces are congruent regular polygons
+:(2): each of whose vertices is the common vertex of the same number of faces.",Definition:Regular Polyhedron
+295,Definition:Regular Open Set,Regular,"Let T be a topological space.
+
+Let A ⊆ T.
+
+
+Then A is regular open in T  if and only if :
+:A = A^- ∘
+
+That is,  if and only if  A equals the interior of its closure.",Definition:Regular Closed Set
+296,Definition:Regular Closed Set,Regular,"Let T be a topological space.
+
+Let A ⊆ T.
+
+
+Then A is regular closed in T  if and only if :
+:A = A^∘ -
+
+That is,  if and only if  A equals the closure of its interior.",Definition:Regular Closed Set
+297,Definition:Regular Value,Regular,"Let X and Y be smooth manifolds.
+
+Let f: X → Y be a smooth mapping.
+
+
+Then a point y ∈ Y is called a regular value of f  if and only if  the pushforward of f at x:
+: f_* |_x: T_x X → T_y Y
+ 
+is surjective for every x ∈ f^-1(   )y ⊆ X.",Definition:Analytic Function/Complex Plane
+298,Definition:Regular Space,Regular,"Let T = ( S, τ) be a topological space.
+
+
+( S, τ) is a regular space  if and only if :
+:( S, τ) is a T_3 space
+:( S, τ) is a T_0 (Kolmogorov) space.
+
+
+That is:
+:∀ F ⊆ S: ∁_S(   )F ∈τ, y ∈∁_S(   )F: ∃ U, V ∈τ: F ⊆ U, y ∈ V: U ∩ V = ∅ 
+
+:∀ x, y ∈ S, either:
+::∃ U ∈τ: x ∈ U, y ∉ U
+::∃ U ∈τ: y ∈ U, x ∉ U
+
+ ",Definition:Regular Space
+299,Definition:Tychonoff Space,Regular,"Let T = ( S, τ) be a topological space.
+
+
+( S, τ) is a Tychonoff Space or completely regular space  if and only if :
+:( S, τ) is a T_3 1/2 space
+:( S, τ) is a T_0 (Kolmogorov) space.
+
+
+That is:
+
+:For any closed set F ⊆ S and any point y ∈ S such that y ∉ F, there exists an Urysohn function for F and { y }.
+
+:∀ x, y ∈ S, either:
+::∃ U ∈τ: x ∈ U, y ∉ U
+::∃ U ∈τ: y ∈ U, x ∉ U
+
+ ",Definition:Regular Closed Set
+300,Definition:Regular Graph,Regular,"Let G = ( V, E ) be an simple graph whose vertices all have the same degree r.
+
+Then G is called regular of degree r, or r-regular.",Definition:Regular Graph
+301,Definition:Regular Expression,Regular,"A regular expression is an algebraic structure on an alphabet x3a3 defined as follows:
+
+* The empty-set regular expression, ∅, is a regular expression.
+
+* The empty-word regular expression, ϵ, is a regular expression.
+
+* Every σ∈x3a3 is a regular expression. (These are called literals.)
+
+* If R_1 and R_2 are regular expressions, R_1 R_2 is a regular expression (concatenation).
+
+* If R_1 and R_2 are regular expressions, R_1 | R_2 is a regular expression (alternation).
+
+* If R is a regular expression, R^* is a regular expression (Kleene star).
+
+
+Every regular expression R on an alphabet x3a3 defines a language L (   )R ⊆x3a3^*, where x3a3^* is the set of all (finite-length) words (sequences) of symbols in x3a3:
+
+* L (   )∅ = ∅ (the empty set).
+
+* L (   )ϵ = {[  ] } (the set containing only the empty word).
+
+* If R is a literal σ, L (   )R = {[ σ] } (i.e., the set containing only the single-symbol word “σ”).
+
+* If R is a concatenation R_1 R_2, L (   )R = { w_1 w_2: w_1 ∈ L (   )R_1, w_2 ∈ L (   )R_2}, where w_1 w_2 is the concatenation of the words w_1 and w_2.
+
+* If R is an alternation R_1 | R_2, L (   )R = L R_1∪ L (   )R_2.
+
+* If R is a Kleene star R_1^*, L (   )R is the smallest set satisfying the following:
+** [  ] ∈ L (   )R (the empty word is in the set);
+** if w_1 ∈ L (   )R and w_2 ∈ L (   )R_1, then w_1 w_2 ∈ L (   )R.
+
+Category:Definitions/Formal Systems",Definition:Regular Expression
+302,Definition:Right Normal Element of Relation,Right,"Let A be a class.
+
+Let ℛ be a relation on A.
+
+
+An element x of A is right normal with respect to ℛ  if and only if :
+:∀ y ∈ A: ℛ(   )y, x holds.",Definition:Right Normal Element of Relation
+303,Definition:Right Cancellable Mapping,Right,"A mapping f: X → Y is right cancellable (or right-cancellable)  if and only if :
+
+:∀ Z: ∀( h_1, h_2: Y → Z ): h_1 ∘ f = h_2 ∘ f  h_1 = h_2
+
+That is,  if and only if  for any set Z:
+:If h_1 and h_2 are mappings from Y to Z
+:then h_1 ∘ f = h_2 ∘ f implies h_1 = h_2.",Definition:Continuous Real Function/Right-Continuous
+304,Definition:Right Inverse Mapping,Right,"Let S, T be sets where S ∅, that is, S is not empty.
+
+Let f: S → T be a mapping.
+
+
+Let g: T → S be a mapping such that:
+:f ∘ g = I_T
+where:
+:f ∘ g denotes the composite mapping g followed by f
+:I_T is the identity mapping on T.
+
+
+Then g: T → S is called a right inverse (mapping) of f.",Definition:Continuous Real Function/Right-Continuous
+305,Definition:Interval/Ordered Set/Right Half-Open,Right,"Let ( S, ≼) be an ordered set.
+
+Let a, b ∈ S.
+
+
+The right half-open interval between a and b is the set:
+
+:[ a  . . )b := a^≽∩ b^≺ = { s ∈ S: ( a ≼ s ) ( s ≺ b )  }
+
+where:
+:a^≽ denotes the upper closure of a
+:b^≺ denotes the strict lower closure of b.",Definition:Interval/Ordered Set/Right Half-Open
+306,Definition:Orientation of Coordinate Axes/Cartesian Plane/Right-Handed,Right,"A Cartesian plane is defined as being right-handed if it has the following property:
+
+Let a right hand be placed, with palm uppermost, such that the thumb points along the x-axis in the positive direction, such that the thumb and index finger are at right-angles to each other.
+
+Then the index finger is pointed along the y-axis in the positive direction.
+
+
+:",Definition:Orientation of Coordinate Axes/Cartesian Plane/Right-Handed
+307,Definition:Orientation of Coordinate Axes/Cartesian 3-Space/Right-Handed,Right,"A Cartesian 3-Space is defined as being right-handed if it has the following property:
+
+Let a right hand be placed such that:
+:the thumb and index finger are at right-angles to each other
+:the 3rd finger is at right-angles to the thumb and index finger, upwards from the palm
+:the thumb points along the x-axis in the positive direction
+:the index finger points along the y-axis in the positive direction.
+
+Then the 3rd finger is pointed along the z-axis in the positive direction.
+
+
+:",Definition:Orientation of Coordinate Axes/Cartesian Plane/Right-Handed
+308,Definition:Limit of Real Function/Right,Right,"Let I = ( a  . . )b be an open real interval.
+
+Let f:  I →ℝ be a real function.
+
+Let L ∈ℝ.
+
+
+Suppose that:
+:∀ϵ∈ℝ_>0: ∃δ∈ℝ_>0: ∀ x ∈ I: a < x < a + δ| f (   )x - L | < ϵ
+where ℝ_>0 denotes the set of strictly positive real numbers.
+
+That is, for every real strictly positive ϵ there exists a real strictly positive δ such that every real number in the domain of f, greater than a but within δ of a, has an image within ϵ of L.
+
+
+:
+
+Then f (   )x is said to tend to the limit L as x tends to a from the right, and we write:
+:f (   )x → L as x → a^+
+or
+:lim_x → a^+ f (   )x = L
+
+
+This is voiced
+:the limit of f (   )x as x tends to a from the right
+and such an L is called:
+:a limit from the right.",Definition:Limit of Real Function/Right
+309,Definition:Difference Quotient/Right,Right,"Let V be a vector space over the real numbers ℝ.
+
+Let f: ℝ→ V be a function.
+
+
+A right difference quotient is an expression of the form:
+:f (   )x + h - f (   )x h
+where h > 0 is a strictly positive real number.",Definition:Continuous Real Function/Right-Continuous
+310,Definition:Continuous Real Function/Right-Continuous,Right,"Let S ⊆ℝ be an open subset of the real numbers ℝ.
+
+Let f: S →ℝ be a real function.
+
+
+Let x_0 ∈ S. 
+
+Then f is said to be right-continuous at x_0  if and only if  the limit from the right of f (   )x as x → x_0 exists and:
+
+:lim_x → x_0^+ 
+ x_0 ∈ A f (   )x = f (   )x_0
+
+where lim_x → x_0^+ is a limit from the right.
+
+
+Furthermore, f is said to be right-continuous  if and only if :
+
+:∀ x_0 ∈ S, f is right-continuous at x_0",Definition:Limit of Real Function/Right
+311,Definition:Right-Hand Derivative/Real Function,Right,"Let f: ℝ→ℝ be a real function.
+
+
+The right-hand derivative of f is defined as the right-hand limit:
+:f'_+ (   )x = lim_h → 0^+f (   )x + h - f (   )x/h
+
+If the right-hand derivative exists, then f is said to be right-hand differentiable at x.",Definition:Limit of Real Function/Right
+312,Definition:Real Interval/Half-Open/Right,Right,"Let a, b ∈ℝ be real numbers.
+
+
+The right half-open (real) interval from a to b is the subset:
+:[ a  . . )b := { x ∈ℝ: a ≤ x < b }",Definition:Real Interval/Unbounded Closed
+313,Definition:Real Interval/Unbounded Closed,Right,"There are two unbounded closed intervals involving a real number a ∈ℝ, defined as:
+
+ 
+ 
+ 
+ ",Definition:Right Zero Divisor
+314,Definition:Real Interval/Unbounded Open,Right,"There are two unbounded open intervals involving a real number a ∈ℝ, defined as:
+
+ 
+ 
+ 
+ ",Definition:Right Zero Divisor
+315,Definition:Right Zero,Right,"Let ( S, ∘) be an algebraic structure.
+
+An element z_R ∈ S is called a right zero element (or just right zero)  if and only if :
+:∀ x ∈ S: x ∘ z_R = z_R",Definition:Right Zero Divisor
+316,Definition:Identity (Abstract Algebra)/Right Identity,Right,"Let ( S, ∘) be an algebraic structure.
+
+An element e_R ∈ S is called a right identity (element)  if and only if :
+:∀ x ∈ S: x ∘ e_R = x",Definition:Operation/Binary Operation/Product/Right
+317,Definition:Right Operation,Right,"Let S be a set.
+
+For any x, y ∈ S, the right operation on S is the binary operation defined as:
+:∀ x, y ∈ S: x → y = y",Definition:Interval/Ordered Set/Right Half-Open
+318,Definition:Cancellable Element/Right Cancellable,Right,"Let ( S, ∘) be an algebraic structure.
+
+
+An element x ∈( S, ∘) is right cancellable  if and only if :
+
+:∀ a, b ∈ S: a ∘ x = b ∘ x  a = b",Definition:Inverse (Abstract Algebra)/Right Inverse
+319,Definition:Right Cancellable Operation,Right,"Let ( S, ∘) be an algebraic structure.
+
+
+The operation ∘ in ( S, ∘) is right cancellable  if and only if :
+:∀ a, b, c ∈ S: a ∘ c = b ∘ c  a = b
+
+That is,  if and only if  all elements of ( S, ∘) are right cancellable.",Definition:Operation/Binary Operation/Product/Right
+320,Definition:Distributive Operation/Right,Right,"Let S be a set on which is defined two binary operations, defined on all the elements of S × S, denoted here as ∘ and *.
+
+The operation ∘ is right distributive over the operation *  if and only if :
+
+:∀ a, b, c ∈ S: ( a * b ) ∘ c = ( a ∘ c ) * ( b ∘ c )",Definition:Interval/Ordered Set/Right Half-Open
+321,Definition:Inverse (Abstract Algebra)/Right Inverse,Right,"Let ( S, ∘) be a monoid whose identity is e_S.
+
+An element x_R ∈ S is called a right inverse of x  if and only if :
+:x ∘ x_R = e_S",Definition:Right Naturally Totally Ordered Semigroup
+322,Definition:Quasigroup/Right Quasigroup,Right,"Let ( S, ∘) be a magma. 
+
+
+( S, ∘) is a right quasigroup  if and only if :
+:for all a ∈ S, the right regular representation ρ_a is a permutation on S.
+
+That is:
+:∀ a, b ∈ S: ∃ ! x ∈ S: x ∘ a = b",Definition:Quasigroup/Right Quasigroup
+323,Definition:Regular Representations/Right Regular Representation,Right,"Let ( S, ∘) be a magma.
+
+Let a ∈ S be arbitrary.
+
+
+The mapping ρ_a: S → S is defined as:
+
+:∀ x ∈ S: ρ_a (   )x = x ∘ a
+
+
+This is known as the right regular representation of ( S, ∘) with respect to a.",Definition:Operation/Binary Operation/Product/Right
+324,Definition:Operation/Binary Operation/Product/Right,Right,"Let x and y be elements which are operated on by a given operation ∘.
+
+The right-hand product of x by y is the product x ∘ y.",Definition:Operation/Binary Operation/Product/Right
+325,Definition:Right Naturally Totally Ordered Semigroup,Right,"Let ( S, ∘, ≼) be a positively totally ordered semigroup.
+
+
+Then ( S, ∘, ≼) is a right naturally totally ordered semigroup  if and only if :
+
+:∀ a, b ∈ S: a ≺ b ∃ x ∈ S: b = a ∘ x",Definition:Right Naturally Totally Ordered Semigroup
+326,Definition:Coset/Right Coset,Right,"Let ( S, ∘) be an algebraic structure.
+
+Let ( H, ∘) be a subgroup of ( S, ∘).
+
+
+The right coset of y modulo H, or right coset of H by y, is:
+
+:H ∘ y = { x ∈ S: ∃ h ∈ H: x = h ∘ y }
+
+
+That is, it is the subset product with singleton:
+
+:H ∘ y = H ∘{ y }",Definition:Coset/Right Coset
+327,Definition:Coset Space/Right Coset Space,Right,"Let G be a group.
+
+Let H be a subgroup of G.
+
+
+The right coset space (of G modulo H) is the quotient set of G by right congruence modulo H, denoted G / H^r.
+
+It is the set of all the right cosets of H in G.",Definition:Coset/Right Coset
+328,Definition:Transversal (Group Theory)/Right Transversal,Right,"Let G be a group.
+
+Let H be a subgroup of G.
+
+Let S ⊆ G be a subset of G.
+
+
+S is a right transversal for H in G  if and only if  every right coset of H contains exactly one element of S.",Definition:Coset/Right Coset
+329,Definition:Group Action/Right Group Action,Right,"Let X be a set.
+
+Let ( G, ∘) be a group whose identity is e.
+
+
+A right group action is a mapping ϕ: X × G → X such that:
+
+:∀( x, g ) ∈ X × G : x * g := ϕ(   )x, g∈ X
+
+in such a way that the right group action axioms are satisfied:
+ ",Definition:Group Action/Right Group Action
+330,Definition:Subset Product Action/Right,Right,"Let ( G, ∘) be a group.
+
+Let 𝒫( G ) be the power set of G.
+
+
+The (right) subset product action of G is the group action *: G ×𝒫( G ) →𝒫( G ):
+:∀ g ∈ G, S ∈𝒫( G ): g * S = S ∘ g",Definition:Group Action/Right Group Action
+331,Definition:Congruence Modulo Subgroup/Right Congruence,Right,"Let G be a group.
+
+Let H be a subgroup of G.
+
+
+We can use H to define a relation on G as follows:
+
+:ℛ^r_H = {( x, y ) ∈ G × G: x y^-1∈ H }
+
+This is called right congruence modulo H.",Definition:Congruence Modulo Subgroup/Right Congruence
+332,Definition:Right Zero Divisor,Right,"Let ( R, +, ∘) be a ring.
+
+
+A right zero divisor (in R) is an element x ∈ R such that:
+:∃ y ∈ R^*: y ∘ x = 0_R
+
+where R^* is defined as R ∖{ 0_R }.",Definition:Right Zero Divisor
+333,Definition:Linear Ring Action/Right,Right,"Let R be a ring.
+
+Let M be an abelian group.
+
+Let ∘ : M × R → M be a mapping from the cartesian product M × R.
+
+
+∘ is a right linear ring action of R on M  if and only if  ∘ satisfies the right ring action axioms:
+ ",Definition:Group Action/Right Group Action
+334,Definition:Ideal of Ring/Right Ideal,Right,"Let ( R, +, ∘) be a ring.
+
+Let ( J, + ) be a subgroup of ( R, + ).
+
+
+J is a right ideal of R  if and only if :
+:∀ j ∈ J: ∀ r ∈ R: j ∘ r ∈ J
+
+that is,  if and only if :
+:∀ r ∈ R: J ∘ r ⊆ J",Definition:Maximal Ideal of Ring/Right
+335,Definition:Maximal Ideal of Ring/Right,Right,"Let R be a ring.
+
+
+A right ideal J of R is a maximal right ideal  if and only if :
+
+:(1):    J ⊊ R
+:(2): There is no right ideal K of R such that J ⊊ K ⊊ R.
+
+
+Category:Definitions/Maximal Ideals of Rings",Definition:Ideal of Ring/Right Ideal
+336,Definition:Right Module,Right,"Let ( R, +_R, ×_R ) be a ring.
+
+Let ( G, +_G ) be an abelian group.
+
+
+A right module over R is an R-algebraic structure ( G, +_G, ∘)_R with one operation ∘, the (right) ring action, which satisfies the right module axioms:
+ ",Definition:Linear Ring Action/Right
+337,Definition:Right-Truncatable Prime,Right,"A right-truncatable prime is a prime number which remains prime when any number of digits are removed from the right hand end.
+
+
+=== Sequence ===
+ ",Definition:Right-Truncatable Prime
+338,Definition:Category of Right Modules,Right,"Let R be a ring.
+
+
+The category of right R-modules is the category 𝐌𝐨𝐝-𝐑 with:
+
+ ",Definition:Ideal of Ring/Right Ideal
+339,Definition:Similar Planes,Similar,"Similar planes are plane figures which are similar.
+
+Category:Definitions/Euclidean Geometry",Definition:Similar Figures
+340,Definition:Similar Inclination,Similar," 
+
+Category:Definitions/Angles
+Category:Definitions/Solid Geometry",Definition:Similar Figures
+341,Definition:Similar Situation,Similar,Two similar solid figures are said to be in a similar situation  if and only if  corresponding surfaces are similarly inclined and when corresponding edges are parallel.,Definition:Similar Solid Figures
+342,Definition:Plane Number/Similar Numbers,Similar,"Let m and n be plane numbers.
+
+Let:
+:m = p_1 × p_2 where p_1 ≤ p_2
+:n = q_1 × q_2 where q_1 ≤ q_2
+
+Then m and n are similar  if and only if :
+:p_1 : q_1 = p_2 : q_2
+
+
+That is:
+:p_1q_1 = p_2q_2
+
+
+ 
+: 
+:Similar plane and solid numbers are those which have their sides proportional.
+ ”
+ 
+
+Category:Definitions/Euclidean Number Theory",Definition:Solid Number/Similar Numbers
+343,Definition:Solid Number/Similar Numbers,Similar,"Let m and n be solid numbers.
+
+Let:
+: m = p_1 × p_2 × p_3 where p_1 ≤ p_2 ≤ p_3
+: n = q_1 × q_2 × q_3 where q_1 ≤ q_2 ≤ q_3
+
+Then m and n are similar  if and only if :
+:p_1 : q_1 = p_2 : q_2 = p_3 : q_3
+
+
+ 
+: 
+:Similar plane and solid numbers are those which have their sides proportional.
+ ”
+ 
+
+Category:Definitions/Euclidean Number Theory",Definition:Solid Number/Similar Numbers
+344,Definition:Matrix Similarity,Similar,"Let R be a ring with unity.
+
+Let n ∈ℕ_>0 be a natural number.
+
+Let 𝐀, 𝐁 be square matrices of order n over R.
+
+
+=== Definition 1 ===
+Let R be a ring with unity.
+
+Let n ∈ℕ_>0 be a natural number.
+
+Let 𝐀, 𝐁 be square matrices of order n over R.
+
+Let there exist a nonsingular square matrix 𝐏 of order n over R such that 𝐁 = 𝐏^-1𝐀𝐏.
+
+
+Then 𝐀 and 𝐁 are similar.
+
+
+We write:
+:𝐀∼𝐁
+
+=== Definition 2 ===
+Let R be a ring with unity.
+
+Let n ∈ℕ_>0 be a natural number.
+
+Let 𝐀, 𝐁 be square matrices of order n over R.
+
+
+𝐀 and 𝐁 are similar  if and only if  they are the relative matrices, to (possibly) different ordered bases, of the same linear operator.
+
+
+We write:
+:𝐀∼𝐁
+
+
+We write:
+:𝐀∼𝐁",Definition:Matrix Similarity
+345,Definition:Similarity Mapping,Similar,"Let G be a vector space over a field K.
+
+Let β∈ K.
+
+Let s_β: G → G be the mapping on G defined as:
+:∀𝐱∈ G: s_β(   )𝐱 = β𝐱
+
+
+s_β is called a similarity (mapping).
+
+
+=== Scale Factor ===
+Let G be a vector space over a field K.
+
+Let β∈ K.
+
+Let s_β: G → G be a similarity mapping on G:
+:∀𝐱∈ G: s_β(   )𝐱 = β𝐱
+
+
+The coefficient β is called the scale factor of s_β.",Definition:Similar Planes
+346,Definition:Set Equivalence,Similar,"Let S and T be sets.
+
+Then S and T are equivalent  if and only if :
+:there exists a bijection f: S → T between the elements of S and those of T.
+
+That is,  if and only if  they have the same cardinality.
+
+
+This can be written S ∼ T.
+
+
+If S and T are not equivalent we write S  T.",Definition:Set Equivalence
+347,Definition:Row Space,Space,"Let R be a ring.
+
+Let 𝐀 be a matrix over R.
+
+
+=== Definition 1 ===
+Let R be a ring.
+
+Let 𝐀 be a matrix over R.
+
+
+Let 𝐀^⊺ denote the transpose of 𝐀.
+ 
+Let the columns of 𝐀^⊺ be members of a vector space.
+
+The row space of 𝐀 is defined as the column space of 𝐀^⊺.
+
+=== Definition 2 ===
+Let R be a ring.
+
+Let 𝐀 be a matrix over R.
+
+
+The row space of 𝐀 is defined as the vector space of all linear combinations of the rows of 𝐀.",Definition:Row Space
+348,Definition:Null Space,Space,"Let:
+𝐀_m × n = [ a_11 a_12    ⋯ a_1n; a_21 a_22    ⋯ a_2n;    ⋮    ⋮    ⋱    ⋮; a_m1 a_m2    ⋯ a_mn;      ],  𝐱_n × 1 = [ x_1; x_2;   ⋮; x_n ], 0_m × 1 = [ 0; 0; ⋮; 0 ]
+
+be matrices where each column is a member of a real vector space.
+
+The set of all solutions to 𝐀𝐱 = 0:
+
+:N(   )𝐀 = {𝐱∈ℝ^n : 𝐀 𝐱 = 0}
+
+is called the null space of 𝐀.
+
+
+ ",Definition:Column Space
+349,Definition:Bilinear Space,Space,"Let 𝕂 be a field.
+
+
+A bilinear space over 𝕂 is a pair ( V, f ) where:
+:V be a vector space over 𝕂 of finite dimension n > 0
+:f is a bilinear form on V.",Definition:Quadratic Space
+350,Definition:Quadratic Space,Space,"Let 𝕂 be a field.
+
+
+A quadratic space over 𝕂 is a pair ( V, q ) where:
+:V is a vector space over 𝕂 of finite dimension n > 0
+:q is a quadratic form on V.",Definition:Quadratic Space
+351,Definition:Space Group,Space,"=== Fedorov Group ===
+A Fedorov group is the symmetry group of a 3-dimensional configuration in space.
+
+
+ 
+
+=== Wallpaper Group ===
+A wallpaper group is the symmetry group of a 2-dimensional configuration in the plane.
+
+=== Frieze Group ===
+A frieze group is a symmetry group of a frieze.
+
+=== Line Group ===
+ 
+
+Category:Definitions/Space Groups
+Category:Definitions/Geometry
+Category:Definitions/Examples of Groups",Definition:Space Group
+352,Definition:Spacetime,Space,"Spacetime is a mathematical model that combines space and time into a single object.
+
+
+The form this model takes is often a four-dimensional vector space: three dimensions for space and one for time.
+
+
+More complicated models are used for more specialized applications.",Definition:Space Coordinates
+353,Definition:Ordinary Space,Space,"Ordinary space (or just space) is a word used to mean the universe we live in.
+
+The intuitive belief is that space is 3-dimensional and therefore isomorphic to the real vector space ℝ^3.
+
+
+Hence ordinary space is usually taken as an alternative term for Euclidean 3-dimensional space.",Definition:Ordinary Space
+354,Definition:Space Coordinates,Space,A system of space coordinates is a coordinate system that determines the position of a point in ordinary 3-space.,Definition:Space Coordinates
+355,Definition:Line/Curve/Space,Space,"A space curve is a curve which is embedded in 3-space, and may or may not be a skew curve.
+
+
+=== Parametric Representation ===
+ ",Definition:Line/Curve/Space
+356,Definition:Space-Filling Curve,Space,A space-filling curve is a continuous curve that completely fills a region of the plane.,Definition:Line/Curve/Space
+357,Definition:Real Vector Space,Space,"Let ℝ be the set of real numbers.
+
+
+Then the ℝ-module ℝ^n is called the real (n-dimensional) vector space.",Definition:Real Vector Space
+358,Definition:Indexing Set/Term,Term,"Let I and S be sets.
+
+Let x: I → S be a mapping.
+
+Let x_i denote the image of an element i ∈ I of the domain I of x.
+
+Let ⟨ x_i ⟩_i ∈ I denote the set of the images of all the element i ∈ I under x.
+
+
+The image of x at an index i is referred to as a term of the (indexed) family, and is denoted x_i.
+
+
+=== Notation ===
+The family of elements x of S indexed by I is often seen with one of the following notations:
+
+:⟨ x_i ⟩_i ∈ I
+
+:( x_i )_i ∈ I
+
+:{ x_i }_i ∈ I
+
+
+There is little consistency in the literature, but ( x_i )_i ∈ I is perhaps most common.
+
+The preferred notation on   is ⟨ x_i ⟩_i ∈ I.
+
+The subscripted i ∈ I is often left out, if it is obvious in the particular context.
+
+
+Note the use of x_i to denote the image of the index i under the indexing function x.
+
+As x is actually a mapping, one would expect the conventional notation x (   )i.
+
+However, this is generally not used, and x_i is used instead.
+
+
+Category:Definitions/Indexed Families",Definition:Term of Sequence
+359,Definition:Ordered Tuple/Term,Term,"Let n ∈ℕ_>0.
+
+Let ⟨ a_k ⟩_k ∈ℕ^*_n be an ordered tuple.
+
+The ordered pair ( k, a_k ) is called the kth term of the ordered tuple for each k ∈ℕ^*_n.",Definition:Term of Sequence
+360,Definition:Term (Natural Language),Term,"A term is a noun which is assigned a specified definition within mathematics.
+
+In a more specialized context, the word term is used for an element  of an expression.
+
+Category:Definitions/Language Definitions",Definition:Term (Natural Language)
+361,Definition:Natural Transformation/Covariant Functors,Transformation,"Let 𝐂 and 𝐃 be categories.
+
+Let F, G : 𝐂→𝐃 be covariant functors.
+
+
+A natural transformation η from F to G is a mapping on 𝐂 such that:
+ 
+
+:(1): For all x ∈𝐂, η_x is a morphism from F (   )x to G (   )x.
+
+:(2): For all x, y ∈ C and morphism f: x → y, the following diagram commutes:
+ 
+
+F (   )x [d]^η_x[r]^F (   )f    F (   )y [d]^η_y
+
+G (   )x [r]^G (   )f    G (   )y",Definition:Natural Transformation/Contravariant Functors
+362,Definition:Natural Transformation/Contravariant Functors,Transformation,"Let 𝐂 and 𝐃 be categories.
+
+Let F, G: 𝐂→𝐃 be contravariant functors.
+
+
+A natural transformation η from F to G is a mapping on 𝐂 such that:
+
+:(1): For all x ∈𝐂, η_x is a morphism from F (   )x to G (   )x.
+
+:(2): For all x, y ∈ C and morphism f: x → y, the following diagram commutes:
+ 
+
+F (   )x [d]^η_x    F (   )y [d]^η_y[l]^F (   )f
+
+G (   )x                     G (   )y [l]^G (   )f",Definition:Natural Transformation/Contravariant Functors
+363,Definition:Lorentz Transformation,Transformation,"The Lorentz transformation is a transformation which changes the position and motion in one inertial frame of reference to a different inertial frame of reference.
+
+The equations governing such a transformation must satisfy the postulates of the special theory of relativity.
+
+
+ ",Definition:Lorentz Transformation
+364,Definition:Statistical Transformation,Transformation,A statistical transformation is a mapping on a sample to obtain data that can be mapped to a particular known probability distribution.,Definition:Tschirnhaus Transformation
+365,Definition:Tschirnhaus Transformation,Transformation,"Let f (   )x be a polynomial over a field k:
+
+:f (   )x = a_n x^n + a_n - 1 x^n - 1 + a_n - 2 x^n - 2 + ⋯ + a_1 x + a_0
+
+
+Then the Tschirnhaus transformation is the linear substitution x = y - a_n - 1n a_n.
+
+The Tschirnhaus transformation produces a resulting polynomial f' (   )y which is depressed, as shown on Tschirnhaus Transformation yields Depressed Polynomial.
+
+This technique is used in the derivation of Cardano's Formula for the roots of the general cubic.
+
+ ",Definition:Tschirnhaus Transformation
+366,Definition:Trivial Factorization,Trivial,"Let ( D, +, ∘) be an integral domain.
+
+Let ( U_D, ∘) be the group of units of ( D, +, ∘).
+
+
+A factorization in ( D, +, ∘) of the form x = u ∘ y, where u ∈ U_D (that is, where x is an associate of y) is called a trivial factorization.
+
+
+=== Non-Trivial Factorization ===
+Let ( D, +, ∘) be an integral domain.
+
+Let ( U_D, ∘) be the group of units of ( D, +, ∘).
+
+
+A factorization in ( D, +, ∘) of the form x = z ∘ y, where neither y nor z is a unit of D, is called a non-trivial factorization.",Definition:Trivial Ring
+367,Definition:Filter on Set/Trivial Filter,Trivial,"Let S be a set.
+
+
+A filter ℱ on S by definition specifically does not include the empty set ∅.
+
+If a filter ℱ were to include ∅, then from Empty Set is Subset of All Sets it would follow that every subset of S would have to be in ℱ, and so ℱ = 𝒫( S ).
+
+
+Such a ""filter"" is called the trivial filter on S.
+
+
+Category:Definitions/Filters on Sets",Definition:Filter on Set/Trivial Filter
+368,Definition:Indiscrete Topology,Trivial,"Let S ∅ be a set.
+
+Let τ = { S, ∅}.
+
+
+Then τ is called the indiscrete topology on S.
+
+
+A topological space ( S, { S, ∅}) is known as an indiscrete space.",Definition:Indiscrete Topology
+369,Definition:Trivial Topological Space,Trivial,"A trivial topological space is a topological space with only one element.
+
+
+The open sets of a trivial topological space T = ( { s }, τ) are ∅ and { s }.",Definition:Trivial Topological Space
+370,Definition:Zero Subspace,Trivial,"Let V be a vector space with zero vector 0.
+
+
+Then the set (0) := {0} is called the zero subspace of V.
+
+
+This name is appropriate as (0) is in fact a subspace of V, as proved in Zero Subspace is Subspace.
+
+
+ 
+
+Category:Definitions/Vector Spaces",Definition:Zero Subspace
+371,Definition:Trivial Norm,Trivial," Division Ring 
+Let ( R, +, ∘) be a division ring, and denote its zero by 0_R.
+
+
+Then the map ‖·‖: R →ℝ_≥ 0 given by:
+
+:‖ x ‖ =  0     : if x = 0_R
+ 1     : otherwise
+
+defines a norm on R, called the trivial norm.
+
+ Vector Space 
+Let ( K, +, ∘) be a division ring endowed with the trivial norm.
+
+Let V be a vector space over K, with zero 0_V.
+
+
+Then the map ‖·‖: V →ℝ_+ ∪{ 0 } given by:
+
+:‖ x ‖ =  0     : if x = 0_V
+ 1     : otherwise
+
+defines a norm on V, called the trivial norm.",Definition:Trivial Norm
+372,Definition:Trivial Category,Trivial,"The following categories can be seen described as trivial:
+
+
+=== Zero Catgegory ===
+The category 0, zero, is the empty category:
+
+
+:
+
+
+with:
+:no objects
+and consequently:
+:no morphisms.
+
+=== One Category ===
+The category one 1, is the category with:
+
+ 
+
+=== Discrete Category ===
+Let 𝒞 be a metacategory.
+
+
+Then 𝒞 is said to be discrete  if and only if  it comprises only identity morphisms.
+
+If the collection 𝒞 constitutes the objects of 𝐂, then 𝐂 may also be denoted 𝐃𝐢𝐬(   )𝒞.",Definition:Trivial Category
+373,Definition:Riemann Zeta Function/Zero/Trivial,Trivial,"The trivial zeroes of the Riemann ζ function are the strictly negative even integers :
+
+:{ n ∈ℤ: n = -2 × k: k ∈ℕ_ 0} = { -2, -4, -6, …}",Definition:Zero Subspace
+374,Definition:Ring Zero,Zero,"Let ( R, +, ∘) be a ring.
+
+The identity for ring addition is called the ring zero (of ( R, +, ∘)).
+
+
+It is denoted 0_R (or just 0 if there is no danger of ambiguity).",Definition:Zero Vector
+375,Definition:Field Zero,Zero,"Let ( F, +, ×) be a field.
+
+The identity for field addition is called the field zero (of ( F, +, ×)).
+
+
+It is denoted 0_F (or just 0 if there is no danger of ambiguity).",Definition:Zero Vector
+376,Definition:Zero Mapping,Zero,"Let 𝔸 be one of the standard number systems ℕ,ℤ,ℚ,ℝ,ℂ.
+
+Let S be a set.
+
+
+Let f_0: S →𝔸 denote the constant mapping:
+
+:∀ x ∈ S: f_0 (   )x = 0
+
+Then f_0 is referred to as the zero mapping.
+
+
+=== Vector Space ===
+Let Y be a vector space.
+
+Let S be a set.
+
+Let 0_Y be the identity element of Y.
+
+Suppose 0 : S → Y is a mapping such that:
+
+:∀ x ∈ S: 0(   )x = 0_Y
+
+
+Then 0 is referred to as the zero mapping.
+
+=== Distribution ===
+Let 𝒟(   )ℝ be the test function space.
+
+Let 0∈𝒟' (   )ℝ be a distribution.
+
+Suppose:
+
+:∀ϕ∈𝒟(   )ℝ : 0(   )ϕ = 0
+
+
+Then 0 is referred to as the zero distribution.
+
+
+Category:Definitions/Distributions",Definition:Zero Vector
+377,Definition:Root of Mapping,Zero,"Let f: R → R be a mapping on a ring R.
+
+Let x ∈ R.
+
+
+Then the values of x for which f (   )x = 0_R are known as the roots of the mapping f.",Definition:Zero Mapping
+378,Definition:Zero Vector,Zero,"Let ( R, +_R, ×_R ) be a ring.
+
+Let ( G, +_G ) be an abelian group.
+
+Let ( G, +_G, ∘)_R be an R-module.
+
+
+The identity of ( G, +_G ) is usually denoted 0, or some variant of this, and called the zero vector:
+
+:∀𝐚∈( G, +_G, ∘)_R:  0 +_G 𝐚 = 𝐚 = 𝐚 +_G  0
+
+
+Note that on occasion it is advantageous to denote the zero vector differently, for example by e, or 0_V or 0_G, in order to highlight the fact that the zero vector is not the same object as the zero scalar.
+
+
+=== Zero Vector in ℝ^n ===
+Let ( ℝ^n, +, ×)_ℝ be a real vector space.
+
+The zero vector in ( ℝ^n, +, ×)_ℝ is:
+
+:0_n × 1 := [ 0; 0; ⋮; 0 ]
+
+where 0 ∈ℝ.
+
+=== Zero Vector Quantity ===
+A vector quantity whose magnitude is zero is referred to as a zero vector.",Definition:Zero Vector
