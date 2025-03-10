@@ -54,7 +54,7 @@ We evalute both approaches on train set and test set.
 
 Results are in [data/res/](data/res), the notebook, and [NSP_logs.txt](NSP_logs.txt). 
 
-Prediction ouputs and accuracy, macro F1 scores in a more operable google sheet[https://docs.google.com/spreadsheets/d/1seEHjZzorcxomuc7S35_1CDiEMsODZv4yRCN3CLPH5c/edit?usp=sharing]()
+Prediction ouputs and accuracy, macro F1 scores in a more operable [google sheet](https://docs.google.com/spreadsheets/d/1seEHjZzorcxomuc7S35_1CDiEMsODZv4yRCN3CLPH5c/edit?usp=sharing)
 We evalute both approaches on train set and test set. 
 
 Further question: Does a better NSP model make more similar embeddings for (definition,title) pairs ? No.
