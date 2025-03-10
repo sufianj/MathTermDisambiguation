@@ -1,5 +1,6 @@
 [
     {
+        "type": "HA",
         "choices": [
             "Analysis/Complex",
             "Complex Number",
@@ -16,6 +17,7 @@
         "pred": "'Complex (Group Theory)'"
     },
     {
+        "type": "HA",
         "choices": [
             "Analysis/Complex",
             "Complex Number",
@@ -32,6 +34,7 @@
         "pred": "'Complex (Group Theory)'"
     },
     {
+        "type": "NM",
         "choices": [
             "Analysis/Complex",
             "Complex Number",
@@ -48,6 +51,7 @@
         "pred": "Complex Fraction"
     },
     {
+        "type": "HA",
         "choices": [
             "Language of Predicate Logic/Formal Grammar/Term",
             "Logical Term",
@@ -65,6 +69,7 @@
         "pred": "Logical Term"
     },
     {
+        "type": "HA",
         "choices": [
             "Language of Predicate Logic/Formal Grammar/Term",
             "Logical Term",
@@ -82,6 +87,7 @@
         "pred": "Term of Sequence"
     },
     {
+        "type": "HA",
         "choices": [
             "Language of Predicate Logic/Formal Grammar/Term",
             "Logical Term",
@@ -99,6 +105,7 @@
         "pred": "Term of Sequence"
     },
     {
+        "type": "NFI",
         "choices": [
             "Simple Group",
             "Simple Field Extension",
@@ -115,6 +122,7 @@
         "pred": "'Simple Contour'"
     },
     {
+        "type": "NM",
         "choices": [
             "Simple Group",
             "Simple Field Extension",
@@ -131,6 +139,7 @@
         "pred": "'Simple Digraph'"
     },
     {
+        "type": "NM",
         "choices": [
             "Simple Group",
             "Simple Field Extension",
@@ -147,6 +156,7 @@
         "pred": "'Simple Edge'"
     },
     {
+        "type": "HA",
         "choices": [
             "Basis (Topology)",
             "Basis of Vector Space",
@@ -159,6 +169,7 @@
         "pred": "'Basis of Vector Space'"
     },
     {
+        "type": "HA",
         "choices": [
             "Codomain (Relation Theory)",
             "Codomain (Category Theory)"
@@ -169,6 +180,7 @@
         "pred": "Codomain (Category Theory)"
     },
     {
+        "type": "HA",
         "choices": [
             "Loop (Plane Geometry)",
             "Loop (Graph Theory)",
@@ -183,6 +195,7 @@
         "pred": "'Loop (Graph Theory)'"
     },
     {
+        "type": "HA",
         "choices": [
             "Image (Relation Theory)/Mapping/Mapping",
             "Image (Relation Theory)/Relation/Relation",
@@ -196,6 +209,7 @@
         "pred": "Direct Image Mapping/Mapping"
     },
     {
+        "type": "HA",
         "choices": [
             "Image (Relation Theory)/Mapping/Mapping",
             "Image (Relation Theory)/Relation/Relation",
@@ -209,6 +223,7 @@
         "pred": "'Direct Image Mapping/Mapping'"
     },
     {
+        "type": "HA",
         "choices": [
             "Image (Relation Theory)/Mapping/Mapping",
             "Image (Relation Theory)/Relation/Relation",
@@ -222,6 +237,7 @@
         "pred": "'Direct Image Mapping/Mapping'"
     },
     {
+        "type": "HA",
         "choices": [
             "Image (Relation Theory)/Mapping/Mapping",
             "Image (Relation Theory)/Relation/Relation",
@@ -235,6 +251,7 @@
         "pred": "Direct Image Mapping/Mapping"
     },
     {
+        "type": "HA",
         "choices": [
             "Power (Algebra)",
             "Power of Element/Magma",
@@ -254,6 +271,7 @@
         "pred": "Power of Element/Semigroup"
     },
     {
+        "type": "FN",
         "choices": [
             "Affine Geometry",
             "Affine Algebraic Set",
@@ -274,6 +292,7 @@
         "pred": "I don't know."
     },
     {
+        "type": "HA",
         "choices": [
             "Ellipse/Major Axis/Semi-Major Axis",
             "Semimajor Axis of Ellipsoid"
@@ -284,6 +303,7 @@
         "pred": "'Ellipse/Major Axis/Semi-Major Axis'"
     },
     {
+        "type": "HA",
         "choices": [
             "Closure Operator",
             "Closure of Set under Closure Operator",
@@ -306,6 +326,7 @@
         "pred": "'Closure (Topology)'"
     },
     {
+        "type": "NM",
         "choices": [
             "Closure Operator",
             "Closure of Set under Closure Operator",
@@ -328,6 +349,7 @@
         "pred": "'Closure (Normed Vector Space)'"
     },
     {
+        "type": "HA",
         "choices": [
             "Distributive Operation",
             "Distributive Lattice"
@@ -338,6 +360,7 @@
         "pred": "'Distributive Operation'"
     },
     {
+        "type": "HA",
         "choices": [
             "Unit of Ring",
             "Unit of System of Sets",
@@ -354,6 +377,7 @@
         "pred": "'Unity (Abstract Algebra)/Ring'"
     },
     {
+        "type": "HA",
         "choices": [
             "Unit of Ring",
             "Unit of System of Sets",
@@ -370,6 +394,7 @@
         "pred": "Unity (Abstract Algebra)/Ring"
     },
     {
+        "type": "HA",
         "choices": [
             "Unit of Ring",
             "Unit of System of Sets",
@@ -386,6 +411,7 @@
         "pred": "'Unit of Measurement'"
     },
     {
+        "type": "HA",
         "choices": [
             "Transpose of Linear Transformation",
             "Transpose of Matrix"
@@ -396,6 +422,7 @@
         "pred": "'Transpose of Matrix'"
     },
     {
+        "type": "HA",
         "choices": [
             "Linear Measure/Height",
             "Triangle (Geometry)/Height",
@@ -410,6 +437,7 @@
         "pred": "'Triangle (Geometry)/Height'"
     },
     {
+        "type": "HA",
         "choices": [
             "Linear Measure/Height",
             "Triangle (Geometry)/Height",
@@ -424,6 +452,7 @@
         "pred": "'Triangle (Geometry)/Height'"
     },
     {
+        "type": "HA",
         "choices": [
             "Substitution",
             "Substitution (Set Theory)",
@@ -439,6 +468,7 @@
         "pred": "Substitution (Formal Systems)"
     },
     {
+        "type": "HA",
         "choices": [
             "Diagonal of Polyhedron",
             "Diameter of Parallelogram",
@@ -454,6 +484,7 @@
         "pred": "'Diagonal Matrix'"
     },
     {
+        "type": "HA",
         "choices": [
             "Injection",
             "One-to-One Relation"
@@ -464,6 +495,7 @@
         "pred": "One-to-One Relation"
     },
     {
+        "type": "HA",
         "choices": [
             "Inconsistent (Logic)",
             "Consistent Simultaneous Equations/Inconsistent"
@@ -474,6 +506,7 @@
         "pred": "'Inconsistent (Logic)'"
     },
     {
+        "type": "HA",
         "choices": [
             "Relation Compatible with Operation",
             "Relation Strongly Compatible with Operation",
@@ -495,6 +528,7 @@
         "pred": "'Chart Compatible with Atlas'"
     },
     {
+        "type": "HA",
         "choices": [
             "Relation Compatible with Operation",
             "Relation Strongly Compatible with Operation",
@@ -516,6 +550,7 @@
         "pred": "'Chart Compatible with Atlas'"
     },
     {
+        "type": "HA",
         "choices": [
             "Relation Compatible with Operation",
             "Relation Strongly Compatible with Operation",
@@ -537,6 +572,7 @@
         "pred": "\"Relation Compatible with Operation\""
     },
     {
+        "type": "HA",
         "choices": [
             "Monomial of Free Commutative Monoid/Degree",
             "Algebraic Number over Field/Degree",
@@ -561,6 +597,7 @@
         "pred": "'Degree of Algebraic Element'"
     },
     {
+        "type": "HA",
         "choices": [
             "Monomial of Free Commutative Monoid/Degree",
             "Algebraic Number over Field/Degree",
@@ -585,6 +622,7 @@
         "pred": "Homogeneous Function/Degree"
     },
     {
+        "type": "HA",
         "choices": [
             "Monomial of Free Commutative Monoid/Degree",
             "Algebraic Number over Field/Degree",
@@ -609,6 +647,7 @@
         "pred": "Field Extension/Degree"
     },
     {
+        "type": "HA",
         "choices": [
             "Monomial of Free Commutative Monoid/Degree",
             "Algebraic Number over Field/Degree",
@@ -633,6 +672,7 @@
         "pred": "'Degrees of Freedom (Physics)'"
     },
     {
+        "type": "HA",
         "choices": [
             "Monomial of Free Commutative Monoid/Degree",
             "Algebraic Number over Field/Degree",
@@ -657,6 +697,7 @@
         "pred": "Homogeneous Function/Degree"
     },
     {
+        "type": "HA",
         "choices": [
             "Small Class",
             "Small Category"
@@ -667,6 +708,7 @@
         "pred": "'Small Category'"
     },
     {
+        "type": "FN",
         "choices": [
             "Complete Metric Space",
             "Topologically Complete Space",
@@ -687,6 +729,7 @@
         "pred": "I don't know"
     },
     {
+        "type": "HA",
         "choices": [
             "Complete Metric Space",
             "Topologically Complete Space",
@@ -707,6 +750,7 @@
         "pred": "'Dedekind Completeness Property'"
     },
     {
+        "type": "HA",
         "choices": [
             "Left Inverse Mapping",
             "Inverse (Abstract Algebra)/Left Inverse",
@@ -718,6 +762,7 @@
         "pred": "'Inverse (Abstract Algebra)/Left Inverse'"
     },
     {
+        "type": "NFI",
         "choices": [
             "Bounded Set/Real Numbers",
             "Bounded Class",
@@ -735,6 +780,7 @@
         "pred": "'Bounded Subset of Real Numbers'"
     },
     {
+        "type": "NFI",
         "choices": [
             "Bounded Set/Real Numbers",
             "Bounded Class",
@@ -752,6 +798,7 @@
         "pred": "'Bounded Subset of Class'"
     },
     {
+        "type": "NFI",
         "choices": [
             "Bounded Set/Real Numbers",
             "Bounded Class",
@@ -769,6 +816,7 @@
         "pred": "'Bounded Subset of Metric Space'"
     },
     {
+        "type": "NFI",
         "choices": [
             "Bounded Set/Real Numbers",
             "Bounded Class",
@@ -786,6 +834,7 @@
         "pred": "'Bounded Subset of Complex Plane'"
     },
     {
+        "type": "HA",
         "choices": [
             "Empty Set",
             "Empty Class (Class Theory)",
@@ -802,6 +851,7 @@
         "pred": "'Empty Set'"
     },
     {
+        "type": "HA",
         "choices": [
             "Field (Abstract Algebra)",
             "Field of Relation",
@@ -813,6 +863,7 @@
         "pred": "'Field (Abstract Algebra)'"
     },
     {
+        "type": "HA",
         "choices": [
             "Similar Figures",
             "Similar Triangles",
@@ -835,6 +886,7 @@
         "pred": "'Similar Triangles'"
     },
     {
+        "type": "HA",
         "choices": [
             "Similar Figures",
             "Similar Triangles",
@@ -857,6 +909,7 @@
         "pred": "'Similar Triangles'"
     },
     {
+        "type": "HA",
         "choices": [
             "Similar Figures",
             "Similar Triangles",
@@ -879,6 +932,7 @@
         "pred": "'Similar Solid Figures'"
     },
     {
+        "type": "NM",
         "choices": [
             "Similar Figures",
             "Similar Triangles",
@@ -901,6 +955,7 @@
         "pred": "'Similar Plane Numbers'"
     },
     {
+        "type": "HA",
         "choices": [
             "Similar Figures",
             "Similar Triangles",
@@ -923,6 +978,7 @@
         "pred": "'Similar Solid Figures'"
     },
     {
+        "type": "HA",
         "choices": [
             "Similar Figures",
             "Similar Triangles",
@@ -945,6 +1001,7 @@
         "pred": "Matrix Similarity"
     },
     {
+        "type": "HA",
         "choices": [
             "Similar Figures",
             "Similar Triangles",
@@ -967,6 +1024,7 @@
         "pred": "Matrix Similarity"
     },
     {
+        "type": "HA",
         "choices": [
             "Set Partition",
             "Decomposable Set",
@@ -981,6 +1039,7 @@
         "pred": "'Internal Direct Product/Decomposition'"
     },
     {
+        "type": "HA",
         "choices": [
             "Set Partition",
             "Decomposable Set",
@@ -995,6 +1054,7 @@
         "pred": "'Internal Direct Product/Decomposition'"
     },
     {
+        "type": "HA",
         "choices": [
             "Orthogonal (Linear Algebra)/Orthogonal Complement",
             "Orthogonal (Bilinear Form)/Orthogonal Complement"
@@ -1005,6 +1065,7 @@
         "pred": "'Orthogonal (Linear Algebra)/Orthogonal Complement'"
     },
     {
+        "type": "NM",
         "choices": [
             "Rank (Set Theory)",
             "Rank/Matrix",
@@ -1020,6 +1081,7 @@
         "pred": "'Rank (Linear Transformation)'"
     },
     {
+        "type": "HA",
         "choices": [
             "Minor (Euclidean)",
             "Ellipse/Minor Axis/Semi-Minor Axis",
@@ -1032,6 +1094,7 @@
         "pred": "'Minor of Determinant'"
     },
     {
+        "type": "HA",
         "choices": [
             "Extension of Relation",
             "Extension of Mapping",
@@ -1050,6 +1113,7 @@
         "pred": "'Extension of Relation'"
     },
     {
+        "type": "HA",
         "choices": [
             "Cartesian Product/Cartesian Space",
             "Topological Space",
@@ -1075,6 +1139,7 @@
         "pred": "'Spacetime'"
     },
     {
+        "type": "NM",
         "choices": [
             "Cartesian Product/Cartesian Space",
             "Topological Space",
@@ -1100,6 +1165,7 @@
         "pred": "'Space Curve'"
     },
     {
+        "type": "HA",
         "choices": [
             "Cartesian Product/Cartesian Space",
             "Topological Space",
@@ -1125,6 +1191,7 @@
         "pred": "'Vector Space'"
     },
     {
+        "type": "NFI",
         "choices": [
             "Trivial Partition",
             "Trivial Quotient",
@@ -1147,6 +1214,7 @@
         "pred": "'Trivial Character'"
     },
     {
+        "type": "HA",
         "choices": [
             "Couple (Mechanics)",
             "Tusi Couple"
@@ -1157,6 +1225,7 @@
         "pred": "'Tusi Couple'"
     },
     {
+        "type": "HA",
         "choices": [
             "Cut (Analysis)",
             "Dedekind Cut",
@@ -1171,6 +1240,7 @@
         "pred": "Dedekind Cut"
     },
     {
+        "type": "HA",
         "choices": [
             "Cut (Analysis)",
             "Dedekind Cut",
@@ -1185,6 +1255,7 @@
         "pred": "'Dedekind Cut'"
     },
     {
+        "type": "HA",
         "choices": [
             "Cut (Analysis)",
             "Dedekind Cut",
@@ -1199,6 +1270,7 @@
         "pred": "'Dedekind Cut'"
     },
     {
+        "type": "HA",
         "choices": [
             "Cut (Analysis)",
             "Dedekind Cut",
@@ -1213,6 +1285,7 @@
         "pred": "'Cut (Analysis)'"
     },
     {
+        "type": "HA",
         "choices": [
             "Power (Algebra)",
             "Involution (Mapping)"
@@ -1223,6 +1296,7 @@
         "pred": "'Involution (Mapping)'"
     },
     {
+        "type": "HA",
         "choices": [
             "Closed Statement",
             "Closed Set/Topology",
@@ -1251,6 +1325,7 @@
         "pred": "Closed Set/Closure Operator"
     },
     {
+        "type": "HA",
         "choices": [
             "Closed Statement",
             "Closed Set/Topology",
@@ -1279,6 +1354,7 @@
         "pred": "Cycle (Graph Theory)"
     },
     {
+        "type": "HA",
         "choices": [
             "Closed Statement",
             "Closed Set/Topology",
@@ -1307,6 +1383,7 @@
         "pred": "'Closed under Mapping'"
     },
     {
+        "type": "HA",
         "choices": [
             "Closed Statement",
             "Closed Set/Topology",
@@ -1335,6 +1412,7 @@
         "pred": "Closed under Mapping"
     },
     {
+        "type": "HA",
         "choices": [
             "Closed Statement",
             "Closed Set/Topology",
@@ -1363,6 +1441,7 @@
         "pred": "'Multiplicatively Closed Subset of Ring'"
     },
     {
+        "type": "HA",
         "choices": [
             "Closed Statement",
             "Closed Set/Topology",
