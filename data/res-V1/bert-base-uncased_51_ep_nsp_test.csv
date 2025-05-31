@@ -1,0 +1,123 @@
+,title,term,definition,pred
+0,Definition:Boundary (Geometry),Boundary," 
+
+For example, the endpoints of a line segment are its boundaries.
+
+
+=== Containment ===
+A geometric figure is said to be contained by its boundary or boundaries.
+
+ ",Definition:Boundary (Geometry)
+1,Definition:Boundary (Topology),Boundary,"Let T = ( S, τ) be a topological space.
+
+Let H ⊆ S.
+
+
+=== Definition from Closure and Interior ===
+Let T = ( S, τ) be a topological space.
+
+Let H ⊆ S.
+
+
+The boundary of H consists of all the points in the closure of H which are not in the interior of H.
+
+Thus, the boundary of H is defined as:
+:∂ H := H^- ∖ H^∘
+where H^- denotes the closure and H^∘ the interior of H.
+
+=== Definition from Neighborhood ===
+Let T = ( S, τ) be a topological space.
+
+Let H ⊆ S.
+
+
+ 
+
+x ∈ S is a boundary point of H  if and only if  every neighborhood N of x satisfies:
+:H ∩ N ∅
+and
+:H∩ N ∅
+where H is the complement of H in S.
+
+The boundary of H consists of all the boundary point of H.
+
+=== Definition from Intersection of Closure with Closure of Complement ===
+Let T = ( S, τ) be a topological space.
+
+Let H ⊆ S.
+
+
+The boundary of H is the intersection of the closure of H with the closure of the complement of H in T:
+
+:∂ H = H^- ∩( H)^-
+
+=== Definition from Closure and Exterior ===
+Let T = ( S, τ) be a topological space.
+
+Let H ⊆ S.
+
+
+The boundary of H consists of all the points in H which are not in either the interior or exterior of H.
+
+Thus, the boundary of H is defined as:
+:∂ H := H ∖( H^∘∪ H^e )
+where:
+:H^∘ denotes the interior of H
+:H^e denotes the exterior of H.",Definition:Boundary (Topology)
+2,Definition:Boundary (Graph Theory),Boundary,"=== Simple Graph ===
+Let G = ( V, E ) be a simple graph.
+
+Let v ∈ V be a vertex of G.
+
+
+Then the boundary of v is the set of all vertices of G which are adjacent to v:
+:B (   )v = { u ∈ V: { u, v }∈ E }",Definition:Boundary (Graph Theory)
+3,Definition:Right (Direction),Right,"The direction right is that way:
+:→",Definition:Right (Direction)
+4,Definition:Right Angle,Right,"A right angle is an angle that is equal to half of a straight angle.
+
+
+=== Measurement of Right Angle ===
+ ",Definition:Right Angle
+5,Definition:Right Hand Side,Right,"In an equation:
+:Expression 1 = Expression 2
+the term Expression 2 is the right hand side.",Definition:Right Hand Side
+6,Definition:Right-Total Relation,Right,"Let ℛ⊆ S × T be a relation.
+
+
+Then ℛ is right-total  if and only if :
+:∀ t ∈ T: ∃ s ∈ S: ( s, t ) ∈ℛ
+
+
+That is,  if and only if  every element of T is related to by some element of S.
+
+
+That is,  if and only if :
+:Img( ℛ) = T
+where Img( ℛ) denotes the image of ℛ.",Definition:Right-Total Relation
+7,Definition:Right Quasi-Reflexive Relation,Right,"Let ℛ⊆ S × S be a relation in S.
+
+
+=== Definition 1 ===
+Let ℛ⊆ S × S be a relation in S.
+
+
+ℛ is right quasi-reflexive  if and only if :
+
+:∀ x, y ∈ S: ( x, y ) ∈ℛ( y, y ) ∈ℛ
+
+=== Definition 2 ===
+Let ℛ⊆ S × S be a relation in S.
+
+
+ℛ is right quasi-reflexive  if and only if :
+
+:∀ y ∈Img( ℛ): ( y, y ) ∈ℛ
+
+where Img( ℛ) denotes the image set of ℛ.",Definition:Right Quasi-Reflexive Relation
+8,Definition:Euclidean Relation/Right-Euclidean,Right,"Let ℛ⊆ S × S be a relation in S.
+
+
+ℛ is right-Euclidean  if and only if :
+
+:( x, y ) ∈ℛ( x, z ) ∈ℛ( y, z ) ∈ℛ",Definition:Euclidean Relation/Right-Euclidean
