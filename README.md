@@ -94,6 +94,7 @@ TODO: Evaluate the generalizability of the different approaches to definitions e
 ## Citation
 
 If you find our work useful and would like to cite it, please use the following BibTeX entry:
+
 V1:
 ```bibtex
 @inproceedings{mathd2v1,
@@ -106,7 +107,8 @@ V1:
   MONTH = Apr,
 }
 ```
-V2: TBA
+
+V2 (in preparation): 
 ```bibtex
 @inproceedings{mathd2v2,
   TITLE = {{MathD2: Towards Disambiguation of Mathematical Terms}},
