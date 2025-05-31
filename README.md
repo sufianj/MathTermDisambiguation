@@ -59,7 +59,7 @@ To make this task difficult, we split the Train: Test sets based on the ambiguou
 
 We evaluate both approaches on the training set and the test set. 
 
-Results are in [data/res/](data/res), the notebook, and [NSP_logs.txt](NSP_logs.txt). 
+Results are in [data/res-V1/](data/res-V1), the notebook, and [NSP_logs.txt](NSP_logs.txt). 
 
 We evaluate both approaches on the training set and the test set. 
 
