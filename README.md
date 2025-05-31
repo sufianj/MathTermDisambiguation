@@ -33,7 +33,7 @@ Unsupervised: How different are these proofwiki definitions?
 
 
 ## Step 2. Linking different definitions to different entities
-[20.SentencePairClassifier.ipynb](20.SentencePairClassifier.ipynb) shows our study about how pre-trained language models can help to differentiate mathematical definitions.
+[20.SentencePairClassifier.ipynb](20.SentencePairClassifier.ipynb) shows our study about how pre-trained language models can help to differentiate mathematical definitions (Approach 1 & 2 + Evaluation).
 
 ### Approach 1. Supervised NSP-like classifier
 Inspired by [GLADIS](https://github.com/tigerchen52/GLADIS) we build a supervised NSP-like sentence pair classifier to link definitions to their page titles in Proofwiki. Every pair of a definition and a title (term,domain) with the matching ambiguous term in proofwiki constitutes an input to the Next Sentence Prediction (NSP) task. 
