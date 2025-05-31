@@ -4,9 +4,11 @@ This repository contains the data, code sources, and experimental results of our
 - A full paper on: [MathD2: Towards Disambiguation of Mathematical Terms](.) (V2)
 
 
-**Problem formulation**: Given two definitions, the system shall tell whether these definitions are equivalent/ different
+## Problem formulation
 
-**Research question**: 
+Given two definitions, the system shall tell whether these definitions are equivalent/ different
+
+## Research questions
 
 - How well can contextualized word embeddings help the disambiguation of mathematical terms? (V1 & V2)
 - Which architecture/ pretraining strategy helps to capture the similarity of mathematical statements? (V1 & V2)
