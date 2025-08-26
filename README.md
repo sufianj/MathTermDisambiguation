@@ -110,14 +110,19 @@ V1:
 }
 ```
 
-V2 (in preparation): 
+V2: 
 ```bibtex
 @inproceedings{mathd2v2,
-  TITLE = {{MathD2: Towards Disambiguation of Mathematical Terms}},
-  AUTHOR = {Jiang, Shufan and Tan, Mary Ann and Sack, Harald},
-  BOOKTITLE = {{Fifth Workshop on Scholarly Document Processing at ACL 2025}},
-  ADDRESS = {Vienna, Austria},
-  YEAR = {2025},
-  MONTH = Aug,
+    title = "{M}ath{D}2: Towards Disambiguation of Mathematical Terms",
+    author = "Jiang, Shufan and Tan, Mary Ann  and Sack, Harald",
+    booktitle = "Proceedings of the Fifth Workshop on Scholarly Document Processing (SDP 2025)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.sdp-1.3/",
+    doi = "10.18653/v1/2025.sdp-1.3",
+    pages = "17--30",
+    ISBN = "979-8-89176-265-7",
 }
 ```
