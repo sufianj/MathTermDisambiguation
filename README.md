@@ -1,7 +1,7 @@
 # Identification/disambiguation of mathematical definitions by semantic similarity
 This repository contains the data, code sources, and experimental results of our two publications:
 - A preliminary study on : [Towards Disambiguation of Mathematical Terms based on Semantic Representations](https://hal.science/hal-05028993v1) (V1).
-- A full paper on: [MathD2: Towards Disambiguation of Mathematical Terms](.) (V2)
+- A full paper on: [MathD2: Towards Disambiguation of Mathematical Terms](https://aclanthology.org/2025.sdp-1.3) (V2).
 
 
 ## Problem formulation
